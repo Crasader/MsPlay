@@ -13,7 +13,9 @@
 #include "extensions/cocos-ext.h"
 #include "editor-support/cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
-#include "AppSystem.hpp"
+
+#include <string>
+//#include "AppSystem.hpp"
 //#include "UIModuleManager.hpp"
 //#include "Net/MsgCommon.hpp"
 //#include "Net/NetManagerEx.hpp"
@@ -35,15 +37,14 @@ using namespace ui;
 class UIBaseLayer:public Layer
 {
 public:
-    UIBaseLayer();
+    UIBaseLayer(Layer* layer, const std::string& name):_uiLayer(layer),_uiLayerName(name){}
     virtual ~UIBaseLayer();
     virtual void onEnter();
     virtual void onExit();
     bool test = true;
-    void setCurUI(Layer* ui, std::string name);
 private:
-    Layer* m_curUI;
-    std::string m_uiName;
+    Layer* _uiLayer;
+    const std::string _uiLayerName;
 };
 
 #endif /* UIBaseLayer_hpp */

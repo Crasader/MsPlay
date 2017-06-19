@@ -10,7 +10,8 @@
 //#include "CommonFunction.hpp"
 
 LogoLayer::LogoLayer()
-: m_gameLogo(nullptr)
+: UIBaseLayer(this, "LogoLayer")
+, m_gameLogo(nullptr)
 , m_campLogo(nullptr)
 , m_defaultLogo(nullptr)
 {
@@ -18,7 +19,6 @@ LogoLayer::LogoLayer()
 
 LogoLayer::~LogoLayer()
 {
-    //    UIModuleManagerInstance->popModule("LogoLayer");
 }
 
 void LogoLayer::show()
@@ -40,7 +40,6 @@ bool LogoLayer::init()
 
 void LogoLayer::initUI()
 {
-    setCurUI(this, "LogoLayer");
     
     m_gameLogo = ImageView::create("res/icon/logo.png");
     m_gameLogo->setPosition(VCENTER);
