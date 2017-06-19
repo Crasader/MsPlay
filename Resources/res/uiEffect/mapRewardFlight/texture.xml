@@ -1,0 +1,6 @@
+<TextureAtlas name="mapRewardFlight" imagePath="texture.png">
+ <SubTexture name="n,nmzxc" x="481" y="0" width="13" height="182"/>
+ <SubTexture name="vbnbvn" x="0" y="0" width="211" height="189"/>
+ <SubTexture name="dfgh455463456564555" x="349" y="0" width="130" height="130"/>
+ <SubTexture name="sdfgdfgdfgfff" x="212" y="0" width="136" height="138"/>
+</TextureAtlas>

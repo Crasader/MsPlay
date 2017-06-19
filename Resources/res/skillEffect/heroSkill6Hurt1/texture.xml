@@ -1,0 +1,32 @@
+<TextureAtlas name="钻石星辰拳被击2" imagePath="texture.png">
+ <SubTexture name="rty543" x="206" y="229" width="122" height="129"/>
+ <SubTexture name="sdeg5yh4" x="842" y="183" width="153" height="160"/>
+ <SubTexture name="yh5445" x="842" y="0" width="178" height="182"/>
+ <SubTexture name="arf42" x="419" y="225" width="201" height="211"/>
+ <SubTexture name="ert43" x="632" y="0" width="209" height="222"/>
+ <SubTexture name="erhy54" x="206" y="0" width="212" height="228"/>
+ <SubTexture name="gt54y65" x="419" y="0" width="212" height="224"/>
+ <SubTexture name="hyu6545" x="632" y="223" width="200" height="218"/>
+ <SubTexture name="Sprites/Sprite 210" x="379" y="258" width="13" height="19"/>
+ <SubTexture name="Sprites/Sprite 212" x="394" y="229" width="15" height="34"/>
+ <SubTexture name="Sprites/Sprite 214" x="329" y="229" width="30" height="50"/>
+ <SubTexture name="Sprites/Sprite 220" x="996" y="228" width="20" height="45"/>
+ <SubTexture name="Sprites/Sprite 222" x="29" y="242" width="34" height="25"/>
+ <SubTexture name="Sprites/Sprite 224" x="93" y="267" width="10" height="8"/>
+ <SubTexture name="Sprites/Sprite 226" x="360" y="229" width="33" height="27"/>
+ <SubTexture name="Sprites/Sprite 228" x="190" y="242" width="12" height="29"/>
+ <SubTexture name="Sprites/Sprite 230" x="64" y="242" width="28" height="31"/>
+ <SubTexture name="Sprites/Sprite 232" x="621" y="225" width="9" height="24"/>
+ <SubTexture name="Sprites/Sprite 234" x="93" y="242" width="32" height="24"/>
+ <SubTexture name="Sprites/Sprite 238" x="161" y="266" width="12" height="17"/>
+ <SubTexture name="Sprites/Sprite 240" x="126" y="242" width="35" height="14"/>
+ <SubTexture name="Sprites/Sprite 242" x="393" y="264" width="23" height="10"/>
+ <SubTexture name="Sprites/Sprite 244" x="174" y="266" width="9" height="13"/>
+ <SubTexture name="Sprites/Sprite 246" x="162" y="242" width="27" height="23"/>
+ <SubTexture name="Sprites/Sprite 248" x="126" y="257" width="34" height="14"/>
+ <SubTexture name="Sprites/Sprite 250" x="996" y="183" width="21" height="44"/>
+ <SubTexture name="Sprites/Sprite 252" x="0" y="242" width="28" height="32"/>
+ <SubTexture name="Sprites/Sprite 216" x="360" y="258" width="18" height="30"/>
+ <SubTexture name="Sprites/Sprite 218" x="621" y="250" width="10" height="21"/>
+ <SubTexture name="补间 2" x="0" y="0" width="204" height="240"/>
+</TextureAtlas>

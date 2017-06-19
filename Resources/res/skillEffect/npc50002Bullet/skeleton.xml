@@ -1,0 +1,47 @@
+<dragonBones name="npc50002Bullet" frameRate="24" version="2.3">
+ <armature name="npc50002Bullet">
+  <bone name="补间 1">
+   <transform x="-22" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="补间 1_0">
+   <transform x="3" y="-15" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="补间 1_1">
+   <transform x="13" y="11" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="补间 1" parent="补间 1" z="0">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="16" pY="7.5"/>
+    </display>
+   </slot>
+   <slot name="补间 1_0" parent="补间 1_0" z="1">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="16" pY="7.5"/>
+    </display>
+   </slot>
+   <slot name="补间 1_1" parent="补间 1_1" z="2">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="16" pY="7.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="1" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="补间 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-22" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_0" scale="1" offset="0">
+    <frame z="1" duration="1">
+     <transform x="3" y="-15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_1" scale="1" offset="0">
+    <frame z="2" duration="1">
+     <transform x="13" y="11" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

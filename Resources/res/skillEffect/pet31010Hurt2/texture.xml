@@ -1,0 +1,12 @@
+<TextureAtlas name="pet31010Hurt2" imagePath="texture.png">
+ <SubTexture name="e4yt54" x="369" y="210" width="111" height="88"/>
+ <SubTexture name="rft5u685" x="125" y="210" width="122" height="97"/>
+ <SubTexture name="sety54" x="248" y="210" width="120" height="100"/>
+ <SubTexture name="edru765" x="0" y="208" width="124" height="105"/>
+ <SubTexture name="edry54" x="274" y="105" width="130" height="104"/>
+ <SubTexture name="wseyt544" x="134" y="106" width="129" height="103"/>
+ <SubTexture name="ew4tg43" x="0" y="105" width="133" height="102"/>
+ <SubTexture name="se4yh65" x="274" y="0" width="134" height="104"/>
+ <SubTexture name="zshuy6" x="138" y="0" width="135" height="105"/>
+ <SubTexture name="t4w33" x="0" y="0" width="137" height="103"/>
+</TextureAtlas>

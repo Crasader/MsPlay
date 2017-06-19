@@ -1,0 +1,9 @@
+<TextureAtlas name="taskAccept" imagePath="texture.png">
+ <SubTexture name="补间 4" x="428" y="0" width="59" height="59"/>
+ <SubTexture name="补间 3" x="0" y="49" width="59" height="59"/>
+ <SubTexture name="补间 2" x="120" y="49" width="59" height="59"/>
+ <SubTexture name="补间 1" x="60" y="49" width="59" height="59"/>
+ <SubTexture name="特效4" x="180" y="49" width="52" height="51"/>
+ <SubTexture name="特效3" x="350" y="0" width="77" height="85"/>
+ <SubTexture name="43t654" x="0" y="0" width="349" height="48"/>
+</TextureAtlas>

@@ -1,0 +1,53 @@
+<dragonBones name="pet31002Release1" frameRate="30" version="2.3">
+ <armature name="pet31002Release1">
+  <bone name="图层 1">
+   <transform x="77.95" y="-81.85" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="补间 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="31" pY="53.5"/>
+    </display>
+    <display name="补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="55.5" pY="81.5"/>
+    </display>
+    <display name="补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="80" pY="90"/>
+    </display>
+    <display name="补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92.5" pY="98"/>
+    </display>
+    <display name="补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="70.5" pY="79.5"/>
+    </display>
+    <display name="补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="60.5" pY="79"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="21" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="0" duration="1">
+     <transform x="77.95" y="-81.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="56.75" y="-71.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="40.45" y="-70.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="29.45" y="-63.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="6.6" y="-76.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="-5.7" y="-80.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

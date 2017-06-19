@@ -1,0 +1,14 @@
+<TextureAtlas name="魔贯光杀炮被击" imagePath="texture.png">
+ <SubTexture name="魔贯光杀炮被击/补间 1" x="275" y="745" width="214" height="253"/>
+ <SubTexture name="魔贯光杀炮被击/补间 2" x="0" y="524" width="273" height="240"/>
+ <SubTexture name="魔贯光杀炮被击/补间 3" x="0" y="279" width="285" height="243"/>
+ <SubTexture name="魔贯光杀炮被击/补间 4" x="657" y="487" width="252" height="262"/>
+ <SubTexture name="魔贯光杀炮被击/补间 5" x="275" y="524" width="262" height="219"/>
+ <SubTexture name="魔贯光杀炮被击/补间 6" x="666" y="0" width="310" height="270"/>
+ <SubTexture name="魔贯光杀炮被击/补间 7" x="0" y="0" width="342" height="277"/>
+ <SubTexture name="魔贯光杀炮被击/补间 8" x="344" y="263" width="311" height="259"/>
+ <SubTexture name="魔贯光杀炮被击/补间 9" x="344" y="0" width="320" height="261"/>
+ <SubTexture name="魔贯光杀炮被击/补间 10" x="657" y="272" width="321" height="213"/>
+ <SubTexture name="魔贯光杀炮被击/补间 11" x="491" y="751" width="282" height="163"/>
+ <SubTexture name="魔贯光杀炮被击/补间 12" x="775" y="751" width="217" height="164"/>
+</TextureAtlas>

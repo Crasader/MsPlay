@@ -1,0 +1,1307 @@
+﻿<dragonBones name="狮子咆哮弹" frameRate="30" version="2.3">
+ <armature name="heroSkill19Release1">
+  <bone name="图层 3">
+   <transform x="-14.2" y="4.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 8">
+   <transform x="3.6" y="-273.9" skX="165" skY="165" scX="0.34" scY="0.34"/>
+  </bone>
+  <bone name="图层 17">
+   <transform x="6.3" y="-330.8" skX="168.51" skY="168.51" scX="0.39" scY="0.39"/>
+  </bone>
+  <bone name="图层 18">
+   <transform x="-30.55" y="-330.8" skX="-170.56" skY="-170.56" scX="-0.39" scY="0.39"/>
+  </bone>
+  <bone name="图层 13">
+   <transform x="6.3" y="-330.8" skX="168.51" skY="168.51" scX="0.39" scY="0.39"/>
+  </bone>
+  <bone name="图层 14">
+   <transform x="-30.55" y="-330.8" skX="-170.56" skY="-170.56" scX="-0.39" scY="0.39"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="-12.9" y="-186.85" skX="0" skY="0" scX="-0.6" scY="0.6"/>
+  </bone>
+  <bone name="图层 7">
+   <transform x="511.1" y="-112.95" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="狮子咆哮弹/xiaceng texiao" type="armature">
+     <transform x="-127.05" y="-124" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 8" parent="图层 8" z="1">
+    <display name="狮子咆哮弹/脚下特效" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 17" parent="图层 17" z="2">
+    <display name="狮子咆哮弹/脚下特效" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 18" parent="图层 18" z="3">
+    <display name="狮子咆哮弹/脚下特效" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 13" parent="图层 13" z="4">
+    <display name="狮子咆哮弹/脚下特效" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 14" parent="图层 14" z="5">
+    <display name="狮子咆哮弹/脚下特效" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="6">
+    <display name="狮子咆哮弹/34T4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 7" parent="图层 7" z="7">
+    <display name="狮子咆哮弹/sprite 60" type="armature">
+     <transform x="-2.4" y="19.35" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="76" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="0" duration="42">
+     <transform x="-14.2" y="4.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="27" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 8" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="1" duration="30">
+     <transform x="3.6" y="-273.9" skX="165" skY="165" scX="0.34" scY="0.34" pX="0" pY="0"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 17" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="2" duration="28">
+     <transform x="6.3" y="-330.8" skX="168.51" skY="168.51" scX="0.39" scY="0.39" pX="0" pY="0"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 18" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="3" duration="28">
+     <transform x="-30.55" y="-330.8" skX="-170.56" skY="-170.56" scX="-0.39" scY="0.39" pX="0" pY="0"/>
+    </frame>
+    <frame duration="39" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 13" scale="1" offset="0">
+    <frame duration="19" displayIndex="-1"/>
+    <frame z="4" duration="28">
+     <transform x="6.3" y="-330.8" skX="168.51" skY="168.51" scX="0.39" scY="0.39" pX="0" pY="0"/>
+    </frame>
+    <frame duration="29" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 14" scale="1" offset="0">
+    <frame duration="19" displayIndex="-1"/>
+    <frame z="5" duration="28">
+     <transform x="-30.55" y="-330.8" skX="-170.56" skY="-170.56" scX="-0.39" scY="0.39" pX="0" pY="0"/>
+    </frame>
+    <frame duration="29" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="6" tweenEasing="0" duration="11">
+     <transform x="-12.9" y="-186.85" skX="0" skY="0" scX="-0.6" scY="0.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="17">
+     <transform x="-12.9" y="-256.85" skX="0" skY="0" scX="-3.01" scY="3.01" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="12">
+     <transform x="-12.9" y="-306.85" skX="0" skY="0" scX="-3.01" scY="3.01" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="6">
+     <transform x="-12.9" y="-306.85" skX="0" skY="0" scX="-3.01" scY="3.01" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="486.2" y="-72.8" skX="0" skY="0" scX="-3.01" scY="3.01" pX="0" pY="0"/>
+    </frame>
+    <frame duration="22" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame duration="54" displayIndex="-1"/>
+    <frame z="7" duration="19">
+     <transform x="511.1" y="-112.95" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="狮子咆哮弹/34T4">
+  <bone name="图层 3">
+   <transform x="-2.9" y="-6.25" skX="0" skY="0" scX="0.21" scY="0.21"/>
+  </bone>
+  <bone name="dfgser354">
+   <transform x="-1.15" y="-1.55" skX="0" skY="0" scX="0.33" scY="0.33"/>
+  </bone>
+  <bone name="rgdert5d5">
+   <transform x="-1.25" y="-4.45" skX="-80.22" skY="-80.22" scX="-0.3" scY="0.33"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="狮子咆哮弹/123ddw" type="image">
+     <transform x="-20.35" y="-23.4" skX="0" skY="0" scX="1" scY="1" pX="125.85" pY="110.8"/>
+    </display>
+   </slot>
+   <slot name="dfgser354" parent="dfgser354" z="1">
+    <display name="狮子咆哮弹/球纹" type="armature">
+     <transform x="156.55" y="29.6" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="rgdert5d5" parent="rgdert5d5" z="2">
+    <display name="狮子咆哮弹/球纹" type="armature">
+     <transform x="156.4" y="29.8" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="56UJ76" fadeInTime="0" duration="90" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" duration="90">
+     <transform x="-2.9" y="-6.25" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="dfgser354" scale="1" offset="0">
+    <frame z="1" duration="90">
+     <transform x="-1.15" y="-1.55" skX="0" skY="0" scX="0.33" scY="0.33" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="rgdert5d5" scale="1" offset="0">
+    <frame z="2" duration="90">
+     <transform x="-1.25" y="-4.45" skX="-80.22" skY="-80.22" scX="-0.3" scY="0.33" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="狮子咆哮弹/di">
+  <bone name="图层 4">
+   <transform x="124.6" y="114.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0" blendMode="add">
+    <display name="狮子咆哮弹/补间 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="55.5" pY="37.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="86" pY="48.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="106" pY="49.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="125.5" pY="51"/>
+    </display>
+    <display name="狮子咆哮弹/补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="156.5" pY="55"/>
+    </display>
+    <display name="狮子咆哮弹/补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="171.5" pY="53"/>
+    </display>
+    <display name="狮子咆哮弹/补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="185" pY="55"/>
+    </display>
+    <display name="狮子咆哮弹/补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="191.5" pY="54"/>
+    </display>
+    <display name="狮子咆哮弹/补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="196.5" pY="54.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="54Y" fadeInTime="0" duration="70" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="124.6" y="114.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="119.3" y="107.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="122.05" y="111.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="122.15" y="114.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="119.8" y="126.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="125.75" y="131.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="127.8" y="133.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="129.2" y="134.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="129.45" y="135.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="61" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="狮子咆哮弹/sprite 60">
+  <bone name="图层 4">
+   <transform x="2.4" y="22.75" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0">
+    <display name="狮子咆哮弹/补间 34" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="71.5" pY="50"/>
+    </display>
+    <display name="狮子咆哮弹/补间 35" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="133.5" pY="117"/>
+    </display>
+    <display name="狮子咆哮弹/补间 36" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="163" pY="124.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 37" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="175" pY="131.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 38" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="189" pY="134.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 39" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="224.5" pY="130.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 56" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="200.5" pY="113"/>
+    </display>
+    <display name="狮子咆哮弹/补间 57" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="208.5" pY="116.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 58" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="199.5" pY="115"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="6YJ7" fadeInTime="0" duration="39" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="2.4" y="22.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="9.7" y="-42.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="3.4" y="-51.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="1" y="-56.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="-0.7" y="-58.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="1.4" y="-57.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="8.2" y="-60.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="8.4" y="-41.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="39.1" y="-45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="狮子咆哮弹/xiaceng texiao">
+  <bone name="图层 6">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="-0.86" scY="1"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="1.12" scY="1"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="-1.14" scY="1"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="0.92" scY="1"/>
+  </bone>
+  <bone name="图层 1">
+   <transform x="127" y="124" skX="0" skY="0" scX="-1.2" scY="1"/>
+  </bone>
+  <bone name="图层 19">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 18">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="-0.86" scY="1"/>
+  </bone>
+  <bone name="图层 17">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="1.12" scY="1"/>
+  </bone>
+  <bone name="图层 16">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="-1.14" scY="1"/>
+  </bone>
+  <bone name="图层 15">
+   <transform x="127.05" y="124" skX="0" skY="0" scX="0.92" scY="1"/>
+  </bone>
+  <bone name="图层 14">
+   <transform x="127" y="124" skX="0" skY="0" scX="-1.2" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 6" parent="图层 6" z="0">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="1">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="2">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="3">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="4">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 1" parent="图层 1" z="5">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 19" parent="图层 19" z="6">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 18" parent="图层 18" z="7">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 17" parent="图层 17" z="8">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 16" parent="图层 16" z="9">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 15" parent="图层 15" z="10">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 14" parent="图层 14" z="11">
+    <display name="狮子咆哮弹/di" type="armature">
+     <transform x="-120.5" y="-125.45" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="FG5456" fadeInTime="0" duration="49" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame z="0" duration="42">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="1" duration="39">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="-0.86" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="2" duration="36">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="1.12" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="3" duration="33">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="-1.14" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="4" duration="30">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="0.92" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame duration="15" displayIndex="-1"/>
+    <frame z="5" duration="27">
+     <transform x="127" y="124" skX="0" skY="0" scX="-1.2" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 19" scale="1" offset="0">
+    <frame duration="18" displayIndex="-1"/>
+    <frame z="6" duration="24">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 18" scale="1" offset="0">
+    <frame duration="21" displayIndex="-1"/>
+    <frame z="7" duration="21">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="-0.86" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 17" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="8" duration="18">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="1.12" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 16" scale="1" offset="0">
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="9" duration="15">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="-1.14" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 15" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="10" duration="12">
+     <transform x="127.05" y="124" skX="0" skY="0" scX="0.92" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 14" scale="1" offset="0">
+    <frame duration="33" displayIndex="-1"/>
+    <frame z="11" duration="9">
+     <transform x="127" y="124" skX="0" skY="0" scX="-1.2" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="狮子咆哮弹/脚下特效">
+  <bone name="组4it100">
+   <transform x="-131.65" y="-246" skX="93.86" skY="85.28" scX="-0.17" scY="0.49"/>
+  </bone>
+  <bone name="组4ht88">
+   <transform x="-78.8" y="-604.15" skX="108.29" skY="126.02" scX="-0.42" scY="0.28"/>
+  </bone>
+  <bone name="组4et82">
+   <transform x="-89.15" y="-534.2" skX="94.13" skY="115.89" scX="-0.29" scY="0.22"/>
+  </bone>
+  <bone name="组4dt78">
+   <transform x="-84.15" y="-392.3" skX="80.72" skY="102.3" scX="-0.37" scY="0.41"/>
+  </bone>
+  <bone name="组4ct75">
+   <transform x="-183.35" y="-459.55" skX="82.95" skY="104.94" scX="-0.69" scY="0.56"/>
+  </bone>
+  <bone name="组4bt72">
+   <transform x="-43.6" y="-531.4" skX="86.71" skY="108.87" scX="-0.89" scY="0.71"/>
+  </bone>
+  <bone name="组4it100 复制">
+   <transform x="313.95" y="-200.3" skX="-62.42" skY="-54.81" scX="0.22" scY="0.65"/>
+  </bone>
+  <bone name="组4ht88 复制">
+   <transform x="485.6" y="-633" skX="-76.49" skY="-96.29" scX="0.54" scY="0.37"/>
+  </bone>
+  <bone name="组4et82 复制">
+   <transform x="452.1" y="-548.5" skX="-62.68" skY="-86.18" scX="0.38" scY="0.3"/>
+  </bone>
+  <bone name="组4dt78 复制">
+   <transform x="354.65" y="-394.9" skX="-49.75" skY="-72.36" scX="0.48" scY="0.55"/>
+  </bone>
+  <bone name="组4ct75 复制">
+   <transform x="510.5" y="-401" skX="-51.89" skY="-75.06" scX="0.89" scY="0.75"/>
+  </bone>
+  <bone name="组4bt72 复制">
+   <transform x="398.65" y="-576.75" skX="-55.51" skY="-79.07" scX="1.15" scY="0.94"/>
+  </bone>
+  <bone name="组167">
+   <transform x="229.9" y="-711.35" skX="-20.56" skY="-69.91" scX="1.18" scY="0.79"/>
+  </bone>
+  <bone name="组1q257">
+   <transform x="502.25" y="-346.4" skX="1" skY="-29.19" scX="1.02" scY="0.96"/>
+  </bone>
+  <bone name="组1q47">
+   <transform x="66.95" y="-700.55" skX="56.44" skY="90.3" scX="-1.16" scY="1.11"/>
+  </bone>
+  <bone name="组2m43">
+   <transform x="292.6" y="-622.5" skX="-0.82" skY="-20.49" scX="0.44" scY="1.27"/>
+  </bone>
+  <bone name="组2j23">
+   <transform x="322.9" y="-439.55" skX="-92.82" skY="-79.97" scX="0.61" scY="0.29"/>
+  </bone>
+  <skin name="default">
+   <slot name="组4it100" parent="组4it100" z="0" blendMode="add">
+    <display name="狮子咆哮弹/特效j" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57.95" pY="3.1"/>
+    </display>
+    <display name="狮子咆哮弹/11a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="29.2" pY="9.75"/>
+    </display>
+    <display name="狮子咆哮弹/特效h" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="42.25" pY="15.5"/>
+    </display>
+    <display name="狮子咆哮弹/特效g" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="104.7" pY="30.75"/>
+    </display>
+    <display name="狮子咆哮弹/特效f" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="113.6" pY="28.7"/>
+    </display>
+    <display name="狮子咆哮弹/特效e" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="102.2" pY="26.55"/>
+    </display>
+    <display name="狮子咆哮弹/特效c" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="83" pY="17.1"/>
+    </display>
+    <display name="狮子咆哮弹/特效d" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.3" pY="11.2"/>
+    </display>
+    <display name="狮子咆哮弹/特效b" type="image">
+     <transform x="0.05" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="25.75" pY="13.1"/>
+    </display>
+    <display name="狮子咆哮弹/特效a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="21.35" pY="8.5"/>
+    </display>
+    <display name="狮子咆哮弹/1w" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="12.15" pY="7.95"/>
+    </display>
+   </slot>
+   <slot name="组4ht88" parent="组4ht88" z="1" blendMode="add">
+    <display name="狮子咆哮弹/特效k" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.5" pY="13.95"/>
+    </display>
+    <display name="狮子咆哮弹/特效i" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.55" pY="5.7"/>
+    </display>
+   </slot>
+   <slot name="组4et82" parent="组4et82" z="2" blendMode="add">
+    <display name="狮子咆哮弹/特效j" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57.95" pY="3.1"/>
+    </display>
+   </slot>
+   <slot name="组4dt78" parent="组4dt78" z="3" blendMode="add">
+    <display name="狮子咆哮弹/特效j" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57.95" pY="3.1"/>
+    </display>
+   </slot>
+   <slot name="组4ct75" parent="组4ct75" z="4" blendMode="add">
+    <display name="狮子咆哮弹/特效i" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.55" pY="5.7"/>
+    </display>
+   </slot>
+   <slot name="组4bt72" parent="组4bt72" z="5" blendMode="add">
+    <display name="狮子咆哮弹/特效i" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.55" pY="5.7"/>
+    </display>
+   </slot>
+   <slot name="组4it100 复制" parent="组4it100 复制" z="6" blendMode="add">
+    <display name="狮子咆哮弹/特效j" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57.95" pY="3.1"/>
+    </display>
+    <display name="狮子咆哮弹/11a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="29.2" pY="9.75"/>
+    </display>
+    <display name="狮子咆哮弹/特效h" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="42.25" pY="15.5"/>
+    </display>
+    <display name="狮子咆哮弹/特效g" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="104.7" pY="30.75"/>
+    </display>
+    <display name="狮子咆哮弹/特效f" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="113.6" pY="28.7"/>
+    </display>
+    <display name="狮子咆哮弹/特效e" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="102.2" pY="26.55"/>
+    </display>
+    <display name="狮子咆哮弹/特效c" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="83" pY="17.1"/>
+    </display>
+    <display name="狮子咆哮弹/特效d" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.3" pY="11.2"/>
+    </display>
+    <display name="狮子咆哮弹/特效b" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="25.75" pY="13.1"/>
+    </display>
+    <display name="狮子咆哮弹/特效a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="21.35" pY="8.5"/>
+    </display>
+    <display name="狮子咆哮弹/1w" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="12.15" pY="7.95"/>
+    </display>
+   </slot>
+   <slot name="组4ht88 复制" parent="组4ht88 复制" z="7" blendMode="add">
+    <display name="狮子咆哮弹/特效k" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.5" pY="13.95"/>
+    </display>
+    <display name="狮子咆哮弹/特效i" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.55" pY="5.7"/>
+    </display>
+   </slot>
+   <slot name="组4et82 复制" parent="组4et82 复制" z="8" blendMode="add">
+    <display name="狮子咆哮弹/特效j" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57.95" pY="3.1"/>
+    </display>
+   </slot>
+   <slot name="组4dt78 复制" parent="组4dt78 复制" z="9" blendMode="add">
+    <display name="狮子咆哮弹/特效j" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57.95" pY="3.1"/>
+    </display>
+   </slot>
+   <slot name="组4ct75 复制" parent="组4ct75 复制" z="10" blendMode="add">
+    <display name="狮子咆哮弹/特效i" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.55" pY="5.7"/>
+    </display>
+   </slot>
+   <slot name="组4bt72 复制" parent="组4bt72 复制" z="11" blendMode="add">
+    <display name="狮子咆哮弹/特效i" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="41.55" pY="5.7"/>
+    </display>
+   </slot>
+   <slot name="组167" parent="组167" z="12" blendMode="add">
+    <display name="狮子咆哮弹/元件18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.85" pY="18.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件16" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="5.7" pY="27.05"/>
+    </display>
+    <display name="狮子咆哮弹/元件14" type="image">
+     <transform x="0" y="0.15" skX="0" skY="0" scX="1" scY="1" pX="9.25" pY="45.3"/>
+    </display>
+    <display name="狮子咆哮弹/元件12" type="image">
+     <transform x="-0.05" y="0.15" skX="0" skY="0" scX="1" scY="1" pX="52.6" pY="11.5"/>
+    </display>
+    <display name="狮子咆哮弹/元件10" type="image">
+     <transform x="0.1" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="63.15" pY="13"/>
+    </display>
+    <display name="狮子咆哮弹/元件8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63.2" pY="11.4"/>
+    </display>
+    <display name="狮子咆哮弹/元件6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49.4" pY="9.15"/>
+    </display>
+    <display name="狮子咆哮弹/元件4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.6" pY="7.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="31.9" pY="6.75"/>
+    </display>
+   </slot>
+   <slot name="组1q257" parent="组1q257" z="13" blendMode="add">
+    <display name="狮子咆哮弹/元件18" type="image">
+     <transform x="0.05" y="0.15" skX="0" skY="0" scX="1" scY="1" pX="5.85" pY="18.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件16" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="5.7" pY="27.05"/>
+    </display>
+    <display name="狮子咆哮弹/元件14" type="image">
+     <transform x="0.2" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="9.25" pY="45.3"/>
+    </display>
+    <display name="狮子咆哮弹/元件12" type="image">
+     <transform x="0.05" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="52.6" pY="11.5"/>
+    </display>
+    <display name="狮子咆哮弹/元件10" type="image">
+     <transform x="0.05" y="-0.1" skX="0" skY="0" scX="1" scY="1" pX="63.15" pY="13"/>
+    </display>
+    <display name="狮子咆哮弹/元件8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63.2" pY="11.4"/>
+    </display>
+    <display name="狮子咆哮弹/元件6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49.4" pY="9.15"/>
+    </display>
+    <display name="狮子咆哮弹/元件4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.6" pY="7.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="31.9" pY="6.75"/>
+    </display>
+   </slot>
+   <slot name="组1q47" parent="组1q47" z="14" blendMode="add">
+    <display name="狮子咆哮弹/元件18" type="image">
+     <transform x="-0.15" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="5.85" pY="18.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="5.7" pY="27.05"/>
+    </display>
+    <display name="狮子咆哮弹/元件14" type="image">
+     <transform x="0.15" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="9.25" pY="45.3"/>
+    </display>
+    <display name="狮子咆哮弹/元件12" type="image">
+     <transform x="-0.1" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="52.6" pY="11.5"/>
+    </display>
+    <display name="狮子咆哮弹/元件10" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="63.15" pY="13"/>
+    </display>
+    <display name="狮子咆哮弹/元件8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63.2" pY="11.4"/>
+    </display>
+    <display name="狮子咆哮弹/元件6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49.4" pY="9.15"/>
+    </display>
+    <display name="狮子咆哮弹/元件4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.6" pY="7.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="31.9" pY="6.75"/>
+    </display>
+   </slot>
+   <slot name="组2m43" parent="组2m43" z="15" blendMode="add">
+    <display name="狮子咆哮弹/元件18" type="image">
+     <transform x="-0.25" y="0.2" skX="0" skY="0" scX="1" scY="1" pX="5.85" pY="18.75"/>
+    </display>
+    <display name="狮子咆哮弹/元件44" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.3" pY="5.85"/>
+    </display>
+    <display name="狮子咆哮弹/元件46" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="75.95" pY="15.05"/>
+    </display>
+    <display name="狮子咆哮弹/元件42" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92.05" pY="19.55"/>
+    </display>
+    <display name="狮子咆哮弹/元件36" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76.2" pY="13.15"/>
+    </display>
+    <display name="狮子咆哮弹/元件32" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="50.1" pY="16.35"/>
+    </display>
+    <display name="狮子咆哮弹/元件28" type="image">
+     <transform x="0.25" y="0.15" skX="0" skY="0" scX="1" scY="1" pX="38.4" pY="9.55"/>
+    </display>
+    <display name="狮子咆哮弹/元件26" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="47.6" pY="5.3"/>
+    </display>
+    <display name="狮子咆哮弹/元件24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.25" pY="11.5"/>
+    </display>
+    <display name="狮子咆哮弹/元件22" type="image">
+     <transform x="0.15" y="0" skX="0" skY="0" scX="1" scY="1" pX="25.8" pY="6.7"/>
+    </display>
+    <display name="狮子咆哮弹/元件20" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="17.15" pY="5.55"/>
+    </display>
+   </slot>
+   <slot name="组2j23" parent="组2j23" z="16" blendMode="add">
+    <display name="狮子咆哮弹/元件48" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="31.85" pY="12.7"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="32TFG4" fadeInTime="0" duration="32" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="组4it100" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="0" duration="2">
+     <transform x="-131.65" y="-246" skX="93.86" skY="85.28" scX="-0.17" scY="0.49" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-132.15" y="-234.6" skX="64.29" skY="76.15" scX="-1.05" scY="2.02" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-127.5" y="-214.2" skX="62.55" skY="72.72" scX="-1.73" scY="2.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-127.5" y="-165.7" skX="64.13" skY="75.88" scX="-1.75" scY="2.46" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="-124.25" y="-225.9" skX="62.78" skY="73.18" scX="-1.73" scY="2.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="-112.5" y="-184.4" skX="61.93" skY="71.43" scX="-1.72" scY="2.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="-93.4" y="-140.25" skX="57" skY="60.9" scX="-1.69" scY="2.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="-51.9" y="-130.7" skX="57.44" skY="61.87" scX="-1.69" scY="2.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="-28.15" y="-57.1" skX="58.47" skY="64.11" scX="-1.69" scY="2.49" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="-23.9" y="-35.4" skX="43.6" skY="32" scX="-1.75" scY="2.46" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="2">
+     <transform x="-44.55" y="-23.75" skX="47.55" skY="44.65" scX="-1.78" scY="2.37" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="2">
+     <transform x="-36.7" y="-14.15" skX="39.46" skY="30.8" scX="-1.82" scY="2.33" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4ht88" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="1" duration="2">
+     <transform x="-78.8" y="-604.15" skX="108.29" skY="126.02" scX="-0.42" scY="0.28" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="2">
+     <transform x="-114.65" y="-544.15" skX="96.62" skY="117.47" scX="-1.75" scY="1.06" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="2">
+     <transform x="-138.45" y="-492.2" skX="90.18" skY="112.4" scX="-2.48" scY="2.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="2">
+     <transform x="-151.5" y="-402.9" skX="117.6" skY="102.54" scX="-2.28" scY="4.73" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="2">
+     <transform x="-152.55" y="-258.5" skX="79.67" skY="83.75" scX="-3.08" scY="5.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="2">
+     <transform x="-104.1" y="-92.35" skX="72.76" skY="53.86" scX="-0.99" scY="2.45" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4et82" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="2" duration="2">
+     <transform x="-89.15" y="-534.2" skX="94.13" skY="115.89" scX="-0.29" scY="0.22" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="2">
+     <transform x="-100.05" y="-503.15" skX="89.89" skY="112.13" scX="-1.05" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="2">
+     <transform x="-107.9" y="-448.5" skX="79.04" skY="100.16" scX="-1.41" scY="1.61" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="2">
+     <transform x="-112.6" y="-395.1" skX="76.42" skY="96.63" scX="-2.19" scY="2.6" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4dt78" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="3" duration="2">
+     <transform x="-84.15" y="-392.3" skX="80.72" skY="102.3" scX="-0.37" scY="0.41" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="2">
+     <transform x="-89.45" y="-356.8" skX="74.86" skY="94.39" scX="-0.82" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="2">
+     <transform x="-85.1" y="-304.3" skX="70.13" skY="86.9" scX="-1.14" scY="1.84" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4ct75" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="2">
+     <transform x="-183.35" y="-459.55" skX="82.95" skY="104.94" scX="-0.69" scY="0.56" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="2">
+     <transform x="-185.8" y="-434.75" skX="79.14" skY="100.29" scX="-1.31" scY="1.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="2">
+     <transform x="-188.55" y="-411.25" skX="77.1" skY="97.57" scX="-1.8" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4bt72" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="5" duration="2">
+     <transform x="-43.6" y="-531.4" skX="86.71" skY="108.87" scX="-0.89" scY="0.71" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="2">
+     <transform x="-52.55" y="-498.35" skX="84.1" skY="105.8" scX="-1.34" scY="1.11" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="2">
+     <transform x="-61.05" y="-455.85" skX="80.54" skY="101.08" scX="-2.06" scY="1.83" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="2">
+     <transform x="-69.55" y="-397.8" skX="77.77" skY="96.6" scX="-2.71" scY="2.76" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="2">
+     <transform x="-73.2" y="-298.15" skX="73.01" skY="91.1" scX="-2.64" scY="3.33" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4it100 复制" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="6" duration="2">
+     <transform x="313.95" y="-200.3" skX="-62.42" skY="-54.81" scX="0.22" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="1" duration="2">
+     <transform x="307.2" y="-187.3" skX="-33.92" skY="-45.32" scX="1.34" scY="2.69" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="1" duration="2">
+     <transform x="288.75" y="-168" skX="-32.24" skY="-41.76" scX="2.21" scY="3.27" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="2" duration="2">
+     <transform x="257.35" y="-114.35" skX="-33.77" skY="-45.05" scX="2.24" scY="3.26" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="3" duration="2">
+     <transform x="292.6" y="-183.25" skX="-32.46" skY="-42.24" scX="2.22" scY="3.27" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="4" duration="2">
+     <transform x="252.45" y="-145.35" skX="-31.64" skY="-40.42" scX="2.2" scY="3.28" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="5" duration="2">
+     <transform x="202.25" y="-109.75" skX="-26.87" skY="-29.51" scX="2.16" scY="3.31" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="6" duration="2">
+     <transform x="149.05" y="-127.75" skX="-27.3" skY="-30.51" scX="2.16" scY="3.31" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="7" duration="2">
+     <transform x="74.55" y="-62.65" skX="-28.29" skY="-32.83" scX="2.17" scY="3.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" displayIndex="8" duration="2">
+     <transform x="55.75" y="-40.55" skX="-13.79" skY="-0.08" scX="2.28" scY="3.23" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="6" displayIndex="9" duration="2">
+     <transform x="42.4" y="-26.85" skX="-17.66" skY="-12.84" scX="2.3" scY="3.12" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="6" displayIndex="10" duration="2">
+     <transform x="27.3" y="-19.9" skX="-9.71" skY="1.12" scX="2.38" scY="3.06" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4ht88 复制" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="7" duration="2">
+     <transform x="485.6" y="-633" skX="-76.49" skY="-96.29" scX="0.54" scY="0.37" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="2">
+     <transform x="487.3" y="-541.9" skX="-65.1" skY="-87.75" scX="2.27" scY="1.41" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="2">
+     <transform x="480.85" y="-468.05" skX="-58.86" skY="-82.65" scX="3.22" scY="3.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" duration="2">
+     <transform x="437.8" y="-360.3" skX="-85.7" skY="-72.61" scX="2.93" scY="6.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" duration="2">
+     <transform x="345.7" y="-199.8" skX="-48.73" skY="-53.23" scX="3.94" scY="7.79" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" displayIndex="1" duration="2">
+     <transform x="183.45" y="-49.45" skX="-42.08" skY="-22.25" scX="1.28" scY="3.25" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4et82 复制" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="8" duration="2">
+     <transform x="452.1" y="-548.5" skX="-62.68" skY="-86.18" scX="0.38" scY="0.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="2">
+     <transform x="444.4" y="-506.6" skX="-58.58" skY="-82.38" scX="1.36" scY="1.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="2">
+     <transform x="417.95" y="-440.7" skX="-48.13" skY="-70.18" scX="1.82" scY="2.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="2">
+     <transform x="388.7" y="-378.4" skX="-45.61" skY="-66.55" scX="2.82" scY="3.45" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4dt78 复制" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="9" duration="2">
+     <transform x="354.65" y="-394.9" skX="-49.75" skY="-72.36" scX="0.48" scY="0.55" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="2">
+     <transform x="337.8" y="-351.95" skX="-44.11" skY="-64.24" scX="1.05" scY="1.33" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="2">
+     <transform x="298.9" y="-296.9" skX="-39.55" skY="-56.49" scX="1.46" scY="2.44" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4ct75 复制" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="10" duration="2">
+     <transform x="510.5" y="-401" skX="-51.89" skY="-75.06" scX="0.89" scY="0.75" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="2">
+     <transform x="497.4" y="-371.75" skX="-48.22" skY="-70.31" scX="1.68" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="2">
+     <transform x="485.2" y="-343.95" skX="-46.26" skY="-67.52" scX="2.31" scY="2.13" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组4bt72 复制" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="11" duration="2">
+     <transform x="398.65" y="-576.75" skX="-55.51" skY="-79.07" scX="1.15" scY="0.94" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="2">
+     <transform x="387.4" y="-534.05" skX="-52.99" skY="-75.95" scX="1.73" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="2">
+     <transform x="369.6" y="-481.15" skX="-49.56" skY="-71.12" scX="2.66" scY="2.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="2">
+     <transform x="341.75" y="-411" skX="-46.9" skY="-66.52" scX="3.48" scY="3.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="2">
+     <transform x="281.5" y="-298.4" skX="-42.33" skY="-60.84" scX="3.38" scY="4.43" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组167" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="12" duration="2">
+     <transform x="229.9" y="-711.35" skX="-20.56" skY="-69.91" scX="1.18" scY="0.79" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="2">
+     <transform x="233.45" y="-691.6" skX="-7.55" skY="-60.32" scX="1.66" scY="1.84" pX="0.05" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="1" duration="2">
+     <transform x="234.25" y="-653.8" skX="-0.85" skY="-47.93" scX="1.28" scY="2.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="2" duration="2">
+     <transform x="229.75" y="-571.55" skX="6.14" skY="-14.08" scX="0.84" scY="2.32" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="3" duration="2">
+     <transform x="198.15" y="-406.8" skX="-30.89" skY="-73.48" scX="2.2" scY="1.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="4" duration="2">
+     <transform x="155.75" y="-276.55" skX="-16.7" skY="-67.96" scX="1.97" scY="1.49" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="5" duration="2">
+     <transform x="103.4" y="-162.95" skX="-7.96" skY="-60.81" scX="1.68" scY="1.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="6" duration="2">
+     <transform x="64.15" y="-100.35" skX="-3.27" skY="-53.61" scX="1.37" scY="2.02" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="12" displayIndex="7" duration="2">
+     <transform x="52.35" y="-75.65" skX="-3.34" skY="-53.74" scX="1.08" scY="2.02" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="12" displayIndex="8" duration="2">
+     <transform x="37.35" y="-54.7" skX="-3.27" skY="-53.61" scX="0.96" scY="2.02" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组1q257" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="13" duration="2">
+     <transform x="502.25" y="-346.4" skX="1" skY="-29.19" scX="1.02" scY="0.96" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" duration="2">
+     <transform x="497.8" y="-324.9" skX="15.21" skY="-11.8" scX="1.51" scY="1.94" pX="-0.05" pY="-0.05"/>
+    </frame>
+    <frame z="13" displayIndex="1" duration="2">
+     <transform x="482.6" y="-290.75" skX="24.37" skY="7.13" scX="1.31" scY="2.08" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" displayIndex="2" duration="2">
+     <transform x="443.15" y="-224.1" skX="35.43" skY="38.95" scX="1.23" scY="2.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" displayIndex="3" duration="2">
+     <transform x="340.7" y="-116.35" skX="-7.74" skY="-35.88" scX="1.91" scY="1.55" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" displayIndex="4" duration="2">
+     <transform x="241" y="-51.45" skX="4.79" skY="-25.54" scX="1.72" scY="1.75" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" displayIndex="5" duration="2">
+     <transform x="137.85" y="-13.1" skX="14.7" skY="-12.64" scX="1.52" scY="1.93" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" displayIndex="6" duration="2">
+     <transform x="70.1" y="-3.8" skX="20.9" skY="-0.96" scX="1.32" scY="2.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="13" displayIndex="7" duration="2">
+     <transform x="47.25" y="4.1" skX="20.81" skY="-1.15" scX="1.04" scY="2.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="13" displayIndex="8" duration="2">
+     <transform x="22.7" y="5.05" skX="20.9" skY="-0.96" scX="0.93" scY="2.03" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组1q47" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="14" duration="2">
+     <transform x="66.95" y="-700.55" skX="56.44" skY="90.3" scX="-1.16" scY="1.11" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" duration="2">
+     <transform x="48.8" y="-683.45" skX="43.17" skY="72.91" scX="-1.67" scY="2.26" pX="0.05" pY="0.1"/>
+    </frame>
+    <frame z="14" displayIndex="1" duration="2">
+     <transform x="23.7" y="-647.35" skX="34.69" skY="53.09" scX="-1.43" scY="2.42" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" displayIndex="2" duration="2">
+     <transform x="-20.15" y="-568.35" skX="24.43" skY="18.83" scX="-1.33" scY="2.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" displayIndex="3" duration="2">
+     <transform x="-69.5" y="-404" skX="64.78" skY="96.79" scX="-2.18" scY="1.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" displayIndex="4" duration="2">
+     <transform x="-78.9" y="-268.75" skX="52.88" skY="86.72" scX="-1.94" scY="2.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" displayIndex="5" duration="2">
+     <transform x="-61.45" y="-146.15" skX="43.64" skY="73.77" scX="-1.68" scY="2.25" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" displayIndex="6" duration="2">
+     <transform x="-34.1" y="-76" skX="37.9" skY="61.66" scX="-1.45" scY="2.37" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="14" displayIndex="7" duration="2">
+     <transform x="-29.55" y="-48.8" skX="37.98" skY="61.86" scX="-1.14" scY="2.37" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="14" displayIndex="8" duration="2">
+     <transform x="-17.15" y="-25.15" skX="37.9" skY="61.66" scX="-1.02" scY="2.37" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组2m43" scale="1" offset="0">
+    <frame z="15" duration="2">
+     <transform x="292.6" y="-622.5" skX="-0.82" skY="-20.49" scX="0.44" scY="1.27" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" duration="2">
+     <transform x="292.05" y="-598.6" skX="4.18" skY="-13" scX="0.73" scY="2.23" pX="0.35" pY="-0.15"/>
+    </frame>
+    <frame z="15" duration="2">
+     <transform x="289.8" y="-562.35" skX="6.73" skY="-8.75" scX="0.94" scY="3.27" pX="0.2" pY="-0.2"/>
+    </frame>
+    <frame z="15" duration="2">
+     <transform x="279.8" y="-507.7" skX="10.13" skY="-2.62" scX="1.26" scY="4.59" pX="0.3" pY="-0.15"/>
+    </frame>
+    <frame z="15" displayIndex="1" duration="2">
+     <transform x="243.6" y="-417.7" skX="-85.18" skY="-72.63" scX="1.63" scY="1.03" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="2" duration="2">
+     <transform x="208.35" y="-295.15" skX="-58.68" skY="-63.64" scX="2.06" scY="1.41" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="3" duration="2">
+     <transform x="182.45" y="-245.4" skX="-44.97" skY="-56.9" scX="2.03" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="4" duration="2">
+     <transform x="124.8" y="-150" skX="-32.78" skY="-49.98" scX="1.97" scY="1.55" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="5" duration="2">
+     <transform x="84.1" y="-85.7" skX="-26.6" skY="-45.9" scX="1.92" scY="1.61" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="6" duration="2">
+     <transform x="69.35" y="-77.3" skX="-27.41" skY="-46.47" scX="1.93" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="7" duration="2">
+     <transform x="68.65" y="-89.9" skX="-36.44" skY="-52.19" scX="1.99" scY="1.52" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="8" duration="2">
+     <transform x="54.85" y="-61.65" skX="-29.54" skY="-47.9" scX="1.94" scY="1.58" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="9" duration="2">
+     <transform x="34.95" y="-46.9" skX="-24.67" skY="-44.53" scX="1.9" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" displayIndex="10" duration="2">
+     <transform x="24.1" y="-33.2" skX="-17.2" skY="-38.57" scX="1.83" scY="1.71" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="组2j23" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="16" duration="2">
+     <transform x="322.9" y="-439.55" skX="-92.82" skY="-79.97" scX="0.61" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" duration="2">
+     <transform x="307.7" y="-386.55" skX="-74.52" skY="-70.96" scX="1.37" scY="0.46" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" duration="2">
+     <transform x="288.5" y="-335.85" skX="-63.13" skY="-65.71" scX="2.07" scY="0.74" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" duration="2">
+     <transform x="258.45" y="-281.35" skX="-43.65" skY="-56.2" scX="2.02" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="狮子咆哮弹/球纹">
+  <bone name="图层 1">
+   <transform x="-154.8" y="-27.95" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="狮子咆哮弹/补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="96" pY="83.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92" pY="87"/>
+    </display>
+    <display name="狮子咆哮弹/补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="94" pY="94.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="98" pY="85.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="101" pY="85"/>
+    </display>
+    <display name="狮子咆哮弹/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="103" pY="72"/>
+    </display>
+    <display name="狮子咆哮弹/补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="104.5" pY="61"/>
+    </display>
+    <display name="狮子咆哮弹/补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="101" pY="45.5"/>
+    </display>
+    <display name="狮子咆哮弹/补间 10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="19.5" pY="31.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="T67JI" fadeInTime="0" duration="9" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-154.8" y="-27.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-151.25" y="-33.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-154.15" y="-23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-145.75" y="-24.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-145.05" y="-23.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-139.5" y="-22.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-138.05" y="-17.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="-135.4" y="1.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="-53.6" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

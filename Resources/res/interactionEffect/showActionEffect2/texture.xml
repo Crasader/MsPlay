@@ -1,0 +1,5 @@
+<TextureAtlas name="showActionEffect2" imagePath="texture.png">
+ <SubTexture name="未命名文件夹 1/wset443" x="152" y="0" width="74" height="357"/>
+ <SubTexture name="未命名文件夹 1/e4y544" x="76" y="0" width="74" height="366"/>
+ <SubTexture name="未命名文件夹 1/swetg453" x="0" y="0" width="74" height="377"/>
+</TextureAtlas>

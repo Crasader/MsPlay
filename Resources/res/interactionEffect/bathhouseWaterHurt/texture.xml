@@ -1,0 +1,10 @@
+<TextureAtlas name="bathhouseWaterHurt" imagePath="texture.png">
+ <SubTexture name="w4t4" x="89" y="0" width="82" height="101"/>
+ <SubTexture name="r5y5454" x="0" y="0" width="88" height="98"/>
+ <SubTexture name="补间 8" x="0" y="99" width="29" height="71"/>
+ <SubTexture name="补间 9" x="201" y="0" width="28" height="97"/>
+ <SubTexture name="补间 10" x="30" y="99" width="28" height="71"/>
+ <SubTexture name="补间 11" x="201" y="98" width="29" height="88"/>
+ <SubTexture name="补间 12" x="172" y="0" width="28" height="99"/>
+ <SubTexture name="符号 1.-2 副本" x="59" y="102" width="37" height="54"/>
+</TextureAtlas>

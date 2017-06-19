@@ -1,0 +1,10 @@
+<TextureAtlas name="heroSkill50Hurt1" imagePath="texture.png">
+ <SubTexture name="guangqiu" x="0" y="0" width="136" height="136"/>
+ <SubTexture name="suipian01" x="137" y="136" width="113" height="69"/>
+ <SubTexture name="suipian02" x="137" y="48" width="115" height="87"/>
+ <SubTexture name="suipian03" x="358" y="91" width="107" height="92"/>
+ <SubTexture name="suipian04" x="253" y="91" width="104" height="99"/>
+ <SubTexture name="suipian05" x="311" y="0" width="119" height="90"/>
+ <SubTexture name="suipian06" x="137" y="0" width="173" height="46"/>
+ <SubTexture name="07" x="431" y="0" width="80" height="25"/>
+</TextureAtlas>

@@ -1,0 +1,5 @@
+<TextureAtlas name="卡牌边框" imagePath="texture.png">
+ <SubTexture name="tf587" x="0" y="0" width="265" height="342"/>
+ <SubTexture name="e4y54" x="267" y="0" width="264" height="341"/>
+ <SubTexture name="e45y654" x="533" y="0" width="264" height="340"/>
+</TextureAtlas>

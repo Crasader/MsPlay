@@ -1,0 +1,4 @@
+<TextureAtlas name="weaponEffect305" imagePath="texture.png">
+ <SubTexture name="qw342" x="0" y="150" width="113" height="119"/>
+ <SubTexture name="qw342 副本" x="0" y="0" width="148" height="149"/>
+</TextureAtlas>

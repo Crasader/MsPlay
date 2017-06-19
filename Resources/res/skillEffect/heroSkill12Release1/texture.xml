@@ -1,0 +1,32 @@
+<TextureAtlas name="幻影分身" imagePath="texture.png">
+ <SubTexture name="幻影分身/1004/调色" x="939" y="439" width="77" height="60"/>
+ <SubTexture name="幻影分身/1013/元件 1" x="668" y="533" width="77" height="60"/>
+ <SubTexture name="幻影分身/1012/烟" x="0" y="0" width="360" height="360"/>
+ <SubTexture name="幻影分身/1013/元件 3" x="997" y="66" width="11" height="11"/>
+ <SubTexture name="幻影分身/元件 11" x="142" y="362" width="88" height="176"/>
+ <SubTexture name="幻影分身/补间 8" x="981" y="294" width="33" height="41"/>
+ <SubTexture name="幻影分身/补间 7" x="747" y="533" width="64" height="65"/>
+ <SubTexture name="幻影分身/补间 6" x="981" y="337" width="29" height="43"/>
+ <SubTexture name="幻影分身/补间 5" x="831" y="439" width="106" height="94"/>
+ <SubTexture name="幻影分身/补间 12" x="981" y="382" width="29" height="37"/>
+ <SubTexture name="幻影分身/补间 11" x="79" y="503" width="61" height="61"/>
+ <SubTexture name="幻影分身/补间 10" x="997" y="0" width="25" height="39"/>
+ <SubTexture name="幻影分身/补间 9" x="668" y="440" width="103" height="91"/>
+ <SubTexture name="幻影分身/waqt43" x="362" y="0" width="173" height="533"/>
+ <SubTexture name="幻影分身/3456fghgff" x="232" y="489" width="96" height="96"/>
+ <SubTexture name="幻影分身/ret/e54t54" x="232" y="362" width="126" height="126"/>
+ <SubTexture name="幻影分身/ret/y5e3w" x="686" y="151" width="148" height="142"/>
+ <SubTexture name="幻影分身/ret/e4ryh4" x="845" y="148" width="151" height="145"/>
+ <SubTexture name="幻影分身/ret/edsrhy5" x="537" y="151" width="147" height="145"/>
+ <SubTexture name="幻影分身/ret/edhu65" x="537" y="297" width="142" height="139"/>
+ <SubTexture name="幻影分身/ret/ty453" x="0" y="362" width="140" height="140"/>
+ <SubTexture name="幻影分身/补间 24" x="537" y="438" width="129" height="129"/>
+ <SubTexture name="幻影分身/补间 25" x="845" y="0" width="150" height="146"/>
+ <SubTexture name="幻影分身/补间 26" x="537" y="0" width="154" height="149"/>
+ <SubTexture name="幻影分身/补间 27" x="693" y="0" width="150" height="149"/>
+ <SubTexture name="幻影分身/补间 28" x="835" y="294" width="144" height="143"/>
+ <SubTexture name="幻影分身/补间 29" x="686" y="295" width="143" height="143"/>
+ <SubTexture name="幻影分身/蓝色小" x="997" y="41" width="24" height="24"/>
+ <SubTexture name="幻影分身/重复项目文件夹/调色" x="0" y="503" width="77" height="60"/>
+ <SubTexture name="幻影分身/重复项目文件夹/元件 1" x="939" y="501" width="77" height="60"/>
+</TextureAtlas>

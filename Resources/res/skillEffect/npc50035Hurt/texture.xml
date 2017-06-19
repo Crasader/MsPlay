@@ -1,0 +1,7 @@
+<TextureAtlas name="npc50035Hurt" imagePath="texture.png">
+ <SubTexture name="杂兵被击/补间 6" x="0" y="383" width="137" height="132"/>
+ <SubTexture name="杂兵被击/补间 7" x="0" y="218" width="153" height="163"/>
+ <SubTexture name="杂兵被击/补间 8" x="217" y="209" width="180" height="175"/>
+ <SubTexture name="杂兵被击/补间 9" x="217" y="0" width="206" height="207"/>
+ <SubTexture name="杂兵被击/补间 10" x="0" y="0" width="215" height="216"/>
+</TextureAtlas>

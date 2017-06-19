@@ -1,0 +1,69 @@
+<TextureAtlas name="npc51029Release2" imagePath="texture.png">
+ <SubTexture name="y54/y54/闪电1" x="715" y="436" width="46" height="38"/>
+ <SubTexture name="y54/y54/闪电2" x="690" y="785" width="58" height="42"/>
+ <SubTexture name="y54/y54/闪电3" x="1732" y="761" width="58" height="73"/>
+ <SubTexture name="y54/y54/闪电4" x="584" y="1220" width="100" height="62"/>
+ <SubTexture name="y54/y54/闪电5" x="1640" y="1098" width="152" height="90"/>
+ <SubTexture name="y54/y54/闪电6" x="1640" y="985" width="135" height="112"/>
+ <SubTexture name="y54/y54/闪电7" x="1070" y="1387" width="218" height="73"/>
+ <SubTexture name="y54/y54/闪电8" x="1640" y="1189" width="147" height="81"/>
+ <SubTexture name="y54/y54/闪电9" x="0" y="1316" width="121" height="58"/>
+ <SubTexture name="y54/y54/补间 1" x="2037" y="24" width="10" height="18"/>
+ <SubTexture name="y54/y54/石头1" x="2029" y="350" width="18" height="10"/>
+ <SubTexture name="y54/y54/石头2" x="2037" y="0" width="10" height="23"/>
+ <SubTexture name="y54/y54/石头3" x="2037" y="43" width="8" height="15"/>
+ <SubTexture name="y54/y54/石头4" x="2029" y="320" width="17" height="29"/>
+ <SubTexture name="y54/y54/石头5" x="2029" y="375" width="11" height="16"/>
+ <SubTexture name="y54/y54/石头6" x="2029" y="361" width="15" height="13"/>
+ <SubTexture name="t43/特效元件/补间 18" x="1813" y="613" width="232" height="263"/>
+ <SubTexture name="t43/特效元件/元件 3-3" x="0" y="544" width="279" height="397"/>
+ <SubTexture name="t43/特效元件/元件 5-5" x="1384" y="854" width="255" height="409"/>
+ <SubTexture name="t43/特效元件/元件 6-6" x="1073" y="914" width="241" height="357"/>
+ <SubTexture name="t43/特效元件/元件 7-7" x="1810" y="877" width="224" height="270"/>
+ <SubTexture name="t43/特效元件/元件 8-8" x="1793" y="1148" width="189" height="283"/>
+ <SubTexture name="t43/特效元件/闪电" x="1100" y="484" width="283" height="429"/>
+ <SubTexture name="t43/特效元件/闪电 副本" x="762" y="474" width="279" height="435"/>
+ <SubTexture name="t43/特效元件/元件 1" x="1821" y="0" width="215" height="319"/>
+ <SubTexture name="t43/特效元件/shandian01" x="1821" y="320" width="207" height="292"/>
+ <SubTexture name="t43/特效元件/shandian02" x="0" y="942" width="188" height="290"/>
+ <SubTexture name="t43/特效元件/shandian03" x="715" y="476" width="44" height="25"/>
+ <SubTexture name="t43/特效元件/蓝色闪电04" x="1042" y="474" width="57" height="36"/>
+ <SubTexture name="t43/特效元件/蓝色闪电05" x="584" y="1283" width="92" height="70"/>
+ <SubTexture name="t43/特效元件/蓝色闪电06" x="584" y="1149" width="93" height="70"/>
+ <SubTexture name="t43/特效元件/蓝色闪电07" x="0" y="1233" width="108" height="82"/>
+ <SubTexture name="t43/特效元件/元件 2-2" x="1042" y="511" width="56" height="30"/>
+ <SubTexture name="t43/特效元件/蓝色闪电08" x="1042" y="542" width="49" height="20"/>
+ <SubTexture name="t43/特效元件/蓝色闪电09" x="1640" y="914" width="82" height="40"/>
+ <SubTexture name="t43/特效元件/蓝色闪电10" x="0" y="1375" width="94" height="39"/>
+ <SubTexture name="t43/特效元件/蓝色闪电11" x="690" y="828" width="58" height="37"/>
+ <SubTexture name="t43/特效元件/蓝色闪电13" x="1384" y="518" width="23" height="13"/>
+ <SubTexture name="t43/特效元件/蓝色闪电14" x="715" y="502" width="32" height="29"/>
+ <SubTexture name="t43/特效元件/蓝色闪电15" x="1723" y="939" width="72" height="45"/>
+ <SubTexture name="t43/特效元件/蓝色闪电16" x="1732" y="835" width="77" height="53"/>
+ <SubTexture name="t43/特效元件/蓝色闪电17" x="1640" y="854" width="88" height="59"/>
+ <SubTexture name="t43/特效元件/蓝色闪电18" x="1729" y="889" width="80" height="49"/>
+ <SubTexture name="t43/特效元件/蓝色闪电19" x="1384" y="484" width="29" height="33"/>
+ <SubTexture name="t43/特效元件/蓝色闪电20" x="715" y="386" width="43" height="49"/>
+ <SubTexture name="t43/特效元件/蓝色闪电22" x="1732" y="666" width="65" height="94"/>
+ <SubTexture name="t43/特效元件/蓝色闪电23" x="1732" y="382" width="79" height="108"/>
+ <SubTexture name="t43/特效元件/蓝色闪电24" x="1732" y="584" width="80" height="81"/>
+ <SubTexture name="t43/特效元件/蓝色闪电25" x="1732" y="491" width="76" height="92"/>
+ <SubTexture name="t43/特效元件/元件 10" x="906" y="1461" width="250" height="77"/>
+ <SubTexture name="t43/特效元件/元件 21-1" x="690" y="910" width="382" height="374"/>
+ <SubTexture name="t43/特效元件/元件 22-1" x="337" y="0" width="428" height="385"/>
+ <SubTexture name="t43/特效元件/元件 23-1" x="189" y="1149" width="394" height="358"/>
+ <SubTexture name="t43/特效元件/元件 24-1" x="280" y="785" width="409" height="363"/>
+ <SubTexture name="t43/特效元件/元件 25-1" x="1416" y="0" width="404" height="381"/>
+ <SubTexture name="t43/特效元件/元件 26-1" x="337" y="386" width="377" height="398"/>
+ <SubTexture name="t43/特效元件/元件 25" x="584" y="1407" width="321" height="58"/>
+ <SubTexture name="t43/特效元件/元件 24 副本" x="1289" y="1396" width="332" height="115"/>
+ <SubTexture name="t43/特效元件/元件 24" x="677" y="1286" width="392" height="120"/>
+ <SubTexture name="t43/特效元件/元件 14-1" x="1599" y="1271" width="189" height="117"/>
+ <SubTexture name="t43/特效元件/元件 15-1" x="1073" y="1272" width="235" height="114"/>
+ <SubTexture name="t43/特效元件/元件 16-1" x="1622" y="1432" width="245" height="133"/>
+ <SubTexture name="t43/特效元件/元件 17-1" x="1315" y="1264" width="282" height="131"/>
+ <SubTexture name="t43/特效元件/白烟001" x="766" y="0" width="333" height="473"/>
+ <SubTexture name="t43/特效元件/白烟002" x="1416" y="382" width="315" height="471"/>
+ <SubTexture name="t43/特效元件/白烟003" x="1100" y="0" width="315" height="483"/>
+ <SubTexture name="t43/特效元件/白烟004" x="0" y="0" width="336" height="543"/>
+</TextureAtlas>

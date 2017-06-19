@@ -1,0 +1,26 @@
+<TextureAtlas name="parkClockspace" imagePath="texture.png">
+ <SubTexture name="元件 11" x="1275" y="72" width="88" height="176"/>
+ <SubTexture name="补间 1922" x="462" y="497" width="229" height="244"/>
+ <SubTexture name="补间 2022" x="0" y="509" width="229" height="244"/>
+ <SubTexture name="e4t4334" x="1206" y="484" width="205" height="220"/>
+ <SubTexture name="补间 4" x="0" y="72" width="460" height="435"/>
+ <SubTexture name="补间 3" x="769" y="433" width="88" height="106"/>
+ <SubTexture name="补间 2" x="769" y="306" width="91" height="125"/>
+ <SubTexture name="补间 1" x="1274" y="357" width="82" height="125"/>
+ <SubTexture name="e4t43" x="231" y="509" width="197" height="197"/>
+ <SubTexture name="gy5434" x="1275" y="250" width="144" height="105"/>
+ <SubTexture name="wert34 副本" x="902" y="285" width="370" height="139"/>
+ <SubTexture name="et43" x="0" y="0" width="1428" height="71"/>
+ <SubTexture name="er5y535" x="1429" y="0" width="189" height="743"/>
+ <SubTexture name="waqt43" x="1620" y="0" width="173" height="533"/>
+ <SubTexture name="e5y54" x="1795" y="0" width="242" height="242"/>
+ <SubTexture name="e463" x="1795" y="243" width="242" height="242"/>
+ <SubTexture name="ru54" x="862" y="425" width="242" height="242"/>
+ <SubTexture name="5547" x="1795" y="486" width="242" height="242"/>
+ <SubTexture name="3456fghgff" x="1105" y="425" width="99" height="99"/>
+ <SubTexture name="补间 1111" x="935" y="668" width="178" height="149"/>
+ <SubTexture name="补间 2223" x="693" y="668" width="240" height="168"/>
+ <SubTexture name="补间 922" x="462" y="306" width="305" height="189"/>
+ <SubTexture name="补间 1022" x="902" y="72" width="371" height="211"/>
+ <SubTexture name="补间 1122" x="462" y="72" width="438" height="232"/>
+</TextureAtlas>

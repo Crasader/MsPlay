@@ -1,0 +1,460 @@
+<dragonBones name="爆气" frameRate="24" version="2.3">
+ <armature name="showActionEffect1">
+  <bone name="图层 10">
+   <transform x="-5.5" y="-114.65" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 17">
+   <transform x="-4" y="3.1" skX="-139.51" skY="-139.51" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="图层 16">
+   <transform x="-51" y="-146" skX="18.95" skY="18.95" scX="0.26" scY="0.26"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="51.95" y="-39.05" skX="129.45" skY="129.45" scX="0.15" scY="0.15"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 10" parent="图层 10" z="0">
+    <display name="爆气/ER54T543" type="armature">
+     <transform x="-165.7" y="-174.5" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 17" parent="图层 17" z="1">
+    <display name="爆气/身体-右手及兵器 副本" type="armature">
+     <transform x="-29.45" y="133.8" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 16" parent="图层 16" z="2">
+    <display name="爆气/身体-右手及兵器" type="armature">
+     <transform x="-4.65" y="130.95" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="3">
+    <display name="爆气/身体-右手及兵器 副本" type="armature">
+     <transform x="-29.7" y="133.65" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="47" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 10" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="46">
+     <transform x="-5.5" y="-114.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-5.5" y="-114.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 17" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="19">
+     <transform x="-4" y="3.1" skX="-139.51" skY="-139.51" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-4" y="3.1" skX="-139.51" skY="-139.51" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame duration="27" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 16" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="19">
+     <transform x="-51" y="-146" skX="18.95" skY="18.95" scX="0.26" scY="0.26" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-51" y="-146" skX="18.95" skY="18.95" scX="0.26" scY="0.26" pX="0" pY="0"/>
+    </frame>
+    <frame duration="13" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="27" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="18">
+     <transform x="51.95" y="-39.05" skX="129.45" skY="129.45" scX="0.15" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="51.95" y="-39.05" skX="129.45" skY="129.45" scX="0.15" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="爆气/ER54T543">
+  <bone name="图层 2">
+   <transform x="169.65" y="176.9" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="爆气/补间 11" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="132.5" pY="147"/>
+    </display>
+    <display name="爆气/补间 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="131.5" pY="153"/>
+    </display>
+    <display name="爆气/补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="126" pY="149"/>
+    </display>
+    <display name="爆气/补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="126.5" pY="153"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="reghr5" fadeInTime="0" duration="8" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="169.65" y="176.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="169.65" y="176.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="168.15" y="171.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="168.15" y="171.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="158.9" y="174.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="158.9" y="174.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="163.1" y="171.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="163.1" y="171.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="爆气/身体-右手及兵器">
+  <bone name="闪电1  复制 2c">
+   <transform x="72.6" y="-105.55" skX="87.66" skY="86.55" scX="1.64" scY="1.63"/>
+  </bone>
+  <bone name="闪电2  复制 2c">
+   <transform x="120.1" y="-121.15" skX="87.66" skY="86.55" scX="1.64" scY="1.63"/>
+  </bone>
+  <bone name="闪电3  复制 2c">
+   <transform x="167.9" y="-98.6" skX="87.66" skY="86.55" scX="1.64" scY="1.63"/>
+  </bone>
+  <bone name="闪电4  复制 2c">
+   <transform x="169.55" y="-139.7" skX="87.66" skY="86.55" scX="1.44" scY="1.43"/>
+  </bone>
+  <bone name="闪电5  复制 2c">
+   <transform x="173.7" y="-137.3" skX="87.66" skY="86.55" scX="1.44" scY="1.43"/>
+  </bone>
+  <bone name="闪电6  复制 2c">
+   <transform x="182.35" y="-173.45" skX="87.66" skY="86.55" scX="1.44" scY="1.43"/>
+  </bone>
+  <bone name="闪电7  复制 2c">
+   <transform x="189.55" y="-190.55" skX="87.66" skY="86.55" scX="1.44" scY="1.43"/>
+  </bone>
+  <bone name="闪电8  复制 2c">
+   <transform x="221" y="-195" skX="87.66" skY="86.55" scX="1.64" scY="1.63"/>
+  </bone>
+  <bone name="闪电9  复制 2c">
+   <transform x="211.85" y="-202.65" skX="87.66" skY="86.55" scX="1.64" scY="1.63"/>
+  </bone>
+  <skin name="default">
+   <slot name="闪电1  复制 2c" parent="闪电1  复制 2c" z="0">
+    <display name="爆气/闪电1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.65" pY="59.35"/>
+    </display>
+   </slot>
+   <slot name="闪电2  复制 2c" parent="闪电2  复制 2c" z="1">
+    <display name="爆气/闪电2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="56.35" pY="92.2"/>
+    </display>
+   </slot>
+   <slot name="闪电3  复制 2c" parent="闪电3  复制 2c" z="2">
+    <display name="爆气/闪电3" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="76.35" pY="119.3"/>
+    </display>
+   </slot>
+   <slot name="闪电4  复制 2c" parent="闪电4  复制 2c" z="3">
+    <display name="爆气/闪电4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="74.1" pY="134.05"/>
+    </display>
+   </slot>
+   <slot name="闪电5  复制 2c" parent="闪电5  复制 2c" z="4">
+    <display name="爆气/闪电5" type="image">
+     <transform x="-0.15" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="84.05" pY="135.55"/>
+    </display>
+   </slot>
+   <slot name="闪电6  复制 2c" parent="闪电6  复制 2c" z="5">
+    <display name="爆气/闪电6" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="66.3" pY="140.15"/>
+    </display>
+   </slot>
+   <slot name="闪电7  复制 2c" parent="闪电7  复制 2c" z="6">
+    <display name="爆气/闪电7" type="image">
+     <transform x="-0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="58.3" pY="144.05"/>
+    </display>
+   </slot>
+   <slot name="闪电8  复制 2c" parent="闪电8  复制 2c" z="7">
+    <display name="爆气/闪电8" type="image">
+     <transform x="0.15" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.75" pY="139.25"/>
+    </display>
+   </slot>
+   <slot name="闪电9  复制 2c" parent="闪电9  复制 2c" z="8">
+    <display name="爆气/闪电9" type="image">
+     <transform x="0.1" y="0" skX="0" skY="0" scX="1" scY="1" pX="62.55" pY="127.25"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="wuqifgrt" fadeInTime="0" duration="21" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="闪电1  复制 2c" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="72.6" y="-105.55" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="72.6" y="-105.55" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame duration="19" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电2  复制 2c" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="1" duration="1">
+     <transform x="120.1" y="-121.15" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="120.1" y="-121.15" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电3  复制 2c" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="2" duration="1">
+     <transform x="167.9" y="-98.6" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="167.9" y="-98.6" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电4  复制 2c" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="1">
+     <transform x="169.55" y="-139.7" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="169.55" y="-139.7" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame duration="13" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电5  复制 2c" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="173.7" y="-137.3" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="173.7" y="-137.3" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame duration="11" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电6  复制 2c" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="5" duration="1">
+     <transform x="182.35" y="-173.45" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="182.35" y="-173.45" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame duration="9" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电7  复制 2c" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="6" duration="1">
+     <transform x="189.55" y="-190.55" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="189.55" y="-190.55" skX="87.66" skY="86.55" scX="1.44" scY="1.43" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电8  复制 2c" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="7" duration="1">
+     <transform x="221" y="-195" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="221" y="-195" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电9  复制 2c" scale="1" offset="0">
+    <frame duration="16" displayIndex="-1"/>
+    <frame z="8" duration="1">
+     <transform x="211.85" y="-202.65" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="211.85" y="-202.65" skX="87.66" skY="86.55" scX="1.64" scY="1.63" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="爆气/身体-右手及兵器 副本">
+  <bone name="闪电1a  复制 2b">
+   <transform x="101.75" y="-101.15" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电2a  复制 2b">
+   <transform x="153.55" y="-113.9" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电3a  复制 2b">
+   <transform x="201.9" y="-121.75" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电4a  复制 2b">
+   <transform x="228.3" y="-134.3" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电5a  复制 2b">
+   <transform x="236.9" y="-136.25" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电6a  复制 2b">
+   <transform x="252.25" y="-81.05" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电7a  复制 2b">
+   <transform x="265.8" y="-74.7" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电8a  复制 2b">
+   <transform x="275.45" y="-75.95" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <bone name="闪电9a  复制 2b">
+   <transform x="275.1" y="-93.1" skX="102.07" skY="100.7" scX="-2.73" scY="1.67"/>
+  </bone>
+  <skin name="default">
+   <slot name="闪电1a  复制 2b" parent="闪电1a  复制 2b" z="0">
+    <display name="爆气/闪电1a" type="image">
+     <transform x="-0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="33.6" pY="67.5"/>
+    </display>
+   </slot>
+   <slot name="闪电2a  复制 2b" parent="闪电2a  复制 2b" z="1">
+    <display name="爆气/闪电2a" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="34.85" pY="92.2"/>
+    </display>
+   </slot>
+   <slot name="闪电3a  复制 2b" parent="闪电3a  复制 2b" z="2">
+    <display name="爆气/闪电3a" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="36.35" pY="117.8"/>
+    </display>
+   </slot>
+   <slot name="闪电4a  复制 2b" parent="闪电4a  复制 2b" z="3">
+    <display name="爆气/闪电4a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="43.3" pY="135.4"/>
+    </display>
+   </slot>
+   <slot name="闪电5a  复制 2b" parent="闪电5a  复制 2b" z="4">
+    <display name="爆气/闪电5a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="40.05" pY="137.5"/>
+    </display>
+   </slot>
+   <slot name="闪电6a  复制 2b" parent="闪电6a  复制 2b" z="5">
+    <display name="爆气/闪电6a" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="47.45" pY="154.05"/>
+    </display>
+   </slot>
+   <slot name="闪电7a  复制 2b" parent="闪电7a  复制 2b" z="6">
+    <display name="爆气/闪电7a" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="57.65" pY="159.6"/>
+    </display>
+   </slot>
+   <slot name="闪电8a  复制 2b" parent="闪电8a  复制 2b" z="7">
+    <display name="爆气/闪电8a" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="59.4" pY="164.7"/>
+    </display>
+   </slot>
+   <slot name="闪电9a  复制 2b" parent="闪电9a  复制 2b" z="8">
+    <display name="爆气/闪电9a" type="image">
+     <transform x="-0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="62.15" pY="161.85"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="wuqi" fadeInTime="0" duration="21" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="闪电1a  复制 2b" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="101.75" y="-101.15" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="101.75" y="-101.15" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="19" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电2a  复制 2b" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="1" duration="1">
+     <transform x="153.55" y="-113.9" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="153.55" y="-113.9" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电3a  复制 2b" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="2" duration="1">
+     <transform x="201.9" y="-121.75" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="201.9" y="-121.75" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电4a  复制 2b" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="1">
+     <transform x="228.3" y="-134.3" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="228.3" y="-134.3" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="13" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电5a  复制 2b" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="1">
+     <transform x="236.9" y="-136.25" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="236.9" y="-136.25" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="11" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电6a  复制 2b" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="5" duration="1">
+     <transform x="252.25" y="-81.05" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="252.25" y="-81.05" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="9" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电7a  复制 2b" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="6" duration="1">
+     <transform x="265.8" y="-74.7" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="265.8" y="-74.7" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电8a  复制 2b" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="7" duration="1">
+     <transform x="275.45" y="-75.95" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="275.45" y="-75.95" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="闪电9a  复制 2b" scale="1" offset="0">
+    <frame duration="16" displayIndex="-1"/>
+    <frame z="8" duration="1">
+     <transform x="275.1" y="-93.1" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="275.1" y="-93.1" skX="102.07" skY="100.7" scX="-2.73" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

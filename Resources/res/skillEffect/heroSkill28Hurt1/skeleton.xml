@@ -1,0 +1,140 @@
+<dragonBones name="吸星大法被击" frameRate="30" version="2.3">
+ <armature name="heroSkill28Hurt1">
+  <bone name="图层 4">
+   <transform x="-5.2" y="-74.3" skX="-38.7" skY="-38.7" scX="0.79" scY="0.79"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="-2.35" y="-68.35" skX="0" skY="0" scX="0.5" scY="0.5"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0">
+    <display name="灵丸被击/元件 16zmfls" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="1" blendMode="add">
+    <display name="灵丸被击/rt5hy6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="86.5" pY="85"/>
+    </display>
+    <display name="灵丸被击/wegt54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="96.5" pY="96"/>
+    </display>
+    <display name="灵丸被击/ewfgtq" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="100" pY="99.5"/>
+    </display>
+    <display name="灵丸被击/watr54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="113.5" pY="113.5"/>
+    </display>
+    <display name="灵丸被击/wae4tg43" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="123.5" pY="123.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="11" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="9">
+     <transform x="-5.2" y="-74.3" skX="-38.7" skY="-38.7" scX="0.79" scY="0.79" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-5.2" y="-74.3" skX="-38.7" skY="-38.7" scX="1.16" scY="1.16" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="1" duration="1">
+     <transform x="-2.35" y="-68.35" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-2.35" y="-68.35" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="1">
+     <transform x="-3.1" y="-70.75" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="2" duration="1">
+     <transform x="-2.3" y="-70.8" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="3" duration="1">
+     <transform x="-2.9" y="-69.55" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="4" duration="1">
+     <transform x="-2.75" y="-69.6" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="灵丸被击/元件 16zmfls">
+  <bone name="图层 3">
+   <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1.6" scY="1.6"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="灵丸被击/元件 1" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="45.25" pY="45.25"/>
+    </display>
+    <display name="灵丸被击/元件 2" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="45.25" pY="45.25"/>
+    </display>
+    <display name="灵丸被击/元件 3" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 4" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 5" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 6" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 7" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 8" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 9" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+    <display name="灵丸被击/元件 10" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.4" pY="33.3"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ziyanbeiji12345" fadeInTime="0" duration="14" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" tweenEasing="0" duration="1">
+     <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" tweenEasing="0" duration="1">
+     <transform x="-0.25" y="-0.55" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

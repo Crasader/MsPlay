@@ -1,0 +1,151 @@
+﻿<dragonBones name="夺命连环三仙剑" frameRate="30" version="2.3">
+ <armature name="heroSkill14Release1">
+  <bone name="图层 2">
+   <transform x="-67.85" y="-81.75" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="夺命连环三仙剑/补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="144" pY="127"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="205" pY="160"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="200" pY="166"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="196.5" pY="190"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="169" pY="162.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="134.5" pY="118.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="135" pY="93"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="208" pY="213.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="200.5" pY="198.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="150.5" pY="166.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 11" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69" pY="137"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="195.5" pY="152.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="191.5" pY="142.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="198" pY="178"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="217.5" pY="205"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="221" pY="208.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="206.5" pY="206.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="198.5" pY="198.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="198" pY="198"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="154" pY="154.5"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="156" pY="156"/>
+    </display>
+    <display name="夺命连环三仙剑/补间 22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="155.5" pY="156"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="68" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="0" duration="1">
+     <transform x="-67.85" y="-81.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="32.9" y="-109.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="36.4" y="-134" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="32.25" y="-176.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="40.2" y="-233.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="14.7" y="-270.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-7.4" y="-280.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="66.7" y="-161.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="70.2" y="-144.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="1">
+     <transform x="112.15" y="-117.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="1">
+     <transform x="149.55" y="-105" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+    <frame z="0" displayIndex="11" duration="1">
+     <transform x="122.65" y="-87.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" duration="1">
+     <transform x="146.15" y="-45.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" duration="1">
+     <transform x="140.55" y="-62.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="14" duration="1">
+     <transform x="122.05" y="-69.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="15" duration="1">
+     <transform x="119.4" y="-68.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="16" duration="1">
+     <transform x="108" y="-66.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="17" duration="1">
+     <transform x="115.55" y="-67.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="18" duration="1">
+     <transform x="116.15" y="-66.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="19" duration="1">
+     <transform x="143.45" y="-50.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="20" duration="1">
+     <transform x="139.85" y="-53.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="21" duration="1">
+     <transform x="139.1" y="-52.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

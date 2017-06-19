@@ -1,0 +1,12 @@
+<TextureAtlas name="sceneHomelandPool" imagePath="texture.png">
+ <SubTexture name="e4t463" x="0" y="345" width="144" height="113"/>
+ <SubTexture name="u54" x="292" y="0" width="144" height="113"/>
+ <SubTexture name="deru65" x="146" y="115" width="144" height="113"/>
+ <SubTexture name="wey54" x="0" y="230" width="144" height="113"/>
+ <SubTexture name="wey54y" x="292" y="230" width="144" height="113"/>
+ <SubTexture name="e4ty24" x="0" y="0" width="144" height="113"/>
+ <SubTexture name="we4y654" x="0" y="115" width="144" height="113"/>
+ <SubTexture name="edr4u765" x="146" y="230" width="144" height="113"/>
+ <SubTexture name="rt5u65" x="292" y="115" width="144" height="113"/>
+ <SubTexture name="e4t463gre" x="146" y="0" width="144" height="113"/>
+</TextureAtlas>

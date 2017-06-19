@@ -1,0 +1,37 @@
+<TextureAtlas name="gameStartComic1" imagePath="texture.png">
+ <SubTexture name="e4t643" x="455" y="1032" width="144" height="129"/>
+ <SubTexture name="补间 5" x="0" y="0" width="650" height="655"/>
+ <SubTexture name="43" x="1951" y="931" width="87" height="25"/>
+ <SubTexture name="补间 27" x="967" y="915" width="189" height="160"/>
+ <SubTexture name="补间 26" x="1758" y="0" width="234" height="332"/>
+ <SubTexture name="补间 25" x="827" y="915" width="138" height="230"/>
+ <SubTexture name="补间 29" x="1251" y="674" width="461" height="211"/>
+ <SubTexture name="补间 22" x="1758" y="577" width="273" height="187"/>
+ <SubTexture name="补间 28" x="1411" y="1045" width="103" height="150"/>
+ <SubTexture name="补间 34" x="1157" y="1045" width="125" height="146"/>
+ <SubTexture name="补间 30" x="1758" y="333" width="234" height="243"/>
+ <SubTexture name="补间 32" x="1710" y="1057" width="118" height="120"/>
+ <SubTexture name="补间 31" x="1088" y="877" width="77" height="35"/>
+ <SubTexture name="补间 9" x="652" y="0" width="650" height="655"/>
+ <SubTexture name="补间 10" x="1251" y="886" width="269" height="157"/>
+ <SubTexture name="补间 3" x="635" y="657" width="529" height="179"/>
+ <SubTexture name="补间 11" x="1713" y="765" width="236" height="220"/>
+ <SubTexture name="e45654" x="1951" y="765" width="93" height="165"/>
+ <SubTexture name="rt6u75" x="344" y="1032" width="110" height="165"/>
+ <SubTexture name="补间 4" x="635" y="877" width="451" height="36"/>
+ <SubTexture name="补间 6" x="455" y="1162" width="583" height="37"/>
+ <SubTexture name="补间 8" x="635" y="838" width="484" height="37"/>
+ <SubTexture name="补间 2" x="1304" y="0" width="452" height="672"/>
+ <SubTexture name="补间 1" x="344" y="918" width="257" height="76"/>
+ <SubTexture name="6565" x="1166" y="906" width="83" height="67"/>
+ <SubTexture name="补间 15" x="344" y="657" width="289" height="259"/>
+ <SubTexture name="补间 14" x="1710" y="987" width="236" height="68"/>
+ <SubTexture name="补间 23" x="0" y="657" width="342" height="444"/>
+ <SubTexture name="补间 21" x="1284" y="1045" width="125" height="141"/>
+ <SubTexture name="补间 19" x="1830" y="1057" width="107" height="123"/>
+ <SubTexture name="补间 17" x="1522" y="886" width="186" height="221"/>
+ <SubTexture name="补间 24" x="344" y="996" width="242" height="34"/>
+ <SubTexture name="烟" x="635" y="915" width="191" height="222"/>
+ <SubTexture name="惊叹号元件11111" x="1166" y="657" width="84" height="247"/>
+ <SubTexture name="元件 30" x="967" y="1076" width="133" height="35"/>
+</TextureAtlas>

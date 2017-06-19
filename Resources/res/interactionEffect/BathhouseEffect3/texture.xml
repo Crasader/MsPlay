@@ -1,0 +1,15 @@
+<TextureAtlas name="BathhouseEffect3" imagePath="texture.png">
+ <SubTexture name="补间 14" x="82" y="0" width="80" height="100"/>
+ <SubTexture name="补间 15" x="246" y="102" width="80" height="100"/>
+ <SubTexture name="补间 16" x="328" y="102" width="80" height="100"/>
+ <SubTexture name="补间 17" x="410" y="102" width="80" height="100"/>
+ <SubTexture name="补间 18" x="164" y="102" width="80" height="100"/>
+ <SubTexture name="补间 19" x="164" y="0" width="80" height="100"/>
+ <SubTexture name="补间 20" x="328" y="0" width="80" height="100"/>
+ <SubTexture name="补间 21" x="0" y="204" width="80" height="100"/>
+ <SubTexture name="补间 22" x="246" y="0" width="80" height="100"/>
+ <SubTexture name="补间 23" x="82" y="102" width="80" height="100"/>
+ <SubTexture name="补间 24" x="0" y="0" width="80" height="100"/>
+ <SubTexture name="补间 25" x="0" y="102" width="80" height="100"/>
+ <SubTexture name="补间 26" x="410" y="0" width="80" height="100"/>
+</TextureAtlas>

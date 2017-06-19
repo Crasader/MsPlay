@@ -1,0 +1,4 @@
+<TextureAtlas name="cardSkillAuxiliary1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="84" width="57" height="72"/>
+ <SubTexture name="补间 2" x="0" y="0" width="103" height="82"/>
+</TextureAtlas>

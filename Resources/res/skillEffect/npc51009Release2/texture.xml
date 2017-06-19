@@ -1,0 +1,33 @@
+<TextureAtlas name="npc51009Release2" imagePath="texture.png">
+ <SubTexture name="补间 68" x="1001" y="43" width="10" height="11"/>
+ <SubTexture name="补间 69" x="976" y="43" width="24" height="19"/>
+ <SubTexture name="补间 70" x="976" y="0" width="45" height="42"/>
+ <SubTexture name="补间 71" x="931" y="274" width="80" height="80"/>
+ <SubTexture name="补间 72" x="280" y="500" width="103" height="124"/>
+ <SubTexture name="补间 73" x="793" y="392" width="128" height="123"/>
+ <SubTexture name="补间 74" x="454" y="272" width="137" height="125"/>
+ <SubTexture name="补间 75" x="312" y="272" width="141" height="128"/>
+ <SubTexture name="补间 76" x="646" y="271" width="146" height="128"/>
+ <SubTexture name="补间 77" x="160" y="271" width="151" height="130"/>
+ <SubTexture name="补间 78" x="160" y="139" width="151" height="131"/>
+ <SubTexture name="erytg4" x="646" y="138" width="154" height="131"/>
+ <SubTexture name="edryu57" x="489" y="138" width="156" height="133"/>
+ <SubTexture name="edry574" x="330" y="138" width="157" height="133"/>
+ <SubTexture name="ey74" x="0" y="138" width="159" height="134"/>
+ <SubTexture name="sey54" x="816" y="137" width="158" height="136"/>
+ <SubTexture name="wsey654" x="655" y="0" width="160" height="137"/>
+ <SubTexture name="sdey5" x="816" y="0" width="159" height="136"/>
+ <SubTexture name="edu654" x="493" y="0" width="161" height="137"/>
+ <SubTexture name="r5iu76" x="330" y="0" width="162" height="137"/>
+ <SubTexture name="edru65" x="166" y="0" width="163" height="138"/>
+ <SubTexture name="r54w" x="0" y="0" width="165" height="136"/>
+ <SubTexture name="重复项目文件夹/sprite 42" x="931" y="355" width="71" height="51"/>
+ <SubTexture name="重复项目文件夹/sprite 46" x="922" y="407" width="97" height="80"/>
+ <SubTexture name="重复项目文件夹/sprite 48" x="0" y="393" width="136" height="113"/>
+ <SubTexture name="MovieClip/sprite 50" x="454" y="398" width="127" height="116"/>
+ <SubTexture name="MovieClip/sprite 52" x="793" y="274" width="137" height="117"/>
+ <SubTexture name="MovieClip/sprite 55" x="0" y="273" width="136" height="119"/>
+ <SubTexture name="MovieClip/sprite 57" x="312" y="401" width="136" height="97"/>
+ <SubTexture name="MovieClip/sprite 59" x="137" y="402" width="142" height="98"/>
+ <SubTexture name="MovieClip/sprite 61" x="582" y="400" width="141" height="99"/>
+</TextureAtlas>

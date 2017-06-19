@@ -1,0 +1,6 @@
+<TextureAtlas name="pet31039Release1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="527" width="413" height="496"/>
+ <SubTexture name="补间 2" x="464" y="511" width="429" height="496"/>
+ <SubTexture name="补间 3" x="464" y="0" width="451" height="509"/>
+ <SubTexture name="补间 6" x="0" y="0" width="462" height="525"/>
+</TextureAtlas>

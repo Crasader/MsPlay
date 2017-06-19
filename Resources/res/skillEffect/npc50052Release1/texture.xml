@@ -1,0 +1,6 @@
+<TextureAtlas name="npc50052Release1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="596" y="268" width="214" height="214"/>
+ <SubTexture name="补间 2" x="596" y="0" width="244" height="266"/>
+ <SubTexture name="补间 3" x="310" y="0" width="284" height="303"/>
+ <SubTexture name="补间 4" x="0" y="0" width="308" height="332"/>
+</TextureAtlas>

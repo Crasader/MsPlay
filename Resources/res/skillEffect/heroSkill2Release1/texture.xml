@@ -1,0 +1,23 @@
+<TextureAtlas name="灵丸" imagePath="texture.png">
+ <SubTexture name="灵丸特效/hu67u76" x="241" y="518" width="189" height="189"/>
+ <SubTexture name="灵丸特效/元件 11 复制" x="518" y="0" width="393" height="393"/>
+ <SubTexture name="灵丸特效/元件 12 复制" x="518" y="394" width="305" height="305"/>
+ <SubTexture name="灵丸特效/元件 13 复制" x="0" y="518" width="240" height="240"/>
+ <SubTexture name="灵丸特效/元件 14 复制" x="0" y="0" width="516" height="516"/>
+ <SubTexture name="灵丸特效/元件 91" x="890" y="461" width="127" height="92"/>
+ <SubTexture name="灵丸特效/元件 92" x="0" y="759" width="211" height="121"/>
+ <SubTexture name="灵丸特效/元件 93" x="431" y="700" width="212" height="123"/>
+ <SubTexture name="灵丸特效/元件 94" x="810" y="735" width="212" height="123"/>
+ <SubTexture name="灵丸特效/元件 95" x="212" y="800" width="212" height="111"/>
+ <SubTexture name="灵丸特效/元件 96" x="824" y="554" width="188" height="95"/>
+ <SubTexture name="灵丸特效/元件 97" x="824" y="650" width="188" height="84"/>
+ <SubTexture name="灵丸特效/元件 98" x="644" y="700" width="165" height="81"/>
+ <SubTexture name="灵丸特效/元件 99" x="824" y="394" width="65" height="73"/>
+ <SubTexture name="灵丸特效/元件 100" x="644" y="782" width="89" height="104"/>
+ <SubTexture name="灵丸特效/元件 101" x="912" y="250" width="98" height="116"/>
+ <SubTexture name="灵丸特效/元件 102" x="912" y="0" width="104" height="130"/>
+ <SubTexture name="灵丸特效/元件 103" x="912" y="131" width="109" height="118"/>
+ <SubTexture name="灵丸特效/元件 104" x="241" y="708" width="105" height="91"/>
+ <SubTexture name="灵丸特效/元件 105" x="912" y="367" width="103" height="93"/>
+ <SubTexture name="灵丸特效/元件 106" x="431" y="518" width="76" height="12"/>
+</TextureAtlas>

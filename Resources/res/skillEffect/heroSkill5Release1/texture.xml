@@ -1,0 +1,19 @@
+<TextureAtlas name="升龙拳特效" imagePath="texture.png">
+ <SubTexture name="补间 5" x="0" y="225" width="107" height="34"/>
+ <SubTexture name="补间 4" x="140" y="222" width="109" height="35"/>
+ <SubTexture name="补间 1" x="276" y="176" width="124" height="44"/>
+ <SubTexture name="补间 2" x="140" y="176" width="134" height="44"/>
+ <SubTexture name="补间 3" x="0" y="175" width="138" height="48"/>
+ <SubTexture name="补间 6" x="251" y="222" width="107" height="34"/>
+ <SubTexture name="补间 7" x="721" y="0" width="140" height="166"/>
+ <SubTexture name="补间 8" x="579" y="0" width="140" height="170"/>
+ <SubTexture name="补间 9" x="437" y="0" width="140" height="172"/>
+ <SubTexture name="补间 10" x="294" y="0" width="141" height="174"/>
+ <SubTexture name="补间 11" x="148" y="0" width="144" height="174"/>
+ <SubTexture name="补间 12" x="0" y="0" width="146" height="173"/>
+ <SubTexture name="补间 13" x="579" y="172" width="140" height="138"/>
+ <SubTexture name="补间 14" x="863" y="0" width="140" height="138"/>
+ <SubTexture name="补间 15" x="721" y="168" width="140" height="138"/>
+ <SubTexture name="补间 16" x="437" y="174" width="140" height="138"/>
+ <SubTexture name="补间 17" x="863" y="140" width="140" height="138"/>
+</TextureAtlas>

@@ -1,0 +1,13 @@
+<TextureAtlas name="pet31033Release2" imagePath="texture.png">
+ <SubTexture name="元件 6" x="728" y="127" width="175" height="161"/>
+ <SubTexture name="重复项目文件夹/补间 7" x="0" y="219" width="313" height="188"/>
+ <SubTexture name="补间 18" x="367" y="215" width="340" height="203"/>
+ <SubTexture name="补间 19" x="367" y="0" width="359" height="213"/>
+ <SubTexture name="补间 20" x="0" y="0" width="365" height="217"/>
+ <SubTexture name="重复项目文件夹/补间 1" x="709" y="412" width="165" height="124"/>
+ <SubTexture name="重复项目文件夹/补间 2" x="0" y="409" width="301" height="99"/>
+ <SubTexture name="重复项目文件夹/补间 3" x="709" y="290" width="306" height="120"/>
+ <SubTexture name="重复项目文件夹/补间 4" x="728" y="0" width="291" height="125"/>
+ <SubTexture name="重复项目文件夹/补间 5" x="303" y="420" width="158" height="116"/>
+ <SubTexture name="重复项目文件夹/补间 6" x="905" y="127" width="82" height="97"/>
+</TextureAtlas>

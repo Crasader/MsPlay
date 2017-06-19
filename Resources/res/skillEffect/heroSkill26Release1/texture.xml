@@ -1,0 +1,7 @@
+<TextureAtlas name="灰暗警告冲击波" imagePath="texture.png">
+ <SubTexture name="灰暗警告冲击波/补充力量 副本" x="502" y="0" width="251" height="491"/>
+ <SubTexture name="灰暗警告冲击波/wset34" x="837" y="241" width="72" height="28"/>
+ <SubTexture name="灰暗警告冲击波/tytryrt" x="755" y="241" width="81" height="81"/>
+ <SubTexture name="灰暗警告冲击波/元件 13 复制" x="755" y="0" width="240" height="240"/>
+ <SubTexture name="灰暗警告冲击波/元件 14 复制" x="0" y="0" width="500" height="500"/>
+</TextureAtlas>

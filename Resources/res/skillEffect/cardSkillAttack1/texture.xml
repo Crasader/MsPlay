@@ -1,0 +1,12 @@
+<TextureAtlas name="cardSkillAttack1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="1208" y="0" width="300" height="750"/>
+ <SubTexture name="补间 2" x="0" y="0" width="300" height="750"/>
+ <SubTexture name="补间 3" x="906" y="0" width="300" height="750"/>
+ <SubTexture name="补间 4" x="302" y="752" width="300" height="750"/>
+ <SubTexture name="补间 5" x="604" y="0" width="300" height="750"/>
+ <SubTexture name="补间 6" x="604" y="752" width="300" height="750"/>
+ <SubTexture name="补间 7" x="0" y="752" width="300" height="750"/>
+ <SubTexture name="补间 8" x="302" y="0" width="300" height="750"/>
+ <SubTexture name="补间 9" x="906" y="752" width="300" height="750"/>
+ <SubTexture name="补间 10" x="1510" y="0" width="300" height="750"/>
+</TextureAtlas>

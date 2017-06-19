@@ -1,0 +1,70 @@
+<dragonBones name="npc50036Hurt1" frameRate="30" version="2.3">
+ <armature name="npc50036Hurt1">
+  <bone name="图层 2">
+   <transform x="2.8" y="-64.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0">
+    <display name="弗利萨技能被击/补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="43.5" pY="33"/>
+    </display>
+    <display name="弗利萨技能被击/补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="55.5" pY="47"/>
+    </display>
+    <display name="弗利萨技能被击/补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76" pY="64"/>
+    </display>
+    <display name="弗利萨技能被击/补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="71.5" pY="65.5"/>
+    </display>
+    <display name="弗利萨技能被击/补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76" pY="66.5"/>
+    </display>
+    <display name="弗利萨技能被击/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76.5" pY="67.5"/>
+    </display>
+    <display name="弗利萨技能被击/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76" pY="56"/>
+    </display>
+    <display name="弗利萨技能被击/补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="79" pY="56.5"/>
+    </display>
+    <display name="弗利萨技能被击/补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="79" pY="57"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="10" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="2.8" y="-64.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-5.3" y="-63.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-6.4" y="-64.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="1.45" y="-64.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="2.1" y="-64.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="3.3" y="-65.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-0.5" y="-60.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="-0.55" y="-60.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="-2.1" y="-60.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

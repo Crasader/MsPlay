@@ -1,0 +1,304 @@
+<dragonBones name="幻影分身被击2" frameRate="30" version="2.3">
+ <armature name="heroSkill12Hurt2">
+  <bone name="sea wave">
+   <transform x="-501.2" y="92.4" skX="0" skY="0" scX="-2" scY="2.71"/>
+  </bone>
+  <bone name="spray_1">
+   <transform x="-679.25" y="96.85" skX="0" skY="0" scX="-1.63" scY="2.31"/>
+  </bone>
+  <bone name="spray_1_0">
+   <transform x="-466.3" y="111.9" skX="0" skY="0" scX="-1.63" scY="2.31"/>
+  </bone>
+  <bone name="spray_1_1">
+   <transform x="-195.75" y="105.65" skX="0" skY="0" scX="-1.63" scY="2.31"/>
+  </bone>
+  <bone name="图层 19">
+   <transform x="0.4" y="-74.15" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <skin name="default">
+   <slot name="sea wave" parent="sea wave" z="0">
+    <display name="幻影分身被击/未命名文件夹 1/sea wave" type="armature">
+     <transform x="-1.8" y="-3.7" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="spray_1" parent="spray_1" z="1">
+    <display name="幻影分身被击/未命名文件夹 1/spray 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="spray_1_0" parent="spray_1_0" z="2">
+    <display name="幻影分身被击/未命名文件夹 1/spray 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="spray_1_1" parent="spray_1_1" z="3">
+    <display name="幻影分身被击/未命名文件夹 1/spray 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 19" parent="图层 19" z="4">
+    <display name="幻影分身被击/shanke.cn_1_34_70392" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="46" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="sea wave" scale="1" offset="0">
+    <frame z="0" duration="23">
+     <transform x="-501.2" y="92.4" skX="0" skY="0" scX="-2" scY="2.71" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="spray_1" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="1" duration="23">
+     <transform x="-679.25" y="96.85" skX="0" skY="0" scX="-1.63" scY="2.31" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="spray_1_0" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="2" duration="21">
+     <transform x="-466.3" y="111.9" skX="0" skY="0" scX="-1.63" scY="2.31" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="spray_1_1" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="19">
+     <transform x="-195.75" y="105.65" skX="0" skY="0" scX="-1.63" scY="2.31" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 19" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="4" duration="39">
+     <transform x="0.4" y="-74.15" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="幻影分身被击/shanke.cn_1_34_70392">
+  <bone name="203-09-92-front">
+   <transform x="5.8" y="45.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="203-09-92-front" parent="203-09-92-front" z="0">
+    <display name="幻影分身被击/111111/补间 46" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="70" pY="80.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 47" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="113" pY="118.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 48" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="140.5" pY="127.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 49" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="154" pY="128.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 50" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="164.5" pY="128"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 51" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="174.5" pY="125.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 52" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="175" pY="123.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 53" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="179" pY="123"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="184" pY="124.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 55" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="189.5" pY="125"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 56" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="195.5" pY="129.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 57" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="201" pY="127.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 58" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="206" pY="133.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 59" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="178" pY="124"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 60" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="164.5" pY="102"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="789op89" fadeInTime="0" duration="59" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="203-09-92-front" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="5.8" y="45.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="5.4" y="9.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="8.35" y="-6.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="7.3" y="-17.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="10.05" y="-26.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="8.4" y="-31.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="-3.55" y="-35.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="-1.75" y="-34.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="-1.85" y="-27.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="2">
+     <transform x="-3.95" y="-17.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="2">
+     <transform x="-4.9" y="-6.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" duration="2">
+     <transform x="-7.3" y="6.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" duration="2">
+     <transform x="-9.25" y="28.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" duration="2">
+     <transform x="7.45" y="42.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="14" duration="2">
+     <transform x="19.15" y="44.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="29" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="幻影分身被击/未命名文件夹 1/sea wave">
+  <bone name="图层 3">
+   <transform x="17.2" y="-41.35" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="幻影分身被击/111111/补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="103.5" pY="61"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="124" pY="67"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="144" pY="71.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="184.5" pY="70"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="170.5" pY="58.5"/>
+    </display>
+    <display name="幻影分身被击/111111/补间 10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="164" pY="59.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="78o87" fadeInTime="0" duration="24" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="17.2" y="-41.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-53.55" y="-49.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-113.1" y="-44.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="-145.8" y="-34.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="-159.75" y="-25.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="-175.25" y="-26.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="幻影分身被击/未命名文件夹 1/spray 副本">
+  <bone name="shuih">
+   <transform x="6.05" y="-10.25" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="shuih" parent="shuih" z="0">
+    <display name="幻影分身被击/补间 61" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="85" pY="31.5"/>
+    </display>
+    <display name="幻影分身被击/补间 62" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="86" pY="38"/>
+    </display>
+    <display name="幻影分身被击/补间 63" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="85" pY="37.5"/>
+    </display>
+    <display name="幻影分身被击/补间 64" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="91.5" pY="38.5"/>
+    </display>
+    <display name="幻影分身被击/补间 65" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92" pY="38"/>
+    </display>
+    <display name="幻影分身被击/补间 66" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="92" pY="31"/>
+    </display>
+    <display name="幻影分身被击/补间 67" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="90" pY="29.5"/>
+    </display>
+    <display name="幻影分身被击/补间 68" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="100.5" pY="22"/>
+    </display>
+    <display name="幻影分身被击/补间 69" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="100.5" pY="16.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="5r4u6" fadeInTime="0" duration="35" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="shuih" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="6.05" y="-10.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="6.35" y="-4.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="6.05" y="-5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="10.95" y="-8.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="11.75" y="-2.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="7.75" y="5.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="1.1" y="6.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="-4.4" y="17.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="-3.8" y="28.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="26" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

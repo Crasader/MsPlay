@@ -1,0 +1,20 @@
+<TextureAtlas name="bornEggDrop" imagePath="texture.png">
+ <SubTexture name="烟" x="0" y="0" width="194" height="194"/>
+ <SubTexture name="qwerhk" x="972" y="112" width="19" height="34"/>
+ <SubTexture name="wedttuu" x="990" y="0" width="30" height="57"/>
+ <SubTexture name="thmmll" x="960" y="0" width="29" height="58"/>
+ <SubTexture name="qwdeho" x="990" y="58" width="28" height="53"/>
+ <SubTexture name="thppll" x="960" y="60" width="28" height="48"/>
+ <SubTexture name="wedhhh" x="944" y="109" width="27" height="47"/>
+ <SubTexture name="et533q" x="0" y="302" width="181" height="77"/>
+ <SubTexture name="补间 2" x="862" y="66" width="80" height="52"/>
+ <SubTexture name="补间 3" x="862" y="0" width="96" height="64"/>
+ <SubTexture name="补间 4" x="0" y="196" width="184" height="104"/>
+ <SubTexture name="补间 5" x="640" y="316" width="220" height="134"/>
+ <SubTexture name="补间 6" x="418" y="168" width="220" height="148"/>
+ <SubTexture name="补间 7" x="640" y="168" width="220" height="146"/>
+ <SubTexture name="补间 8" x="196" y="168" width="220" height="156"/>
+ <SubTexture name="补间 9" x="418" y="0" width="220" height="166"/>
+ <SubTexture name="补间 10" x="196" y="0" width="220" height="166"/>
+ <SubTexture name="补间 11" x="640" y="0" width="220" height="166"/>
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<TextureAtlas name="pet31009Release2" imagePath="texture.png">
+ <SubTexture name="补间 10" x="433" y="247" width="120" height="145"/>
+ <SubTexture name="补间 11" x="840" y="225" width="148" height="185"/>
+ <SubTexture name="补间 12" x="840" y="0" width="163" height="224"/>
+ <SubTexture name="补间 13" x="643" y="0" width="196" height="241"/>
+ <SubTexture name="补间 14" x="433" y="0" width="209" height="246"/>
+ <SubTexture name="补间 15" x="0" y="0" width="220" height="242"/>
+ <SubTexture name="补间 16" x="221" y="0" width="211" height="250"/>
+ <SubTexture name="补间 1" x="554" y="247" width="64" height="98"/>
+ <SubTexture name="补间 2" x="316" y="251" width="111" height="95"/>
+ <SubTexture name="补间 3" x="158" y="251" width="157" height="93"/>
+ <SubTexture name="补间 4" x="0" y="243" width="157" height="157"/>
+ <SubTexture name="e43t654" x="643" y="242" width="157" height="157"/>
+ <SubTexture name="补间 5" x="554" y="376" width="63" height="23"/>
+ <SubTexture name="补间 6" x="158" y="375" width="63" height="23"/>
+ <SubTexture name="补间 7" x="554" y="346" width="85" height="29"/>
+ <SubTexture name="补间 8" x="279" y="347" width="105" height="29"/>
+ <SubTexture name="补间 9" x="158" y="345" width="120" height="29"/>
+</TextureAtlas>

@@ -1,0 +1,7 @@
+<TextureAtlas name="heroSkill48Hurt1" imagePath="texture.png">
+ <SubTexture name="45y754" x="202" y="0" width="34" height="172"/>
+ <SubTexture name="shape 5" x="137" y="90" width="21" height="21"/>
+ <SubTexture name="shape 6" x="110" y="90" width="26" height="26"/>
+ <SubTexture name="shape 4" x="0" y="90" width="109" height="126"/>
+ <SubTexture name="sprite 3" x="0" y="0" width="201" height="89"/>
+</TextureAtlas>

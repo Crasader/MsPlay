@@ -1,0 +1,12 @@
+<TextureAtlas name="独孤九剑" imagePath="texture.png">
+ <SubTexture name="独孤九剑/ru54" x="705" y="588" width="261" height="167"/>
+ <SubTexture name="独孤九剑/shape 76" x="860" y="284" width="146" height="303"/>
+ <SubTexture name="独孤九剑/56u5u" x="223" y="520" width="192" height="103"/>
+ <SubTexture name="独孤九剑/rt5y543" x="417" y="542" width="286" height="164"/>
+ <SubTexture name="独孤九剑/56u6e" x="0" y="319" width="401" height="199"/>
+ <SubTexture name="独孤九剑/r5y544" x="471" y="47" width="484" height="235"/>
+ <SubTexture name="独孤九剑/u8554" x="0" y="47" width="469" height="270"/>
+ <SubTexture name="独孤九剑/tru64" x="471" y="284" width="387" height="256"/>
+ <SubTexture name="独孤九剑/s54y75" x="0" y="520" width="221" height="259"/>
+ <SubTexture name="独孤九剑/sweyt35" x="0" y="0" width="984" height="45"/>
+</TextureAtlas>

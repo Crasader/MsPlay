@@ -1,0 +1,3 @@
+<TextureAtlas name="heroGameroomBullet2" imagePath="texture.png">
+ <SubTexture name="拖鞋.png" x="0" y="0" width="47" height="75"/>
+</TextureAtlas>

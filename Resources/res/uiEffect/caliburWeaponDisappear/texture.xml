@@ -1,0 +1,17 @@
+<TextureAtlas name="caliburWeaponDisappear" imagePath="texture.png">
+ <SubTexture name="补间 2" x="0" y="0" width="256" height="302"/>
+ <SubTexture name="石中剑水花/补间 15" x="413" y="0" width="63" height="40"/>
+ <SubTexture name="石中剑水花/补间 16" x="0" y="479" width="109" height="58"/>
+ <SubTexture name="石中剑水花/补间 17" x="0" y="416" width="130" height="61"/>
+ <SubTexture name="石中剑水花/补间 18" x="154" y="360" width="139" height="69"/>
+ <SubTexture name="石中剑水花/补间 19" x="258" y="280" width="146" height="79"/>
+ <SubTexture name="石中剑水花/补间 20" x="258" y="195" width="150" height="84"/>
+ <SubTexture name="石中剑水花/补间 21" x="258" y="0" width="154" height="95"/>
+ <SubTexture name="石中剑水花/补间 22" x="258" y="96" width="148" height="98"/>
+ <SubTexture name="石中剑水花/补间 23" x="271" y="468" width="136" height="47"/>
+ <SubTexture name="石中剑水花/补间 24" x="131" y="430" width="139" height="49"/>
+ <SubTexture name="石中剑水花/补间 25" x="294" y="418" width="139" height="49"/>
+ <SubTexture name="石中剑水花/补间 26" x="0" y="361" width="142" height="54"/>
+ <SubTexture name="石中剑水花/补间 27" x="0" y="304" width="153" height="56"/>
+ <SubTexture name="石中剑水花/补间 28" x="294" y="360" width="143" height="57"/>
+</TextureAtlas>

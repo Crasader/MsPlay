@@ -1,0 +1,18 @@
+<TextureAtlas name="npc50047Release1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="715" y="443" width="195" height="82"/>
+ <SubTexture name="补间 2" x="0" y="226" width="342" height="179"/>
+ <SubTexture name="补间 3" x="384" y="183" width="344" height="194"/>
+ <SubTexture name="补间 4" x="0" y="0" width="382" height="224"/>
+ <SubTexture name="补间 5" x="384" y="0" width="411" height="181"/>
+ <SubTexture name="补间 6" x="730" y="257" width="259" height="184"/>
+ <SubTexture name="r5y/补间 50" x="344" y="379" width="244" height="103"/>
+ <SubTexture name="r5y/补间 51" x="493" y="527" width="428" height="80"/>
+ <SubTexture name="r5y/补间 52" x="0" y="531" width="410" height="48"/>
+ <SubTexture name="r5y/补间 53" x="0" y="581" width="410" height="46"/>
+ <SubTexture name="r5y/补间 54" x="326" y="484" width="165" height="45"/>
+ <SubTexture name="r5y/补间 45" x="590" y="379" width="123" height="112"/>
+ <SubTexture name="r5y/补间 46" x="0" y="407" width="160" height="121"/>
+ <SubTexture name="r5y/补间 47" x="797" y="0" width="184" height="140"/>
+ <SubTexture name="r5y/补间 48" x="797" y="142" width="204" height="113"/>
+ <SubTexture name="r5y/补间 49" x="162" y="407" width="162" height="115"/>
+</TextureAtlas>

@@ -1,0 +1,12 @@
+<TextureAtlas name="npc51002Hurt1" imagePath="texture.png">
+ <SubTexture name="重复项目文件夹/补间 1" x="384" y="0" width="126" height="157"/>
+ <SubTexture name="重复项目文件夹/补间 2" x="0" y="159" width="126" height="157"/>
+ <SubTexture name="重复项目文件夹/补间 3" x="128" y="0" width="126" height="157"/>
+ <SubTexture name="重复项目文件夹/补间 4" x="256" y="0" width="126" height="157"/>
+ <SubTexture name="重复项目文件夹/补间 5" x="0" y="0" width="126" height="157"/>
+ <SubTexture name="补间 1" x="128" y="159" width="32" height="30"/>
+ <SubTexture name="补间 5" x="187" y="159" width="19" height="20"/>
+ <SubTexture name="补间 4" x="222" y="159" width="10" height="11"/>
+ <SubTexture name="补间 3" x="207" y="159" width="14" height="15"/>
+ <SubTexture name="补间 2" x="162" y="159" width="24" height="15"/>
+</TextureAtlas>

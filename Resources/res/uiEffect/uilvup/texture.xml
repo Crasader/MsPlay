@@ -1,0 +1,16 @@
+<TextureAtlas name="UI升级特效" imagePath="texture.png">
+ <SubTexture name="UI升级特效/ew4t43" x="608" y="478" width="184" height="139"/>
+ <SubTexture name="UI升级特效/补间 5" x="793" y="478" width="88" height="97"/>
+ <SubTexture name="UI升级特效/补间 4" x="975" y="478" width="87" height="90"/>
+ <SubTexture name="UI升级特效/补间 3" x="883" y="478" width="90" height="93"/>
+ <SubTexture name="UI升级特效/补间 2" x="1601" y="422" width="58" height="103"/>
+ <SubTexture name="UI升级特效/vbnbvn" x="1670" y="0" width="320" height="285"/>
+ <SubTexture name="UI升级特效/元件 2vbnv" x="1426" y="422" width="173" height="173"/>
+ <SubTexture name="UI升级特效/dergy53" x="1216" y="422" width="208" height="156"/>
+ <SubTexture name="UI升级特效/yt335y54" x="1670" y="287" width="342" height="202"/>
+ <SubTexture name="UI升级特效/sew4y65" x="1216" y="0" width="452" height="420"/>
+ <SubTexture name="UI升级特效/tg435y54" x="0" y="0" width="606" height="548"/>
+ <SubTexture name="UI升级特效/35wy65" x="608" y="0" width="606" height="476"/>
+ <SubTexture name="UI升级特效/Aegy54" x="1991" y="0" width="30" height="36"/>
+ <SubTexture name="UI升级特效/xg499" x="1064" y="478" width="85" height="89"/>
+</TextureAtlas>

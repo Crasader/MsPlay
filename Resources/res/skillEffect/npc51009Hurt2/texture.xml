@@ -1,0 +1,11 @@
+<TextureAtlas name="npc51009Hurt2" imagePath="texture.png">
+ <SubTexture name="56u6567/补间 1" x="382" y="0" width="104" height="80"/>
+ <SubTexture name="56u6567/补间 2" x="0" y="333" width="136" height="115"/>
+ <SubTexture name="56u6567/补间 3" x="191" y="165" width="189" height="158"/>
+ <SubTexture name="56u6567/补间 4" x="0" y="169" width="176" height="162"/>
+ <SubTexture name="56u6567/补间 5" x="191" y="0" width="189" height="163"/>
+ <SubTexture name="56u6567/补间 6" x="0" y="0" width="189" height="167"/>
+ <SubTexture name="56u6567/补间 16" x="197" y="466" width="189" height="138"/>
+ <SubTexture name="56u6567/补间 17" x="178" y="325" width="196" height="139"/>
+ <SubTexture name="56u6567/补间 18" x="0" y="466" width="195" height="140"/>
+</TextureAtlas>

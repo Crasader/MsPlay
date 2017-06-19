@@ -1,0 +1,9 @@
+<TextureAtlas name="pet31041Release2" imagePath="texture.png">
+ <SubTexture name="元件 20" x="0" y="0" width="166" height="316"/>
+ <SubTexture name="祈祷负电荷" x="0" y="317" width="96" height="53"/>
+ <SubTexture name="补间 1" x="168" y="14" width="75" height="13"/>
+ <SubTexture name="补间 2" x="168" y="0" width="75" height="13"/>
+ <SubTexture name="guangxiaofasggg" x="223" y="28" width="28" height="28"/>
+ <SubTexture name="元件 3" x="168" y="28" width="54" height="29"/>
+ <SubTexture name="元件 2" x="97" y="317" width="91" height="31"/>
+</TextureAtlas>

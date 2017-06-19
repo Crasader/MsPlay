@@ -1,0 +1,16 @@
+<TextureAtlas name="npc50052Hurt1" imagePath="texture.png">
+ <SubTexture name="56u被击/补间 1" x="0" y="229" width="173" height="170"/>
+ <SubTexture name="56u被击/补间 3" x="229" y="201" width="193" height="192"/>
+ <SubTexture name="56u被击/补间 4" x="229" y="0" width="200" height="199"/>
+ <SubTexture name="56u被击/补间 5" x="0" y="0" width="227" height="227"/>
+ <SubTexture name="56u被击/元件 1" x="175" y="395" width="91" height="91"/>
+ <SubTexture name="56u被击/元件 2" x="267" y="395" width="91" height="91"/>
+ <SubTexture name="56u被击/元件 3" x="431" y="0" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 4" x="424" y="340" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 5" x="424" y="204" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 6" x="0" y="401" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 7" x="68" y="401" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 8" x="431" y="136" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 9" x="424" y="272" width="67" height="67"/>
+ <SubTexture name="56u被击/元件 10" x="431" y="68" width="67" height="67"/>
+</TextureAtlas>

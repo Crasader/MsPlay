@@ -1,0 +1,3 @@
+<TextureAtlas name="pet31031Release2" imagePath="texture.png">
+ <SubTexture name="Sprite 3" x="0" y="0" width="376" height="52"/>
+</TextureAtlas>

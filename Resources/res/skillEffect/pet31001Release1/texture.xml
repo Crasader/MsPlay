@@ -1,0 +1,8 @@
+<TextureAtlas name="pet31001Release1" imagePath="texture.png">
+ <SubTexture name="补间 7" x="278" y="346" width="195" height="110"/>
+ <SubTexture name="补间 8" x="0" y="479" width="236" height="122"/>
+ <SubTexture name="补间 9" x="0" y="346" width="276" height="131"/>
+ <SubTexture name="补间 10" x="0" y="0" width="357" height="128"/>
+ <SubTexture name="补间 11" x="0" y="130" width="329" height="105"/>
+ <SubTexture name="补间 12" x="0" y="237" width="316" height="107"/>
+</TextureAtlas>

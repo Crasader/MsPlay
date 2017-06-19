@@ -1,0 +1,6 @@
+<TextureAtlas name="前景火焰" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="0" width="459" height="170"/>
+ <SubTexture name="补间 2" x="0" y="334" width="461" height="155"/>
+ <SubTexture name="补间 3" x="461" y="169" width="455" height="163"/>
+ <SubTexture name="补间 4" x="461" y="0" width="457" height="167"/>
+</TextureAtlas>

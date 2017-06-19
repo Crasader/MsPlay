@@ -1,0 +1,161 @@
+<dragonBones name="seven_daysReceiveCan" frameRate="30" version="2.3">
+ <armature name="seven_daysReceiveCan">
+  <bone name="图层 2">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="r5yu544">
+   <transform x="0.05" y="-64.25" skX="30" skY="30" scX="0.5" scY="0.5"/>
+  </bone>
+  <bone name="r5yu544_0">
+   <transform x="-43.05" y="-49.35" skX="-30" skY="-30" scX="0.5" scY="0.5"/>
+  </bone>
+  <bone name="r5yu544_1">
+   <transform x="39.55" y="-14.6" skX="60" skY="60" scX="0.5" scY="0.5"/>
+  </bone>
+  <bone name="r5yu544_2">
+   <transform x="39.15" y="24.9" skX="120" skY="120" scX="-0.5" scY="0.5"/>
+  </bone>
+  <bone name="r5yu544_3">
+   <transform x="-28.65" y="43.4" skX="-110.78" skY="-110.78" scX="-0.5" scY="0.5"/>
+  </bone>
+  <bone name="r5yu544_4">
+   <transform x="-31.5" y="-11" skX="-104.76" skY="-104.76" scX="-0.5" scY="0.5"/>
+  </bone>
+  <bone name="r5yu544_5">
+   <transform x="10.5" y="41.9" skX="165" skY="165" scX="-0.5" scY="0.5"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="dreyt54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="80.5" pY="100.8"/>
+    </display>
+   </slot>
+   <slot name="r5yu544" parent="r5yu544" z="1">
+    <display name="r5yu544" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="r5yu544_0" parent="r5yu544_0" z="2">
+    <display name="r5yu544" type="armature">
+     <transform x="-0.1" y="-0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="r5yu544_1" parent="r5yu544_1" z="3">
+    <display name="r5yu544" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="r5yu544_2" parent="r5yu544_2" z="4">
+    <display name="r5yu544" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="r5yu544_3" parent="r5yu544_3" z="5">
+    <display name="r5yu544" type="armature">
+     <transform x="0" y="-0.1" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="r5yu544_4" parent="r5yu544_4" z="6">
+    <display name="r5yu544" type="armature">
+     <transform x="-0.15" y="-0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="r5yu544_5" parent="r5yu544_5" z="7">
+    <display name="r5yu544" type="armature">
+     <transform x="-0.1" y="0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="50" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="27">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="22">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="r5yu544" scale="1" offset="0">
+    <frame duration="22" displayIndex="-1"/>
+    <frame z="1" duration="25">
+     <transform x="0.05" y="-64.25" skX="30" skY="30" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="r5yu544_0" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="2" duration="35">
+     <transform x="-43.05" y="-49.35" skX="-30" skY="-30" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="r5yu544_1" scale="1" offset="0">
+    <frame duration="18" displayIndex="-1"/>
+    <frame z="3" duration="29">
+     <transform x="39.55" y="-14.6" skX="60" skY="60" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="r5yu544_2" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="4" duration="37">
+     <transform x="39.15" y="24.9" skX="120" skY="120" scX="-0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="r5yu544_3" scale="1" offset="0">
+    <frame duration="14" displayIndex="-1"/>
+    <frame z="5" duration="33">
+     <transform x="-28.65" y="43.4" skX="-110.78" skY="-110.78" scX="-0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="r5yu544_4" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="6" duration="27">
+     <transform x="-31.5" y="-11" skX="-104.76" skY="-104.76" scX="-0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="r5yu544_5" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="7" duration="39">
+     <transform x="10.5" y="41.9" skX="165" skY="165" scX="-0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="r5yu544">
+  <bone name="图层 2">
+   <transform x="0.85" y="-0.05" skX="0" skY="0" scX="0.5" scY="0.5"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="sdrgertert" type="image">
+     <transform x="-12.3" y="-10.8" skX="0" skY="0" scX="1" scY="1" pX="7.25" pY="8.65"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="t43" fadeInTime="0" duration="44" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="16">
+     <transform x="0.85" y="-0.05" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="6">
+     <transform x="-0.1" y="-51.65" skX="0" skY="0" scX="0.86" scY="0.86" pX="0" pY="-0.05"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-0.45" y="-71.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

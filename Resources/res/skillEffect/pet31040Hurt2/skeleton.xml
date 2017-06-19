@@ -1,0 +1,76 @@
+<dragonBones name="pet31040Hurt2" frameRate="30" version="2.3">
+ <armature name="pet31040Hurt2">
+  <bone name="图层 3">
+   <transform x="3.8" y="-47.95" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="e4yt54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="55.25" pY="43.95"/>
+    </display>
+    <display name="rft5u685" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="60.95" pY="48.45"/>
+    </display>
+    <display name="sety54" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="59.5" pY="49.85"/>
+    </display>
+    <display name="edru765" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="61.95" pY="52.05"/>
+    </display>
+    <display name="edry54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="64.95" pY="51.6"/>
+    </display>
+    <display name="wseyt544" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="64.05" pY="51.25"/>
+    </display>
+    <display name="ew4tg43" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="66.2" pY="50.8"/>
+    </display>
+    <display name="se4yh65" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="66.65" pY="51.9"/>
+    </display>
+    <display name="zshuy6" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="67.1" pY="52.4"/>
+    </display>
+    <display name="t4w33" type="image">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1" pX="68.2" pY="51.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="21" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="3.8" y="-47.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="8.4" y="-49.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="3.6" y="-53.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="2.45" y="-53.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="2.2" y="-54.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="0.05" y="-53.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="0.7" y="-52.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="-0.35" y="-53" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="-1.2" y="-52.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="2">
+     <transform x="-0.05" y="-53.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

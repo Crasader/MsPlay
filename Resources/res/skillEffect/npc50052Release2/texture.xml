@@ -1,0 +1,5 @@
+<TextureAtlas name="npc50052Release2" imagePath="texture.png">
+ <SubTexture name="w3r332" x="167" y="0" width="77" height="238"/>
+ <SubTexture name="re" x="0" y="161" width="82" height="22"/>
+ <SubTexture name="shade_ring" x="0" y="0" width="165" height="160"/>
+</TextureAtlas>

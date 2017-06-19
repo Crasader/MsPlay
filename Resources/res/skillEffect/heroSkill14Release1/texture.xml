@@ -1,0 +1,24 @@
+<TextureAtlas name="夺命连环三仙剑" imagePath="texture.png">
+ <SubTexture name="夺命连环三仙剑/补间 1" x="796" y="1145" width="288" height="254"/>
+ <SubTexture name="夺命连环三仙剑/补间 2" x="1198" y="814" width="410" height="320"/>
+ <SubTexture name="夺命连环三仙剑/补间 3" x="796" y="811" width="400" height="332"/>
+ <SubTexture name="夺命连环三仙剑/补间 4" x="847" y="429" width="393" height="380"/>
+ <SubTexture name="夺命连环三仙剑/补间 5" x="1698" y="649" width="338" height="325"/>
+ <SubTexture name="夺命连环三仙剑/补间 6" x="313" y="1169" width="269" height="237"/>
+ <SubTexture name="夺命连环三仙剑/补间 7" x="1508" y="1263" width="270" height="186"/>
+ <SubTexture name="夺命连环三仙剑/补间 8" x="881" y="0" width="416" height="427"/>
+ <SubTexture name="夺命连环三仙剑/补间 9" x="444" y="412" width="401" height="397"/>
+ <SubTexture name="夺命连环三仙剑/补间 10" x="1714" y="0" width="301" height="333"/>
+ <SubTexture name="夺命连环三仙剑/补间 11" x="584" y="1169" width="138" height="274"/>
+ <SubTexture name="夺命连环三仙剑/补间 12" x="0" y="817" width="391" height="305"/>
+ <SubTexture name="夺命连环三仙剑/补间 13" x="1610" y="976" width="383" height="285"/>
+ <SubTexture name="夺命连环三仙剑/补间 14" x="398" y="811" width="396" height="356"/>
+ <SubTexture name="夺命连环三仙剑/补间 15" x="444" y="0" width="435" height="410"/>
+ <SubTexture name="夺命连环三仙剑/补间 16" x="0" y="0" width="442" height="417"/>
+ <SubTexture name="夺命连环三仙剑/补间 17" x="1299" y="0" width="413" height="413"/>
+ <SubTexture name="夺命连环三仙剑/补间 18" x="1299" y="415" width="397" height="397"/>
+ <SubTexture name="夺命连环三仙剑/补间 19" x="0" y="419" width="396" height="396"/>
+ <SubTexture name="夺命连环三仙剑/补间 20" x="1198" y="1136" width="308" height="309"/>
+ <SubTexture name="夺命连环三仙剑/补间 21" x="1714" y="335" width="312" height="312"/>
+ <SubTexture name="夺命连环三仙剑/补间 22" x="0" y="1124" width="311" height="312"/>
+</TextureAtlas>

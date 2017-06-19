@@ -1,0 +1,86 @@
+<dragonBones name="heroSkill51Hurt1" frameRate="30" version="2.3">
+ <armature name="heroSkill51Hurt1">
+  <bone name="hurt1_1.png">
+   <transform x="10.25" y="-58" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="药丸.png">
+   <transform x="6.35" y="-50.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="药丸1.png">
+   <transform x="6.35" y="-50.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="hurt1_1.png" parent="hurt1_1.png" z="0">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="78.5"/>
+    </display>
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="78.5"/>
+    </display>
+    <display name="补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="78.5"/>
+    </display>
+    <display name="补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="78.5"/>
+    </display>
+    <display name="补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="78.5"/>
+    </display>
+   </slot>
+   <slot name="药丸.png" parent="药丸.png" z="1">
+    <display name="补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.15" pY="23.5"/>
+    </display>
+   </slot>
+   <slot name="药丸1.png" parent="药丸1.png" z="2">
+    <display name="补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20.15" pY="23.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="11" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="hurt1_1.png" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="10.25" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="10.25" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="10.25" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="10.25" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="10.25" y="-58" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+   <timeline name="药丸.png" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="2">
+     <transform x="6.35" y="-50.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="4">
+     <transform x="-12.8" y="-71.2" skX="34.95" skY="34.95" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-48.8" y="46.85" skX="-39.26" skY="-39.26" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="药丸1.png" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="2">
+     <transform x="6.35" y="-50.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="4">
+     <transform x="-29.65" y="-79.5" skX="-31.92" skY="-31.92" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-96.7" y="40.55" skX="-96.38" skY="-96.38" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

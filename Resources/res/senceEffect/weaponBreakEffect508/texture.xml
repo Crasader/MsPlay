@@ -1,0 +1,3 @@
+<TextureAtlas name="weaponBreakEffect508" imagePath="texture.png">
+ <SubTexture name="ry54" x="0" y="0" width="67" height="79"/>
+</TextureAtlas>

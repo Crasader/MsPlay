@@ -1,0 +1,134 @@
+<dragonBones name="百式鬼烧" frameRate="30" version="2.3">
+ <armature name="heroSkill11Release1">
+  <bone name="图层 5">
+   <transform x="-14.15" y="-134.85" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 7">
+   <transform x="-14.15" y="-134.85" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 5" parent="图层 5" z="0">
+    <display name="百式鬼烧/补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="163" pY="111.5"/>
+    </display>
+    <display name="百式鬼烧/补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="163" pY="111.5"/>
+    </display>
+    <display name="百式鬼烧/补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="216" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="216" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="216" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="155"/>
+    </display>
+    <display name="百式鬼烧/补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="155"/>
+    </display>
+   </slot>
+   <slot name="图层 7" parent="图层 7" z="1" blendMode="add">
+    <display name="百式鬼烧/补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="163" pY="111.5"/>
+    </display>
+    <display name="百式鬼烧/补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="163" pY="111.5"/>
+    </display>
+    <display name="百式鬼烧/补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="216" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="216" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="216" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="179"/>
+    </display>
+    <display name="百式鬼烧/补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="155"/>
+    </display>
+    <display name="百式鬼烧/补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="236.5" pY="155"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="37" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="0" duration="2">
+     <transform x="-14.15" y="-134.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-14.15" y="-134.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-13.3" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="-13.3" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="-13.3" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="-15.6" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="-15.6" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="-15.6" y="-188.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="-15.6" y="-188.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="10" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="1" duration="2">
+     <transform x="-14.15" y="-134.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="2">
+     <transform x="-14.15" y="-134.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="2" duration="2">
+     <transform x="-13.3" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="3" duration="2">
+     <transform x="-13.3" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="4" duration="2">
+     <transform x="-13.3" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="5" duration="2">
+     <transform x="-15.6" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="6" duration="2">
+     <transform x="-15.6" y="-164.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="7" duration="2">
+     <transform x="-15.6" y="-188.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="8" duration="2">
+     <transform x="-15.6" y="-188.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="10" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

@@ -1,0 +1,3 @@
+<TextureAtlas name="heroSkill2Bullet1" imagePath="texture.png">
+ <SubTexture name="灵丸特效/hu67u76" x="0" y="0" width="189" height="189"/>
+</TextureAtlas>

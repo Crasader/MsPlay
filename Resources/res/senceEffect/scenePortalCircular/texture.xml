@@ -1,0 +1,5 @@
+<TextureAtlas name="scenePortalCircular" imagePath="texture.png">
+ <SubTexture name="补间 1" x="187" y="0" width="186" height="174"/>
+ <SubTexture name="44543" x="374" y="0" width="102" height="102"/>
+ <SubTexture name="w34t534" x="0" y="0" width="186" height="174"/>
+</TextureAtlas>

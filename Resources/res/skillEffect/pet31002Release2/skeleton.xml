@@ -1,0 +1,1379 @@
+<dragonBones name="pet31002Release2" frameRate="30" version="2.3">
+ <armature name="guangzhu">
+  <bone name="图层 3">
+   <transform x="165.25" y="-54.45" skX="3.28" skY="12.02" scX="1.16" scY="0.29"/>
+  </bone>
+  <bone name="图层 3 复制">
+   <transform x="5.55" y="-107.45" skX="0" skY="0" scX="2.67" scY="0.3"/>
+  </bone>
+  <bone name="图层 3  复制 2">
+   <transform x="-149.6" y="81" skX="-172.7" skY="-164.44" scX="-1.66" scY="0.3"/>
+  </bone>
+  <bone name="图层 3   复制 3">
+   <transform x="112.6" y="20.55" skX="177.94" skY="171.99" scX="-1.66" scY="0.29"/>
+  </bone>
+  <bone name="图层 3  复制 20">
+   <transform x="215.05" y="-34.35" skX="4.48" skY="16.07" scX="0.66" scY="0.29"/>
+  </bone>
+  <bone name="光球01">
+   <transform x="-237.3" y="95.1" skX="11.27" skY="57.99" scX="0.52" scY="0.1"/>
+  </bone>
+  <bone name="光球02">
+   <transform x="3.7" y="-183.6" skX="1.69" skY="-1.3" scX="1.98" scY="0.18"/>
+  </bone>
+  <bone name="光球01 复制">
+   <transform x="-170.7" y="-170.25" skX="166.7" skY="138.86" scX="-1.73" scY="0.19"/>
+  </bone>
+  <bone name="光球02 复制">
+   <transform x="160.25" y="191.75" skX="170.24" skY="160.72" scX="-0.77" scY="0.15"/>
+  </bone>
+  <bone name="光球01  复制 2">
+   <transform x="-68.5" y="194.35" skX="14.02" skY="14.02" scX="2.85" scY="0.24"/>
+  </bone>
+  <bone name="光球02  复制 2">
+   <transform x="199.95" y="-143.4" skX="10.88" skY="20.62" scX="0.36" scY="0.12"/>
+  </bone>
+  <bone name="光球01  复制 20">
+   <transform x="74.85" y="-210.5" skX="168.43" skY="-170.49" scX="-1.44" scY="0.19"/>
+  </bone>
+  <bone name="光球02  复制 20">
+   <transform x="62.5" y="219.55" skX="174.44" skY="173.2" scX="-1.57" scY="0.19"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="guangdian" type="image">
+     <transform x="0" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="7.15" pY="19.1"/>
+    </display>
+   </slot>
+   <slot name="图层 3 复制" parent="图层 3 复制" z="1">
+    <display name="guangdian" type="image">
+     <transform x="0.1" y="0" skX="0" skY="0" scX="1" scY="1" pX="7.15" pY="19.1"/>
+    </display>
+   </slot>
+   <slot name="图层 3  复制 2" parent="图层 3  复制 2" z="2">
+    <display name="guangdian" type="image">
+     <transform x="0.05" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="7.15" pY="19.1"/>
+    </display>
+   </slot>
+   <slot name="图层 3   复制 3" parent="图层 3   复制 3" z="3">
+    <display name="guangdian" type="image">
+     <transform x="0.1" y="0.15" skX="0" skY="0" scX="1" scY="1" pX="7.15" pY="19.1"/>
+    </display>
+   </slot>
+   <slot name="图层 3  复制 20" parent="图层 3  复制 20" z="4">
+    <display name="guangdian" type="image">
+     <transform x="0.1" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="7.15" pY="19.1"/>
+    </display>
+   </slot>
+   <slot name="光球01" parent="光球01" z="5">
+    <display name="光球01" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="13.6" pY="47.1"/>
+    </display>
+   </slot>
+   <slot name="光球02" parent="光球02" z="6">
+    <display name="光球02" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="14.6" pY="72.1"/>
+    </display>
+   </slot>
+   <slot name="光球01 复制" parent="光球01 复制" z="7">
+    <display name="光球01" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="13.6" pY="47.1"/>
+    </display>
+   </slot>
+   <slot name="光球02 复制" parent="光球02 复制" z="8">
+    <display name="光球02" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="14.6" pY="72.1"/>
+    </display>
+   </slot>
+   <slot name="光球01  复制 2" parent="光球01  复制 2" z="9">
+    <display name="光球01" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="13.6" pY="47.1"/>
+    </display>
+   </slot>
+   <slot name="光球02  复制 2" parent="光球02  复制 2" z="10">
+    <display name="光球02" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="14.6" pY="72.1"/>
+    </display>
+   </slot>
+   <slot name="光球01  复制 20" parent="光球01  复制 20" z="11">
+    <display name="光球01" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="13.6" pY="47.1"/>
+    </display>
+   </slot>
+   <slot name="光球02  复制 20" parent="光球02  复制 20" z="12">
+    <display name="光球02" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="14.6" pY="72.1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="67i7" fadeInTime="0" duration="10" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="165.25" y="-54.45" skX="3.28" skY="12.02" scX="1.16" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="215.05" y="-34.35" skX="4.48" skY="16.07" scX="0.66" scY="0.29" pX="0.1" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-241.25" y="-20.15" skX="-12.39" skY="-26.17" scX="1" scY="0.3" pX="0.05" pY="0.1"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-197.65" y="-49.7" skX="-9.8" skY="-20.82" scX="1.33" scY="0.3" pX="0.1" pY="0.2"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-149.6" y="-72" skX="-7.3" skY="-15.56" scX="1.66" scY="0.3" pX="0.05" pY="0.3"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-98.35" y="-86.3" skX="-4.81" skY="-10.31" scX="2" scY="0.3" pX="0.05" pY="0.1"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-45.35" y="-92.5" skX="-2.31" skY="-5.06" scX="2.33" scY="0.3" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="7.7" y="-91.4" skX="0" skY="0" scX="2.67" scY="0.3" pX="0.1" pY="0.05"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="61.05" y="-84" skX="1.03" skY="4" scX="2.16" scY="0.29" pX="0.1" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="113.8" y="-71.35" skX="2.06" skY="8.01" scX="1.66" scY="0.29" pX="0.1" pY="-0.05"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3 复制" scale="1" offset="0">
+    <frame z="1" duration="1">
+     <transform x="5.55" y="-107.45" skX="0" skY="0" scX="2.67" scY="0.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="58.95" y="-100.05" skX="1.03" skY="4" scX="2.16" scY="0.29" pX="0" pY="0.15"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="111.55" y="-87.45" skX="2.06" skY="8.01" scX="1.66" scY="0.29" pX="0" pY="-0.05"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="162.8" y="-70.65" skX="3.28" skY="12.02" scX="1.16" scY="0.29" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="212.9" y="-50.4" skX="4.48" skY="16.07" scX="0.66" scY="0.29" pX="-0.05" pY="-0.05"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-243.4" y="-36.2" skX="-12.39" skY="-26.17" scX="1" scY="0.3" pX="-0.05" pY="0.05"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-199.75" y="-65.65" skX="-9.8" skY="-20.82" scX="1.33" scY="0.3" pX="-0.1" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-151.75" y="-88.05" skX="-7.3" skY="-15.56" scX="1.66" scY="0.3" pX="-0.05" pY="0.25"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-100.5" y="-102.35" skX="-4.81" skY="-10.31" scX="2" scY="0.3" pX="-0.05" pY="0.2"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-47.5" y="-108.6" skX="-2.31" skY="-5.06" scX="2.33" scY="0.3" pX="-0.1" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3  复制 2" scale="1" offset="0">
+    <frame z="2" duration="1">
+     <transform x="-149.6" y="81" skX="-172.7" skY="-164.44" scX="-1.66" scY="0.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-98.4" y="95.25" skX="-175.19" skY="-169.69" scX="-2" scY="0.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-45.4" y="101.45" skX="-177.69" skY="-174.94" scX="-2.33" scY="0.3" pX="-0.05" pY="-0.25"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="7.7" y="100.35" skX="180" skY="-180" scX="-2.67" scY="0.3" pX="0.05" pY="-0.25"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="61.1" y="92.9" skX="178.97" skY="176" scX="-2.16" scY="0.29" pX="0.05" pY="-0.3"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="113.6" y="80.3" skX="177.94" skY="171.99" scX="-1.66" scY="0.29" pX="0.05" pY="-0.35"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="164.95" y="63.55" skX="176.72" skY="167.98" scX="-1.16" scY="0.29" pX="0.05" pY="-0.3"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="215.05" y="43.3" skX="175.52" skY="163.93" scX="-0.66" scY="0.29" pX="0.05" pY="-0.3"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-241.25" y="29.1" skX="-167.61" skY="-153.83" scX="-1" scY="0.3" pX="0" pY="-0.2"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-197.8" y="58.55" skX="-170.2" skY="-159.18" scX="-1.33" scY="0.3" pX="0.1" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3   复制 3" scale="1" offset="0">
+    <frame z="3" duration="1">
+     <transform x="112.6" y="20.55" skX="177.94" skY="171.99" scX="-1.66" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="164" y="14.2" skX="176.72" skY="167.98" scX="-1.16" scY="0.29" pX="0" pY="-0.25"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="216.75" y="3.75" skX="175.52" skY="163.93" scX="-0.66" scY="0.29" pX="-0.05" pY="-0.2"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-241.95" y="-10.2" skX="-167.61" skY="-153.83" scX="-1" scY="0.3" pX="-0.05" pY="-0.1"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-194.4" y="14.4" skX="-170.2" skY="-159.18" scX="-1.33" scY="0.3" pX="-0.05" pY="-0.1"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-145.15" y="34.2" skX="-172.7" skY="-164.44" scX="-1.66" scY="0.3" pX="-0.05" pY="0.1"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-93.35" y="47.55" skX="-175.19" skY="-169.69" scX="-2" scY="0.3" pX="-0.05" pY="0.1"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-39.7" y="51.8" skX="-177.69" skY="-174.94" scX="-2.33" scY="0.3" pX="-0.05" pY="-0.1"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="13.85" y="44.05" skX="180" skY="-180" scX="-2.67" scY="0.3" pX="0" pY="-0.15"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="63.6" y="31.5" skX="178.97" skY="176" scX="-2.16" scY="0.29" pX="0" pY="-0.2"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3  复制 20" scale="1" offset="0">
+    <frame z="4" duration="1">
+     <transform x="215.05" y="-34.35" skX="4.48" skY="16.07" scX="0.66" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-241.25" y="-20.15" skX="-12.39" skY="-26.17" scX="1" scY="0.3" pX="-0.05" pY="0.1"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-197.65" y="-49.7" skX="-9.8" skY="-20.82" scX="1.33" scY="0.3" pX="0" pY="0.2"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-149.6" y="-72" skX="-7.3" skY="-15.56" scX="1.66" scY="0.3" pX="-0.05" pY="0.3"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-98.35" y="-86.3" skX="-4.81" skY="-10.31" scX="2" scY="0.3" pX="-0.05" pY="0.1"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="-45.35" y="-92.5" skX="-2.31" skY="-5.06" scX="2.33" scY="0.3" pX="-0.05" pY="0.05"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="7.7" y="-91.4" skX="0" skY="0" scX="2.67" scY="0.3" pX="0" pY="0.05"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="61.05" y="-84" skX="1.03" skY="4" scX="2.16" scY="0.29" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="113.8" y="-71.35" skX="2.06" skY="8.01" scX="1.66" scY="0.29" pX="0" pY="-0.05"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="165.25" y="-54.45" skX="3.28" skY="12.02" scX="1.16" scY="0.29" pX="-0.1" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球01" scale="1" offset="0">
+    <frame z="5" duration="1">
+     <transform x="-237.3" y="95.1" skX="11.27" skY="57.99" scX="0.52" scY="0.1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-202.3" y="130.4" skX="11.81" skY="46.91" scX="1.1" scY="0.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-162.05" y="159.85" skX="12.55" skY="36.07" scX="1.68" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-117" y="181.6" skX="13.28" skY="25.04" scX="2.26" scY="0.2" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-68.5" y="194.35" skX="14.02" skY="14.02" scX="2.85" scY="0.24" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-18.3" y="198.05" skX="12.81" skY="5.53" scX="2.37" scY="0.21" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="32.55" y="193.85" skX="11.78" skY="-2.76" scX="1.9" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="82.2" y="182.95" skX="10.76" skY="-11.05" scX="1.42" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="130.25" y="167.15" skX="9.56" skY="-19.54" scX="0.94" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="176.55" y="147.4" skX="8.61" skY="-27.97" scX="0.46" scY="0.12" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球02" scale="1" offset="0">
+    <frame z="6" duration="1">
+     <transform x="3.7" y="-183.6" skX="1.69" skY="-1.3" scX="1.98" scY="0.18" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="54" y="-181.35" skX="3.81" skY="4.05" scX="1.57" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="103.9" y="-173.4" skX="6.26" skY="9.54" scX="1.17" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="152.7" y="-160.45" skX="8.52" skY="15.05" scX="0.76" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="199.95" y="-143.4" skX="10.88" skY="20.62" scX="0.36" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="-228.6" y="-101.7" skX="-25.34" skY="-44.12" scX="0.36" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="-187" y="-129.3" skX="-19.82" skY="-35.58" scX="0.68" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="-142.6" y="-151.85" skX="-14.52" skY="-26.85" scX="1" scY="0.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="-95.4" y="-168.85" skX="-9.04" skY="-18.31" scX="1.33" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="-46.3" y="-179.55" skX="-3.55" skY="-9.78" scX="1.65" scY="0.17" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球01 复制" scale="1" offset="0">
+    <frame z="7" duration="1">
+     <transform x="-170.7" y="-170.25" skX="166.7" skY="138.86" scX="-1.73" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="-126.3" y="-198.1" skX="165.99" skY="149.94" scX="-2.31" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="-76.85" y="-215.85" skX="165.38" skY="161.18" scX="-2.89" scY="0.27" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="-26.75" y="-222.8" skX="166.45" skY="170.72" scX="-2.4" scY="0.24" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="24.55" y="-220.5" skX="167.44" skY="-179.98" scX="-1.92" scY="0.22" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="74.85" y="-210.5" skX="168.43" skY="-170.49" scX="-1.44" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="123.35" y="-195" skX="169.24" skY="-161.18" scX="-0.96" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="170" y="-175.15" skX="170.18" skY="-151.59" scX="-0.48" scY="0.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="-241.15" y="-94.05" skX="167.82" skY="116.32" scX="-0.57" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="-208.85" y="-134.9" skX="167.23" skY="127.58" scX="-1.15" scY="0.15" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球02 复制" scale="1" offset="0">
+    <frame z="8" duration="1">
+     <transform x="160.25" y="191.75" skX="170.24" skY="160.72" scX="-0.77" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="206.35" y="170.6" skX="168.21" skY="154.52" scX="-0.36" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-223.8" y="139.8" skX="-159.71" skY="-134.34" scX="-0.38" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-182.1" y="168.9" skX="-164.68" skY="-143.65" scX="-0.7" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-137.2" y="192.95" skX="-169.45" skY="-152.94" scX="-1.02" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-89.3" y="210.75" skX="-174.21" skY="-162.22" scX="-1.34" scY="0.18" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="-39.1" y="221.25" skX="-178.98" skY="-171.49" scX="-1.66" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="12.05" y="224.1" skX="176.28" skY="179.25" scX="-1.98" scY="0.21" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="62.5" y="219.55" skX="174.44" skY="173.2" scX="-1.57" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="112.2" y="208.35" skX="172.24" skY="166.96" scX="-1.17" scY="0.17" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球01  复制 2" scale="1" offset="0">
+    <frame z="9" duration="1">
+     <transform x="-68.5" y="194.35" skX="14.02" skY="14.02" scX="2.85" scY="0.24" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-18.3" y="198.05" skX="12.81" skY="5.53" scX="2.37" scY="0.21" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="32.55" y="193.85" skX="11.78" skY="-2.76" scX="1.9" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="82.2" y="182.95" skX="10.76" skY="-11.05" scX="1.42" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="130.25" y="167.15" skX="9.56" skY="-19.54" scX="0.94" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="176.55" y="147.4" skX="8.61" skY="-27.97" scX="0.46" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-237.3" y="95.1" skX="11.27" skY="57.99" scX="0.52" scY="0.1" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-202.3" y="130.4" skX="11.81" skY="46.91" scX="1.1" scY="0.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-162.05" y="159.85" skX="12.55" skY="36.07" scX="1.68" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-117" y="181.6" skX="13.28" skY="25.04" scX="2.26" scY="0.2" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球02  复制 2" scale="1" offset="0">
+    <frame z="10" duration="1">
+     <transform x="199.95" y="-143.4" skX="10.88" skY="20.62" scX="0.36" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-228.6" y="-101.7" skX="-25.34" skY="-44.12" scX="0.36" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-187" y="-129.3" skX="-19.82" skY="-35.58" scX="0.68" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-142.6" y="-151.85" skX="-14.52" skY="-26.85" scX="1" scY="0.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-95.4" y="-168.85" skX="-9.04" skY="-18.31" scX="1.33" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="-46.3" y="-179.55" skX="-3.55" skY="-9.78" scX="1.65" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="3.7" y="-183.6" skX="1.69" skY="-1.3" scX="1.98" scY="0.18" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="54" y="-181.35" skX="3.81" skY="4.05" scX="1.57" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="103.9" y="-173.4" skX="6.26" skY="9.54" scX="1.17" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="152.7" y="-160.45" skX="8.52" skY="15.05" scX="0.76" scY="0.13" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球01  复制 20" scale="1" offset="0">
+    <frame z="11" duration="1">
+     <transform x="74.85" y="-210.5" skX="168.43" skY="-170.49" scX="-1.44" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="123.35" y="-195" skX="169.24" skY="-161.18" scX="-0.96" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="170" y="-175.15" skX="170.18" skY="-151.59" scX="-0.48" scY="0.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-241.15" y="-94.05" skX="167.82" skY="116.32" scX="-0.57" scY="0.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-208.85" y="-134.9" skX="167.23" skY="127.58" scX="-1.15" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-170.7" y="-170.25" skX="166.7" skY="138.86" scX="-1.73" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-126.3" y="-198.1" skX="165.99" skY="149.94" scX="-2.31" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-76.85" y="-215.85" skX="165.38" skY="161.18" scX="-2.89" scY="0.27" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="-26.75" y="-222.8" skX="166.45" skY="170.72" scX="-2.4" scY="0.24" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="24.55" y="-220.5" skX="167.44" skY="-179.98" scX="-1.92" scY="0.22" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="光球02  复制 20" scale="1" offset="0">
+    <frame z="12" duration="1">
+     <transform x="62.5" y="219.55" skX="174.44" skY="173.2" scX="-1.57" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="112.2" y="208.35" skX="172.24" skY="166.96" scX="-1.17" scY="0.17" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="160.25" y="191.75" skX="170.24" skY="160.72" scX="-0.77" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="206.35" y="170.6" skX="168.21" skY="154.52" scX="-0.36" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="-223.8" y="139.8" skX="-159.71" skY="-134.34" scX="-0.38" scY="0.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="-182.1" y="168.9" skX="-164.68" skY="-143.65" scX="-0.7" scY="0.15" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="-137.2" y="192.95" skX="-169.45" skY="-152.94" scX="-1.02" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="-89.3" y="210.75" skX="-174.21" skY="-162.22" scX="-1.34" scY="0.18" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="-39.1" y="221.25" skX="-178.98" skY="-171.49" scX="-1.66" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" duration="1">
+     <transform x="12.05" y="224.1" skX="176.28" skY="179.25" scX="-1.98" scY="0.21" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="pet31002Release2">
+  <bone name="图层 3">
+   <transform x="603" y="-75.7" skX="0" skY="0" scX="-0.59" scY="0.35"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="4.5" y="-61.95" skX="91.48" skY="89.99" scX="-1" scY="1.67"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="-12.2" y="-65.45" skX="0" skY="0" scX="0.87" scY="0.87"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="skill" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="1">
+    <display name="爆破pink 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="2">
+    <display name="sprite 191" type="armature">
+     <transform x="138.2" y="96.65" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="46" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="18" displayIndex="-1"/>
+    <frame z="0" duration="27">
+     <transform x="603" y="-75.7" skX="0" skY="0" scX="-0.59" scY="0.35" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="18" displayIndex="-1"/>
+    <frame z="1" duration="8">
+     <transform x="4.5" y="-61.95" skX="91.48" skY="89.99" scX="-1" scY="1.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="2" duration="15">
+     <transform x="-12.2" y="-65.45" skX="0" skY="0" scX="0.87" scY="0.87" pX="0" pY="0"/>
+    </frame>
+    <frame duration="28" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="rt5yh54">
+  <bone name="图层 1">
+   <transform x="42.1" y="21.1" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="补间 23" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="495.5" pY="205.5"/>
+    </display>
+    <display name="补间 24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="521" pY="188"/>
+    </display>
+    <display name="补间 25" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="523" pY="191"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="grt5" fadeInTime="0" duration="3" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="42.1" y="21.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="36.85" y="26.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="32" y="23.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="skill">
+  <bone name="图层 2">
+   <transform x="338" y="11.6" skX="0" skY="0" scX="1.81" scY="0.33"/>
+  </bone>
+  <bone name="图层 10">
+   <transform x="854.3" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 7">
+   <transform x="-83.5" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="903.25" y="19.25" skX="179.32" skY="179.33" scX="0.1" scY="0.19"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="804.6" y="18.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 9">
+   <transform x="383.8" y="-0.9" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0">
+    <display name="54y654" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="1178.05" pY="82.1"/>
+    </display>
+   </slot>
+   <slot name="图层 10" parent="图层 10" z="1">
+    <display name="光线动画" type="armature">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 7" parent="图层 7" z="2">
+    <display name="光线动画" type="armature">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="3">
+    <display name="guangzhu" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="4">
+    <display name="rt56u64" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="69"/>
+    </display>
+    <display name="t43q53" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="71" pY="71"/>
+    </display>
+    <display name="ws4y754" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="81" pY="82"/>
+    </display>
+    <display name="wae3t5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="95" pY="92"/>
+    </display>
+    <display name="t4qq3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="129" pY="126"/>
+    </display>
+    <display name="y54w6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="179" pY="178"/>
+    </display>
+   </slot>
+   <slot name="图层 9" parent="图层 9" z="5">
+    <display name="rt5yh54" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="56i76" fadeInTime="0" duration="39" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="338" y="11.6" skX="0" skY="0" scX="1.81" scY="0.33" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="16">
+     <transform x="338" y="11.6" skX="0" skY="0" scX="1.81" scY="3" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="338" y="11.6" skX="0" skY="0" scX="1.81" scY="3" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="338" y="3.75" skX="0" skY="0" scX="1.81" scY="0.78" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 10" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="1" tweenEasing="0" duration="10">
+     <transform x="854.3" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="5">
+     <transform x="854.3" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="854.3" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="854.3" y="54" skX="-176.18" skY="-179.74" scX="1" scY="0.26" pX="0" pY="-0.05"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="10">
+     <transform x="-83.5" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="2" duration="5">
+     <transform x="-83.5" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="-83.5" y="205.85" skX="-179.01" skY="-179.01" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="-83.5" y="54" skX="-176.18" skY="-179.74" scX="1" scY="0.26" pX="0" pY="-0.05"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="903.25" y="19.25" skX="179.32" skY="179.33" scX="0.1" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="903.25" y="19.25" skX="179.32" skY="179.33" scX="0.12" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="903.25" y="19.25" skX="179.32" skY="179.33" scX="0.1" scY="0.19" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="770.55" y="21.55" skX="179.22" skY="179.23" scX="0.63" scY="0.35" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="10">
+     <transform x="356.85" y="25.4" skX="179.32" skY="179.32" scX="2.25" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="5">
+     <transform x="356.85" y="25.4" skX="179.32" skY="179.32" scX="2.25" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="5">
+     <transform x="356.85" y="25.4" skX="179.32" skY="179.32" scX="2.25" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="356.85" y="7.3" skX="177.38" skY="179.83" scX="2.25" scY="0.22" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="4" duration="1">
+     <transform x="804.6" y="18.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" displayIndex="1" duration="1">
+     <transform x="803.15" y="16.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" displayIndex="2" duration="1">
+     <transform x="800.15" y="18.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" displayIndex="3" duration="1">
+     <transform x="759.4" y="30.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" displayIndex="4" duration="1">
+     <transform x="709.05" y="19.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" displayIndex="5" duration="1">
+     <transform x="669.75" y="26.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="33" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 9" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="5" tweenEasing="0" duration="10">
+     <transform x="383.8" y="-0.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="5" duration="5">
+     <transform x="383.8" y="-0.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="5">
+     <transform x="383.8" y="-0.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="383.8" y="0.55" skX="0" skY="0" scX="1" scY="0.26" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="sprite 114">
+  <bone name="Layer 1">
+   <transform x="-372.65" y="-199.7" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 1" parent="Layer 1" z="0">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53" pY="54.5"/>
+    </display>
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="58" pY="55.5"/>
+    </display>
+    <display name="补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="84" pY="74.5"/>
+    </display>
+    <display name="补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="81.5" pY="79.5"/>
+    </display>
+    <display name="补间 10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="78" pY="75.5"/>
+    </display>
+    <display name="补间 11" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="77" pY="72.5"/>
+    </display>
+    <display name="补间 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="71" pY="68.5"/>
+    </display>
+    <display name="补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="61.5" pY="62"/>
+    </display>
+    <display name="补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="68" pY="68.5"/>
+    </display>
+    <display name="补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="60.5" pY="59.5"/>
+    </display>
+    <display name="补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="66.5" pY="65"/>
+    </display>
+    <display name="补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="35.5" pY="32.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="56u6" fadeInTime="0" duration="13" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="Layer 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-372.65" y="-199.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-365.8" y="-198.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-370.3" y="-211.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-371" y="-204.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-371.6" y="-204.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-376.8" y="-204.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-374.15" y="-202.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="-380.8" y="-206.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="-368.25" y="-193.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="1">
+     <transform x="-372.5" y="-198.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="1">
+     <transform x="-360.9" y="-189.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" duration="1">
+     <transform x="-370.95" y="-193.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="sprite 191">
+  <bone name="Layer 17">
+   <transform x="517" y="251.25" skX="0" skY="0" scX="1.74" scY="1.74"/>
+  </bone>
+  <bone name="Layer 19">
+   <transform x="-145.3" y="-102.8" skX="0" skY="0" scX="0.59" scY="0.59"/>
+  </bone>
+  <skin name="default">
+   <slot name="Layer 17" parent="Layer 17" z="0">
+    <display name="sprite 114" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 19" parent="Layer 19" z="1">
+    <display name="sprite 116" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="27" pY="27"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="regh" fadeInTime="0" duration="36" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="Layer 17" scale="1" offset="0">
+    <frame z="0" duration="12">
+     <transform x="517" y="251.25" skX="0" skY="0" scX="1.74" scY="1.74" pX="0" pY="0"/>
+    </frame>
+    <frame duration="24" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 19" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="-145.3" y="-102.8" skX="0" skY="0" scX="0.59" scY="0.59" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="-150.85" y="-108.7" skX="0" skY="0" scX="1.05" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="-154.15" y="-112.15" skX="0" skY="0" scX="1.33" scY="1.33" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-157.5" y="-115.6" skX="0" skY="0" scX="1.61" scY="1.61" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-153.3" y="-111.4" skX="0" skY="0" scX="1.24" scY="1.24" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-156.65" y="-114.75" skX="0" skY="0" scX="1.54" scY="1.54" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-152.2" y="-110.3" skX="0" skY="0" scX="1.13" scY="1.13" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="-155" y="-113.1" skX="0" skY="0" scX="1.39" scY="1.39" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-96.5" y="-107.75" skX="0" skY="0" scX="0.89" scY="0.89" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="爆破pink 副本">
+  <bone name="图层 1">
+   <transform x="-3.7" y="-28.95" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="66" pY="38.5"/>
+    </display>
+    <display name="补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="73" pY="44"/>
+    </display>
+    <display name="补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="78" pY="45"/>
+    </display>
+    <display name="补间 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="78" pY="39"/>
+    </display>
+    <display name="补间 22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="71" pY="24"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="reh5y" fadeInTime="0" duration="25" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-3.7" y="-28.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-2.55" y="-37.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-1.25" y="-37.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="3.65" y="-44.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="3.05" y="-53.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="光线动画">
+  <bone name="图层 1">
+   <transform x="37.35" y="5.45" skX="0" skY="0" scX="0.3" scY="1"/>
+  </bone>
+  <bone name="图层 1 复制">
+   <transform x="649.3" y="40.65" skX="0" skY="0" scX="1.99" scY="0.84"/>
+  </bone>
+  <bone name="图层 1      复制 6">
+   <transform x="313.95" y="410.95" skX="0" skY="0" scX="1.06" scY="0.84"/>
+  </bone>
+  <bone name="图层 1  复制 2">
+   <transform x="1041.2" y="-22.65" skX="0" skY="0" scX="0.72" scY="0.84"/>
+  </bone>
+  <bone name="图层 1   复制 3">
+   <transform x="1060.35" y="280.3" skX="0" skY="0" scX="0.3" scY="0.84"/>
+  </bone>
+  <bone name="图层 1    复制 4">
+   <transform x="114.95" y="271" skX="0" skY="0" scX="0.43" scY="0.84"/>
+  </bone>
+  <bone name="图层 1    复制 40">
+   <transform x="334.35" y="313.95" skX="0" skY="0" scX="1.06" scY="0.84"/>
+  </bone>
+  <bone name="图层 1   复制 30">
+   <transform x="926.95" y="298.65" skX="0" skY="0" scX="1.14" scY="0.84"/>
+  </bone>
+  <bone name="图层 1    复制 41">
+   <transform x="484.8" y="337.05" skX="0" skY="0" scX="1.53" scY="0.84"/>
+  </bone>
+  <bone name="图层 1     复制 5">
+   <transform x="11.95" y="352.3" skX="0" skY="0" scX="0.26" scY="0.84"/>
+  </bone>
+  <bone name="图层 1     复制 50">
+   <transform x="786.75" y="395.65" skX="0" skY="0" scX="1.56" scY="0.84"/>
+  </bone>
+  <bone name="图层 1  复制 20">
+   <transform x="1212.25" y="20.7" skX="0" skY="0" scX="0.6" scY="1"/>
+  </bone>
+  <bone name="图层 1  复制 21">
+   <transform x="296.1" y="55.95" skX="0" skY="0" scX="1.06" scY="0.84"/>
+  </bone>
+  <bone name="图层 1   复制 31">
+   <transform x="648.15" y="-7.45" skX="0" skY="0" scX="1.99" scY="0.84"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1 复制" parent="图层 1 复制" z="1">
+    <display name="光线" type="image">
+     <transform x="0" y="0.2" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1      复制 6" parent="图层 1      复制 6" z="2">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1  复制 2" parent="图层 1  复制 2" z="3">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1   复制 3" parent="图层 1   复制 3" z="4">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1    复制 4" parent="图层 1    复制 4" z="5">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1    复制 40" parent="图层 1    复制 40" z="6">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1   复制 30" parent="图层 1   复制 30" z="7">
+    <display name="光线" type="image">
+     <transform x="0" y="0.2" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1    复制 41" parent="图层 1    复制 41" z="8">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1     复制 5" parent="图层 1     复制 5" z="9">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1     复制 50" parent="图层 1     复制 50" z="10">
+    <display name="光线" type="image">
+     <transform x="0" y="0.2" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1  复制 20" parent="图层 1  复制 20" z="11">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1  复制 21" parent="图层 1  复制 21" z="12">
+    <display name="光线" type="image">
+     <transform x="0" y="0.1" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+   <slot name="图层 1   复制 31" parent="图层 1   复制 31" z="13">
+    <display name="光线" type="image">
+     <transform x="0" y="0.2" skX="0" skY="0" scX="1" scY="1" pX="129.9" pY="12.55"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="54y" fadeInTime="0" duration="11" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="37.35" y="5.45" skX="0" skY="0" scX="0.3" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="179.55" y="5.45" skX="0" skY="0" scX="0.72" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="748.45" y="5.45" skX="0" skY="0" scX="2.36" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="1175.15" y="5.45" skX="0" skY="0" scX="0.85" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="1317.35" y="5.45" skX="0" skY="0" scX="0.35" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1 复制" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="649.3" y="40.65" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="2">
+     <transform x="1008.4" y="40.65" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="1128.1" y="40.65" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="2">
+     <transform x="50.8" y="40.65" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="2">
+     <transform x="170.5" y="40.65" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="489.7" y="40.65" skX="0" skY="0" scX="1.53" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1      复制 6" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="2">
+     <transform x="313.95" y="410.95" skX="0" skY="0" scX="1.06" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="3">
+     <transform x="633.15" y="410.95" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="2">
+     <transform x="992.25" y="410.95" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="1111.95" y="410.95" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="2">
+     <transform x="34.65" y="410.95" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="154.35" y="410.95" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1  复制 2" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="1041.2" y="-22.65" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="1160.9" y="-22.65" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="83.6" y="-22.65" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="203.3" y="-22.65" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="682.1" y="-22.65" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="921.5" y="-22.65" skX="0" skY="0" scX="1.14" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1   复制 3" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="1060.35" y="280.3" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="2">
+     <transform x="-16.95" y="280.3" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="3">
+     <transform x="102.75" y="280.3" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="3">
+     <transform x="581.55" y="280.3" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="940.65" y="280.3" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="1000.5" y="280.3" skX="0" skY="0" scX="0.51" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1    复制 4" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="114.95" y="271" skX="0" skY="0" scX="0.43" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="3">
+     <transform x="174.8" y="271" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="3">
+     <transform x="653.6" y="271" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="2">
+     <transform x="1012.7" y="271" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="1132.4" y="271" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="55.1" y="271" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1    复制 40" scale="1" offset="0">
+    <frame z="6" tweenEasing="0" duration="2">
+     <transform x="334.35" y="313.95" skX="0" skY="0" scX="1.06" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="3">
+     <transform x="653.6" y="313.95" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="2">
+     <transform x="1012.7" y="313.95" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="1132.4" y="313.95" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="2">
+     <transform x="55.1" y="313.95" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="174.8" y="313.95" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1   复制 30" scale="1" offset="0">
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="926.95" y="298.65" skX="0" skY="0" scX="1.14" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="2">
+     <transform x="1046.65" y="298.65" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="1166.35" y="298.65" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="2">
+     <transform x="89.05" y="298.65" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="3">
+     <transform x="208.75" y="298.65" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="687.55" y="298.65" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" tweenEasing="0" duration="1">
+     <transform x="807.2" y="298.65" skX="0" skY="0" scX="1.56" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1    复制 41" scale="1" offset="0">
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="484.8" y="337.05" skX="0" skY="0" scX="1.53" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="3">
+     <transform x="644.4" y="337.05" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="2">
+     <transform x="1003.5" y="337.05" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="1123.2" y="337.05" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="2">
+     <transform x="45.9" y="337.05" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="165.6" y="337.05" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" tweenEasing="0" duration="1">
+     <transform x="325.2" y="337.05" skX="0" skY="0" scX="1.06" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1     复制 5" scale="1" offset="0">
+    <frame z="9" tweenEasing="0" duration="2">
+     <transform x="11.95" y="352.3" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="3">
+     <transform x="131.65" y="352.3" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="3">
+     <transform x="610.45" y="352.3" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="2">
+     <transform x="969.55" y="352.3" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" tweenEasing="0" duration="1">
+     <transform x="1089.25" y="352.3" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1     复制 50" scale="1" offset="0">
+    <frame z="10" tweenEasing="0" duration="2">
+     <transform x="786.75" y="395.65" skX="0" skY="0" scX="1.56" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="2">
+     <transform x="1026.2" y="395.65" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="1">
+     <transform x="1145.9" y="395.65" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="2">
+     <transform x="68.6" y="395.65" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="3">
+     <transform x="188.3" y="395.65" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" tweenEasing="0" duration="1">
+     <transform x="667.1" y="395.65" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1  复制 20" scale="1" offset="0">
+    <frame z="11" tweenEasing="0" duration="1">
+     <transform x="1212.25" y="20.7" skX="0" skY="0" scX="0.6" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="1">
+     <transform x="1283.4" y="20.7" skX="0" skY="0" scX="0.35" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="2">
+     <transform x="3.4" y="20.7" skX="0" skY="0" scX="0.3" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="3">
+     <transform x="145.6" y="20.7" skX="0" skY="0" scX="0.72" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="3">
+     <transform x="714.5" y="20.7" skX="0" skY="0" scX="2.36" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" tweenEasing="0" duration="1">
+     <transform x="1141.2" y="20.7" skX="0" skY="0" scX="0.85" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1  复制 21" scale="1" offset="0">
+    <frame z="12" tweenEasing="0" duration="2">
+     <transform x="296.1" y="55.95" skX="0" skY="0" scX="1.06" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="3">
+     <transform x="615.35" y="55.95" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="2">
+     <transform x="974.45" y="55.95" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="1">
+     <transform x="1094.15" y="55.95" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="2">
+     <transform x="16.85" y="55.95" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" tweenEasing="0" duration="1">
+     <transform x="136.55" y="55.95" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 1   复制 31" scale="1" offset="0">
+    <frame z="13" tweenEasing="0" duration="3">
+     <transform x="648.15" y="-7.45" skX="0" skY="0" scX="1.99" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="2">
+     <transform x="1007.25" y="-7.45" skX="0" skY="0" scX="0.72" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="1">
+     <transform x="1126.95" y="-7.45" skX="0" skY="0" scX="0.3" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="2">
+     <transform x="49.65" y="-7.45" skX="0" skY="0" scX="0.26" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="2">
+     <transform x="169.35" y="-7.45" skX="0" skY="0" scX="0.6" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" tweenEasing="0" duration="1">
+     <transform x="488.6" y="-7.45" skX="0" skY="0" scX="1.53" scY="0.84" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

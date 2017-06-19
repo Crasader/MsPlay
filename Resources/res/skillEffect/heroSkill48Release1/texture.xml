@@ -1,0 +1,8 @@
+<TextureAtlas name="heroSkill48Release1" imagePath="texture.png">
+ <SubTexture name="ryrtyrty566 副本ssdddf" x="375" y="97" width="81" height="95"/>
+ <SubTexture name="3456fghgff" x="375" y="0" width="96" height="96"/>
+ <SubTexture name="guangxiaoguosda" x="215" y="161" width="96" height="56"/>
+ <SubTexture name="e4654" x="0" y="0" width="214" height="214"/>
+ <SubTexture name="asdfadfassfd" x="215" y="0" width="159" height="160"/>
+ <SubTexture name="dfghdfghdfghdfgh43563456" x="457" y="97" width="52" height="51"/>
+</TextureAtlas>

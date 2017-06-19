@@ -1,0 +1,380 @@
+<dragonBones name="sceneHomelandPool" frameRate="30" version="2.3">
+ <armature name="i76i76/元件 16">
+  <bone name="图层 2">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0">
+    <display name="e4t463" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="u54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="deru65" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="wey54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="wey54y" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="e4ty24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="we4y654" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="edr4u765" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="rt5u65" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+    <display name="e4t463gre" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72" pY="56.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="56u65" fadeInTime="0" duration="20" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="sceneHomelandPool">
+  <bone name="元件 16">
+   <transform x="-214" y="-280.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_0">
+   <transform x="-71" y="-280.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_1">
+   <transform x="72" y="-280.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_2">
+   <transform x="215" y="-280.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_3">
+   <transform x="-214" y="-168.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_4">
+   <transform x="-71" y="-168.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_5">
+   <transform x="72" y="-168.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_6">
+   <transform x="215" y="-168.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_7">
+   <transform x="-214" y="-56.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_8">
+   <transform x="-71" y="-56.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_9">
+   <transform x="72" y="-56.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_10">
+   <transform x="215" y="-56.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_11">
+   <transform x="-214" y="55.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_12">
+   <transform x="-71" y="55.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_13">
+   <transform x="72" y="55.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_14">
+   <transform x="215" y="55.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_15">
+   <transform x="-214" y="167.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_16">
+   <transform x="-71" y="167.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_17">
+   <transform x="72" y="167.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_18">
+   <transform x="215" y="167.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_19">
+   <transform x="-214" y="279.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="元件 16_20">
+   <transform x="-71" y="279.5" skX="0" skY="0" scX="-1" scY="1"/>
+  </bone>
+  <bone name="元件 16_21">
+   <transform x="72" y="279.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="元件 16" parent="元件 16" z="0">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_0" parent="元件 16_0" z="1">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_1" parent="元件 16_1" z="2">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_2" parent="元件 16_2" z="3">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_3" parent="元件 16_3" z="4">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_4" parent="元件 16_4" z="5">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_5" parent="元件 16_5" z="6">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_6" parent="元件 16_6" z="7">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_7" parent="元件 16_7" z="8">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_8" parent="元件 16_8" z="9">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_9" parent="元件 16_9" z="10">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_10" parent="元件 16_10" z="11">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_11" parent="元件 16_11" z="12">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_12" parent="元件 16_12" z="13">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_13" parent="元件 16_13" z="14">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_14" parent="元件 16_14" z="15">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_15" parent="元件 16_15" z="16">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_16" parent="元件 16_16" z="17">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_17" parent="元件 16_17" z="18">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_18" parent="元件 16_18" z="19">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_19" parent="元件 16_19" z="20">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_20" parent="元件 16_20" z="21">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 16_21" parent="元件 16_21" z="22">
+    <display name="i76i76/元件 16" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="20" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="元件 16" scale="1" offset="0">
+    <frame z="0" duration="20">
+     <transform x="-214" y="-280.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_0" scale="1" offset="0">
+    <frame z="1" duration="20">
+     <transform x="-71" y="-280.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_1" scale="1" offset="0">
+    <frame z="2" duration="20">
+     <transform x="72" y="-280.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_2" scale="1" offset="0">
+    <frame z="3" duration="20">
+     <transform x="215" y="-280.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_3" scale="1" offset="0">
+    <frame z="4" duration="20">
+     <transform x="-214" y="-168.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_4" scale="1" offset="0">
+    <frame z="5" duration="20">
+     <transform x="-71" y="-168.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_5" scale="1" offset="0">
+    <frame z="6" duration="20">
+     <transform x="72" y="-168.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_6" scale="1" offset="0">
+    <frame z="7" duration="20">
+     <transform x="215" y="-168.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_7" scale="1" offset="0">
+    <frame z="8" duration="20">
+     <transform x="-214" y="-56.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_8" scale="1" offset="0">
+    <frame z="9" duration="20">
+     <transform x="-71" y="-56.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_9" scale="1" offset="0">
+    <frame z="10" duration="20">
+     <transform x="72" y="-56.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_10" scale="1" offset="0">
+    <frame z="11" duration="20">
+     <transform x="215" y="-56.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_11" scale="1" offset="0">
+    <frame z="12" duration="20">
+     <transform x="-214" y="55.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_12" scale="1" offset="0">
+    <frame z="13" duration="20">
+     <transform x="-71" y="55.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_13" scale="1" offset="0">
+    <frame z="14" duration="20">
+     <transform x="72" y="55.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_14" scale="1" offset="0">
+    <frame z="15" duration="20">
+     <transform x="215" y="55.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_15" scale="1" offset="0">
+    <frame z="16" duration="20">
+     <transform x="-214" y="167.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_16" scale="1" offset="0">
+    <frame z="17" duration="20">
+     <transform x="-71" y="167.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_17" scale="1" offset="0">
+    <frame z="18" duration="20">
+     <transform x="72" y="167.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_18" scale="1" offset="0">
+    <frame z="19" duration="20">
+     <transform x="215" y="167.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_19" scale="1" offset="0">
+    <frame z="20" duration="20">
+     <transform x="-214" y="279.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_20" scale="1" offset="0">
+    <frame z="21" duration="20">
+     <transform x="-71" y="279.5" skX="0" skY="0" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="元件 16_21" scale="1" offset="0">
+    <frame z="22" duration="20">
+     <transform x="72" y="279.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

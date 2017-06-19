@@ -1,0 +1,19 @@
+<TextureAtlas name="广场" imagePath="texture.png">
+ <SubTexture name="补间 14" x="234" y="215" width="122" height="39"/>
+ <SubTexture name="补间 15" x="282" y="174" width="123" height="40"/>
+ <SubTexture name="补间 16" x="332" y="87" width="127" height="41"/>
+ <SubTexture name="补间 17" x="332" y="44" width="128" height="42"/>
+ <SubTexture name="补间 18" x="332" y="0" width="130" height="43"/>
+ <SubTexture name="补间 19" x="0" y="154" width="121" height="44"/>
+ <SubTexture name="补间 20" x="282" y="129" width="123" height="44"/>
+ <SubTexture name="补间 21" x="0" y="199" width="119" height="40"/>
+ <SubTexture name="补间 1" x="0" y="0" width="145" height="152"/>
+ <SubTexture name="补间 5" x="147" y="0" width="91" height="101"/>
+ <SubTexture name="补间 4" x="240" y="0" width="90" height="101"/>
+ <SubTexture name="补间 3" x="147" y="103" width="76" height="76"/>
+ <SubTexture name="补间 2" x="463" y="0" width="24" height="43"/>
+ <SubTexture name="符号 21" x="406" y="129" width="55" height="79"/>
+ <SubTexture name="符号 22" x="178" y="184" width="55" height="79"/>
+ <SubTexture name="符号 23" x="122" y="181" width="55" height="79"/>
+ <SubTexture name="符号 24" x="225" y="103" width="56" height="80"/>
+</TextureAtlas>

@@ -1,0 +1,36 @@
+<TextureAtlas name="星爆气流斩" imagePath="texture.png">
+ <SubTexture name="Sprites/sprite 76" x="0" y="0" width="303" height="483"/>
+ <SubTexture name="Sprites/sprite 86" x="304" y="0" width="303" height="483"/>
+ <SubTexture name="Sprites/sprite 96" x="608" y="0" width="273" height="465"/>
+ <SubTexture name="Sprites/sprite 106" x="1423" y="371" width="177" height="414"/>
+ <SubTexture name="Sprites/sprite 116" x="608" y="466" width="149" height="322"/>
+ <SubTexture name="Sprites/sprite 78" x="882" y="0" width="289" height="390"/>
+ <SubTexture name="Sprites/sprite 88" x="1172" y="0" width="289" height="368"/>
+ <SubTexture name="Sprites/sprite 98" x="1172" y="369" width="250" height="368"/>
+ <SubTexture name="Sprites/sprite 108" x="1892" y="321" width="142" height="335"/>
+ <SubTexture name="Sprites/sprite 118" x="1847" y="657" width="131" height="266"/>
+ <SubTexture name="Sprites/sprite 80" x="1601" y="371" width="245" height="334"/>
+ <SubTexture name="Sprites/sprite 90" x="882" y="391" width="168" height="320"/>
+ <SubTexture name="Sprites/sprite 100" x="1911" y="0" width="131" height="320"/>
+ <SubTexture name="Sprites/sprite 110" x="980" y="712" width="127" height="192"/>
+ <SubTexture name="Sprites/sprite 120" x="1051" y="391" width="120" height="160"/>
+ <SubTexture name="星爆气流斩/补间 20" x="0" y="706" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 21" x="1330" y="786" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 22" x="534" y="789" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 23" x="1601" y="707" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 24" x="1108" y="738" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 25" x="0" y="484" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 26" x="758" y="712" width="220" height="220"/>
+ <SubTexture name="星爆气流斩/补间 27" x="222" y="797" width="300" height="123"/>
+ <SubTexture name="星爆气流斩/补间 28" x="222" y="484" width="358" height="139"/>
+ <SubTexture name="星爆气流斩/补间 29" x="911" y="960" width="416" height="166"/>
+ <SubTexture name="星爆气流斩/补间 30" x="1462" y="0" width="447" height="180"/>
+ <SubTexture name="星爆气流斩/补间 31" x="1462" y="181" width="429" height="189"/>
+ <SubTexture name="星爆气流斩/补间 32" x="222" y="624" width="311" height="172"/>
+ <SubTexture name="星爆气流斩/补间 33" x="222" y="921" width="213" height="163"/>
+ <SubTexture name="星爆气流斩/补间 34" x="756" y="934" width="153" height="145"/>
+ <SubTexture name="星爆气流斩/补间 35" x="758" y="466" width="58" height="123"/>
+ <SubTexture name="星爆气流斩/补间 17" x="1552" y="929" width="227" height="136"/>
+ <SubTexture name="星爆气流斩/补间 18" x="0" y="928" width="220" height="132"/>
+ <SubTexture name="星爆气流斩/补间 19" x="1823" y="924" width="223" height="132"/>
+</TextureAtlas>

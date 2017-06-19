@@ -1,0 +1,41 @@
+<TextureAtlas name="野球拳" imagePath="texture.png">
+ <SubTexture name="野球拳/dfghfghrttt" x="1490" y="1085" width="89" height="51"/>
+ <SubTexture name="野球拳/dfghsdfgh45yg" x="1581" y="970" width="129" height="129"/>
+ <SubTexture name="野球拳/edry54" x="143" y="1201" width="98" height="90"/>
+ <SubTexture name="野球拳/y6j76" x="1815" y="1196" width="108" height="107"/>
+ <SubTexture name="野球拳/wse4y54" x="1925" y="1196" width="100" height="100"/>
+ <SubTexture name="野球拳/e54t54" x="1580" y="1100" width="126" height="126"/>
+ <SubTexture name="野球拳/y5e3w" x="1341" y="1085" width="148" height="142"/>
+ <SubTexture name="野球拳/e4ryh4" x="1711" y="1050" width="151" height="145"/>
+ <SubTexture name="野球拳/edsrhy5" x="1864" y="1050" width="147" height="145"/>
+ <SubTexture name="野球拳/edhu65" x="0" y="1088" width="142" height="139"/>
+ <SubTexture name="野球拳/ty453" x="1061" y="1132" width="140" height="140"/>
+ <SubTexture name="野球拳/swzju75" x="1707" y="1196" width="107" height="111"/>
+ <SubTexture name="野球拳/yh4w" x="143" y="1088" width="108" height="112"/>
+ <SubTexture name="野球拳/erhu65" x="1203" y="1132" width="108" height="112"/>
+ <SubTexture name="野球拳/e4t643" x="1732" y="382" width="68" height="96"/>
+ <SubTexture name="野球拳/we4t43" x="1251" y="1014" width="88" height="91"/>
+ <SubTexture name="野球拳/特效元件/元件 3-3" x="1098" y="484" width="279" height="397"/>
+ <SubTexture name="野球拳/特效元件/元件 5-5" x="0" y="544" width="255" height="409"/>
+ <SubTexture name="野球拳/特效元件/元件 6-6" x="1732" y="555" width="241" height="357"/>
+ <SubTexture name="野球拳/特效元件/元件 7-7" x="1821" y="0" width="224" height="270"/>
+ <SubTexture name="野球拳/特效元件/元件 8-8" x="1821" y="271" width="189" height="283"/>
+ <SubTexture name="野球拳/特效元件/元件 10" x="1711" y="972" width="250" height="77"/>
+ <SubTexture name="野球拳/特效元件/元件 21-1" x="715" y="474" width="382" height="374"/>
+ <SubTexture name="野球拳/特效元件/元件 22-1" x="337" y="0" width="428" height="385"/>
+ <SubTexture name="野球拳/特效元件/元件 23-1" x="666" y="850" width="394" height="358"/>
+ <SubTexture name="野球拳/特效元件/元件 24-1" x="256" y="785" width="409" height="363"/>
+ <SubTexture name="野球拳/特效元件/元件 25-1" x="1416" y="0" width="404" height="381"/>
+ <SubTexture name="野球拳/特效元件/元件 26-1" x="337" y="386" width="377" height="398"/>
+ <SubTexture name="野球拳/特效元件/元件 25" x="1711" y="913" width="321" height="58"/>
+ <SubTexture name="野球拳/特效元件/元件 24 副本" x="1378" y="854" width="332" height="115"/>
+ <SubTexture name="野球拳/特效元件/元件 24" x="253" y="1149" width="392" height="120"/>
+ <SubTexture name="野球拳/特效元件/元件 14-1" x="1061" y="1014" width="189" height="117"/>
+ <SubTexture name="野球拳/特效元件/元件 15-1" x="1345" y="970" width="235" height="114"/>
+ <SubTexture name="野球拳/特效元件/元件 16-1" x="0" y="954" width="245" height="133"/>
+ <SubTexture name="野球拳/特效元件/元件 17-1" x="1061" y="882" width="282" height="131"/>
+ <SubTexture name="野球拳/特效元件/白烟001" x="766" y="0" width="333" height="473"/>
+ <SubTexture name="野球拳/特效元件/白烟002" x="1416" y="382" width="315" height="471"/>
+ <SubTexture name="野球拳/特效元件/白烟003" x="1100" y="0" width="315" height="483"/>
+ <SubTexture name="野球拳/特效元件/白烟004" x="0" y="0" width="336" height="543"/>
+</TextureAtlas>

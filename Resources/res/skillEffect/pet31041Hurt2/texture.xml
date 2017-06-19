@@ -1,0 +1,13 @@
+<TextureAtlas name="pet31041Hurt2" imagePath="texture.png">
+ <SubTexture name="hntryty/元件 20" x="0" y="265" width="255" height="206"/>
+ <SubTexture name="hntryty/元件 21" x="740" y="267" width="265" height="216"/>
+ <SubTexture name="hntryty/元件 22" x="256" y="266" width="158" height="256"/>
+ <SubTexture name="hntryty/元件 23" x="774" y="0" width="236" height="266"/>
+ <SubTexture name="hntryty/元件 24" x="518" y="259" width="221" height="262"/>
+ <SubTexture name="hntryty/元件 25" x="740" y="484" width="125" height="219"/>
+ <SubTexture name="hntryty/元件 26" x="415" y="266" width="81" height="193"/>
+ <SubTexture name="hntryty/元件 27" x="518" y="0" width="255" height="258"/>
+ <SubTexture name="hntryty/元件 28" x="262" y="0" width="255" height="265"/>
+ <SubTexture name="hntryty/元件 29" x="0" y="0" width="261" height="263"/>
+ <SubTexture name="hntryty/6262" x="0" y="472" width="217" height="190"/>
+</TextureAtlas>

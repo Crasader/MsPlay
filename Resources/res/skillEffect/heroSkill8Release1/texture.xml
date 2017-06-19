@@ -1,0 +1,21 @@
+<TextureAtlas name="heroSkill8Release1" imagePath="texture.png">
+ <SubTexture name="补间 15" x="956" y="630" width="271" height="248"/>
+ <SubTexture name="补间 16" x="428" y="626" width="267" height="264"/>
+ <SubTexture name="补间 17" x="697" y="626" width="257" height="246"/>
+ <SubTexture name="补间 18" x="1424" y="720" width="206" height="211"/>
+ <SubTexture name="补间 19" x="1851" y="649" width="185" height="187"/>
+ <SubTexture name="补间 20" x="1868" y="314" width="173" height="169"/>
+ <SubTexture name="补间 21" x="1868" y="485" width="169" height="162"/>
+ <SubTexture name="补间 22" x="1632" y="720" width="204" height="209"/>
+ <SubTexture name="补间 23" x="957" y="344" width="432" height="284"/>
+ <SubTexture name="补间 24" x="1433" y="0" width="481" height="312"/>
+ <SubTexture name="补间 25" x="479" y="0" width="476" height="348"/>
+ <SubTexture name="补间 26" x="0" y="0" width="477" height="351"/>
+ <SubTexture name="补间 27" x="957" y="0" width="474" height="342"/>
+ <SubTexture name="补间 28" x="1433" y="314" width="433" height="321"/>
+ <SubTexture name="补间 29" x="479" y="350" width="430" height="274"/>
+ <SubTexture name="补间 30" x="0" y="353" width="426" height="278"/>
+ <SubTexture name="补间 31" x="0" y="633" width="261" height="251"/>
+ <SubTexture name="Sprite 8" x="1229" y="630" width="193" height="193"/>
+ <SubTexture name="Sprite 25" x="1424" y="637" width="426" height="81"/>
+</TextureAtlas>

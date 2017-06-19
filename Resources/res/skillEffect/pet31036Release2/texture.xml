@@ -1,0 +1,7 @@
+<TextureAtlas name="pet31036Release2" imagePath="texture.png">
+ <SubTexture name="r54765" x="0" y="0" width="400" height="384"/>
+ <SubTexture name="补间 1" x="0" y="386" width="110" height="107"/>
+ <SubTexture name="补间 2" x="402" y="0" width="104" height="103"/>
+ <SubTexture name="补间 3" x="402" y="104" width="92" height="43"/>
+ <SubTexture name="灰暗警告冲击波/wset34" x="111" y="386" width="142" height="48"/>
+</TextureAtlas>

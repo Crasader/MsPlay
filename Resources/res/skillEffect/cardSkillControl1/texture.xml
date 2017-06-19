@@ -1,0 +1,15 @@
+<TextureAtlas name="cardSkillControl1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="1360" y="0" width="270" height="450"/>
+ <SubTexture name="补间 2" x="0" y="0" width="270" height="450"/>
+ <SubTexture name="补间 3" x="272" y="452" width="270" height="450"/>
+ <SubTexture name="补间 4" x="816" y="452" width="270" height="450"/>
+ <SubTexture name="补间 5" x="816" y="0" width="270" height="450"/>
+ <SubTexture name="补间 6" x="1632" y="0" width="270" height="450"/>
+ <SubTexture name="补间 7" x="272" y="0" width="270" height="450"/>
+ <SubTexture name="补间 8" x="0" y="452" width="270" height="450"/>
+ <SubTexture name="补间 9" x="1088" y="452" width="270" height="450"/>
+ <SubTexture name="补间 10" x="1360" y="452" width="270" height="450"/>
+ <SubTexture name="补间 11" x="544" y="452" width="270" height="450"/>
+ <SubTexture name="补间 12" x="1088" y="0" width="270" height="450"/>
+ <SubTexture name="补间 13" x="544" y="0" width="270" height="450"/>
+</TextureAtlas>

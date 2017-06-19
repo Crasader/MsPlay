@@ -1,0 +1,17 @@
+<TextureAtlas name="铁块" imagePath="texture.png">
+ <SubTexture name="铁块/34t5454" x="894" y="0" width="123" height="156"/>
+ <SubTexture name="铁块/补间 1" x="149" y="0" width="147" height="181"/>
+ <SubTexture name="铁块/补间 2" x="0" y="0" width="147" height="181"/>
+ <SubTexture name="铁块/补间 3" x="745" y="0" width="147" height="181"/>
+ <SubTexture name="铁块/补间 4" x="0" y="183" width="147" height="181"/>
+ <SubTexture name="铁块/补间 5" x="149" y="183" width="147" height="181"/>
+ <SubTexture name="铁块/补间 6" x="447" y="0" width="147" height="181"/>
+ <SubTexture name="铁块/补间 7" x="596" y="0" width="147" height="181"/>
+ <SubTexture name="铁块/补间 8" x="298" y="0" width="147" height="181"/>
+ <SubTexture name="铁块/补间 9" x="436" y="183" width="136" height="168"/>
+ <SubTexture name="铁块/补间 10" x="298" y="183" width="136" height="168"/>
+ <SubTexture name="铁块/补间 11" x="574" y="183" width="136" height="168"/>
+ <SubTexture name="铁块/补间 12" x="712" y="183" width="136" height="163"/>
+ <SubTexture name="铁块/补间 13" x="894" y="158" width="120" height="153"/>
+ <SubTexture name="铁块/补间 14" x="850" y="313" width="120" height="153"/>
+</TextureAtlas>

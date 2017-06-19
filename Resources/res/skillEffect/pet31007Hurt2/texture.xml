@@ -1,0 +1,10 @@
+<TextureAtlas name="pet31007Hurt2" imagePath="texture.png">
+ <SubTexture name="补间 1" x="402" y="188" width="80" height="74"/>
+ <SubTexture name="补间 2" x="0" y="0" width="199" height="186"/>
+ <SubTexture name="补间 3" x="0" y="188" width="199" height="186"/>
+ <SubTexture name="补间 4" x="402" y="0" width="199" height="186"/>
+ <SubTexture name="补间 5" x="201" y="0" width="199" height="186"/>
+ <SubTexture name="补间 6" x="201" y="188" width="199" height="186"/>
+ <SubTexture name="补间 7" x="603" y="0" width="199" height="186"/>
+ <SubTexture name="补间 8" x="804" y="0" width="199" height="186"/>
+</TextureAtlas>

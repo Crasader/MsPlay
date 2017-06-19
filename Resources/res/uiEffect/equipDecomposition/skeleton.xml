@@ -1,0 +1,338 @@
+<dragonBones name="equipDecomposition" frameRate="30" version="2.3">
+ <armature name="equipDecomposition">
+  <bone name="图层 4">
+   <transform x="2.85" y="-5.5" skX="0" skY="0" scX="0.54" scY="1"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="0.5" y="0.05" skX="-38.7" skY="-38.7" scX="1.58" scY="1.58"/>
+  </bone>
+  <bone name="图层 6">
+   <transform x="14" y="-10.85" skX="0" skY="0" scX="1.44" scY="1.44"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0">
+    <display name="自研通用无敌/元件 26asdsa" type="armature">
+     <transform x="0.6" y="1.65" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="1">
+    <display name="自研通用无敌/cbvcv重复项目文件夹/元件 16zmfls 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 6" parent="图层 6" z="2">
+    <display name="自研通用无敌/元件 47gdfgdf" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="26" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="2.85" y="-5.5" skX="0" skY="0" scX="0.54" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="7">
+     <transform x="2.85" y="-45.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="6">
+     <transform x="2.85" y="-45.5" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="2.85" y="-56.5" skX="0" skY="0" scX="2.4" scY="2.4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="1" tweenEasing="0" duration="10">
+     <transform x="0.5" y="0.05" skX="-38.7" skY="-38.7" scX="1.58" scY="1.58" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="0.5" y="0.05" skX="-38.7" skY="-38.7" scX="1.58" scY="1.58" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="17">
+     <transform x="14" y="-10.85" skX="0" skY="0" scX="1.44" scY="1.44" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="14" y="-10.85" skX="0" skY="0" scX="1.44" scY="1.44" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="自研通用无敌/元件 47gdfgdf">
+  <bone name="图层 1">
+   <transform x="-7.55" y="2.9" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0" blendMode="add">
+    <display name="自研通用无敌/sdadsafrrg/元件 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="51" pY="59"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="60"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="55" pY="60"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 11" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="55" pY="61.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="56" pY="64"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="60.5" pY="66.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62" pY="67.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="64.5" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="64.5" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="70" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="79.5" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="79.5" pY="68.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 23" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="68" pY="70"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69" pY="69.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 25" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="45.5" pY="71"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ziyansanguotongyongwudi1" fadeInTime="0" duration="19" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-7.55" y="2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-7.55" y="1.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-7.75" y="1.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-7.75" y="3.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-6.75" y="2.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-7.25" y="2.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-4.9" y="1.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="-8.05" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="-5.75" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="1">
+     <transform x="-4.75" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="1">
+     <transform x="-4.9" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" duration="1">
+     <transform x="-4.55" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" duration="1">
+     <transform x="-4.4" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" duration="1">
+     <transform x="-11.15" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="14" duration="1">
+     <transform x="-11.15" y="-1.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="15" duration="1">
+     <transform x="-10.55" y="-0.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="16" duration="1">
+     <transform x="-10.4" y="-0.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="17" duration="1">
+     <transform x="-32.25" y="0.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="自研通用无敌/cbvcv重复项目文件夹/元件 16zmfls 副本">
+  <bone name="图层 3">
+   <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0" blendMode="add">
+    <display name="自研通用无敌/元件 21" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="72.35" pY="72.35"/>
+    </display>
+    <display name="自研通用无敌/元件 22" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 24" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 25" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 27" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 28" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 29" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 30" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+    <display name="自研通用无敌/元件 31" type="image">
+     <transform x="0.05" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="53.35" pY="53.35"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ziyansanguotongyongwudi2" fadeInTime="0" duration="14" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="-0.3" y="-0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="自研通用无敌/元件 26asdsa">
+  <bone name="图层 1">
+   <transform x="1.85" y="0.25" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0" blendMode="add">
+    <display name="自研通用无敌/sdadsafrrg/元件 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="71.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="71.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="71.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="72"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="71.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="71.5"/>
+    </display>
+    <display name="自研通用无敌/sdadsafrrg/元件 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="53.5" pY="71.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ziyantongyongwudi4" fadeInTime="0" duration="14" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="1.85" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="1.85" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="1.85" y="0.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="1.85" y="0.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="3.85" y="1.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="3.85" y="1.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="2.85" y="0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="2.85" y="0.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="2.35" y="1.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="2.35" y="1.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="2.35" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="2.35" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="2.85" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="2.85" y="0.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

@@ -1,0 +1,8 @@
+<TextureAtlas name="heroGameroomHurt2" imagePath="texture.png">
+ <SubTexture name="补间 3" x="444" y="0" width="59" height="86"/>
+ <SubTexture name="补间 4" x="325" y="0" width="118" height="171"/>
+ <SubTexture name="补间 5" x="0" y="0" width="165" height="231"/>
+ <SubTexture name="补间 6" x="166" y="0" width="158" height="230"/>
+ <SubTexture name="补间 7" x="444" y="87" width="48" height="78"/>
+ <SubTexture name="拖鞋.png" x="444" y="166" width="47" height="75"/>
+</TextureAtlas>

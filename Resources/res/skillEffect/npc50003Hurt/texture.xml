@@ -1,0 +1,7 @@
+<TextureAtlas name="npc50003Hurt" imagePath="texture.png">
+ <SubTexture name="补间 1" x="274" y="0" width="135" height="149"/>
+ <SubTexture name="补间 2" x="137" y="0" width="135" height="149"/>
+ <SubTexture name="补间 3" x="137" y="151" width="135" height="149"/>
+ <SubTexture name="补间 4" x="0" y="151" width="135" height="149"/>
+ <SubTexture name="补间 5" x="0" y="0" width="135" height="149"/>
+</TextureAtlas>

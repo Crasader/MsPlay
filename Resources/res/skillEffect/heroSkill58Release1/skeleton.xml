@@ -1,0 +1,179 @@
+<dragonBones name="超级大饼脸" frameRate="30" version="2.3">
+ <armature name="heroSkill58Release1">
+  <bone name="图层 3">
+   <transform x="-2.55" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 7">
+   <transform x="-924.8" y="186.1" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="face1">
+   <transform x="-938.45" y="43.45" skX="0" skY="0" scX="5" scY="5"/>
+  </bone>
+  <bone name="图层 6">
+   <transform x="-1305.2" y="132" skX="0" skY="0" scX="0.76" scY="1.4"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="渐变 ddct1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 7" parent="图层 7" z="1">
+    <display name="补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="255.05" pY="80"/>
+    </display>
+   </slot>
+   <slot name="face1" parent="face1" z="2">
+    <display name="54yu765" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="98" pY="90.5"/>
+    </display>
+   </slot>
+   <slot name="图层 6" parent="图层 6" z="3">
+    <display name="符号 181" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="88" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="29" displayIndex="-1"/>
+    <frame z="0" tweenEasing="0" duration="5">
+     <transform x="-2.55" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" duration="36">
+     <transform x="-2.55" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="-2.55" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="-2.55" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="14" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame duration="29" displayIndex="-1"/>
+    <frame z="1" tweenEasing="0" duration="7">
+     <transform x="-924.8" y="186.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="34">
+     <transform x="-144.8" y="186.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="9">
+     <transform x="-144.8" y="186.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="1295.2" y="186.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="face1" scale="1" offset="0">
+    <frame duration="29" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="7">
+     <transform x="-938.45" y="43.45" skX="0" skY="0" scX="5" scY="5" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="34">
+     <transform x="-158.45" y="43.45" skX="0" skY="0" scX="5" scY="5" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="9">
+     <transform x="-158.45" y="43.45" skX="0" skY="0" scX="5" scY="5" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="1281.55" y="43.45" skX="0" skY="0" scX="5" scY="5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame duration="29" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="7">
+     <transform x="-1305.2" y="132" skX="0" skY="0" scX="0.76" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="34">
+     <transform x="-525.2" y="132" skX="0" skY="0" scX="0.76" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="9">
+     <transform x="-525.2" y="132" skX="0" skY="0" scX="0.76" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="914.8" y="132" skX="0" skY="0" scX="0.76" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="符号 181">
+  <bone name="层 1">
+   <transform x="0" y="0" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <skin name="default">
+   <slot name="层 1" parent="层 1" z="0">
+    <display name="e4t654" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="169.9" pY="39.65"/>
+    </display>
+    <display name="r5y756" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="166.6" pY="44.1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="i76" fadeInTime="0" duration="4" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="层 1" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="5.75" y="-9.4" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="渐变 ddct1">
+  <bone name="层 1">
+   <transform x="-657.3" y="0" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <bone name="层 3">
+   <transform x="0" y="400" skX="180" skY="-180" scX="-5.14" scY="1"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="0" y="-400" skX="0" skY="0" scX="5.14" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="层 1" parent="层 1" z="0">
+    <display name="RT65Y74" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="674.05" pY="180"/>
+    </display>
+   </slot>
+   <slot name="层 3" parent="层 3" z="1">
+    <display name="T43T543" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="135.15" pY="299.15"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="2">
+    <display name="T43T543" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="135.15" pY="299.15"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="u65" fadeInTime="0" duration="5" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="层 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="-657.3" y="0" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="654.1" y="0" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="层 3" scale="1" offset="0">
+    <frame z="1" duration="5">
+     <transform x="0" y="400" skX="180" skY="-180" scX="-5.14" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="2" duration="5">
+     <transform x="0" y="-400" skX="0" skY="0" scX="5.14" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

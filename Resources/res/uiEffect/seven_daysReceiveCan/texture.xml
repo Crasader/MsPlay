@@ -1,0 +1,4 @@
+<TextureAtlas name="seven_daysReceiveCan" imagePath="texture.png">
+ <SubTexture name="dreyt54" x="0" y="0" width="161" height="202"/>
+ <SubTexture name="sdrgertert" x="163" y="0" width="43" height="42"/>
+</TextureAtlas>

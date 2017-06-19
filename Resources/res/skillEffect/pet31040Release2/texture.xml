@@ -1,0 +1,4 @@
+<TextureAtlas name="pet31040Release2" imagePath="texture.png">
+ <SubTexture name="ju76iu655" x="192" y="0" width="35" height="36"/>
+ <SubTexture name="烟" x="0" y="0" width="191" height="222"/>
+</TextureAtlas>

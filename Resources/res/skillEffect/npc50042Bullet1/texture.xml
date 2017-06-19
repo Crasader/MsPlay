@@ -1,0 +1,7 @@
+<TextureAtlas name="npc50042Bullet1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="0" width="151" height="129"/>
+ <SubTexture name="补间 2" x="0" y="177" width="110" height="45"/>
+ <SubTexture name="补间 3" x="127" y="176" width="121" height="43"/>
+ <SubTexture name="补间 4" x="127" y="131" width="126" height="44"/>
+ <SubTexture name="补间 5" x="0" y="131" width="126" height="45"/>
+</TextureAtlas>

@@ -1,0 +1,3 @@
+<TextureAtlas name="npc51006Bullet1" imagePath="texture.png">
+ <SubTexture name="re5y54" x="0" y="0" width="18" height="7"/>
+</TextureAtlas>

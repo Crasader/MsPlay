@@ -1,0 +1,5 @@
+<TextureAtlas name="attributeChange" imagePath="texture.png">
+ <SubTexture name="特效4" x="37" y="87" width="52" height="51"/>
+ <SubTexture name="特效3" x="37" y="0" width="77" height="85"/>
+ <SubTexture name="wsey54" x="0" y="0" width="35" height="163"/>
+</TextureAtlas>

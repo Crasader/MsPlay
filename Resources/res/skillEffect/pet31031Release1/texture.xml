@@ -1,0 +1,8 @@
+<TextureAtlas name="pet31031Release1" imagePath="texture.png">
+ <SubTexture name="夺命连环三仙剑/补间 6" x="630" y="656" width="269" height="237"/>
+ <SubTexture name="夺命连环三仙剑/补间 1" x="340" y="656" width="288" height="254"/>
+ <SubTexture name="夺命连环三仙剑/补间 2" x="395" y="334" width="410" height="320"/>
+ <SubTexture name="夺命连环三仙剑/补间 3" x="395" y="0" width="400" height="332"/>
+ <SubTexture name="夺命连环三仙剑/补间 4" x="0" y="0" width="393" height="380"/>
+ <SubTexture name="夺命连环三仙剑/补间 5" x="0" y="382" width="338" height="325"/>
+</TextureAtlas>

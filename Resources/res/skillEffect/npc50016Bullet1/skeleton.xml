@@ -1,0 +1,27 @@
+<dragonBones name="npc50016Bullet1" frameRate="24" version="2.3">
+ <armature name="npc50016Bullet1">
+  <bone name="图层 1">
+   <transform x="66.5" y="1.5" skX="0" skY="0" scX="1.23" scY="2.37"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="90" pY="20"/>
+    </display>
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="90" pY="20"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="2" scale="1" loop="0" autoTween="0" tweenEasing="2">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="66.5" y="1.5" skX="0" skY="0" scX="1.23" scY="2.37" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="66.5" y="1.5" skX="0" skY="0" scX="1.23" scY="2.37" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

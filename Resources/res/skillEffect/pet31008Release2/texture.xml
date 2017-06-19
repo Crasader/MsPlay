@@ -1,0 +1,9 @@
+<TextureAtlas name="pet31008Release2" imagePath="texture.png">
+ <SubTexture name="元件 19" x="364" y="0" width="66" height="556"/>
+ <SubTexture name="元件 20" x="431" y="0" width="81" height="525"/>
+ <SubTexture name="元件 21" x="234" y="0" width="80" height="869"/>
+ <SubTexture name="元件 22" x="315" y="0" width="48" height="828"/>
+ <SubTexture name="元件 23" x="0" y="0" width="121" height="1194"/>
+ <SubTexture name="元件 24" x="122" y="0" width="111" height="1049"/>
+ <SubTexture name="3456fghgff" x="513" y="0" width="106" height="106"/>
+</TextureAtlas>

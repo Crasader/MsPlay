@@ -1,0 +1,18 @@
+<TextureAtlas name="pet31003Hurt2" imagePath="texture.png">
+ <SubTexture name="补间 1" x="698" y="200" width="179" height="176"/>
+ <SubTexture name="补间 2" x="490" y="207" width="179" height="176"/>
+ <SubTexture name="补间 3" x="698" y="0" width="199" height="198"/>
+ <SubTexture name="补间 4" x="490" y="0" width="206" height="205"/>
+ <SubTexture name="补间 5" x="255" y="0" width="233" height="235"/>
+ <SubTexture name="补间 6" x="0" y="0" width="253" height="253"/>
+ <SubTexture name="rt5u54被击/元件 1" x="899" y="0" width="91" height="91"/>
+ <SubTexture name="rt5u54被击/元件 2" x="899" y="92" width="91" height="91"/>
+ <SubTexture name="rt5u54被击/元件 3" x="391" y="237" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 4" x="899" y="184" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 5" x="0" y="255" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 6" x="947" y="252" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 7" x="255" y="237" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 8" x="323" y="237" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 9" x="68" y="255" width="67" height="67"/>
+ <SubTexture name="rt5u54被击/元件 10" x="879" y="252" width="67" height="67"/>
+</TextureAtlas>

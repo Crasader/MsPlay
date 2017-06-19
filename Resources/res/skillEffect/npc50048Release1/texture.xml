@@ -1,0 +1,13 @@
+<TextureAtlas name="npc50048Release1" imagePath="texture.png">
+ <SubTexture name="asegew" x="424" y="934" width="293" height="158"/>
+ <SubTexture name="补间 7" x="0" y="395" width="294" height="294"/>
+ <SubTexture name="补间 8" x="395" y="362" width="327" height="327"/>
+ <SubTexture name="补间 9" x="395" y="0" width="360" height="360"/>
+ <SubTexture name="补间 10" x="0" y="0" width="393" height="393"/>
+ <SubTexture name="补间 1" x="212" y="691" width="210" height="296"/>
+ <SubTexture name="补间 2" x="0" y="691" width="210" height="296"/>
+ <SubTexture name="补间 3" x="757" y="356" width="212" height="331"/>
+ <SubTexture name="补间 4" x="724" y="689" width="212" height="331"/>
+ <SubTexture name="补间 5" x="757" y="0" width="212" height="354"/>
+ <SubTexture name="补间 6" x="424" y="691" width="212" height="241"/>
+</TextureAtlas>

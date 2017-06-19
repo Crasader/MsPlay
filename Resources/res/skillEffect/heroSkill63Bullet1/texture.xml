@@ -1,0 +1,15 @@
+<TextureAtlas name="heroSkill63Bullet1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="364" y="31" width="80" height="80"/>
+ <SubTexture name="调色" x="356" y="216" width="77" height="60"/>
+ <SubTexture name="掌中火贴图" x="446" y="31" width="57" height="96"/>
+ <SubTexture name="元件 1" x="364" y="113" width="77" height="60"/>
+ <SubTexture name="补间 19" x="180" y="131" width="175" height="126"/>
+ <SubTexture name="补间 20" x="0" y="131" width="179" height="124"/>
+ <SubTexture name="补间 21" x="0" y="0" width="181" height="130"/>
+ <SubTexture name="补间 22" x="182" y="0" width="181" height="130"/>
+ <SubTexture name="补间 14" x="0" y="257" width="163" height="54"/>
+ <SubTexture name="补间 15" x="165" y="306" width="180" height="43"/>
+ <SubTexture name="补间 16" x="165" y="258" width="184" height="46"/>
+ <SubTexture name="补间 17" x="356" y="175" width="154" height="39"/>
+ <SubTexture name="补间 18" x="364" y="0" width="144" height="29"/>
+</TextureAtlas>

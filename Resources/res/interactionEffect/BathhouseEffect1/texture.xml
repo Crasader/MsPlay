@@ -1,0 +1,12 @@
+<TextureAtlas name="paopao" imagePath="texture.png">
+ <SubTexture name="paopao/元件 2" x="74" y="64" width="59" height="60"/>
+ <SubTexture name="paopao/元件 8" x="0" y="131" width="57" height="56"/>
+ <SubTexture name="paopao/元件 9" x="74" y="0" width="65" height="63"/>
+ <SubTexture name="paopao/元件 10" x="140" y="0" width="61" height="58"/>
+ <SubTexture name="paopao/元件 11" x="0" y="0" width="73" height="69"/>
+ <SubTexture name="paopao/元件 2 副本" x="194" y="121" width="59" height="60"/>
+ <SubTexture name="paopao/元件 2 副本 2" x="134" y="121" width="59" height="60"/>
+ <SubTexture name="paopao/元件 2 副本 3" x="0" y="70" width="59" height="60"/>
+ <SubTexture name="paopao/元件 2 副本 4" x="60" y="125" width="59" height="60"/>
+ <SubTexture name="paopao/元件 2 副本 5" x="140" y="60" width="59" height="60"/>
+</TextureAtlas>

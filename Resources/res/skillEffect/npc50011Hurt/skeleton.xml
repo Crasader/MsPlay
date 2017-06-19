@@ -1,0 +1,82 @@
+<dragonBones name="npc50011Hurt" frameRate="24" version="2.3">
+ <armature name="npc50011Hurt">
+  <bone name="npc2hurt2_1.png">
+   <transform x="-1.55" y="-53.95" skX="3.95" skY="3.95" scX="1.4" scY="1.4"/>
+  </bone>
+  <bone name="npc2hurt1_1.png">
+   <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3"/>
+  </bone>
+  <skin name="default">
+   <slot name="npc2hurt2_1.png" parent="npc2hurt2_1.png" z="0">
+    <display name="补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="111" pY="65"/>
+    </display>
+    <display name="补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="112.5" pY="68"/>
+    </display>
+   </slot>
+   <slot name="npc2hurt1_1.png" parent="npc2hurt1_1.png" z="1">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="105" pY="91"/>
+    </display>
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="121" pY="110"/>
+    </display>
+    <display name="补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="117.5" pY="117.5"/>
+    </display>
+    <display name="补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="109.5" pY="115"/>
+    </display>
+    <display name="补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="111" pY="117"/>
+    </display>
+    <display name="补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="112" pY="112"/>
+    </display>
+    <display name="补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="115.5" pY="117"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="15" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="npc2hurt2_1.png" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="-1.55" y="-53.95" skX="3.95" skY="3.95" scX="1.4" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-2.2" y="-44" skX="3.95" skY="3.95" scX="1.4" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-2.2" y="-44" skX="3.95" skY="3.95" scX="1.4" scY="1.4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="9" displayIndex="-1"/>
+   </timeline>
+   <timeline name="npc2hurt1_1.png" scale="1" offset="0">
+    <frame z="1" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="2" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="3" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="4" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="5" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" displayIndex="6" duration="2">
+     <transform x="0" y="-81" skX="0" skY="0" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

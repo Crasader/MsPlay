@@ -1,0 +1,4 @@
+<TextureAtlas name="pet31026Hurt2" imagePath="texture.png">
+ <SubTexture name="fghjfghj5666" x="0" y="0" width="13" height="110"/>
+ <SubTexture name="guangxiaofas" x="14" y="0" width="28" height="24"/>
+</TextureAtlas>

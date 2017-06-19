@@ -1,0 +1,114 @@
+<dragonBones name="npc50032Hurt" frameRate="24" version="2.3">
+ <armature name="npc50032Hurt">
+  <bone name="图层 1">
+   <transform x="-29" y="-93" skX="-40.69" skY="-40.69" scX="1.5" scY="1.5"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="-24.5" y="-50.55" skX="-22.19" skY="-22.19" scX="1.3" scY="1.3"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="29.95" y="-69.05" skX="25.95" skY="25.95" scX="1.7" scY="1.7"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="19.5" y="-28.55" skX="21.2" skY="21.2" scX="1.4" scY="1.4"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="1" y="-55.55" skX="-17.46" skY="-17.46" scX="1.2" scY="1.2"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="rt54u65" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="1">
+    <display name="rt54u65" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="2">
+    <display name="rt54u65" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="3">
+    <display name="rt54u65" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="4">
+    <display name="rt54u65" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="16" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="6">
+     <transform x="-29" y="-93" skX="-40.69" skY="-40.69" scX="1.5" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="10" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="1" duration="6">
+     <transform x="-24.5" y="-50.55" skX="-22.19" skY="-22.19" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="8" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="4" displayIndex="-1"/>
+    <frame z="2" duration="6">
+     <transform x="29.95" y="-69.05" skX="25.95" skY="25.95" scX="1.7" scY="1.7" pX="0" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" duration="6">
+     <transform x="19.5" y="-28.55" skX="21.2" skY="21.2" scX="1.4" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="4" duration="6">
+     <transform x="1" y="-55.55" skX="-17.46" skY="-17.46" scX="1.2" scY="1.2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="rt54u65">
+  <bone name="hurt1_1.png">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="hurt1_1.png" parent="hurt1_1.png" z="0">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="25.5" pY="31.5"/>
+    </display>
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="25.5" pY="31.5"/>
+    </display>
+    <display name="补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="25.5" pY="31.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="t4ty34" fadeInTime="0" duration="7" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="hurt1_1.png" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

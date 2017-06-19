@@ -1,0 +1,13 @@
+<TextureAtlas name="heroSkill49Hurt1" imagePath="texture.png">
+ <SubTexture name="补间 14" x="883" y="0" width="120" height="362"/>
+ <SubTexture name="补间 20" x="753" y="592" width="191" height="375"/>
+ <SubTexture name="补间 21" x="438" y="0" width="444" height="303"/>
+ <SubTexture name="补间 22" x="0" y="0" width="437" height="320"/>
+ <SubTexture name="补间 23" x="438" y="304" width="444" height="287"/>
+ <SubTexture name="补间 24" x="0" y="321" width="403" height="231"/>
+ <SubTexture name="补间 25" x="0" y="553" width="395" height="234"/>
+ <SubTexture name="补间 26" x="396" y="592" width="356" height="227"/>
+ <SubTexture name="补间 27" x="0" y="788" width="346" height="221"/>
+ <SubTexture name="补间 28" x="347" y="820" width="343" height="211"/>
+ <SubTexture name="补间 29" x="691" y="968" width="298" height="201"/>
+</TextureAtlas>

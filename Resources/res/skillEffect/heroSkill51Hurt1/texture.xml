@@ -1,0 +1,9 @@
+<TextureAtlas name="heroSkill51Hurt1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="159" width="126" height="157"/>
+ <SubTexture name="补间 2" x="384" y="0" width="126" height="157"/>
+ <SubTexture name="补间 3" x="256" y="0" width="126" height="157"/>
+ <SubTexture name="补间 4" x="0" y="0" width="126" height="157"/>
+ <SubTexture name="补间 5" x="128" y="0" width="126" height="157"/>
+ <SubTexture name="补间 7" x="128" y="159" width="41" height="47"/>
+ <SubTexture name="补间 6" x="170" y="159" width="41" height="47"/>
+</TextureAtlas>

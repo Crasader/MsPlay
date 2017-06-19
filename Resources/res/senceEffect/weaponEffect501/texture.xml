@@ -1,0 +1,5 @@
+<TextureAtlas name="weaponEffect501" imagePath="texture.png">
+ <SubTexture name="u908/xuehua11" x="0" y="41" width="19" height="21"/>
+ <SubTexture name="u908/补间 1" x="20" y="41" width="20" height="19"/>
+ <SubTexture name="u908/高光" x="0" y="0" width="56" height="40"/>
+</TextureAtlas>

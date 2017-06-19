@@ -1,0 +1,24 @@
+<TextureAtlas name="钻石星辰拳" imagePath="texture.png">
+ <SubTexture name="钻石星辰拳/conjure6" x="87" y="0" width="208" height="188"/>
+ <SubTexture name="钻石星辰拳/conjure19" x="928" y="177" width="46" height="45"/>
+ <SubTexture name="钻石星辰拳/conjure14" x="975" y="177" width="38" height="41"/>
+ <SubTexture name="钻石星辰拳/conjure21" x="928" y="0" width="94" height="81"/>
+ <SubTexture name="钻石星辰拳/conjure22" x="877" y="242" width="104" height="70"/>
+ <SubTexture name="钻石星辰拳/conjure24" x="928" y="82" width="88" height="43"/>
+ <SubTexture name="钻石星辰拳/conjure23" x="928" y="126" width="69" height="50"/>
+ <SubTexture name="钻石星辰拳/conjure11" x="245" y="189" width="27" height="27"/>
+ <SubTexture name="钻石星辰拳/补间 34" x="296" y="0" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 35" x="296" y="121" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 36" x="454" y="121" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 37" x="770" y="0" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 38" x="403" y="242" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 39" x="770" y="121" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 40" x="612" y="121" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 41" x="245" y="242" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 42" x="87" y="189" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 43" x="719" y="242" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 44" x="612" y="0" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 45" x="561" y="242" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/补间 46" x="454" y="0" width="156" height="119"/>
+ <SubTexture name="钻石星辰拳/gt54t54" x="0" y="0" width="85" height="424"/>
+</TextureAtlas>

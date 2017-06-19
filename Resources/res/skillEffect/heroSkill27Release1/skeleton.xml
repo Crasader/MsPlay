@@ -1,0 +1,1154 @@
+<dragonBones name="六脉神剑" frameRate="30" version="2.3">
+ <armature name="heroSkill27Release1">
+  <bone name="图层 28">
+   <transform x="61.55" y="-55.8" skX="0.99" skY="0.99" scX="1.45" scY="1"/>
+  </bone>
+  <bone name="图层 29">
+   <transform x="445.55" y="-8.35" skX="-170.48" skY="-170.48" scX="-1.13" scY="1"/>
+  </bone>
+  <bone name="图层 30">
+   <transform x="453" y="-93.4" skX="-8.23" skY="-8.23" scX="1.14" scY="1.33"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="559.7" y="-33.4" skX="-176.75" skY="-176.75" scX="-1.45" scY="1"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="441.55" y="-10.4" skX="-171.68" skY="-171.68" scX="-1.13" scY="1"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="439.55" y="-74.35" skX="-5.53" skY="-5.53" scX="1.13" scY="1"/>
+  </bone>
+  <bone name="图层 14">
+   <transform x="99.3" y="-44.4" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 8">
+   <transform x="47.6" y="-57.85" skX="0" skY="-0.7" scX="2.62" scY="1"/>
+  </bone>
+  <bone name="图层 9">
+   <transform x="47.6" y="-57.85" skX="-4.28" skY="-4.98" scX="2.4" scY="1"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="47.6" y="-57.85" skX="7.94" skY="7.24" scX="2.4" scY="1"/>
+  </bone>
+  <bone name="图层 6">
+   <transform x="47.6" y="-57.85" skX="-1.57" skY="-2.28" scX="2.4" scY="1"/>
+  </bone>
+  <bone name="图层 10">
+   <transform x="47.6" y="-57.85" skX="1.7" skY="1" scX="2.62" scY="1"/>
+  </bone>
+  <bone name="图层 13">
+   <transform x="47.6" y="-57.85" skX="-4.28" skY="-4.98" scX="2.4" scY="1"/>
+  </bone>
+  <bone name="图层 15">
+   <transform x="47.6" y="-57.85" skX="7.94" skY="7.24" scX="2.4" scY="1"/>
+  </bone>
+  <bone name="图层 16">
+   <transform x="47.6" y="-57.85" skX="1.4" skY="0.7" scX="2.4" scY="1"/>
+  </bone>
+  <bone name="图层 18">
+   <transform x="60.25" y="-63.5" skX="0" skY="0" scX="0.07" scY="1"/>
+  </bone>
+  <bone name="图层 12">
+   <transform x="63.9" y="-62.9" skX="0" skY="0" scX="1.28" scY="1.71"/>
+  </bone>
+  <bone name="图层 35">
+   <transform x="2.5" y="-245.8" skX="0" skY="0" scX="1.37" scY="4"/>
+  </bone>
+  <bone name="图层 34">
+   <transform x="21.2" y="-42.05" skX="0" skY="0" scX="0.61" scY="0.61"/>
+  </bone>
+  <bone name="图层 33">
+   <transform x="-16.65" y="-14.8" skX="25.24" skY="25.24" scX="1" scY="1"/>
+  </bone>
+  <bone name="nv1_juguangxian_j">
+   <transform x="-26.4" y="-39.1" skX="72.97" skY="72.97" scX="1" scY="1"/>
+  </bone>
+  <bone name="nv1_juguangxian_i">
+   <transform x="-4.95" y="-100.6" skX="33.72" skY="33.72" scX="1" scY="1"/>
+  </bone>
+  <bone name="nv1_juguangxian_h">
+   <transform x="-29.3" y="-45.6" skX="63.44" skY="63.44" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 37">
+   <transform x="-16.65" y="-14.8" skX="25.24" skY="25.24" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 28" parent="图层 28" z="0">
+    <display name="六脉神剑/tiaotiao" type="armature">
+     <transform x="47.1" y="-85.8" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 29" parent="图层 29" z="1">
+    <display name="六脉神剑/tiaotiao" type="armature">
+     <transform x="-299.85" y="-100.1" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 30" parent="图层 30" z="2">
+    <display name="六脉神剑/tiaotiao" type="armature">
+     <transform x="-299.65" y="-100.15" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="3">
+    <display name="六脉神剑/tiaotiao 副本" type="armature">
+     <transform x="-299.75" y="-100.25" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="4">
+    <display name="六脉神剑/tiaotiao 副本" type="armature">
+     <transform x="-299.75" y="-100" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="5">
+    <display name="六脉神剑/tiaotiao 副本" type="armature">
+     <transform x="-299.85" y="-100" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 14" parent="图层 14" z="6">
+    <display name="六脉神剑/ery54" type="armature">
+     <transform x="0.05" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 8" parent="图层 8" z="7">
+    <display name="六脉神剑/Min 线性攻击" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 9" parent="图层 9" z="8">
+    <display name="六脉神剑/Min 线性攻击 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="9">
+    <display name="六脉神剑/Min 线性攻击 副本 2" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 6" parent="图层 6" z="10">
+    <display name="六脉神剑/Min 线性攻击 副本 3" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 10" parent="图层 10" z="11">
+    <display name="六脉神剑/Min 线性攻击" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 13" parent="图层 13" z="12">
+    <display name="六脉神剑/Min 线性攻击 副本" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 15" parent="图层 15" z="13">
+    <display name="六脉神剑/Min 线性攻击 副本 2" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 16" parent="图层 16" z="14">
+    <display name="六脉神剑/Min 线性攻击 副本 3" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 18" parent="图层 18" z="15" blendMode="add">
+    <display name="六脉神剑/swey54" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="526.45" pY="30.3"/>
+    </display>
+   </slot>
+   <slot name="图层 12" parent="图层 12" z="16">
+    <display name="六脉神剑/元件 1633" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 35" parent="图层 35" z="17">
+    <display name="六脉神剑/szgr43" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="12.25" pY="69.5"/>
+    </display>
+   </slot>
+   <slot name="图层 34" parent="图层 34" z="18">
+    <display name="六脉神剑/元件 1" type="armature">
+     <transform x="-256.85" y="-134.25" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 33" parent="图层 33" z="19">
+    <display name="六脉神剑/gbfdgd" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_j" parent="nv1_juguangxian_j" z="20">
+    <display name="六脉神剑/gbfdgd" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_i" parent="nv1_juguangxian_i" z="21">
+    <display name="六脉神剑/gbfdgd" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_h" parent="nv1_juguangxian_h" z="22">
+    <display name="六脉神剑/gbfdgd" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 37" parent="图层 37" z="23">
+    <display name="六脉神剑/gbfdgd" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="67" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 28" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="0" duration="35">
+     <transform x="61.55" y="-55.8" skX="0.99" skY="0.99" scX="1.45" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 29" scale="1" offset="0">
+    <frame duration="15" displayIndex="-1"/>
+    <frame z="1" duration="35">
+     <transform x="445.55" y="-8.35" skX="-170.48" skY="-170.48" scX="-1.13" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 30" scale="1" offset="0">
+    <frame duration="17" displayIndex="-1"/>
+    <frame z="2" duration="35">
+     <transform x="453" y="-93.4" skX="-8.23" skY="-8.23" scX="1.14" scY="1.33" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="13" displayIndex="-1"/>
+    <frame z="3" duration="35">
+     <transform x="559.7" y="-33.4" skX="-176.75" skY="-176.75" scX="-1.45" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="19" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame duration="17" displayIndex="-1"/>
+    <frame z="4" duration="35">
+     <transform x="441.55" y="-10.4" skX="-171.68" skY="-171.68" scX="-1.13" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="5" duration="35">
+     <transform x="439.55" y="-74.35" skX="-5.53" skY="-5.53" scX="1.13" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 14" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="6" duration="30">
+     <transform x="99.3" y="-44.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="25" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 8" scale="1" offset="0">
+    <frame duration="16" displayIndex="-1"/>
+    <frame z="7" duration="5">
+     <transform x="47.6" y="-57.85" skX="0" skY="-0.7" scX="2.62" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="46" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 9" scale="1" offset="0">
+    <frame duration="19" displayIndex="-1"/>
+    <frame z="8" duration="5">
+     <transform x="47.6" y="-57.85" skX="-4.28" skY="-4.98" scX="2.4" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="43" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame duration="22" displayIndex="-1"/>
+    <frame z="9" duration="5">
+     <transform x="47.6" y="-57.85" skX="7.94" skY="7.24" scX="2.4" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="40" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame duration="25" displayIndex="-1"/>
+    <frame z="10" duration="5">
+     <transform x="47.6" y="-57.85" skX="-1.57" skY="-2.28" scX="2.4" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="37" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 10" scale="1" offset="0">
+    <frame duration="28" displayIndex="-1"/>
+    <frame z="11" duration="5">
+     <transform x="47.6" y="-57.85" skX="1.7" skY="1" scX="2.62" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="34" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 13" scale="1" offset="0">
+    <frame duration="31" displayIndex="-1"/>
+    <frame z="12" duration="5">
+     <transform x="47.6" y="-57.85" skX="-4.28" skY="-4.98" scX="2.4" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="31" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 15" scale="1" offset="0">
+    <frame duration="34" displayIndex="-1"/>
+    <frame z="13" duration="5">
+     <transform x="47.6" y="-57.85" skX="7.94" skY="7.24" scX="2.4" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="28" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 16" scale="1" offset="0">
+    <frame duration="37" displayIndex="-1"/>
+    <frame z="14" duration="5">
+     <transform x="47.6" y="-57.85" skX="1.4" skY="0.7" scX="2.4" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="25" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 18" scale="1" offset="0">
+    <frame duration="55" displayIndex="-1"/>
+    <frame z="15" tweenEasing="0" duration="3">
+     <transform x="60.25" y="-63.5" skX="0" skY="0" scX="0.07" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="3">
+     <transform x="474.25" y="-63.5" skX="0" skY="0" scX="1" scY="0.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" duration="1">
+     <transform x="474.25" y="-63.5" skX="0" skY="0" scX="1" scY="0.17" pX="0" pY="-0.05"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 12" scale="1" offset="0">
+    <frame duration="55" displayIndex="-1"/>
+    <frame z="16" tweenEasing="1" duration="5">
+     <transform x="63.9" y="-62.9" skX="0" skY="0" scX="1.28" scY="1.71" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" tweenEasing="0" duration="5">
+     <transform x="63.9" y="-62.9" skX="0" skY="0" scX="2.37" scY="3.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" duration="1">
+     <transform x="63.85" y="-62.9" skX="0" skY="0" scX="2.37" scY="3.16" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 35" scale="1" offset="0">
+    <frame z="17" tweenEasing="0" duration="2">
+     <transform x="2.5" y="-245.8" skX="0" skY="0" scX="1.37" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="17" tweenEasing="0" duration="3">
+     <transform x="2.5" y="-245.8" skX="0" skY="0" scX="4" scY="4" pX="0" pY="0"/>
+    </frame>
+    <frame z="17" tweenEasing="0" duration="3">
+     <transform x="2.5" y="-245.8" skX="0" skY="0" scX="11.35" scY="4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="38" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="17" duration="1">
+     <transform x="2.5" y="-245.8" skX="0" skY="0" scX="15.1" scY="4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="7" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="58" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 34" scale="1" offset="0">
+    <frame z="18" tweenEasing="0" duration="24">
+     <transform x="21.2" y="-42.05" skX="0" skY="0" scX="0.61" scY="0.61" pX="0" pY="0"/>
+    </frame>
+    <frame z="18" duration="1">
+     <transform x="21.2" y="-42.05" skX="0" skY="0" scX="0.61" scY="0.61" pX="0" pY="0"/>
+    </frame>
+    <frame duration="42" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 33" scale="1" offset="0">
+    <frame z="19" tweenEasing="0" duration="14">
+     <transform x="-16.65" y="-14.8" skX="25.24" skY="25.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="19" duration="1">
+     <transform x="-16.65" y="-14.8" skX="25.24" skY="25.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="52" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_j" scale="1" offset="0">
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="20" tweenEasing="0" duration="14">
+     <transform x="-26.4" y="-39.1" skX="72.97" skY="72.97" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="20" duration="1">
+     <transform x="-26.4" y="-39.1" skX="72.97" skY="72.97" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="24" tweenEasing="0" duration="14">
+     <transform x="-26.4" y="-39.1" skX="72.97" skY="72.97" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="24" duration="1">
+     <transform x="-26.4" y="-39.1" skX="72.97" skY="72.97" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="27" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_i" scale="1" offset="0">
+    <frame duration="10" displayIndex="-1"/>
+    <frame z="21" tweenEasing="0" duration="14">
+     <transform x="-4.95" y="-100.6" skX="33.72" skY="33.72" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="21" duration="1">
+     <transform x="-4.95" y="-100.6" skX="33.72" skY="33.72" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="25" tweenEasing="0" duration="14">
+     <transform x="-4.95" y="-100.6" skX="33.72" skY="33.72" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="25" duration="1">
+     <transform x="-4.95" y="-100.6" skX="33.72" skY="33.72" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="22" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_h" scale="1" offset="0">
+    <frame duration="15" displayIndex="-1"/>
+    <frame z="22" tweenEasing="0" duration="14">
+     <transform x="-29.3" y="-45.6" skX="63.44" skY="63.44" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="22" duration="1">
+     <transform x="-29.3" y="-45.6" skX="63.44" skY="63.44" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+    <frame z="26" tweenEasing="0" duration="14">
+     <transform x="-29.3" y="-45.6" skX="63.44" skY="63.44" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="26" duration="1">
+     <transform x="-29.3" y="-45.6" skX="63.44" skY="63.44" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 37" scale="1" offset="0">
+    <frame duration="20" displayIndex="-1"/>
+    <frame z="23" tweenEasing="0" duration="14">
+     <transform x="-16.65" y="-14.8" skX="25.24" skY="25.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="23" duration="1">
+     <transform x="-16.65" y="-14.8" skX="25.24" skY="25.24" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="32" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/ery54">
+  <bone name="图层 2">
+   <transform x="48.8" y="-45.35" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="六脉神剑/补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="65.5" pY="34"/>
+    </display>
+    <display name="六脉神剑/补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="161.5" pY="28"/>
+    </display>
+    <display name="六脉神剑/补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="261" pY="37.5"/>
+    </display>
+    <display name="六脉神剑/补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="328" pY="95.95"/>
+    </display>
+    <display name="六脉神剑/补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="320.5" pY="102"/>
+    </display>
+    <display name="六脉神剑/补间 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="258" pY="100.6"/>
+    </display>
+    <display name="六脉神剑/补间 22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="231.5" pY="47.5"/>
+    </display>
+    <display name="六脉神剑/补间 23" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="301.5" pY="67.5"/>
+    </display>
+    <display name="六脉神剑/补间 24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="239" pY="60"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="67" fadeInTime="0" duration="10" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="48.8" y="-45.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="183.8" y="-69" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="390" y="-62.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="324.2" y="-3.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="386.25" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="472.3" y="-3.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="489.95" y="52.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="480.9" y="43.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="532.45" y="44" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/gbfdgd">
+  <bone name="图层 2">
+   <transform x="30.45" y="-66.65" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0">
+    <display name="六脉神剑/补间 82" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="29.5" pY="20"/>
+    </display>
+    <display name="六脉神剑/补间 83" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34.5" pY="21"/>
+    </display>
+    <display name="六脉神剑/补间 84" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="34" pY="19.5"/>
+    </display>
+    <display name="六脉神剑/补间 85" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="35" pY="29.5"/>
+    </display>
+    <display name="六脉神剑/补间 86" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="33.5" pY="49.5"/>
+    </display>
+    <display name="六脉神剑/补间 87" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="37.5" pY="65"/>
+    </display>
+    <display name="六脉神剑/补间 88" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="57" pY="86.5"/>
+    </display>
+    <display name="六脉神剑/补间 89" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72.5" pY="87.5"/>
+    </display>
+    <display name="六脉神剑/补间 90" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="78" pY="78"/>
+    </display>
+    <display name="六脉神剑/补间 91" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="81" pY="73.5"/>
+    </display>
+    <display name="六脉神剑/补间 92" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="68" pY="49.5"/>
+    </display>
+    <display name="六脉神剑/补间 93" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="58" pY="35.5"/>
+    </display>
+    <display name="六脉神剑/补间 94" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="32.5" pY="45"/>
+    </display>
+    <display name="六脉神剑/补间 95" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="25" pY="47.5"/>
+    </display>
+    <display name="六脉神剑/补间 96" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="20" pY="29"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="hy6iu67" fadeInTime="0" duration="27" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="30.45" y="-66.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="44.7" y="-73.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="54.35" y="-75.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="52.05" y="-64.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="53.6" y="-45.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="50.25" y="-26.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="29.25" y="-3.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="10.8" y="12.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="2.65" y="21.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="1">
+     <transform x="-3.5" y="26.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="1">
+     <transform x="-15.3" y="50.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="11" duration="1">
+     <transform x="-26.15" y="65.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="12" duration="1">
+     <transform x="-51.3" y="53.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="13" duration="1">
+     <transform x="-56.1" y="41.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="14" duration="1">
+     <transform x="-56.9" y="27.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/Min 线性攻击">
+  <bone name="图层 3">
+   <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0" blendMode="add">
+    <display name="六脉神剑/补间 25" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="15.5" pY="19.5"/>
+    </display>
+    <display name="六脉神剑/补间 26" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="99.5" pY="18.5"/>
+    </display>
+    <display name="六脉神剑/补间 27" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="177" pY="13"/>
+    </display>
+    <display name="六脉神剑/补间 28" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="170.5" pY="13.5"/>
+    </display>
+    <display name="六脉神剑/补间 29" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.5" pY="17.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="54y54" fadeInTime="0" duration="9" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="96.4" y="9.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="176.85" y="9.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="188.35" y="10" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="195.4" y="9.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/Min 线性攻击 副本">
+  <bone name="图层 2">
+   <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="六脉神剑/补间 30" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="15.5" pY="19.5"/>
+    </display>
+    <display name="六脉神剑/补间 31" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="99.5" pY="18.5"/>
+    </display>
+    <display name="六脉神剑/补间 32" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="177" pY="13"/>
+    </display>
+    <display name="六脉神剑/补间 33" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="170.5" pY="13.5"/>
+    </display>
+    <display name="六脉神剑/补间 34" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.5" pY="17.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="56u6" fadeInTime="0" duration="9" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="96.4" y="9.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="176.85" y="9.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="188.35" y="10" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="195.4" y="9.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/Min 线性攻击 副本 2">
+  <bone name="图层 2">
+   <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="六脉神剑/补间 35" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="15.5" pY="19.5"/>
+    </display>
+    <display name="六脉神剑/补间 36" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="99.5" pY="18.5"/>
+    </display>
+    <display name="六脉神剑/补间 37" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="177" pY="13"/>
+    </display>
+    <display name="六脉神剑/补间 38" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="170.5" pY="13.5"/>
+    </display>
+    <display name="六脉神剑/补间 39" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.5" pY="17.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="67ik7" fadeInTime="0" duration="9" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="96.4" y="9.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="176.85" y="9.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="188.35" y="10" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="195.4" y="9.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/Min 线性攻击 副本 3">
+  <bone name="图层 2">
+   <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="六脉神剑/补间 40" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="15.5" pY="19.5"/>
+    </display>
+    <display name="六脉神剑/补间 41" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="99.5" pY="18.5"/>
+    </display>
+    <display name="六脉神剑/补间 42" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="177" pY="13"/>
+    </display>
+    <display name="六脉神剑/补间 43" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="170.5" pY="13.5"/>
+    </display>
+    <display name="六脉神剑/补间 44" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="160.5" pY="17.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="rt5uy6" fadeInTime="0" duration="9" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="10.1" y="12.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="96.4" y="9.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="176.85" y="9.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="188.35" y="10" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="195.4" y="9.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/tiaotiao">
+  <bone name="图层 4">
+   <transform x="204.5" y="68.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0" blendMode="add">
+    <display name="六脉神剑/补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="255" pY="44.5"/>
+    </display>
+    <display name="六脉神剑/补间 7" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="323" pY="39"/>
+    </display>
+    <display name="六脉神剑/补间 8" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="322.5" pY="49.5"/>
+    </display>
+    <display name="六脉神剑/补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="174.5" pY="57.5"/>
+    </display>
+    <display name="六脉神剑/补间 10" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="102" pY="42"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="tiaotiao" fadeInTime="0" duration="9" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="204.5" y="68.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="272.5" y="66.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="336.05" y="77.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="556.2" y="102.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="632.9" y="118" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/tiaotiao 副本">
+  <bone name="图层 4">
+   <transform x="204.5" y="68.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0" blendMode="add">
+    <display name="六脉神剑/补间 11" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="255" pY="44.5"/>
+    </display>
+    <display name="六脉神剑/补间 12" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="323" pY="39"/>
+    </display>
+    <display name="六脉神剑/补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="322.5" pY="49.5"/>
+    </display>
+    <display name="六脉神剑/补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="174.5" pY="57.5"/>
+    </display>
+    <display name="六脉神剑/补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="102" pY="42"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="tiaotiaote" fadeInTime="0" duration="9" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="204.5" y="68.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="272.5" y="66.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="336.05" y="77.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="556.2" y="102.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="632.9" y="118" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/元件 1">
+  <bone name="元件 8">
+   <transform x="274.55" y="139.75" skX="0" skY="0" scX="0.5" scY="0.5"/>
+  </bone>
+  <bone name="元件 9">
+   <transform x="292.6" y="174.35" skX="48.37" skY="48.37" scX="0.77" scY="0.77"/>
+  </bone>
+  <bone name="元件 8_0">
+   <transform x="274.55" y="139.75" skX="0" skY="0" scX="0.7" scY="0.7"/>
+  </bone>
+  <bone name="元件 8_1">
+   <transform x="151.25" y="123.35" skX="-29.34" skY="-29.34" scX="-1.51" scY="1.51"/>
+  </bone>
+  <bone name="元件 8_2">
+   <transform x="239.9" y="90.3" skX="0" skY="0" scX="-0.71" scY="0.71"/>
+  </bone>
+  <bone name="元件 8_3">
+   <transform x="216.15" y="150.95" skX="17.31" skY="17.31" scX="-0.67" scY="0.67"/>
+  </bone>
+  <skin name="default">
+   <slot name="元件 8" parent="元件 8" z="0">
+    <display name="六脉神剑/元件 8" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 9" parent="元件 9" z="1">
+    <display name="六脉神剑/元件 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="84.75" pY="81"/>
+    </display>
+   </slot>
+   <slot name="元件 8_0" parent="元件 8_0" z="2">
+    <display name="六脉神剑/元件 8" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 8_1" parent="元件 8_1" z="3">
+    <display name="六脉神剑/元件 8" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 8_2" parent="元件 8_2" z="4">
+    <display name="六脉神剑/元件 8" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="元件 8_3" parent="元件 8_3" z="5">
+    <display name="六脉神剑/元件 8" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ij78i78" fadeInTime="0" duration="19" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="元件 8" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="274.55" y="139.75" skX="0" skY="0" scX="0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="4">
+     <transform x="303.15" y="94.85" skX="0" skY="0" scX="0.88" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="7">
+     <transform x="354.9" y="26.6" skX="90.25" skY="90.25" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="429.55" y="-60.35" skX="166.28" skY="166.28" scX="0.4" scY="0.4" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="元件 9" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="292.6" y="174.35" skX="48.37" skY="48.37" scX="0.77" scY="0.77" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="299.35" y="187.35" skX="66.45" skY="66.45" scX="0.88" scY="0.88" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="5">
+     <transform x="339.6" y="249.85" skX="68.98" skY="68.98" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="370.3" y="292.3" skX="-170.77" skY="-170.77" scX="0.4" scY="0.4" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="元件 8_0" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="3">
+     <transform x="274.55" y="139.75" skX="0" skY="0" scX="0.7" scY="0.7" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="5">
+     <transform x="354.15" y="92.3" skX="0" skY="0" scX="1.22" scY="1.22" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="7">
+     <transform x="425.75" y="21.6" skX="72.23" skY="72.23" scX="1.4" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="501" y="-37.75" skX="-152.54" skY="-152.54" scX="0.56" scY="0.56" pX="0" pY="0"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+   <timeline name="元件 8_1" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="151.25" y="123.35" skX="-29.34" skY="-29.34" scX="-1.51" scY="1.51" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="8">
+     <transform x="54.6" y="89.65" skX="101.95" skY="101.95" scX="-1.68" scY="1.68" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-16.8" y="65.4" skX="-130.7" skY="-130.7" scX="-0.67" scY="0.67" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="元件 8_2" scale="1" offset="0">
+    <frame z="4" tweenEasing="0" duration="2">
+     <transform x="239.9" y="90.3" skX="0" skY="0" scX="-0.71" scY="0.71" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="5">
+     <transform x="236.7" y="85.35" skX="0" skY="0" scX="-0.74" scY="0.74" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="6">
+     <transform x="203.65" y="20.6" skX="0" skY="0" scX="-0.84" scY="0.84" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="163.8" y="-46.75" skX="0" skY="0" scX="-0.42" scY="0.42" pX="0" pY="0"/>
+    </frame>
+    <frame duration="5" displayIndex="-1"/>
+   </timeline>
+   <timeline name="元件 8_3" scale="1" offset="0">
+    <frame z="5" tweenEasing="0" duration="3">
+     <transform x="216.15" y="150.95" skX="17.31" skY="17.31" scX="-0.67" scY="0.67" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="4">
+     <transform x="147.05" y="164.95" skX="38.3" skY="38.3" scX="-0.87" scY="0.87" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="7">
+     <transform x="23.5" y="218.85" skX="-114.21" skY="-114.21" scX="-1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="-27.7" y="240.25" skX="-158.81" skY="-158.81" scX="-0.5" scY="0.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/元件 8">
+  <bone name="图层 1">
+   <transform x="-0.45" y="-0.1" skX="28.07" skY="28.07" scX="7.61" scY="7.61"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="六脉神剑/元件 1 副本" type="image">
+     <transform x="0" y="2.3" skX="0" skY="0" scX="1" scY="1" pX="8.15" pY="10"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="h6t5u76" fadeInTime="0" duration="1" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-0.45" y="-0.1" skX="28.07" skY="28.07" scX="7.61" scY="7.61" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="六脉神剑/元件 1633">
+  <bone name="图层 2">
+   <transform x="4.35" y="-1.65" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0" blendMode="add">
+    <display name="六脉神剑/元件 40" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62" pY="49.5"/>
+    </display>
+    <display name="六脉神剑/元件 41" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="79.65" pY="64.35"/>
+    </display>
+    <display name="六脉神剑/元件 42" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="94.95" pY="74.95"/>
+    </display>
+    <display name="六脉神剑/元件 43" type="image">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1" pX="104.9" pY="84.75"/>
+    </display>
+    <display name="六脉神剑/元件 44" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="112.85" pY="90.3"/>
+    </display>
+    <display name="六脉神剑/元件 45" type="image">
+     <transform x="46.5" y="17.95" skX="0" skY="0" scX="1" scY="1" pX="61" pY="59.95"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="1" blendMode="add">
+    <display name="六脉神剑/元件 30" type="image">
+     <transform x="-113" y="-112.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 233" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 3333" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 433" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 533" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 633" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 733" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 833" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+    <display name="六脉神剑/元件 933" type="image">
+     <transform x="-83.3" y="-83.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="元件 16" fadeInTime="0" duration="13" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="4.35" y="-1.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-1.9" y="-1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-2.45" y="-2.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-2.35" y="-1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-2.2" y="-3.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-47.1" y="-17.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="1" duration="1">
+     <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="-0.15" y="-0.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="1" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="2" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="3" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="4" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="5" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="6" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="7" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" displayIndex="8" duration="1">
+     <transform x="-0.2" y="-0.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

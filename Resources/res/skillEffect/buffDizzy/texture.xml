@@ -1,0 +1,10 @@
+<TextureAtlas name="buffDizzy" imagePath="texture.png">
+ <SubTexture name="补间 1" x="114" y="100" width="112" height="48"/>
+ <SubTexture name="补间 2" x="0" y="150" width="112" height="48"/>
+ <SubTexture name="补间 3" x="114" y="0" width="112" height="48"/>
+ <SubTexture name="补间 4" x="114" y="50" width="112" height="48"/>
+ <SubTexture name="补间 5" x="0" y="0" width="112" height="48"/>
+ <SubTexture name="补间 6" x="114" y="150" width="112" height="48"/>
+ <SubTexture name="补间 7" x="0" y="100" width="112" height="48"/>
+ <SubTexture name="补间 8" x="0" y="50" width="112" height="48"/>
+</TextureAtlas>

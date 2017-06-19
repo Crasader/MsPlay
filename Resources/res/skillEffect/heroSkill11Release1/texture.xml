@@ -1,0 +1,11 @@
+<TextureAtlas name="百式鬼烧" imagePath="texture.png">
+ <SubTexture name="百式鬼烧/补间 1" x="1712" y="360" width="326" height="223"/>
+ <SubTexture name="百式鬼烧/补间 2" x="1384" y="360" width="326" height="223"/>
+ <SubTexture name="百式鬼烧/补间 3" x="1384" y="0" width="432" height="358"/>
+ <SubTexture name="百式鬼烧/补间 4" x="0" y="360" width="432" height="358"/>
+ <SubTexture name="百式鬼烧/补间 5" x="950" y="0" width="432" height="358"/>
+ <SubTexture name="百式鬼烧/补间 6" x="0" y="0" width="473" height="358"/>
+ <SubTexture name="百式鬼烧/补间 7" x="475" y="0" width="473" height="358"/>
+ <SubTexture name="百式鬼烧/补间 17" x="434" y="360" width="473" height="310"/>
+ <SubTexture name="百式鬼烧/补间 18" x="909" y="360" width="473" height="310"/>
+</TextureAtlas>

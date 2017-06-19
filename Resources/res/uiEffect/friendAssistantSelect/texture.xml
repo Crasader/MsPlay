@@ -1,0 +1,16 @@
+<TextureAtlas name="friendAssistantSelect" imagePath="texture.png">
+ <SubTexture name="turt43" x="0" y="0" width="192" height="192"/>
+ <SubTexture name="43y54" x="346" y="0" width="150" height="150"/>
+ <SubTexture name="e4u75,4" x="152" y="304" width="150" height="150"/>
+ <SubTexture name="er54y6m" x="194" y="0" width="150" height="150"/>
+ <SubTexture name="e4563" x="802" y="152" width="150" height="150"/>
+ <SubTexture name="5r47" x="304" y="304" width="150" height="150"/>
+ <SubTexture name="re575" x="498" y="152" width="150" height="150"/>
+ <SubTexture name="r57544" x="650" y="152" width="150" height="150"/>
+ <SubTexture name="ol87t" x="498" y="0" width="150" height="150"/>
+ <SubTexture name="5u7654" x="650" y="0" width="150" height="150"/>
+ <SubTexture name="r56867" x="194" y="152" width="150" height="150"/>
+ <SubTexture name="tr6i867" x="0" y="194" width="150" height="150"/>
+ <SubTexture name="rtf6ui67" x="346" y="152" width="150" height="150"/>
+ <SubTexture name="tg6i8676" x="802" y="0" width="150" height="150"/>
+</TextureAtlas>

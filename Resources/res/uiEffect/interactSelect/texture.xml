@@ -1,0 +1,8 @@
+<TextureAtlas name="interactSelect" imagePath="texture.png">
+ <SubTexture name="补间 13" x="189" y="0" width="188" height="188"/>
+ <SubTexture name="补间 14" x="0" y="0" width="188" height="188"/>
+ <SubTexture name="补间 15" x="189" y="189" width="188" height="188"/>
+ <SubTexture name="补间 16" x="0" y="189" width="188" height="188"/>
+ <SubTexture name="补间 17" x="189" y="378" width="188" height="188"/>
+ <SubTexture name="补间 18" x="0" y="378" width="188" height="188"/>
+</TextureAtlas>

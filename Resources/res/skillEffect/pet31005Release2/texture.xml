@@ -1,0 +1,4 @@
+<TextureAtlas name="pet31005Release2" imagePath="texture.png">
+ <SubTexture name="补间 3" x="0" y="0" width="128" height="41"/>
+ <SubTexture name="ery5434" x="130" y="0" width="28" height="26"/>
+</TextureAtlas>

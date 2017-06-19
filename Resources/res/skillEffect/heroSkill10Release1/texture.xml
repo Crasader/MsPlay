@@ -1,0 +1,16 @@
+<TextureAtlas name="波动拳" imagePath="texture.png">
+ <SubTexture name="波动拳自身特效/tytryrt" x="824" y="394" width="81" height="81"/>
+ <SubTexture name="波动拳自身特效/元件 11 复制" x="518" y="0" width="393" height="393"/>
+ <SubTexture name="波动拳自身特效/元件 12 复制" x="518" y="394" width="305" height="305"/>
+ <SubTexture name="波动拳自身特效/元件 13 复制" x="0" y="518" width="240" height="240"/>
+ <SubTexture name="波动拳自身特效/元件 14 复制" x="0" y="0" width="516" height="516"/>
+ <SubTexture name="波动拳自身特效/rt45ujh65" x="824" y="476" width="65" height="73"/>
+ <SubTexture name="波动拳自身特效/drjhu65" x="241" y="518" width="89" height="104"/>
+ <SubTexture name="波动拳自身特效/sedhy56" x="912" y="250" width="98" height="116"/>
+ <SubTexture name="波动拳自身特效/edrh44w" x="912" y="0" width="104" height="130"/>
+ <SubTexture name="波动拳自身特效/trhy546" x="912" y="131" width="109" height="118"/>
+ <SubTexture name="波动拳自身特效/swet5" x="906" y="461" width="105" height="91"/>
+ <SubTexture name="波动拳自身特效/edruyh65" x="912" y="367" width="103" height="93"/>
+ <SubTexture name="波动拳自身特效/swey5" x="331" y="518" width="76" height="12"/>
+ <SubTexture name="波动拳自身特效/edry443" x="408" y="518" width="76" height="6"/>
+</TextureAtlas>

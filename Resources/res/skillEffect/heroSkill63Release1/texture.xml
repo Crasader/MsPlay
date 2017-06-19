@@ -1,0 +1,26 @@
+<TextureAtlas name="heroSkill63Release1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="848" y="108" width="80" height="80"/>
+ <SubTexture name="元件 19" x="364" y="0" width="66" height="556"/>
+ <SubTexture name="元件 20" x="431" y="0" width="81" height="525"/>
+ <SubTexture name="元件 21" x="234" y="0" width="80" height="869"/>
+ <SubTexture name="元件 22" x="315" y="0" width="48" height="828"/>
+ <SubTexture name="元件 23" x="0" y="0" width="121" height="1194"/>
+ <SubTexture name="元件 24" x="122" y="0" width="111" height="1049"/>
+ <SubTexture name="元件 1933" x="513" y="465" width="312" height="144"/>
+ <SubTexture name="元件 2044" x="513" y="318" width="313" height="145"/>
+ <SubTexture name="元件 2155" x="513" y="0" width="333" height="157"/>
+ <SubTexture name="元件 2266" x="513" y="159" width="333" height="157"/>
+ <SubTexture name="元件 2377" x="364" y="611" width="245" height="136"/>
+ <SubTexture name="补间 6333" x="954" y="315" width="44" height="48"/>
+ <SubTexture name="补间 5222" x="986" y="197" width="27" height="50"/>
+ <SubTexture name="补间 11111" x="828" y="319" width="43" height="26"/>
+ <SubTexture name="补间 8222" x="917" y="197" width="67" height="76"/>
+ <SubTexture name="补间 10222" x="956" y="0" width="60" height="67"/>
+ <SubTexture name="补间 2333" x="848" y="268" width="49" height="49"/>
+ <SubTexture name="补间 4111" x="956" y="69" width="54" height="49"/>
+ <SubTexture name="补间 3222" x="899" y="315" width="53" height="43"/>
+ <SubTexture name="补间 9333" x="930" y="120" width="72" height="75"/>
+ <SubTexture name="补间 11333" x="899" y="275" width="98" height="38"/>
+ <SubTexture name="补间 7111" x="848" y="190" width="67" height="76"/>
+ <SubTexture name="3456fghgff" x="848" y="0" width="106" height="106"/>
+</TextureAtlas>

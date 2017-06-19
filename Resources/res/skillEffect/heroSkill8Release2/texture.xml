@@ -1,0 +1,16 @@
+<TextureAtlas name="heroSkill8Release2" imagePath="texture.png">
+ <SubTexture name="ry554" x="1168" y="300" width="214" height="294"/>
+ <SubTexture name="rt5y54" x="452" y="284" width="246" height="292"/>
+ <SubTexture name="deru65" x="760" y="600" width="344" height="300"/>
+ <SubTexture name="wsety54" x="1384" y="594" width="374" height="306"/>
+ <SubTexture name="rtfu654" x="1384" y="302" width="394" height="290"/>
+ <SubTexture name="rftuj675" x="1414" y="0" width="572" height="300"/>
+ <SubTexture name="t5uy5r" x="0" y="0" width="730" height="282"/>
+ <SubTexture name="yu7ik76" x="732" y="0" width="680" height="298"/>
+ <SubTexture name="ti768" x="700" y="300" width="466" height="298"/>
+ <SubTexture name="t67i765" x="0" y="284" width="450" height="348"/>
+ <SubTexture name="yu7i877" x="452" y="600" width="306" height="348"/>
+ <SubTexture name="t6ui6778" x="0" y="634" width="312" height="326"/>
+ <SubTexture name="tyuiui67" x="760" y="902" width="324" height="244"/>
+ <SubTexture name="rtu67" x="1780" y="302" width="168" height="250"/>
+</TextureAtlas>

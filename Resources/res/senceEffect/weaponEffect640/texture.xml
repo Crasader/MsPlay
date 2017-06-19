@@ -1,0 +1,14 @@
+<TextureAtlas name="weaponEffect640" imagePath="texture.png">
+ <SubTexture name="补间 37" x="230" y="206" width="213" height="189"/>
+ <SubTexture name="补间 38" x="464" y="0" width="229" height="200"/>
+ <SubTexture name="补间 39" x="230" y="0" width="232" height="204"/>
+ <SubTexture name="补间 40" x="406" y="401" width="195" height="187"/>
+ <SubTexture name="补间 41" x="673" y="394" width="200" height="191"/>
+ <SubTexture name="补间 42" x="0" y="408" width="197" height="176"/>
+ <SubTexture name="补间 43" x="695" y="0" width="214" height="196"/>
+ <SubTexture name="补间 44" x="0" y="0" width="228" height="214"/>
+ <SubTexture name="补间 45" x="695" y="198" width="210" height="194"/>
+ <SubTexture name="补间 46" x="464" y="202" width="207" height="197"/>
+ <SubTexture name="补间 47" x="209" y="397" width="195" height="189"/>
+ <SubTexture name="补间 48" x="0" y="216" width="207" height="190"/>
+</TextureAtlas>

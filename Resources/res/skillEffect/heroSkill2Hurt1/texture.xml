@@ -1,0 +1,42 @@
+<TextureAtlas name="灵丸被击" imagePath="texture.png">
+ <SubTexture name="灵丸被击/rt5hy6" x="707" y="452" width="173" height="170"/>
+ <SubTexture name="灵丸被击/wegt54" x="464" y="436" width="193" height="192"/>
+ <SubTexture name="灵丸被击/ewfgtq" x="0" y="249" width="200" height="199"/>
+ <SubTexture name="灵丸被击/watr54" x="479" y="0" width="227" height="227"/>
+ <SubTexture name="灵丸被击/wae4tg43" x="0" y="0" width="247" height="247"/>
+ <SubTexture name="灵丸被击/元件 1" x="932" y="364" width="91" height="91"/>
+ <SubTexture name="灵丸被击/元件 2" x="932" y="272" width="91" height="91"/>
+ <SubTexture name="灵丸被击/元件 3" x="396" y="436" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 4" x="936" y="204" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 5" x="396" y="504" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 6" x="936" y="136" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 7" x="396" y="572" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 8" x="936" y="68" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 9" x="948" y="909" width="67" height="67"/>
+ <SubTexture name="灵丸被击/元件 10" x="336" y="944" width="67" height="67"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 1" x="936" y="0" width="69" height="67"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 2" x="336" y="749" width="97" height="106"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 3" x="882" y="456" width="117" height="156"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 4" x="659" y="624" width="157" height="187"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 5" x="202" y="436" width="193" height="200"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 6" x="708" y="227" width="223" height="223"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 7" x="249" y="0" width="228" height="230"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 8" x="249" y="231" width="215" height="204"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 9" x="479" y="229" width="218" height="206"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 10" x="0" y="450" width="186" height="180"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 11" x="770" y="909" width="177" height="151"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 12" x="882" y="613" width="141" height="127"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 13" x="336" y="640" width="111" height="108"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 14" x="336" y="856" width="92" height="87"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 15" x="202" y="249" width="46" height="54"/>
+ <SubTexture name="灵丸被击/56uyghur/yuexuanwochongfuwjj123/元件 16" x="659" y="436" width="47" height="54"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 30" x="708" y="0" width="227" height="226"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 2" x="0" y="799" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 3" x="817" y="741" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 4" x="464" y="630" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 5" x="602" y="812" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 6" x="168" y="805" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 7" x="434" y="798" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 8" x="168" y="637" width="167" height="167"/>
+ <SubTexture name="灵丸被击/56uyghur/五绝神功打击mktu/元件 9" x="0" y="631" width="167" height="167"/>
+</TextureAtlas>

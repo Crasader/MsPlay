@@ -1,0 +1,431 @@
+<dragonBones name="飞龙探云手" frameRate="30" version="2.3">
+ <armature name="heroSkill13Release1">
+  <bone name="图层 5">
+   <transform x="41.75" y="-49" skX="-30.51" skY="-30.51" scX="0.71" scY="0.71"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 5" parent="图层 5" z="0">
+    <display name="飞龙探云手/56u76" type="armature">
+     <transform x="25.05" y="16.65" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="32" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="11" displayIndex="-1"/>
+    <frame z="0" duration="1">
+     <transform x="41.75" y="-49" skX="-30.51" skY="-30.51" scX="0.71" scY="0.71" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="67.4" y="-54.45" skX="-36.34" skY="-36.34" scX="1" scY="1" pX="-0.05" pY="0.1"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="67.4" y="-54.45" skX="-36.34" skY="-36.34" scX="1" scY="1" pX="-0.05" pY="0.1"/>
+    </frame>
+    <frame z="0" duration="7">
+     <transform x="67.4" y="-49.1" skX="-30.51" skY="-30.51" scX="1" scY="1" pX="-0.15" pY="0.05"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="67.4" y="-49.1" skX="-30.51" skY="-30.51" scX="1" scY="1" pX="-0.15" pY="0.05"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="67.4" y="-49.1" skX="-30.51" skY="-30.51" scX="1" scY="1" pX="-0.15" pY="0.05"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="3" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="飞龙探云手/56u76">
+  <bone name="图层 10">
+   <transform x="-25.85" y="-19.9" skX="1.27" skY="1.27" scX="-0.64" scY="0.64"/>
+  </bone>
+  <bone name="图层 7">
+   <transform x="8.55" y="4.75" skX="1.04" skY="1.04" scX="-0.65" scY="0.65"/>
+  </bone>
+  <bone name="图层 8">
+   <transform x="18.75" y="12.6" skX="1.04" skY="1.04" scX="-0.65" scY="0.65"/>
+  </bone>
+  <bone name="nv1_juguangxian_j">
+   <transform x="154.8" y="-87.8" skX="67.91" skY="133.59" scX="-0.43" scY="0.9"/>
+  </bone>
+  <bone name="nv1_juguangxian_i">
+   <transform x="72.15" y="48.05" skX="142.32" skY="-152.01" scX="-0.55" scY="1.05"/>
+  </bone>
+  <bone name="nv1_juguangxian_h">
+   <transform x="-143.5" y="-9.9" skX="-98.53" skY="-164.21" scX="0.51" scY="1.06"/>
+  </bone>
+  <bone name="nv1_juguangxian_g">
+   <transform x="9.3" y="-36.1" skX="-31.37" skY="-97.04" scX="0.36" scY="0.75"/>
+  </bone>
+  <bone name="nv1_juguangxian_f">
+   <transform x="68.9" y="-160.25" skX="-56.72" skY="-56.72" scX="0.72" scY="0.48"/>
+  </bone>
+  <bone name="nv1_juguangxian_e">
+   <transform x="217.6" y="24.55" skX="30.22" skY="30.22" scX="1.14" scY="1.14"/>
+  </bone>
+  <bone name="nv1_juguangxian_d">
+   <transform x="-137.7" y="74.7" skX="-59.38" skY="-44.91" scX="-0.67" scY="0.82"/>
+  </bone>
+  <bone name="nv1_juguangxian_c">
+   <transform x="34.6" y="4.2" skX="-117.19" skY="-117.19" scX="1.06" scY="0.71"/>
+  </bone>
+  <bone name="nv1_juguangxian_b">
+   <transform x="77.7" y="171.25" skX="93.66" skY="93.66" scX="0.7" scY="0.7"/>
+  </bone>
+  <bone name="nv1_juguangxian_a">
+   <transform x="22.4" y="12.75" skX="30.22" skY="30.22" scX="1.3" scY="1.3"/>
+  </bone>
+  <bone name="nv1_guangqiu">
+   <transform x="22.35" y="12.6" skX="30.22" skY="30.22" scX="1.3" scY="1.3"/>
+  </bone>
+  <bone name="图层 2">
+   <transform x="45.4" y="21.55" skX="1.04" skY="1.04" scX="-0.65" scY="0.65"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="39.4" y="2.15" skX="1.04" skY="1.04" scX="-0.65" scY="0.65"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="11.4" y="-4.8" skX="1.04" skY="1.04" scX="-0.65" scY="0.65"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="-17.3" y="6.6" skX="1.04" skY="1.04" scX="-0.65" scY="0.65"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 10" parent="图层 10" z="0">
+    <display name="飞龙探云手/sprite 39" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.85" pY="58.2"/>
+    </display>
+   </slot>
+   <slot name="图层 7" parent="图层 7" z="1">
+    <display name="飞龙探云手/e4r5y54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="67" pY="37.2"/>
+    </display>
+   </slot>
+   <slot name="图层 8" parent="图层 8" z="2">
+    <display name="飞龙探云手/补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="62" pY="45.5"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_j" parent="nv1_juguangxian_j" z="3">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="0" y="-0.1" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_i" parent="nv1_juguangxian_i" z="4">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="140.2" y="-62.8" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_h" parent="nv1_juguangxian_h" z="5">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="-0.1" y="-0.2" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_g" parent="nv1_juguangxian_g" z="6">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="189.35" y="-71.15" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_f" parent="nv1_juguangxian_f" z="7">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="-0.1" y="0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_e" parent="nv1_juguangxian_e" z="8">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_d" parent="nv1_juguangxian_d" z="9">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="-0.05" y="-0.15" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_c" parent="nv1_juguangxian_c" z="10">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="175.35" y="-75.75" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_b" parent="nv1_juguangxian_b" z="11">
+    <display name="飞龙探云手/元件 7 副本 10" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="nv1_juguangxian_a" parent="nv1_juguangxian_a" z="12">
+    <display name="飞龙探云手/补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="114.5" pY="122"/>
+    </display>
+    <display name="飞龙探云手/补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="114.5" pY="122"/>
+    </display>
+   </slot>
+   <slot name="nv1_guangqiu" parent="nv1_guangqiu" z="13">
+    <display name="飞龙探云手/e4t4334" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="102.5" pY="110"/>
+    </display>
+   </slot>
+   <slot name="图层 2" parent="图层 2" z="14">
+    <display name="飞龙探云手/补间 10" type="image">
+     <transform x="-10.4" y="15.55" skX="0" skY="0" scX="1" scY="1" pX="20.7" pY="35.7"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="15">
+    <display name="飞龙探云手/补间 14" type="image">
+     <transform x="-15.95" y="-14.7" skX="0" skY="0" scX="1" scY="1" pX="28.6" pY="43.85"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="16">
+    <display name="飞龙探云手/补间 13" type="image">
+     <transform x="-13.65" y="-24.4" skX="0" skY="0" scX="1" scY="1" pX="30.8" pY="44.2"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="17">
+    <display name="飞龙探云手/补间 12" type="image">
+     <transform x="14.9" y="11.1" skX="0" skY="0" scX="1" scY="1" pX="34.8" pY="45.55"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="rftjk" fadeInTime="0" duration="46" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 10" scale="1" offset="0">
+    <frame z="0" duration="46">
+     <transform x="-25.85" y="-19.9" skX="1.27" skY="1.27" scX="-0.64" scY="0.64" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame z="1" duration="5">
+     <transform x="8.55" y="4.75" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame duration="41" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 8" scale="1" offset="0">
+    <frame z="2" duration="46">
+     <transform x="18.75" y="12.6" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="nv1_juguangxian_j" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="16">
+     <transform x="154.8" y="-87.8" skX="67.91" skY="133.59" scX="-0.43" scY="0.9" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="154.8" y="-87.8" skX="67.91" skY="133.59" scX="-0.43" scY="0.9" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_i" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="4" tweenEasing="0" duration="16">
+     <transform x="72.15" y="48.05" skX="142.32" skY="-152.01" scX="-0.55" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" duration="1">
+     <transform x="72.15" y="48.05" skX="142.32" skY="-152.01" scX="-0.55" scY="1.05" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_h" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="5" tweenEasing="0" duration="16">
+     <transform x="-143.5" y="-9.9" skX="-98.53" skY="-164.21" scX="0.51" scY="1.06" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" duration="1">
+     <transform x="-143.5" y="-9.9" skX="-98.53" skY="-164.21" scX="0.51" scY="1.06" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_g" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="6" tweenEasing="0" duration="16">
+     <transform x="9.3" y="-36.1" skX="-31.37" skY="-97.04" scX="0.36" scY="0.75" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" duration="1">
+     <transform x="9.3" y="-36.1" skX="-31.37" skY="-97.04" scX="0.36" scY="0.75" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_f" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="7" tweenEasing="0" duration="19">
+     <transform x="68.9" y="-160.25" skX="-56.72" skY="-56.72" scX="0.72" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame z="7" duration="1">
+     <transform x="68.9" y="-160.25" skX="-56.72" skY="-56.72" scX="0.72" scY="0.48" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_e" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="8" tweenEasing="0" duration="19">
+     <transform x="217.6" y="24.55" skX="30.22" skY="30.22" scX="1.14" scY="1.14" pX="0" pY="0"/>
+    </frame>
+    <frame z="8" duration="1">
+     <transform x="217.6" y="24.55" skX="30.22" skY="30.22" scX="1.14" scY="1.14" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_d" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="9" tweenEasing="0" duration="19">
+     <transform x="-137.7" y="74.7" skX="-59.38" skY="-44.91" scX="-0.67" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="9" duration="1">
+     <transform x="-137.7" y="74.7" skX="-59.38" skY="-44.91" scX="-0.67" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_c" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="10" tweenEasing="0" duration="19">
+     <transform x="34.6" y="4.2" skX="-117.19" skY="-117.19" scX="1.06" scY="0.71" pX="0" pY="0"/>
+    </frame>
+    <frame z="10" duration="1">
+     <transform x="34.6" y="4.2" skX="-117.19" skY="-117.19" scX="1.06" scY="0.71" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_b" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="11" tweenEasing="0" duration="19">
+     <transform x="77.7" y="171.25" skX="93.66" skY="93.66" scX="0.7" scY="0.7" pX="0" pY="0"/>
+    </frame>
+    <frame z="11" duration="1">
+     <transform x="77.7" y="171.25" skX="93.66" skY="93.66" scX="0.7" scY="0.7" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_juguangxian_a" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="12" duration="1">
+     <transform x="22.4" y="12.75" skX="30.22" skY="30.22" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="12" displayIndex="1" duration="1">
+     <transform x="22.4" y="12.75" skX="30.22" skY="30.22" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame duration="38" displayIndex="-1"/>
+   </timeline>
+   <timeline name="nv1_guangqiu" scale="1" offset="0">
+    <frame duration="8" displayIndex="-1"/>
+    <frame z="13" duration="1">
+     <transform x="22.35" y="12.6" skX="30.22" skY="30.22" scX="1.3" scY="1.3" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" duration="1">
+     <transform x="22.3" y="12.55" skX="30.22" skY="30.22" scX="0.99" scY="0.99" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" duration="1">
+     <transform x="22.35" y="12.55" skX="30.22" skY="30.22" scX="0.69" scY="0.69" pX="0" pY="0"/>
+    </frame>
+    <frame z="13" duration="1">
+     <transform x="22.35" y="12.6" skX="30.22" skY="30.22" scX="0.39" scY="0.39" pX="0" pY="0"/>
+    </frame>
+    <frame duration="34" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="14" duration="2">
+     <transform x="45.4" y="21.55" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="2">
+     <transform x="45.4" y="21.55" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="14" tweenEasing="0" duration="3">
+     <transform x="46.55" y="21.3" skX="-35.02" skY="-6.66" scX="-0.65" scY="0.74" pX="0.15" pY="0.05"/>
+    </frame>
+    <frame z="14" duration="39">
+     <transform x="46.7" y="17.05" skX="61.03" skY="61.03" scX="-0.65" scY="0.65" pX="0.4" pY="-0.05"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="15" duration="2">
+     <transform x="39.4" y="2.15" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="2">
+     <transform x="39.4" y="2.15" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="15" tweenEasing="0" duration="3">
+     <transform x="43.35" y="1.9" skX="-34.47" skY="-13.41" scX="-0.65" scY="0.69" pX="-0.05" pY="-0.1"/>
+    </frame>
+    <frame z="15" duration="39">
+     <transform x="21.1" y="-0.85" skX="45.81" skY="45.81" scX="-0.65" scY="0.65" pX="-0.35" pY="-0.15"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="16" duration="2">
+     <transform x="11.4" y="-4.8" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" tweenEasing="0" duration="2">
+     <transform x="11.4" y="-4.8" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="16" tweenEasing="0" duration="3">
+     <transform x="16.5" y="-8.2" skX="-28.38" skY="-12.99" scX="-0.65" scY="0.67" pX="-0.1" pY="0.05"/>
+    </frame>
+    <frame z="16" duration="39">
+     <transform x="-1.85" y="12.8" skX="24.8" skY="24.8" scX="-0.65" scY="0.65" pX="-0.1" pY="0.25"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame z="17" duration="2">
+     <transform x="-17.3" y="6.6" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="17" tweenEasing="0" duration="2">
+     <transform x="-17.3" y="6.6" skX="1.04" skY="1.04" scX="-0.65" scY="0.65" pX="0" pY="0"/>
+    </frame>
+    <frame z="17" tweenEasing="0" duration="3">
+     <transform x="-18.55" y="8.55" skX="22.34" skY="5.75" scX="-0.65" scY="0.68" pX="-0.1" pY="0.1"/>
+    </frame>
+    <frame z="17" duration="39">
+     <transform x="-11.15" y="7.85" skX="-74.15" skY="-74.15" scX="-0.65" scY="0.65" pX="0.15" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="飞龙探云手/元件 7 副本 10">
+  <bone name="图层 1">
+   <transform x="-128.8" y="45.15" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="飞龙探云手/补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="89" pY="74.5"/>
+    </display>
+    <display name="飞龙探云手/补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="120" pY="84"/>
+    </display>
+    <display name="飞龙探云手/补间 9" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="152.5" pY="94.5"/>
+    </display>
+    <display name="飞龙探云手/补间 101" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="185.5" pY="105.5"/>
+    </display>
+    <display name="飞龙探云手/补间 111" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="219" pY="116"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="fregf4e3" fadeInTime="0" duration="46" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-128.8" y="45.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-97.6" y="33.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-64.9" y="22.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-31.75" y="12.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="1.95" y="1.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" tweenEasing="0" duration="6">
+     <transform x="-178.1" y="69.2" skX="0" skY="0" scX="1" scY="1" pX="180.05" pY="-67.55"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-178.1" y="69.2" skX="-14.54" skY="-14.54" scX="0.9" scY="0.41" pX="180.05" pY="-67.55"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="20" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="34" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

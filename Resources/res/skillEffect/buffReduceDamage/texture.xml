@@ -1,0 +1,4 @@
+<TextureAtlas name="buffReduceDamage" imagePath="texture.png">
+ <SubTexture name="补间 2" x="0" y="0" width="63" height="100"/>
+ <SubTexture name="补间 1" x="0" y="102" width="63" height="100"/>
+</TextureAtlas>

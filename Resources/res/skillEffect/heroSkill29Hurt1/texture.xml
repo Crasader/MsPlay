@@ -1,0 +1,10 @@
+<TextureAtlas name="独孤九剑被击" imagePath="texture.png">
+ <SubTexture name="补间 1" x="398" y="0" width="35" height="35"/>
+ <SubTexture name="补间 2" x="130" y="415" width="128" height="128"/>
+ <SubTexture name="补间 3" x="0" y="372" width="128" height="133"/>
+ <SubTexture name="补间 4" x="0" y="192" width="172" height="178"/>
+ <SubTexture name="补间 5" x="210" y="0" width="186" height="186"/>
+ <SubTexture name="补间 6" x="210" y="188" width="208" height="145"/>
+ <SubTexture name="补间 7" x="0" y="0" width="208" height="190"/>
+ <SubTexture name="补间 8" x="174" y="335" width="250" height="78"/>
+</TextureAtlas>

@@ -1,0 +1,3 @@
+<TextureAtlas name="heroSkill62Bullet1" imagePath="texture.png">
+ <SubTexture name="t6u7565" x="0" y="0" width="152" height="227"/>
+</TextureAtlas>

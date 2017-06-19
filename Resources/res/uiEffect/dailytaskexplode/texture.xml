@@ -1,0 +1,18 @@
+<TextureAtlas name="爆竹炸开" imagePath="texture.png">
+ <SubTexture name="补间 16" x="579" y="178" width="56" height="58"/>
+ <SubTexture name="补间 17" x="841" y="0" width="174" height="140"/>
+ <SubTexture name="补间 18" x="659" y="0" width="181" height="156"/>
+ <SubTexture name="补间 19" x="478" y="0" width="180" height="177"/>
+ <SubTexture name="补间 20" x="261" y="0" width="216" height="162"/>
+ <SubTexture name="wse54" x="972" y="141" width="51" height="51"/>
+ <SubTexture name="ery54" x="755" y="157" width="71" height="69"/>
+ <SubTexture name="r5edu75" x="659" y="157" width="95" height="88"/>
+ <SubTexture name="eru65" x="366" y="163" width="97" height="77"/>
+ <SubTexture name="edru5" x="261" y="163" width="104" height="76"/>
+ <SubTexture name="edu765" x="841" y="141" width="130" height="89"/>
+ <SubTexture name="dr56i76" x="464" y="178" width="114" height="64"/>
+ <SubTexture name="e54u65" x="136" y="0" width="68" height="412"/>
+ <SubTexture name="rftuj65" x="0" y="0" width="67" height="430"/>
+ <SubTexture name="u685" x="68" y="0" width="66" height="419"/>
+ <SubTexture name="rft5u65" x="205" y="0" width="55" height="412"/>
+</TextureAtlas>

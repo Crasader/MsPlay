@@ -1,0 +1,4 @@
+<TextureAtlas name="bathExperienceObtain" imagePath="texture.png">
+ <SubTexture name="人物升级特效/waqt43" x="0" y="0" width="173" height="533"/>
+ <SubTexture name="人物升级特效/e45y54" x="175" y="0" width="241" height="43"/>
+</TextureAtlas>

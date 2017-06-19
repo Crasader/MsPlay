@@ -1,0 +1,24 @@
+<TextureAtlas name="heroSkill52Release1" imagePath="texture.png">
+ <SubTexture name="r5uy754" x="0" y="152" width="123" height="98"/>
+ <SubTexture name="r5y54" x="381" y="106" width="126" height="102"/>
+ <SubTexture name="edry54" x="381" y="0" width="130" height="105"/>
+ <SubTexture name="r5i876" x="376" y="285" width="135" height="107"/>
+ <SubTexture name="rfu865" x="0" y="358" width="139" height="100"/>
+ <SubTexture name="rtfi867" x="234" y="260" width="141" height="102"/>
+ <SubTexture name="rfi78" x="0" y="252" width="144" height="105"/>
+ <SubTexture name="5665" x="239" y="152" width="141" height="107"/>
+ <SubTexture name="补间 17" x="381" y="209" width="89" height="36"/>
+ <SubTexture name="补间 13" x="145" y="343" width="78" height="36"/>
+ <SubTexture name="补间 14" x="145" y="305" width="78" height="36"/>
+ <SubTexture name="补间 15" x="381" y="247" width="78" height="36"/>
+ <SubTexture name="补间 16" x="145" y="267" width="78" height="36"/>
+ <SubTexture name="补间 10" x="127" y="0" width="125" height="150"/>
+ <SubTexture name="补间 12" x="0" y="0" width="125" height="150"/>
+ <SubTexture name="补间 11" x="254" y="0" width="125" height="150"/>
+ <SubTexture name="w4t543" x="186" y="215" width="47" height="51"/>
+ <SubTexture name="frt7564" x="472" y="209" width="38" height="48"/>
+ <SubTexture name="5y65" x="124" y="152" width="61" height="66"/>
+ <SubTexture name="e4t4" x="186" y="152" width="52" height="62"/>
+ <SubTexture name="补间 1" x="140" y="425" width="159" height="70"/>
+ <SubTexture name="补间 2" x="225" y="363" width="140" height="61"/>
+</TextureAtlas>

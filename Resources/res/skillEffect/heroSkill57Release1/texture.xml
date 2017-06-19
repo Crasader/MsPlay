@@ -1,0 +1,6 @@
+<TextureAtlas name="弹射" imagePath="texture.png">
+ <SubTexture name="54yu765" x="206" y="0" width="196" height="181"/>
+ <SubTexture name="元件 22" x="0" y="236" width="135" height="149"/>
+ <SubTexture name="元件 23" x="206" y="183" width="178" height="198"/>
+ <SubTexture name="元件 24" x="0" y="0" width="205" height="235"/>
+</TextureAtlas>

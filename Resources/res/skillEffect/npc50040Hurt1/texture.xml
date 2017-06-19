@@ -1,0 +1,18 @@
+<TextureAtlas name="npc50040Hurt1" imagePath="texture.png">
+ <SubTexture name="砍刀被击/补间 1" x="478" y="201" width="173" height="170"/>
+ <SubTexture name="砍刀被击/补间 2" x="680" y="194" width="173" height="170"/>
+ <SubTexture name="砍刀被击/补间 3" x="680" y="0" width="193" height="192"/>
+ <SubTexture name="砍刀被击/补间 4" x="478" y="0" width="200" height="199"/>
+ <SubTexture name="砍刀被击/补间 5" x="249" y="0" width="227" height="227"/>
+ <SubTexture name="砍刀被击/补间 6" x="0" y="0" width="247" height="247"/>
+ <SubTexture name="砍刀被击/元件 1" x="875" y="0" width="91" height="91"/>
+ <SubTexture name="砍刀被击/元件 2" x="875" y="92" width="91" height="91"/>
+ <SubTexture name="砍刀被击/元件 3" x="68" y="249" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 4" x="317" y="229" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 5" x="0" y="249" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 6" x="943" y="184" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 7" x="249" y="229" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 8" x="385" y="229" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 9" x="136" y="249" width="67" height="67"/>
+ <SubTexture name="砍刀被击/元件 10" x="875" y="184" width="67" height="67"/>
+</TextureAtlas>

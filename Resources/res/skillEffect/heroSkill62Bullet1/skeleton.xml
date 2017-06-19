@@ -1,0 +1,24 @@
+<dragonBones name="heroSkill62Bullet1" frameRate="30" version="2.3">
+ <armature name="heroSkill62Bullet1">
+  <bone name="图层 1">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="t6u7565" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76" pY="113.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="20" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="8">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="12">
+     <transform x="0" y="0" skX="61.48" skY="61.48" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

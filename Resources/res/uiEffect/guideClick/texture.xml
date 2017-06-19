@@ -1,0 +1,4 @@
+<TextureAtlas name="guideClick" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="100" width="70" height="81"/>
+ <SubTexture name="ghy54h6u5" x="0" y="0" width="98" height="98"/>
+</TextureAtlas>

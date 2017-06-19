@@ -1,0 +1,63 @@
+<TextureAtlas name="狮子咆哮弹" imagePath="texture.png">
+ <SubTexture name="狮子咆哮弹/123ddw" x="451" y="0" width="327" height="324"/>
+ <SubTexture name="狮子咆哮弹/补间 12" x="328" y="263" width="111" height="75"/>
+ <SubTexture name="狮子咆哮弹/补间 13" x="1225" y="600" width="172" height="97"/>
+ <SubTexture name="狮子咆哮弹/补间 14" x="1225" y="699" width="212" height="99"/>
+ <SubTexture name="狮子咆哮弹/补间 15" x="972" y="600" width="251" height="102"/>
+ <SubTexture name="狮子咆哮弹/补间 16" x="1572" y="497" width="313" height="110"/>
+ <SubTexture name="狮子咆哮弹/补间 17" x="1082" y="492" width="343" height="106"/>
+ <SubTexture name="狮子咆哮弹/补间 18" x="710" y="463" width="370" height="110"/>
+ <SubTexture name="狮子咆哮弹/补间 19" x="1183" y="382" width="383" height="108"/>
+ <SubTexture name="狮子咆哮弹/补间 20" x="1183" y="271" width="393" height="109"/>
+ <SubTexture name="狮子咆哮弹/补间 34" x="1427" y="492" width="143" height="100"/>
+ <SubTexture name="狮子咆哮弹/补间 35" x="441" y="326" width="267" height="234"/>
+ <SubTexture name="狮子咆哮弹/补间 36" x="0" y="263" width="326" height="249"/>
+ <SubTexture name="狮子咆哮弹/补间 37" x="1579" y="232" width="350" height="263"/>
+ <SubTexture name="狮子咆哮弹/补间 38" x="1199" y="0" width="378" height="269"/>
+ <SubTexture name="狮子咆哮弹/补间 39" x="0" y="0" width="449" height="261"/>
+ <SubTexture name="狮子咆哮弹/补间 56" x="780" y="235" width="401" height="226"/>
+ <SubTexture name="狮子咆哮弹/补间 57" x="780" y="0" width="417" height="233"/>
+ <SubTexture name="狮子咆哮弹/补间 58" x="1579" y="0" width="399" height="230"/>
+ <SubTexture name="狮子咆哮弹/特效j" x="1931" y="264" width="116" height="20"/>
+ <SubTexture name="狮子咆哮弹/11a" x="1980" y="122" width="57" height="25"/>
+ <SubTexture name="狮子咆哮弹/特效h" x="1931" y="370" width="86" height="32"/>
+ <SubTexture name="狮子咆哮弹/特效g" x="561" y="744" width="213" height="64"/>
+ <SubTexture name="狮子咆哮弹/特效f" x="972" y="704" width="231" height="61"/>
+ <SubTexture name="狮子咆哮弹/特效e" x="1439" y="755" width="207" height="53"/>
+ <SubTexture name="狮子咆哮弹/特效c" x="1887" y="497" width="135" height="57"/>
+ <SubTexture name="狮子咆哮弹/特效d" x="328" y="387" width="83" height="35"/>
+ <SubTexture name="狮子咆哮弹/特效b" x="1980" y="164" width="53" height="27"/>
+ <SubTexture name="狮子咆哮弹/特效a" x="1980" y="215" width="40" height="21"/>
+ <SubTexture name="狮子咆哮弹/1w" x="2021" y="215" width="25" height="17"/>
+ <SubTexture name="狮子咆哮弹/特效k" x="328" y="340" width="99" height="23"/>
+ <SubTexture name="狮子咆哮弹/特效i" x="328" y="423" width="86" height="18"/>
+ <SubTexture name="狮子咆哮弹/元件18" x="2026" y="65" width="17" height="39"/>
+ <SubTexture name="狮子咆哮弹/元件16" x="2005" y="65" width="20" height="56"/>
+ <SubTexture name="狮子咆哮弹/元件14" x="1980" y="0" width="23" height="91"/>
+ <SubTexture name="狮子咆哮弹/元件12" x="1931" y="285" width="108" height="23"/>
+ <SubTexture name="狮子咆哮弹/元件10" x="1427" y="594" width="129" height="27"/>
+ <SubTexture name="狮子咆哮弹/元件8" x="1399" y="622" width="126" height="25"/>
+ <SubTexture name="狮子咆哮弹/元件6" x="328" y="365" width="99" height="21"/>
+ <SubTexture name="狮子咆哮弹/元件4" x="1931" y="404" width="92" height="18"/>
+ <SubTexture name="狮子咆哮弹/元件3" x="1980" y="148" width="67" height="15"/>
+ <SubTexture name="狮子咆哮弹/元件44" x="394" y="735" width="166" height="32"/>
+ <SubTexture name="狮子咆哮弹/元件46" x="1887" y="599" width="155" height="32"/>
+ <SubTexture name="狮子咆哮弹/元件42" x="0" y="705" width="165" height="57"/>
+ <SubTexture name="狮子咆哮弹/元件36" x="1887" y="556" width="148" height="41"/>
+ <SubTexture name="狮子咆哮弹/元件32" x="1931" y="310" width="99" height="33"/>
+ <SubTexture name="狮子咆哮弹/元件28" x="1966" y="237" width="79" height="26"/>
+ <SubTexture name="狮子咆哮弹/元件26" x="1931" y="344" width="96" height="24"/>
+ <SubTexture name="狮子咆哮弹/元件24" x="1931" y="423" width="70" height="25"/>
+ <SubTexture name="狮子咆哮弹/元件22" x="1980" y="193" width="48" height="20"/>
+ <SubTexture name="狮子咆哮弹/元件20" x="1931" y="232" width="33" height="15"/>
+ <SubTexture name="狮子咆哮弹/元件48" x="710" y="326" width="68" height="22"/>
+ <SubTexture name="狮子咆哮弹/补间 2" x="592" y="575" width="192" height="167"/>
+ <SubTexture name="狮子咆哮弹/补间 3" x="786" y="575" width="184" height="174"/>
+ <SubTexture name="狮子咆哮弹/补间 4" x="0" y="514" width="188" height="189"/>
+ <SubTexture name="狮子咆哮弹/补间 5" x="394" y="562" width="196" height="171"/>
+ <SubTexture name="狮子咆哮弹/补间 6" x="190" y="514" width="202" height="170"/>
+ <SubTexture name="狮子咆哮弹/补间 7" x="1557" y="609" width="206" height="144"/>
+ <SubTexture name="狮子咆哮弹/补间 8" x="1765" y="632" width="209" height="122"/>
+ <SubTexture name="狮子咆哮弹/补间 9" x="190" y="686" width="202" height="91"/>
+ <SubTexture name="狮子咆哮弹/补间 10" x="2005" y="0" width="39" height="63"/>
+</TextureAtlas>

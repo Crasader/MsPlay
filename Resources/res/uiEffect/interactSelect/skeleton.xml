@@ -1,0 +1,145 @@
+<dragonBones name="interactSelect" frameRate="30" version="2.3">
+ <armature name="interactSelect">
+  <bone name="图层 7">
+   <transform x="-0.05" y="-0.05" skX="60" skY="60" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="-0.05" y="-0.05" skX="120" skY="120" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="-0.05" y="-0.05" skX="180" skY="180" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="-0.05" y="-0.05" skX="-120" skY="-120" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 6">
+   <transform x="-0.05" y="-0.05" skX="-60" skY="-60" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 8">
+   <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 7" parent="图层 7" z="0">
+    <display name="y54y6" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="1">
+    <display name="y54y6" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="2">
+    <display name="y54y6" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="3">
+    <display name="y54y6" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 6" parent="图层 6" z="4">
+    <display name="y54y6" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 8" parent="图层 8" z="5">
+    <display name="y54y6" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="36" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame duration="30" displayIndex="-1"/>
+    <frame z="0" duration="6">
+     <transform x="-0.05" y="-0.05" skX="60" skY="60" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="1" duration="6">
+     <transform x="-0.05" y="-0.05" skX="120" skY="120" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="6" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame duration="18" displayIndex="-1"/>
+    <frame z="2" duration="6">
+     <transform x="-0.05" y="-0.05" skX="180" skY="180" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="12" displayIndex="-1"/>
+    <frame z="3" duration="6">
+     <transform x="-0.05" y="-0.05" skX="-120" skY="-120" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="18" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="4" duration="6">
+     <transform x="-0.05" y="-0.05" skX="-60" skY="-60" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="24" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 8" scale="1" offset="0">
+    <frame z="5" duration="6">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="30" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="y54y6">
+  <bone name="54654">
+   <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="54654" parent="54654" z="0">
+    <display name="补间 13" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="93.75" pY="93.75"/>
+    </display>
+    <display name="补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="93.75" pY="93.75"/>
+    </display>
+    <display name="补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="93.75" pY="93.75"/>
+    </display>
+    <display name="补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="93.75" pY="93.75"/>
+    </display>
+    <display name="补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="93.75" pY="93.75"/>
+    </display>
+    <display name="补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="93.75" pY="93.75"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="u65" fadeInTime="0" duration="6" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="54654" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="-0.05" y="-0.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

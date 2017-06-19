@@ -1,0 +1,8 @@
+<TextureAtlas name="超级大饼脸" imagePath="texture.png">
+ <SubTexture name="补间 3" x="0" y="362" width="511" height="161"/>
+ <SubTexture name="54yu765" x="1622" y="171" width="196" height="181"/>
+ <SubTexture name="e4t654" x="1622" y="90" width="340" height="80"/>
+ <SubTexture name="r5y756" x="1622" y="0" width="334" height="89"/>
+ <SubTexture name="RT65Y74" x="0" y="0" width="1349" height="360"/>
+ <SubTexture name="T43T543" x="1350" y="0" width="271" height="599"/>
+</TextureAtlas>

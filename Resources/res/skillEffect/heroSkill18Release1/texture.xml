@@ -1,0 +1,34 @@
+<TextureAtlas name="魔贯光杀炮导出" imagePath="texture.png">
+ <SubTexture name="Image/t6u65" x="1348" y="366" width="106" height="126"/>
+ <SubTexture name="Image/43ty5456" x="416" y="705" width="198" height="154"/>
+ <SubTexture name="Image/补间 6" x="844" y="194" width="610" height="84"/>
+ <SubTexture name="Image/补间 7" x="844" y="280" width="610" height="84"/>
+ <SubTexture name="Image/补间 8" x="0" y="284" width="610" height="84"/>
+ <SubTexture name="Image/43ty5456 副本" x="1595" y="718" width="198" height="84"/>
+ <SubTexture name="Image/重复项目文件夹/补间 9" x="435" y="532" width="133" height="133"/>
+ <SubTexture name="Image/重复项目文件夹/补间 10" x="435" y="370" width="160" height="160"/>
+ <SubTexture name="Image/重复项目文件夹/补间 11" x="1851" y="528" width="188" height="188"/>
+ <SubTexture name="Image/重复项目文件夹/补间 12" x="0" y="591" width="188" height="188"/>
+ <SubTexture name="Image/重复项目文件夹/补间 13" x="226" y="580" width="188" height="188"/>
+ <SubTexture name="Image/重复项目文件夹/补间 14" x="1106" y="599" width="188" height="188"/>
+ <SubTexture name="Image/重复项目文件夹/补间 15" x="1414" y="650" width="179" height="179"/>
+ <SubTexture name="Image/重复项目文件夹/补间 16" x="1661" y="528" width="188" height="188"/>
+ <SubTexture name="Image/er5yh54" x="793" y="613" width="178" height="183"/>
+ <SubTexture name="Image/er5yh4" x="597" y="517" width="195" height="187"/>
+ <SubTexture name="Image/rftuj6" x="1456" y="194" width="286" height="253"/>
+ <SubTexture name="Image/weg" x="1756" y="0" width="277" height="270"/>
+ <SubTexture name="Image/edruyh65" x="1743" y="271" width="265" height="256"/>
+ <SubTexture name="Image/edruyh5" x="843" y="366" width="262" height="246"/>
+ <SubTexture name="Image/sweyh54" x="1106" y="366" width="241" height="232"/>
+ <SubTexture name="Image/rtf5ur5" x="226" y="370" width="208" height="209"/>
+ <SubTexture name="Image/xderhuy54" x="612" y="284" width="230" height="232"/>
+ <SubTexture name="Image/swegy34" x="1456" y="448" width="204" height="201"/>
+ <SubTexture name="Image/xderuj65" x="0" y="370" width="225" height="220"/>
+ <SubTexture name="Image/dxeruyt5" x="1296" y="599" width="117" height="107"/>
+ <SubTexture name="Image/sprite 116" x="1348" y="494" width="84" height="84"/>
+ <SubTexture name="Image/补间 1" x="0" y="192" width="842" height="90"/>
+ <SubTexture name="Image/补间 2" x="885" y="0" width="869" height="93"/>
+ <SubTexture name="Image/补间 3" x="857" y="95" width="845" height="97"/>
+ <SubTexture name="Image/补间 4" x="0" y="0" width="883" height="93"/>
+ <SubTexture name="Image/补间 5" x="0" y="95" width="855" height="95"/>
+</TextureAtlas>

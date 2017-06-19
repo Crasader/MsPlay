@@ -1,0 +1,20 @@
+<TextureAtlas name="caliburWeaponAcquire" imagePath="texture.png">
+ <SubTexture name="元件 8" x="0" y="283" width="102" height="118"/>
+ <SubTexture name="元件 9" x="292" y="281" width="107" height="120"/>
+ <SubTexture name="元件 10" x="415" y="276" width="110" height="120"/>
+ <SubTexture name="元件 11" x="860" y="146" width="110" height="123"/>
+ <SubTexture name="元件 12" x="415" y="146" width="112" height="128"/>
+ <SubTexture name="元件 13" x="292" y="146" width="121" height="133"/>
+ <SubTexture name="元件 14" x="0" y="146" width="124" height="135"/>
+ <SubTexture name="元件 15" x="604" y="141" width="126" height="144"/>
+ <SubTexture name="元件 16" x="882" y="0" width="129" height="144"/>
+ <SubTexture name="元件 17" x="732" y="142" width="126" height="144"/>
+ <SubTexture name="元件 18" x="161" y="139" width="129" height="144"/>
+ <SubTexture name="元件 19" x="464" y="0" width="138" height="144"/>
+ <SubTexture name="元件 20" x="322" y="0" width="140" height="144"/>
+ <SubTexture name="元件 21" x="0" y="0" width="159" height="144"/>
+ <SubTexture name="元件 22" x="161" y="0" width="159" height="137"/>
+ <SubTexture name="元件 23" x="744" y="0" width="136" height="140"/>
+ <SubTexture name="元件 24" x="604" y="0" width="138" height="139"/>
+ <SubTexture name="元件 25" x="860" y="271" width="91" height="142"/>
+</TextureAtlas>

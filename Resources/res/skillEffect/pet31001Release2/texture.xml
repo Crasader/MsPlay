@@ -1,0 +1,5 @@
+<TextureAtlas name="pet31001Release2" imagePath="texture.png">
+ <SubTexture name="补充力量 副本" x="0" y="690" width="251" height="491"/>
+ <SubTexture name="ER4Y54" x="928" y="0" width="21" height="21"/>
+ <SubTexture name="ew4t43" x="0" y="0" width="926" height="688"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+<TextureAtlas name="黑龙波被击" imagePath="texture.png">
+ <SubTexture name="黑龙波被击/补间 1" x="0" y="233" width="87" height="66"/>
+ <SubTexture name="黑龙波被击/补间 2" x="0" y="137" width="111" height="94"/>
+ <SubTexture name="黑龙波被击/补间 3" x="309" y="0" width="152" height="128"/>
+ <SubTexture name="黑龙波被击/补间 4" x="309" y="130" width="143" height="131"/>
+ <SubTexture name="黑龙波被击/补间 5" x="155" y="0" width="152" height="133"/>
+ <SubTexture name="黑龙波被击/补间 6" x="0" y="0" width="153" height="135"/>
+ <SubTexture name="黑龙波被击/补间 7" x="155" y="135" width="152" height="112"/>
+ <SubTexture name="黑龙波被击/补间 8" x="249" y="263" width="158" height="113"/>
+ <SubTexture name="黑龙波被击/补间 9" x="89" y="249" width="158" height="114"/>
+</TextureAtlas>

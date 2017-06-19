@@ -1,0 +1,5 @@
+<TextureAtlas name="npc50002Hurt" imagePath="texture.png">
+ <SubTexture name="hurt1_1.png" x="103" y="0" width="101" height="126"/>
+ <SubTexture name="hurt1_2.png" x="0" y="128" width="101" height="126"/>
+ <SubTexture name="hurt1_3.png" x="0" y="0" width="101" height="126"/>
+</TextureAtlas>

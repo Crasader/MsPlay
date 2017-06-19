@@ -1,0 +1,3 @@
+<TextureAtlas name="heroSkill54Hurt1" imagePath="texture.png">
+ <SubTexture name="汗滴" x="0" y="0" width="20" height="54"/>
+</TextureAtlas>

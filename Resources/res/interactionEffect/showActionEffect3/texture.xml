@@ -1,0 +1,3 @@
+<TextureAtlas name="showActionEffect3" imagePath="texture.png">
+ <SubTexture name="r56u5" x="0" y="0" width="46" height="57"/>
+</TextureAtlas>

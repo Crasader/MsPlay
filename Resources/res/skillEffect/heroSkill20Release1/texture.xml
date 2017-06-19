@@ -1,0 +1,32 @@
+<TextureAtlas name="如来神掌" imagePath="texture.png">
+ <SubTexture name="如来神掌被击/补间 1" x="1907" y="240" width="107" height="78"/>
+ <SubTexture name="如来神掌被击/补间 2" x="1870" y="996" width="161" height="112"/>
+ <SubTexture name="如来神掌被击/补间 3" x="822" y="958" width="195" height="133"/>
+ <SubTexture name="如来神掌被击/补间 4" x="1471" y="1042" width="236" height="159"/>
+ <SubTexture name="如来神掌被击/补间 5" x="0" y="824" width="322" height="283"/>
+ <SubTexture name="如来神掌被击/补间 6" x="1540" y="0" width="365" height="390"/>
+ <SubTexture name="如来神掌被击/补间 7" x="1099" y="0" width="439" height="440"/>
+ <SubTexture name="如来神掌被击/补间 8" x="570" y="0" width="527" height="544"/>
+ <SubTexture name="如来神掌被击/补间 9" x="0" y="0" width="568" height="621"/>
+ <SubTexture name="如来神掌被击/s元件 9" x="1907" y="320" width="78" height="58"/>
+ <SubTexture name="如来神掌被击/补间 17" x="324" y="995" width="267" height="176"/>
+ <SubTexture name="如来神掌被击/元件 1" x="1029" y="685" width="298" height="327"/>
+ <SubTexture name="如来神掌被击/shape 36" x="2002" y="126" width="38" height="21"/>
+ <SubTexture name="如来神掌被击/shape 35" x="2002" y="149" width="23" height="36"/>
+ <SubTexture name="如来神掌被击/补间 35" x="1907" y="126" width="93" height="112"/>
+ <SubTexture name="如来神掌被击/补间 36" x="1907" y="0" width="118" height="124"/>
+ <SubTexture name="如来神掌被击/补间 37" x="592" y="995" width="141" height="142"/>
+ <SubTexture name="如来神掌被击/补间 38" x="1329" y="869" width="151" height="148"/>
+ <SubTexture name="如来神掌被击/补间 39" x="1870" y="824" width="168" height="170"/>
+ <SubTexture name="如来神掌被击/补间 40" x="1329" y="685" width="178" height="182"/>
+ <SubTexture name="如来神掌被击/补间 41" x="822" y="757" width="197" height="199"/>
+ <SubTexture name="如来神掌被击/补间 27" x="1019" y="1014" width="254" height="180"/>
+ <SubTexture name="如来神掌被击/补间 28" x="1509" y="824" width="359" height="216"/>
+ <SubTexture name="如来神掌被击/补间 29" x="432" y="757" width="388" height="236"/>
+ <SubTexture name="如来神掌被击/补间 30" x="1099" y="442" width="424" height="241"/>
+ <SubTexture name="如来神掌被击/补间 31" x="1525" y="601" width="429" height="221"/>
+ <SubTexture name="如来神掌被击/补间 32" x="570" y="546" width="457" height="209"/>
+ <SubTexture name="如来神掌被击/补间 33" x="1540" y="392" width="463" height="207"/>
+ <SubTexture name="如来神掌被击/补间 34" x="0" y="623" width="430" height="199"/>
+ <SubTexture name="如来神掌被击/shape 130" x="1275" y="1019" width="195" height="80"/>
+</TextureAtlas>

@@ -1,0 +1,46 @@
+<dragonBones name="如来神掌被击" frameRate="30" version="2.3">
+ <armature name="heroSkill20Hurt1">
+  <bone name="hurt1_1.png">
+   <transform x="-0.25" y="-24" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="hurt1_1.png" parent="hurt1_1.png" z="0">
+    <display name="ert4463" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76.45" pY="77.8"/>
+    </display>
+    <display name="rtyu4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="82.8" pY="82.35"/>
+    </display>
+    <display name="rt5y75" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="94.65" pY="86.9"/>
+    </display>
+    <display name="t6u56" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="94.65" pY="86.9"/>
+    </display>
+    <display name="678" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="98.75" pY="89.65"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="11" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="hurt1_1.png" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="-0.25" y="-24" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-3.9" y="-27.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-5.75" y="-31.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="-5.25" y="-32.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="-3" y="-34" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

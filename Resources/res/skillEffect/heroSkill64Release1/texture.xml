@@ -1,0 +1,35 @@
+<TextureAtlas name="还我漂漂拳" imagePath="texture.png">
+ <SubTexture name="补间 44" x="1585" y="795" width="134" height="104"/>
+ <SubTexture name="补间 46" x="1449" y="795" width="134" height="104"/>
+ <SubTexture name="补间 48" x="1313" y="795" width="134" height="104"/>
+ <SubTexture name="补间 50" x="1177" y="640" width="134" height="104"/>
+ <SubTexture name="补间 52" x="1721" y="795" width="134" height="104"/>
+ <SubTexture name="补间 54" x="1177" y="746" width="134" height="104"/>
+ <SubTexture name="补间 31" x="1657" y="901" width="118" height="108"/>
+ <SubTexture name="补间 33" x="1857" y="795" width="118" height="108"/>
+ <SubTexture name="补间 35" x="1537" y="901" width="118" height="108"/>
+ <SubTexture name="补间 37" x="1177" y="852" width="118" height="108"/>
+ <SubTexture name="补间 39" x="1417" y="901" width="118" height="108"/>
+ <SubTexture name="补间 41" x="1297" y="901" width="118" height="108"/>
+ <SubTexture name="补间 1" x="0" y="0" width="332" height="318"/>
+ <SubTexture name="补间 3" x="1670" y="0" width="332" height="318"/>
+ <SubTexture name="补间 5" x="668" y="320" width="332" height="318"/>
+ <SubTexture name="补间 7" x="1002" y="0" width="332" height="318"/>
+ <SubTexture name="补间 9" x="0" y="640" width="332" height="318"/>
+ <SubTexture name="补间 11" x="1670" y="320" width="332" height="318"/>
+ <SubTexture name="补间 13" x="1336" y="320" width="332" height="318"/>
+ <SubTexture name="补间 15" x="1002" y="320" width="332" height="318"/>
+ <SubTexture name="补间 17" x="334" y="320" width="332" height="318"/>
+ <SubTexture name="补间 19" x="334" y="0" width="332" height="318"/>
+ <SubTexture name="补间 21" x="334" y="640" width="332" height="318"/>
+ <SubTexture name="补间 23" x="668" y="0" width="332" height="318"/>
+ <SubTexture name="补间 25" x="1336" y="0" width="332" height="318"/>
+ <SubTexture name="补间 27" x="0" y="320" width="332" height="318"/>
+ <SubTexture name="补间 29" x="668" y="640" width="332" height="318"/>
+ <SubTexture name="补间 57" x="1313" y="640" width="173" height="153"/>
+ <SubTexture name="补间 59" x="1002" y="640" width="173" height="153"/>
+ <SubTexture name="补间 61" x="1663" y="640" width="173" height="153"/>
+ <SubTexture name="补间 63" x="1838" y="640" width="173" height="153"/>
+ <SubTexture name="补间 65" x="1488" y="640" width="173" height="153"/>
+ <SubTexture name="补间 67" x="1002" y="795" width="173" height="153"/>
+</TextureAtlas>

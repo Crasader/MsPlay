@@ -1,0 +1,14 @@
+<TextureAtlas name="buffLifeReduce" imagePath="texture.png">
+ <SubTexture name="补间 1" x="168" y="0" width="40" height="50"/>
+ <SubTexture name="补间 2" x="126" y="0" width="40" height="50"/>
+ <SubTexture name="补间 3" x="126" y="52" width="40" height="50"/>
+ <SubTexture name="补间 4" x="0" y="52" width="40" height="50"/>
+ <SubTexture name="补间 5" x="84" y="0" width="40" height="50"/>
+ <SubTexture name="补间 6" x="0" y="0" width="40" height="50"/>
+ <SubTexture name="补间 7" x="210" y="52" width="40" height="50"/>
+ <SubTexture name="补间 8" x="42" y="52" width="40" height="50"/>
+ <SubTexture name="补间 9" x="210" y="0" width="40" height="50"/>
+ <SubTexture name="补间 10" x="168" y="52" width="40" height="50"/>
+ <SubTexture name="补间 11" x="84" y="52" width="40" height="50"/>
+ <SubTexture name="补间 12" x="42" y="0" width="40" height="50"/>
+</TextureAtlas>

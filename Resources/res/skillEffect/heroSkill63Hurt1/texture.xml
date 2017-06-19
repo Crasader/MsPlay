@@ -1,0 +1,8 @@
+<TextureAtlas name="heroSkill63Hurt1" imagePath="texture.png">
+ <SubTexture name="r5y5" x="121" y="412" width="83" height="85"/>
+ <SubTexture name="tu65" x="0" y="412" width="119" height="131"/>
+ <SubTexture name="tg6i6" x="0" y="234" width="177" height="176"/>
+ <SubTexture name="t6ui6" x="238" y="227" width="201" height="199"/>
+ <SubTexture name="dryh54" x="238" y="0" width="227" height="225"/>
+ <SubTexture name="rtf6u65" x="0" y="0" width="236" height="232"/>
+</TextureAtlas>

@@ -1,0 +1,3 @@
+<TextureAtlas name="蒸汽" imagePath="texture.png">
+ <SubTexture name="蒸汽/烟" x="0" y="0" width="180" height="180"/>
+</TextureAtlas>

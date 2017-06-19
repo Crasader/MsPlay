@@ -1,0 +1,17 @@
+<TextureAtlas name="吸星大法" imagePath="texture.png">
+ <SubTexture name="吸星大法/元件 2 复制 3" x="743" y="791" width="188" height="188"/>
+ <SubTexture name="吸星大法/元件 9" x="843" y="394" width="144" height="298"/>
+ <SubTexture name="吸星大法/tytryrt" x="931" y="0" width="81" height="81"/>
+ <SubTexture name="吸星大法/元件 11 复制" x="537" y="0" width="393" height="393"/>
+ <SubTexture name="吸星大法/元件 12 复制" x="537" y="394" width="305" height="305"/>
+ <SubTexture name="吸星大法/元件 13 复制" x="502" y="700" width="240" height="240"/>
+ <SubTexture name="吸星大法/元件 14 复制" x="0" y="538" width="500" height="500"/>
+ <SubTexture name="吸星大法/圖層 1" x="0" y="0" width="535" height="536"/>
+ <SubTexture name="吸星大法/元件 1" x="502" y="1029" width="133" height="70"/>
+ <SubTexture name="吸星大法/补间 1" x="843" y="694" width="151" height="95"/>
+ <SubTexture name="吸星大法/补间 2" x="502" y="941" width="151" height="86"/>
+ <SubTexture name="吸星大法/补间 3" x="159" y="1040" width="154" height="71"/>
+ <SubTexture name="吸星大法/补间 4" x="808" y="980" width="161" height="67"/>
+ <SubTexture name="吸星大法/补间 5" x="0" y="1040" width="157" height="70"/>
+ <SubTexture name="吸星大法/补间 6" x="655" y="980" width="151" height="80"/>
+</TextureAtlas>

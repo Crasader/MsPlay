@@ -1,0 +1,52 @@
+<dragonBones name="buffDamageReductionShield" frameRate="30" version="2.3">
+ <armature name="buffDamageReductionShield">
+  <bone name="10007buff_1.png">
+   <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="10007buff_2.png">
+   <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="10007buff_1.png" parent="10007buff_1.png" z="1" blendMode="add">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="111" pY="111"/>
+    </display>
+   </slot>
+   <slot name="10007buff_2.png" parent="10007buff_2.png" z="0" blendMode="add">
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="111" pY="111"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="idle" fadeInTime="0" duration="60" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="10007buff_1.png" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="28">
+     <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" duration="5">
+     <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="26">
+     <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+  <animation name="hurt" fadeInTime="0" duration="5" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="10007buff_2.png" scale="1" offset="0">
+    <frame z="0" duration="5">
+     <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="10007buff_1.png" scale="1" offset="0">
+    <frame z="1" duration="5">
+     <transform x="0" y="-70" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

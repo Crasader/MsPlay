@@ -1,0 +1,33 @@
+<TextureAtlas name="npc51004Release1" imagePath="texture.png">
+ <SubTexture name="爆气/闪电1" x="925" y="605" width="86" height="114"/>
+ <SubTexture name="爆气/闪电2" x="295" y="602" width="107" height="178"/>
+ <SubTexture name="爆气/闪电3" x="0" y="581" width="143" height="237"/>
+ <SubTexture name="爆气/闪电4" x="165" y="311" width="145" height="265"/>
+ <SubTexture name="爆气/闪电5" x="0" y="311" width="163" height="269"/>
+ <SubTexture name="爆气/闪电6" x="165" y="578" width="128" height="275"/>
+ <SubTexture name="爆气/闪电7" x="311" y="311" width="120" height="289"/>
+ <SubTexture name="爆气/闪电8" x="539" y="311" width="127" height="281"/>
+ <SubTexture name="爆气/闪电9" x="1578" y="593" width="126" height="252"/>
+ <SubTexture name="爆气/闪电1a" x="1502" y="483" width="74" height="133"/>
+ <SubTexture name="爆气/闪电2a" x="1502" y="296" width="76" height="185"/>
+ <SubTexture name="爆气/闪电3a" x="840" y="578" width="83" height="243"/>
+ <SubTexture name="爆气/闪电4a" x="539" y="594" width="93" height="267"/>
+ <SubTexture name="爆气/闪电5a" x="840" y="304" width="82" height="273"/>
+ <SubTexture name="爆气/闪电6a" x="433" y="311" width="104" height="306"/>
+ <SubTexture name="爆气/闪电7a" x="1903" y="309" width="116" height="317"/>
+ <SubTexture name="爆气/闪电8a" x="1781" y="309" width="120" height="329"/>
+ <SubTexture name="爆气/闪电9a" x="714" y="304" width="124" height="325"/>
+ <SubTexture name="补间 5" x="1124" y="296" width="187" height="307"/>
+ <SubTexture name="补间 6" x="1583" y="284" width="196" height="307"/>
+ <SubTexture name="补间 7" x="714" y="0" width="210" height="302"/>
+ <SubTexture name="补间 8" x="476" y="0" width="236" height="309"/>
+ <SubTexture name="补间 9" x="1145" y="0" width="217" height="294"/>
+ <SubTexture name="补间 10" x="1583" y="0" width="224" height="282"/>
+ <SubTexture name="补间 11" x="238" y="0" width="236" height="309"/>
+ <SubTexture name="补间 14" x="1809" y="0" width="196" height="307"/>
+ <SubTexture name="补间 15" x="1364" y="0" width="217" height="294"/>
+ <SubTexture name="补间 16" x="1313" y="296" width="187" height="307"/>
+ <SubTexture name="补间 17" x="926" y="0" width="217" height="294"/>
+ <SubTexture name="补间 18" x="926" y="296" width="196" height="307"/>
+ <SubTexture name="补间 19" x="0" y="0" width="236" height="309"/>
+</TextureAtlas>

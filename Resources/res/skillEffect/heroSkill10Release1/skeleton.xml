@@ -1,0 +1,275 @@
+﻿<dragonBones name="波动拳" frameRate="30" version="2.3">
+ <armature name="heroSkill10Release1">
+  <bone name="图层 5">
+   <transform x="-3" y="-50.85" skX="0" skY="0" scX="0.33" scY="0.33"/>
+  </bone>
+  <bone name="图层 10">
+   <transform x="-119.9" y="-304.05" skX="0" skY="0" scX="2" scY="2"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 5" parent="图层 5" z="0">
+    <display name="波动拳自身特效/fadong 复制" type="armature">
+     <transform x="-0.45" y="6.85" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 10" parent="图层 10" z="1">
+    <display name="波动拳自身特效/元件 79fhumjyjyyy" type="armature">
+     <transform x="0" y="0.05" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="24" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="0" duration="10">
+     <transform x="-3" y="-50.85" skX="0" skY="0" scX="0.33" scY="0.33" pX="0" pY="0"/>
+    </frame>
+    <frame duration="11" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 10" scale="1" offset="0">
+    <frame duration="13" displayIndex="-1"/>
+    <frame z="1" duration="10">
+     <transform x="-119.9" y="-304.05" skX="0" skY="0" scX="2" scY="2" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="波动拳自身特效/fadong 复制">
+  <bone name="图层 26">
+   <transform x="0" y="0" skX="0" skY="0" scX="1.26" scY="1.26"/>
+  </bone>
+  <bone name="图层 8">
+   <transform x="0" y="0" skX="0" skY="0" scX="0.75" scY="0.75"/>
+  </bone>
+  <bone name="图层 7">
+   <transform x="0" y="0" skX="0" skY="0" scX="0.59" scY="0.59"/>
+  </bone>
+  <bone name="图层 6">
+   <transform x="3.3" y="-0.9" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="-0.3" y="-0.05" skX="0" skY="0" scX="1.37" scY="1.37"/>
+  </bone>
+  <bone name="图层 4">
+   <transform x="-0.05" y="-0.6" skX="27.75" skY="22.59" scX="1.22" scY="1.55"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="0.1" y="0.75" skX="-59.02" skY="-33.54" scX="1.35" scY="1.89"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 26" parent="图层 26" z="0" blendMode="add">
+    <display name="波动拳自身特效/tytryrt" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="40.3" pY="40.3"/>
+    </display>
+   </slot>
+   <slot name="图层 8" parent="图层 8" z="1" blendMode="add">
+    <display name="波动拳自身特效/元件 11 复制" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="196.05" pY="196.05"/>
+    </display>
+   </slot>
+   <slot name="图层 7" parent="图层 7" z="2" blendMode="add">
+    <display name="波动拳自身特效/元件 12 复制" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="152.1" pY="152.1"/>
+    </display>
+   </slot>
+   <slot name="图层 6" parent="图层 6" z="3" blendMode="add">
+    <display name="波动拳自身特效/元件 13 复制" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="119.65" pY="119.65"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="4" blendMode="add">
+    <display name="波动拳自身特效/元件 14 复制" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="256" pY="256"/>
+    </display>
+   </slot>
+   <slot name="图层 4" parent="图层 4" z="5" blendMode="add">
+    <display name="波动拳自身特效/元件 14 复制" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="256" pY="256"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="6" blendMode="add">
+    <display name="波动拳自身特效/元件 14 复制" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="256" pY="256"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="jh67uj76" fadeInTime="0" duration="35" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 26" scale="1" offset="0">
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.26" scY="1.26" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="0" y="0" skX="0" skY="0" scX="8.46" scY="8.46" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="4.63" scY="4.63" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 8" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="3">
+     <transform x="0" y="0" skX="0" skY="0" scX="0.75" scY="0.75" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="7">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="4">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.6" scY="1.6" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="15" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.8" scY="1.8" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 7" scale="1" offset="0">
+    <frame duration="3" displayIndex="-1"/>
+    <frame z="2" tweenEasing="0" duration="14">
+     <transform x="0" y="0" skX="0" skY="0" scX="0.59" scY="0.59" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" duration="1">
+     <transform x="0" y="0" skX="0" skY="0" scX="1.62" scY="1.62" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame z="3" tweenEasing="0" duration="3">
+     <transform x="3.3" y="-0.9" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="7">
+     <transform x="3.35" y="-0.9" skX="0" skY="0" scX="1.18" scY="1.18" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="5">
+     <transform x="3.3" y="-0.95" skX="0" skY="0" scX="1.4" scY="1.4" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="4">
+     <transform x="3.3" y="-0.9" skX="0" skY="0" scX="1.56" scY="1.56" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="3.3" y="-0.9" skX="0" skY="0" scX="0.69" scY="0.69" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="15" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="2" displayIndex="-1"/>
+    <frame z="4" tweenEasing="0" duration="4">
+     <transform x="-0.3" y="-0.05" skX="0" skY="0" scX="1.37" scY="1.37" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="8">
+     <transform x="-0.3" y="-0.05" skX="0" skY="0" scX="0.99" scY="0.99" pX="0" pY="0"/>
+    </frame>
+    <frame z="4" tweenEasing="0" duration="1">
+     <transform x="-0.3" y="-0.05" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+    <frame duration="20" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame duration="6" displayIndex="-1"/>
+    <frame z="5" tweenEasing="0" duration="4">
+     <transform x="-0.05" y="-0.6" skX="27.75" skY="22.59" scX="1.22" scY="1.55" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="8">
+     <transform x="-0.05" y="-0.6" skX="27.75" skY="22.59" scX="0.88" scY="1.12" pX="0" pY="0"/>
+    </frame>
+    <frame z="5" tweenEasing="0" duration="1">
+     <transform x="-0.05" y="-0.6" skX="27.75" skY="22.59" scX="0.2" scY="0.26" pX="0" pY="0"/>
+    </frame>
+    <frame duration="16" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="9" displayIndex="-1"/>
+    <frame z="6" tweenEasing="0" duration="4">
+     <transform x="0.1" y="0.75" skX="-59.02" skY="-33.54" scX="1.35" scY="1.89" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="8">
+     <transform x="0.1" y="0.75" skX="-59.02" skY="-33.54" scX="0.97" scY="1.36" pX="0" pY="0"/>
+    </frame>
+    <frame z="6" tweenEasing="0" duration="1">
+     <transform x="0.1" y="0.75" skX="-59.02" skY="-33.55" scX="0.23" scY="0.32" pX="0" pY="0"/>
+    </frame>
+    <frame duration="13" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="波动拳自身特效/元件 79fhumjyjyyy">
+  <bone name="图层 4">
+   <transform x="109.65" y="126.05" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 4" parent="图层 4" z="0" blendMode="add">
+    <display name="波动拳自身特效/rt45ujh65" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="32.05" pY="36.25"/>
+    </display>
+    <display name="波动拳自身特效/drjhu65" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="44.35" pY="51.55"/>
+    </display>
+    <display name="波动拳自身特效/sedhy56" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="49" pY="57.75"/>
+    </display>
+    <display name="波动拳自身特效/edrh44w" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="51.55" pY="64.6"/>
+    </display>
+    <display name="波动拳自身特效/trhy546" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="54.1" pY="58.85"/>
+    </display>
+    <display name="波动拳自身特效/swet5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="52.2" pY="45.15"/>
+    </display>
+    <display name="波动拳自身特效/edruyh65" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="51.2" pY="46.25"/>
+    </display>
+    <display name="波动拳自身特效/swey5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="37.8" pY="5.75"/>
+    </display>
+    <display name="波动拳自身特效/edry443" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="37.8" pY="2.85"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="cdgyhutgj" fadeInTime="0" duration="11" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 4" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="109.65" y="126.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="117.15" y="128.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="121.45" y="129.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="123.7" y="128.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="124.95" y="132.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="123.05" y="128.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="120.5" y="127.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="1">
+     <transform x="130.05" y="129.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="1">
+     <transform x="130.05" y="129.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="2" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

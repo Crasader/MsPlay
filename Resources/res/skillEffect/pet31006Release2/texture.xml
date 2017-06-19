@@ -1,0 +1,4 @@
+<TextureAtlas name="pet31006Release2" imagePath="texture.png">
+ <SubTexture name="tgre4" x="73" y="0" width="78" height="80"/>
+ <SubTexture name="ergty543" x="0" y="0" width="71" height="168"/>
+</TextureAtlas>

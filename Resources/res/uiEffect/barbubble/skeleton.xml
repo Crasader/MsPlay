@@ -1,0 +1,911 @@
+<dragonBones name="进度条" frameRate="30" version="2.3">
+ <armature name="barbubble">
+  <bone name="补间 4">
+   <transform x="-684.8" y="40.45" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="补间 4_0">
+   <transform x="-610.1" y="33.3" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="补间 4_1">
+   <transform x="-686.15" y="0.1" skX="0" skY="0" scX="0.36" scY="0.36"/>
+  </bone>
+  <bone name="补间 4_2">
+   <transform x="-646.95" y="15.75" skX="0" skY="0" scX="0.41" scY="0.41"/>
+  </bone>
+  <bone name="补间 4_3">
+   <transform x="-558.9" y="-3.1" skX="0" skY="0" scX="0.25" scY="0.25"/>
+  </bone>
+  <bone name="补间 4_4">
+   <transform x="-552.85" y="23.9" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="补间 4_5">
+   <transform x="-501" y="10.3" skX="0" skY="0" scX="0.29" scY="0.29"/>
+  </bone>
+  <bone name="补间 4_6">
+   <transform x="-448.95" y="38.85" skX="0" skY="0" scX="0.56" scY="0.56"/>
+  </bone>
+  <bone name="补间 4_7">
+   <transform x="-406.6" y="17.95" skX="0" skY="0" scX="0.61" scY="0.61"/>
+  </bone>
+  <bone name="补间 4_8">
+   <transform x="-364.65" y="36.4" skX="0" skY="0" scX="0.55" scY="0.55"/>
+  </bone>
+  <bone name="补间 4_9">
+   <transform x="-300" y="-3.2" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="补间 4_10">
+   <transform x="-293.35" y="23.9" skX="0" skY="0" scX="0.22" scY="0.22"/>
+  </bone>
+  <bone name="补间 4_11">
+   <transform x="-242.1" y="11" skX="0" skY="0" scX="0.29" scY="0.29"/>
+  </bone>
+  <bone name="补间 4_12">
+   <transform x="-189.75" y="40.9" skX="0" skY="0" scX="0.64" scY="0.64"/>
+  </bone>
+  <bone name="补间 4_13">
+   <transform x="-139.85" y="33.45" skX="0" skY="0" scX="0.47" scY="0.47"/>
+  </bone>
+  <bone name="补间 4_14">
+   <transform x="-98.6" y="17.8" skX="0" skY="0" scX="0.62" scY="0.62"/>
+  </bone>
+  <bone name="补间 4_15">
+   <transform x="-56.9" y="38.7" skX="0" skY="0" scX="0.53" scY="0.53"/>
+  </bone>
+  <bone name="补间 4_16">
+   <transform x="-3.65" y="10.15" skX="0" skY="0" scX="0.27" scY="0.27"/>
+  </bone>
+  <bone name="补间 4_17">
+   <transform x="54.1" y="-3.25" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="补间 4_18">
+   <transform x="47.85" y="22.7" skX="0" skY="0" scX="0.21" scY="0.21"/>
+  </bone>
+  <bone name="补间 4_19">
+   <transform x="105.1" y="34.45" skX="0" skY="0" scX="1.03" scY="1.03"/>
+  </bone>
+  <bone name="补间 4_20">
+   <transform x="142.1" y="15.85" skX="0" skY="0" scX="0.37" scY="0.37"/>
+  </bone>
+  <bone name="补间 4_21">
+   <transform x="180.85" y="-0.05" skX="0" skY="0" scX="0.34" scY="0.34"/>
+  </bone>
+  <bone name="补间 4_22">
+   <transform x="178.95" y="38.6" skX="0" skY="0" scX="0.95" scY="0.95"/>
+  </bone>
+  <bone name="补间 1">
+   <transform x="-433.95" y="5.3" skX="0" skY="0" scX="0.26" scY="0.26"/>
+  </bone>
+  <bone name="补间 1_0">
+   <transform x="-318.15" y="5.95" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="补间 1_1">
+   <transform x="-577.05" y="6.2" skX="0" skY="0" scX="0.22" scY="0.22"/>
+  </bone>
+  <bone name="补间 1_2">
+   <transform x="-175.45" y="5.2" skX="0" skY="0" scX="0.29" scY="0.29"/>
+  </bone>
+  <bone name="补间 1_3">
+   <transform x="-70.7" y="5.2" skX="0" skY="0" scX="0.27" scY="0.27"/>
+  </bone>
+  <bone name="补间 1_4">
+   <transform x="72.25" y="5.9" skX="0" skY="0" scX="0.23" scY="0.23"/>
+  </bone>
+  <bone name="补间 1_5">
+   <transform x="-663.3" y="7.95" skX="0" skY="0" scX="0.16" scY="0.16"/>
+  </bone>
+  <bone name="补间 1_6">
+   <transform x="-642.75" y="-5.65" skX="0" skY="0" scX="0.29" scY="0.29"/>
+  </bone>
+  <bone name="补间 1_7">
+   <transform x="-629.4" y="-20.9" skX="0" skY="0" scX="0.35" scY="0.35"/>
+  </bone>
+  <bone name="补间 1_8">
+   <transform x="-531.1" y="9.1" skX="0" skY="0" scX="0.28" scY="0.28"/>
+  </bone>
+  <bone name="补间 1_9">
+   <transform x="-604.9" y="-1.05" skX="0" skY="0" scX="0.33" scY="0.33"/>
+  </bone>
+  <bone name="补间 1_10">
+   <transform x="-516.6" y="-18.5" skX="0" skY="0" scX="0.2" scY="0.2"/>
+  </bone>
+  <bone name="补间 1_11">
+   <transform x="-494.9" y="20" skX="0" skY="0" scX="0.2" scY="0.2"/>
+  </bone>
+  <bone name="补间 1_12">
+   <transform x="-463.35" y="0.7" skX="0" skY="0" scX="0.4" scY="0.4"/>
+  </bone>
+  <bone name="补间 1_13">
+   <transform x="-385.65" y="-22.35" skX="0" skY="0" scX="0.2" scY="0.2"/>
+  </bone>
+  <bone name="补间 1_14">
+   <transform x="-447.2" y="-22.25" skX="0" skY="0" scX="0.4" scY="0.4"/>
+  </bone>
+  <bone name="补间 1_15">
+   <transform x="-372.85" y="4" skX="0" skY="0" scX="0.15" scY="0.15"/>
+  </bone>
+  <bone name="补间 1_16">
+   <transform x="-272.25" y="8.75" skX="0" skY="0" scX="0.26" scY="0.26"/>
+  </bone>
+  <bone name="补间 1_17">
+   <transform x="-258.15" y="-17.85" skX="0" skY="0" scX="0.21" scY="0.21"/>
+  </bone>
+  <bone name="补间 1_18">
+   <transform x="-236" y="19.75" skX="0" skY="0" scX="0.21" scY="0.21"/>
+  </bone>
+  <bone name="补间 1_19">
+   <transform x="-204.3" y="0.3" skX="0" skY="0" scX="0.39" scY="0.39"/>
+  </bone>
+  <bone name="补间 1_20">
+   <transform x="-188.75" y="-21.85" skX="0" skY="0" scX="0.39" scY="0.39"/>
+  </bone>
+  <bone name="补间 1_21">
+   <transform x="-119.5" y="-21.85" skX="0" skY="0" scX="0.22" scY="0.22"/>
+  </bone>
+  <bone name="补间 1_22">
+   <transform x="-132.45" y="3.55" skX="0" skY="0" scX="0.15" scY="0.15"/>
+  </bone>
+  <bone name="补间 1_23">
+   <transform x="-55.35" y="-21.55" skX="0" skY="0" scX="0.42" scY="0.42"/>
+  </bone>
+  <bone name="补间 1_24">
+   <transform x="-42.05" y="0.45" skX="0" skY="0" scX="0.39" scY="0.39"/>
+  </bone>
+  <bone name="补间 1_25">
+   <transform x="-10.2" y="20.2" skX="0" skY="0" scX="0.21" scY="0.21"/>
+  </bone>
+  <bone name="补间 1_26">
+   <transform x="12.6" y="-18.05" skX="0" skY="0" scX="0.21" scY="0.21"/>
+  </bone>
+  <bone name="补间 1_27">
+   <transform x="26.4" y="9.2" skX="0" skY="0" scX="0.24" scY="0.24"/>
+  </bone>
+  <bone name="补间 1_28">
+   <transform x="100.65" y="-1.85" skX="0" skY="0" scX="0.32" scY="0.32"/>
+  </bone>
+  <bone name="补间 1_29">
+   <transform x="124.65" y="-20.65" skX="0" skY="0" scX="0.34" scY="0.34"/>
+  </bone>
+  <bone name="补间 1_30">
+   <transform x="136.85" y="-5.4" skX="0" skY="0" scX="0.32" scY="0.32"/>
+  </bone>
+  <bone name="补间 1_31">
+   <transform x="158.5" y="8.55" skX="0" skY="0" scX="0.17" scY="0.17"/>
+  </bone>
+  <bone name="补间 1_32">
+   <transform x="-341.5" y="-2.1" skX="0" skY="0" scX="0.25" scY="0.25"/>
+  </bone>
+  <skin name="default">
+   <slot name="补间 4" parent="补间 4" z="0">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_0" parent="补间 4_0" z="1">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_1" parent="补间 4_1" z="2">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_2" parent="补间 4_2" z="3">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_3" parent="补间 4_3" z="4">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_4" parent="补间 4_4" z="5">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_5" parent="补间 4_5" z="6">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_6" parent="补间 4_6" z="7">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_7" parent="补间 4_7" z="8">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_8" parent="补间 4_8" z="9">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_9" parent="补间 4_9" z="10">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_10" parent="补间 4_10" z="11">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_11" parent="补间 4_11" z="12">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_12" parent="补间 4_12" z="13">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_13" parent="补间 4_13" z="14">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_14" parent="补间 4_14" z="15">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_15" parent="补间 4_15" z="16">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_16" parent="补间 4_16" z="17">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_17" parent="补间 4_17" z="18">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_18" parent="补间 4_18" z="19">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_19" parent="补间 4_19" z="20">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_20" parent="补间 4_20" z="21">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_21" parent="补间 4_21" z="22">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 4_22" parent="补间 4_22" z="23">
+    <display name="补间 4" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1" parent="补间 1" z="24">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_0" parent="补间 1_0" z="25">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_1" parent="补间 1_1" z="26">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_2" parent="补间 1_2" z="27">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_3" parent="补间 1_3" z="28">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_4" parent="补间 1_4" z="29">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_5" parent="补间 1_5" z="30">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_6" parent="补间 1_6" z="31">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_7" parent="补间 1_7" z="32">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_8" parent="补间 1_8" z="33">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_9" parent="补间 1_9" z="34">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_10" parent="补间 1_10" z="35">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_11" parent="补间 1_11" z="36">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_12" parent="补间 1_12" z="37">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_13" parent="补间 1_13" z="38">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_14" parent="补间 1_14" z="39">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_15" parent="补间 1_15" z="40">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_16" parent="补间 1_16" z="41">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_17" parent="补间 1_17" z="42">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_18" parent="补间 1_18" z="43">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_19" parent="补间 1_19" z="44">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_20" parent="补间 1_20" z="45">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_21" parent="补间 1_21" z="46">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_22" parent="补间 1_22" z="47">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_23" parent="补间 1_23" z="48">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_24" parent="补间 1_24" z="49">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_25" parent="补间 1_25" z="50">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_26" parent="补间 1_26" z="51">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_27" parent="补间 1_27" z="52">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_28" parent="补间 1_28" z="53">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_29" parent="补间 1_29" z="54">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_30" parent="补间 1_30" z="55">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_31" parent="补间 1_31" z="56">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="补间 1_32" parent="补间 1_32" z="57">
+    <display name="补间 1" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="450" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="补间 4" scale="1" offset="0">
+    <frame z="0" duration="450">
+     <transform x="-684.8" y="40.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_0" scale="1" offset="0">
+    <frame z="1" duration="450">
+     <transform x="-610.1" y="33.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_1" scale="1" offset="0">
+    <frame z="2" duration="450">
+     <transform x="-686.15" y="0.1" skX="0" skY="0" scX="0.36" scY="0.36" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_2" scale="1" offset="0">
+    <frame z="3" duration="450">
+     <transform x="-646.95" y="15.75" skX="0" skY="0" scX="0.41" scY="0.41" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_3" scale="1" offset="0">
+    <frame z="4" duration="450">
+     <transform x="-558.9" y="-3.1" skX="0" skY="0" scX="0.25" scY="0.25" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_4" scale="1" offset="0">
+    <frame z="5" duration="450">
+     <transform x="-552.85" y="23.9" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_5" scale="1" offset="0">
+    <frame z="6" duration="450">
+     <transform x="-501" y="10.3" skX="0" skY="0" scX="0.29" scY="0.29" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_6" scale="1" offset="0">
+    <frame z="7" duration="450">
+     <transform x="-448.95" y="38.85" skX="0" skY="0" scX="0.56" scY="0.56" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_7" scale="1" offset="0">
+    <frame z="8" duration="450">
+     <transform x="-406.6" y="17.95" skX="0" skY="0" scX="0.61" scY="0.61" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_8" scale="1" offset="0">
+    <frame z="9" duration="450">
+     <transform x="-364.65" y="36.4" skX="0" skY="0" scX="0.55" scY="0.55" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_9" scale="1" offset="0">
+    <frame z="10" duration="450">
+     <transform x="-300" y="-3.2" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_10" scale="1" offset="0">
+    <frame z="11" duration="450">
+     <transform x="-293.35" y="23.9" skX="0" skY="0" scX="0.22" scY="0.22" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_11" scale="1" offset="0">
+    <frame z="12" duration="450">
+     <transform x="-242.1" y="11" skX="0" skY="0" scX="0.29" scY="0.29" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_12" scale="1" offset="0">
+    <frame z="13" duration="450">
+     <transform x="-189.75" y="40.9" skX="0" skY="0" scX="0.64" scY="0.64" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_13" scale="1" offset="0">
+    <frame z="14" duration="450">
+     <transform x="-139.85" y="33.45" skX="0" skY="0" scX="0.47" scY="0.47" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_14" scale="1" offset="0">
+    <frame z="15" duration="450">
+     <transform x="-98.6" y="17.8" skX="0" skY="0" scX="0.62" scY="0.62" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_15" scale="1" offset="0">
+    <frame z="16" duration="450">
+     <transform x="-56.9" y="38.7" skX="0" skY="0" scX="0.53" scY="0.53" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_16" scale="1" offset="0">
+    <frame z="17" duration="450">
+     <transform x="-3.65" y="10.15" skX="0" skY="0" scX="0.27" scY="0.27" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_17" scale="1" offset="0">
+    <frame z="18" duration="450">
+     <transform x="54.1" y="-3.25" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_18" scale="1" offset="0">
+    <frame z="19" duration="450">
+     <transform x="47.85" y="22.7" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_19" scale="1" offset="0">
+    <frame z="20" duration="450">
+     <transform x="105.1" y="34.45" skX="0" skY="0" scX="1.03" scY="1.03" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_20" scale="1" offset="0">
+    <frame z="21" duration="450">
+     <transform x="142.1" y="15.85" skX="0" skY="0" scX="0.37" scY="0.37" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_21" scale="1" offset="0">
+    <frame z="22" duration="450">
+     <transform x="180.85" y="-0.05" skX="0" skY="0" scX="0.34" scY="0.34" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 4_22" scale="1" offset="0">
+    <frame z="23" duration="450">
+     <transform x="178.95" y="38.6" skX="0" skY="0" scX="0.95" scY="0.95" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1" scale="1" offset="0">
+    <frame z="24" duration="450">
+     <transform x="-433.95" y="5.3" skX="0" skY="0" scX="0.26" scY="0.26" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_0" scale="1" offset="0">
+    <frame z="25" duration="450">
+     <transform x="-318.15" y="5.95" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_1" scale="1" offset="0">
+    <frame z="26" duration="450">
+     <transform x="-577.05" y="6.2" skX="0" skY="0" scX="0.22" scY="0.22" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_2" scale="1" offset="0">
+    <frame z="27" duration="450">
+     <transform x="-175.45" y="5.2" skX="0" skY="0" scX="0.29" scY="0.29" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_3" scale="1" offset="0">
+    <frame z="28" duration="450">
+     <transform x="-70.7" y="5.2" skX="0" skY="0" scX="0.27" scY="0.27" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_4" scale="1" offset="0">
+    <frame z="29" duration="450">
+     <transform x="72.25" y="5.9" skX="0" skY="0" scX="0.23" scY="0.23" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="90" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_5" scale="1" offset="0">
+    <frame z="30" duration="450">
+     <transform x="-663.3" y="7.95" skX="0" skY="0" scX="0.16" scY="0.16" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_6" scale="1" offset="0">
+    <frame z="31" duration="450">
+     <transform x="-642.75" y="-5.65" skX="0" skY="0" scX="0.29" scY="0.29" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_7" scale="1" offset="0">
+    <frame z="32" duration="450">
+     <transform x="-629.4" y="-20.9" skX="0" skY="0" scX="0.35" scY="0.35" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_8" scale="1" offset="0">
+    <frame z="33" duration="450">
+     <transform x="-531.1" y="9.1" skX="0" skY="0" scX="0.28" scY="0.28" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="40" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_9" scale="1" offset="0">
+    <frame z="34" duration="450">
+     <transform x="-604.9" y="-1.05" skX="0" skY="0" scX="0.33" scY="0.33" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_10" scale="1" offset="0">
+    <frame z="35" duration="450">
+     <transform x="-516.6" y="-18.5" skX="0" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_11" scale="1" offset="0">
+    <frame z="36" duration="450">
+     <transform x="-494.9" y="20" skX="0" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_12" scale="1" offset="0">
+    <frame z="37" duration="450">
+     <transform x="-463.35" y="0.7" skX="0" skY="0" scX="0.4" scY="0.4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="40" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_13" scale="1" offset="0">
+    <frame z="38" duration="450">
+     <transform x="-385.65" y="-22.35" skX="0" skY="0" scX="0.2" scY="0.2" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_14" scale="1" offset="0">
+    <frame z="39" duration="450">
+     <transform x="-447.2" y="-22.25" skX="0" skY="0" scX="0.4" scY="0.4" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_15" scale="1" offset="0">
+    <frame z="40" duration="450">
+     <transform x="-372.85" y="4" skX="0" skY="0" scX="0.15" scY="0.15" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_16" scale="1" offset="0">
+    <frame z="41" duration="450">
+     <transform x="-272.25" y="8.75" skX="0" skY="0" scX="0.26" scY="0.26" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="40" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_17" scale="1" offset="0">
+    <frame z="42" duration="450">
+     <transform x="-258.15" y="-17.85" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_18" scale="1" offset="0">
+    <frame z="43" duration="450">
+     <transform x="-236" y="19.75" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="40" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_19" scale="1" offset="0">
+    <frame z="44" duration="450">
+     <transform x="-204.3" y="0.3" skX="0" skY="0" scX="0.39" scY="0.39" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_20" scale="1" offset="0">
+    <frame z="45" duration="450">
+     <transform x="-188.75" y="-21.85" skX="0" skY="0" scX="0.39" scY="0.39" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_21" scale="1" offset="0">
+    <frame z="46" duration="450">
+     <transform x="-119.5" y="-21.85" skX="0" skY="0" scX="0.22" scY="0.22" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_22" scale="1" offset="0">
+    <frame z="47" duration="450">
+     <transform x="-132.45" y="3.55" skX="0" skY="0" scX="0.15" scY="0.15" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_23" scale="1" offset="0">
+    <frame z="48" duration="450">
+     <transform x="-55.35" y="-21.55" skX="0" skY="0" scX="0.42" scY="0.42" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="80" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_24" scale="1" offset="0">
+    <frame z="49" duration="450">
+     <transform x="-42.05" y="0.45" skX="0" skY="0" scX="0.39" scY="0.39" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_25" scale="1" offset="0">
+    <frame z="50" duration="450">
+     <transform x="-10.2" y="20.2" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_26" scale="1" offset="0">
+    <frame z="51" duration="450">
+     <transform x="12.6" y="-18.05" skX="0" skY="0" scX="0.21" scY="0.21" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_27" scale="1" offset="0">
+    <frame z="52" duration="450">
+     <transform x="26.4" y="9.2" skX="0" skY="0" scX="0.24" scY="0.24" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_28" scale="1" offset="0">
+    <frame z="53" duration="450">
+     <transform x="100.65" y="-1.85" skX="0" skY="0" scX="0.32" scY="0.32" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_29" scale="1" offset="0">
+    <frame z="54" duration="450">
+     <transform x="124.65" y="-20.65" skX="0" skY="0" scX="0.34" scY="0.34" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="80" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_30" scale="1" offset="0">
+    <frame z="55" duration="450">
+     <transform x="136.85" y="-5.4" skX="0" skY="0" scX="0.32" scY="0.32" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="40" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_31" scale="1" offset="0">
+    <frame z="56" duration="450">
+     <transform x="158.5" y="8.55" skX="0" skY="0" scX="0.17" scY="0.17" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="50" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="补间 1_32" scale="1" offset="0">
+    <frame z="57" duration="450">
+     <transform x="-341.5" y="-2.1" skX="0" skY="0" scX="0.25" scY="0.25" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="补间 1">
+  <bone name="图层 1">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="1765.55" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="24.95" pY="24.95"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="1">
+    <display name="补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="24.95" pY="24.95"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="reyh54" fadeInTime="0" duration="332" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="9">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="311">
+     <transform x="65.4" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="11">
+     <transform x="2325" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="2404.95" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="77">
+     <transform x="1765.55" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="11">
+     <transform x="2325" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="2404.95" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="9">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="233">
+     <transform x="65.4" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="1758.3" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="补间 4">
+  <bone name="图层 1">
+   <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 3">
+   <transform x="884.4" y="0" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 1" parent="图层 1" z="0">
+    <display name="补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="25.3" pY="25.45"/>
+    </display>
+   </slot>
+   <slot name="图层 3" parent="图层 3" z="1">
+    <display name="补间 6" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="25.3" pY="25.45"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ewgt43" fadeInTime="0" duration="394" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 1" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="9">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="374">
+     <transform x="29.3" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="10">
+     <transform x="1245.3" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="1">
+     <transform x="1277.8" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="111">
+     <transform x="884.4" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="10">
+     <transform x="1245.3" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="1277.8" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="9">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="262">
+     <transform x="29.3" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" duration="1">
+     <transform x="881.15" y="0" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

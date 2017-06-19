@@ -1,0 +1,9 @@
+<TextureAtlas name="front" imagePath="texture.png">
+ <SubTexture name="升龙拳/元件 69" x="0" y="0" width="71" height="77"/>
+ <SubTexture name="升龙拳/元件 70" x="146" y="0" width="73" height="73"/>
+ <SubTexture name="升龙拳/元件 71" x="72" y="0" width="73" height="75"/>
+ <SubTexture name="升龙拳/元件 72" x="146" y="75" width="72" height="74"/>
+ <SubTexture name="升龙拳/元件 73" x="72" y="76" width="69" height="71"/>
+ <SubTexture name="升龙拳/元件 74" x="220" y="30" width="33" height="28"/>
+ <SubTexture name="升龙拳/元件 75" x="220" y="0" width="33" height="29"/>
+</TextureAtlas>

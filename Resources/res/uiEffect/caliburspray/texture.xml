@@ -1,0 +1,16 @@
+<TextureAtlas name="石中剑水花" imagePath="texture.png">
+ <SubTexture name="石中剑水花/补间 15" x="437" y="165" width="63" height="40"/>
+ <SubTexture name="石中剑水花/补间 16" x="140" y="232" width="109" height="58"/>
+ <SubTexture name="石中剑水花/补间 17" x="145" y="169" width="130" height="61"/>
+ <SubTexture name="石中剑水花/补间 18" x="154" y="99" width="139" height="69"/>
+ <SubTexture name="石中剑水花/补间 19" x="304" y="85" width="146" height="79"/>
+ <SubTexture name="石中剑水花/补间 20" x="304" y="0" width="150" height="84"/>
+ <SubTexture name="石中剑水花/补间 21" x="0" y="0" width="154" height="95"/>
+ <SubTexture name="石中剑水花/补间 22" x="155" y="0" width="148" height="98"/>
+ <SubTexture name="石中剑水花/补间 23" x="0" y="261" width="136" height="47"/>
+ <SubTexture name="石中剑水花/补间 24" x="276" y="220" width="139" height="49"/>
+ <SubTexture name="石中剑水花/补间 25" x="0" y="211" width="139" height="49"/>
+ <SubTexture name="石中剑水花/补间 26" x="294" y="165" width="142" height="54"/>
+ <SubTexture name="石中剑水花/补间 27" x="0" y="96" width="153" height="56"/>
+ <SubTexture name="石中剑水花/补间 28" x="0" y="153" width="143" height="57"/>
+</TextureAtlas>

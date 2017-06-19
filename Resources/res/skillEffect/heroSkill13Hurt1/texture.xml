@@ -1,0 +1,18 @@
+<TextureAtlas name="飞龙探云手被击" imagePath="texture.png">
+ <SubTexture name="飞龙探云手被击/补间 7" x="689" y="197" width="176" height="173"/>
+ <SubTexture name="飞龙探云手被击/补间 8" x="484" y="204" width="176" height="173"/>
+ <SubTexture name="飞龙探云手被击/补间 9" x="689" y="0" width="196" height="195"/>
+ <SubTexture name="飞龙探云手被击/补间 10" x="484" y="0" width="203" height="202"/>
+ <SubTexture name="飞龙探云手被击/补间 11" x="252" y="0" width="230" height="231"/>
+ <SubTexture name="飞龙探云手被击/补间 12" x="0" y="0" width="250" height="250"/>
+ <SubTexture name="飞龙探云手被击/元件 1" x="887" y="0" width="91" height="91"/>
+ <SubTexture name="飞龙探云手被击/元件 2" x="887" y="92" width="91" height="91"/>
+ <SubTexture name="飞龙探云手被击/元件 3" x="320" y="233" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 4" x="388" y="233" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 5" x="136" y="252" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 6" x="252" y="233" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 7" x="0" y="252" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 8" x="887" y="184" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 9" x="955" y="184" width="67" height="67"/>
+ <SubTexture name="飞龙探云手被击/元件 10" x="68" y="252" width="67" height="67"/>
+</TextureAtlas>

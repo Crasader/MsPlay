@@ -1,0 +1,8 @@
+<TextureAtlas name="人物升级" imagePath="texture.png">
+ <SubTexture name="人物升级特效/waqt43" x="0" y="0" width="173" height="533"/>
+ <SubTexture name="人物升级特效/e45y54" x="175" y="0" width="241" height="43"/>
+ <SubTexture name="人物升级特效/补间 5" x="418" y="0" width="88" height="97"/>
+ <SubTexture name="人物升级特效/补间 4" x="267" y="45" width="87" height="90"/>
+ <SubTexture name="人物升级特效/补间 3" x="175" y="45" width="90" height="93"/>
+ <SubTexture name="人物升级特效/补间 2" x="356" y="45" width="58" height="103"/>
+</TextureAtlas>

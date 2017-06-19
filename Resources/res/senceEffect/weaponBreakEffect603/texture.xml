@@ -1,0 +1,15 @@
+<TextureAtlas name="weaponBreakEffect603" imagePath="texture.png">
+ <SubTexture name="补间 5" x="0" y="104" width="174" height="100"/>
+ <SubTexture name="补间 6" x="180" y="0" width="178" height="102"/>
+ <SubTexture name="补间 7" x="176" y="104" width="174" height="100"/>
+ <SubTexture name="补间 8" x="0" y="0" width="178" height="102"/>
+ <SubTexture name="补间 63" x="262" y="271" width="63" height="53"/>
+ <SubTexture name="补间 64" x="262" y="206" width="83" height="63"/>
+ <SubTexture name="补间 65" x="134" y="298" width="102" height="71"/>
+ <SubTexture name="补间 66" x="347" y="210" width="110" height="77"/>
+ <SubTexture name="补间 67" x="327" y="289" width="112" height="70"/>
+ <SubTexture name="补间 68" x="134" y="206" width="126" height="90"/>
+ <SubTexture name="补间 69" x="0" y="206" width="132" height="96"/>
+ <SubTexture name="补间 70" x="352" y="106" width="136" height="102"/>
+ <SubTexture name="补间 71" x="360" y="0" width="137" height="104"/>
+</TextureAtlas>

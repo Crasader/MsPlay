@@ -1,0 +1,7 @@
+<TextureAtlas name="interactUnlock" imagePath="texture.png">
+ <SubTexture name="re54/元件 1" x="0" y="0" width="256" height="256"/>
+ <SubTexture name="re54/元件 1 副本" x="258" y="0" width="188" height="189"/>
+ <SubTexture name="re54/wesr4yt5" x="352" y="191" width="92" height="92"/>
+ <SubTexture name="re54/wsy54" x="258" y="191" width="92" height="92"/>
+ <SubTexture name="re54/元件 2" x="448" y="0" width="19" height="69"/>
+</TextureAtlas>

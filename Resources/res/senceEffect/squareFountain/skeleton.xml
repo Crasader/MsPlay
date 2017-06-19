@@ -1,0 +1,430 @@
+<dragonBones name="广场" frameRate="30" version="2.3">
+ <armature name="122124424277777">
+  <bone name="层 3">
+   <transform x="3.65" y="4.2" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="层 3" parent="层 3" z="0">
+    <display name="补间 14" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="60.75" pY="19.2"/>
+    </display>
+    <display name="补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="61.4" pY="19.75"/>
+    </display>
+    <display name="补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63.1" pY="20.1"/>
+    </display>
+    <display name="补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="63.95" pY="20.6"/>
+    </display>
+    <display name="补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="64.9" pY="21.15"/>
+    </display>
+    <display name="补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="60.5" pY="21.55"/>
+    </display>
+    <display name="补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="61.4" pY="21.5"/>
+    </display>
+    <display name="补间 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="59.35" pY="19.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="6789" fadeInTime="0" duration="16" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="层 3" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="3.65" y="4.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="3.6" y="4.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="4" y="4.75" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="3.95" y="5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="3.95" y="5.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="-0.65" y="5.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="0.05" y="5.25" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="3.55" y="2.7" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="30" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="squareFountain">
+  <bone name="图层 6">
+   <transform x="-1.95" y="-16.95" skX="0" skY="0" scX="1.52" scY="2.55"/>
+  </bone>
+  <bone name="3.png">
+   <transform x="1.55" y="-55.45" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="-2.6" y="-89.9" skX="0" skY="0" scX="0.94" scY="1.75"/>
+  </bone>
+  <bone name="符号 20">
+   <transform x="11.15" y="-4.85" skX="0" skY="6.63" scX="-0.57" scY="1.2"/>
+  </bone>
+  <bone name="符号 20_0">
+   <transform x="33.4" y="-8.85" skX="-3.27" skY="-9.75" scX="-0.6" scY="1.19"/>
+  </bone>
+  <bone name="符号 20_1">
+   <transform x="54.15" y="-19.1" skX="-10.16" skY="-19.77" scX="-0.46" scY="1.25"/>
+  </bone>
+  <bone name="符号 20_2">
+   <transform x="68.65" y="-33.6" skX="-17.12" skY="-52.98" scX="-0.5" scY="1.17"/>
+  </bone>
+  <bone name="符号 20_3">
+   <transform x="78.65" y="-51.6" skX="-20.02" skY="-66.32" scX="-0.58" scY="1.1"/>
+  </bone>
+  <bone name="符号 20_4">
+   <transform x="-10.5" y="-4.6" skX="0" skY="-6.63" scX="0.57" scY="1.2"/>
+  </bone>
+  <bone name="符号 20_5">
+   <transform x="-33.25" y="-8.1" skX="2.32" skY="8.8" scX="0.6" scY="1.19"/>
+  </bone>
+  <bone name="符号 20_6">
+   <transform x="-55.25" y="-19.1" skX="10.16" skY="19.77" scX="0.46" scY="1.25"/>
+  </bone>
+  <bone name="符号 20_7">
+   <transform x="-69.75" y="-33.6" skX="17.12" skY="52.98" scX="0.5" scY="1.17"/>
+  </bone>
+  <bone name="符号 20_8">
+   <transform x="-79.75" y="-51.6" skX="20.02" skY="66.32" scX="0.58" scY="1.1"/>
+  </bone>
+  <bone name="5.png">
+   <transform x="118.55" y="-29" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="4.png">
+   <transform x="-131" y="-29" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="2.png">
+   <transform x="3.05" y="-111.4" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <bone name="图层 10">
+   <transform x="1.4" y="-129.15" skX="0" skY="0" scX="0.42" scY="0.79"/>
+  </bone>
+  <bone name="符号 20_9">
+   <transform x="-6.7" y="-81.85" skX="0" skY="0" scX="0.45" scY="0.75"/>
+  </bone>
+  <bone name="符号 20_10">
+   <transform x="9.8" y="-81.95" skX="0" skY="0" scX="-0.44" scY="0.75"/>
+  </bone>
+  <bone name="符号 20_11">
+   <transform x="24.8" y="-87.95" skX="-4.22" skY="-27.25" scX="-0.34" scY="0.74"/>
+  </bone>
+  <bone name="符号 20_12">
+   <transform x="36.3" y="-99.95" skX="-7.22" skY="-44.19" scX="-0.43" scY="0.69"/>
+  </bone>
+  <bone name="符号 20_13">
+   <transform x="-21.95" y="-88.3" skX="4.22" skY="27.25" scX="0.35" scY="0.74"/>
+  </bone>
+  <bone name="符号 20_14">
+   <transform x="-32.45" y="-99.8" skX="7.22" skY="44.19" scX="0.32" scY="0.69"/>
+  </bone>
+  <bone name="1.png">
+   <transform x="0.95" y="-139.95" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 6" parent="图层 6" z="0">
+    <display name="122124424277777" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="3.png" parent="3.png" z="1">
+    <display name="补间 1" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72.5" pY="76"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="2">
+    <display name="122124424277777" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20" parent="符号 20" z="3">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_0" parent="符号 20_0" z="4">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_1" parent="符号 20_1" z="5">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_2" parent="符号 20_2" z="6">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_3" parent="符号 20_3" z="7">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_4" parent="符号 20_4" z="8">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_5" parent="符号 20_5" z="9">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_6" parent="符号 20_6" z="10">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_7" parent="符号 20_7" z="11">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_8" parent="符号 20_8" z="12">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="5.png" parent="5.png" z="13">
+    <display name="补间 5" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="45.5" pY="50.5"/>
+    </display>
+   </slot>
+   <slot name="4.png" parent="4.png" z="14">
+    <display name="补间 4" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="45" pY="50.5"/>
+    </display>
+   </slot>
+   <slot name="2.png" parent="2.png" z="15">
+    <display name="补间 3" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="38" pY="38"/>
+    </display>
+   </slot>
+   <slot name="图层 10" parent="图层 10" z="16">
+    <display name="122124424277777" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_9" parent="符号 20_9" z="17">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_10" parent="符号 20_10" z="18">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_11" parent="符号 20_11" z="19">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_12" parent="符号 20_12" z="20">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_13" parent="符号 20_13" z="21">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="符号 20_14" parent="符号 20_14" z="22">
+    <display name="符号 20" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="1.png" parent="1.png" z="23">
+    <display name="补间 2" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="12" pY="21.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="16" scale="1" loop="1" autoTween="1" tweenEasing="NaN">
+   <timeline name="图层 6" scale="1" offset="0">
+    <frame z="0" duration="16">
+     <transform x="-1.95" y="-16.95" skX="0" skY="0" scX="1.52" scY="2.55" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="3.png" scale="1" offset="0">
+    <frame z="1" duration="16">
+     <transform x="1.55" y="-55.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame z="2" duration="16">
+     <transform x="-2.6" y="-89.9" skX="0" skY="0" scX="0.94" scY="1.75" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20" scale="1" offset="0">
+    <frame z="3" duration="16">
+     <transform x="11.15" y="-4.85" skX="0" skY="6.63" scX="-0.57" scY="1.2" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_0" scale="1" offset="0">
+    <frame z="4" duration="16">
+     <transform x="33.4" y="-8.85" skX="-3.27" skY="-9.75" scX="-0.6" scY="1.19" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_1" scale="1" offset="0">
+    <frame z="5" duration="16">
+     <transform x="54.15" y="-19.1" skX="-10.16" skY="-19.77" scX="-0.46" scY="1.25" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_2" scale="1" offset="0">
+    <frame z="6" duration="16">
+     <transform x="68.65" y="-33.6" skX="-17.12" skY="-52.98" scX="-0.5" scY="1.17" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_3" scale="1" offset="0">
+    <frame z="7" duration="16">
+     <transform x="78.65" y="-51.6" skX="-20.02" skY="-66.32" scX="-0.58" scY="1.1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_4" scale="1" offset="0">
+    <frame z="8" duration="16">
+     <transform x="-10.5" y="-4.6" skX="0" skY="-6.63" scX="0.57" scY="1.2" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_5" scale="1" offset="0">
+    <frame z="9" duration="16">
+     <transform x="-33.25" y="-8.1" skX="2.32" skY="8.8" scX="0.6" scY="1.19" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_6" scale="1" offset="0">
+    <frame z="10" duration="16">
+     <transform x="-55.25" y="-19.1" skX="10.16" skY="19.77" scX="0.46" scY="1.25" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_7" scale="1" offset="0">
+    <frame z="11" duration="16">
+     <transform x="-69.75" y="-33.6" skX="17.12" skY="52.98" scX="0.5" scY="1.17" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_8" scale="1" offset="0">
+    <frame z="12" duration="16">
+     <transform x="-79.75" y="-51.6" skX="20.02" skY="66.32" scX="0.58" scY="1.1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="5.png" scale="1" offset="0">
+    <frame z="13" duration="16">
+     <transform x="118.55" y="-29" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="4.png" scale="1" offset="0">
+    <frame z="14" duration="16">
+     <transform x="-131" y="-29" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="2.png" scale="1" offset="0">
+    <frame z="15" duration="16">
+     <transform x="3.05" y="-111.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="图层 10" scale="1" offset="0">
+    <frame z="16" duration="16">
+     <transform x="1.4" y="-129.15" skX="0" skY="0" scX="0.42" scY="0.79" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_9" scale="1" offset="0">
+    <frame z="17" duration="16">
+     <transform x="-6.7" y="-81.85" skX="0" skY="0" scX="0.45" scY="0.75" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_10" scale="1" offset="0">
+    <frame z="18" duration="16">
+     <transform x="9.8" y="-81.95" skX="0" skY="0" scX="-0.44" scY="0.75" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_11" scale="1" offset="0">
+    <frame z="19" duration="16">
+     <transform x="24.8" y="-87.95" skX="-4.22" skY="-27.25" scX="-0.34" scY="0.74" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_12" scale="1" offset="0">
+    <frame z="20" duration="16">
+     <transform x="36.3" y="-99.95" skX="-7.22" skY="-44.19" scX="-0.43" scY="0.69" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_13" scale="1" offset="0">
+    <frame z="21" duration="16">
+     <transform x="-21.95" y="-88.3" skX="4.22" skY="27.25" scX="0.35" scY="0.74" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="符号 20_14" scale="1" offset="0">
+    <frame z="22" duration="16">
+     <transform x="-32.45" y="-99.8" skX="7.22" skY="44.19" scX="0.32" scY="0.69" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="1.png" scale="1" offset="0">
+    <frame z="23" duration="16">
+     <transform x="0.95" y="-139.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="符号 20">
+  <bone name="层 2">
+   <transform x="-6" y="-2.1" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="层 2" parent="层 2" z="0">
+    <display name="符号 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="26.9" pY="39.2"/>
+    </display>
+    <display name="符号 22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="24.75" pY="38.65"/>
+    </display>
+    <display name="符号 23" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="22.4" pY="38.7"/>
+    </display>
+    <display name="符号 24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="26.6" pY="39.6"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="45y" fadeInTime="0" duration="8" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="层 2" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="-6" y="-2.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-7.35" y="-1.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-10.35" y="-1.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="-6.3" y="-1.6" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="55" rM="100" gM="100" bM="100"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

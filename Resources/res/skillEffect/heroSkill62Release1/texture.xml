@@ -1,0 +1,16 @@
+<TextureAtlas name="heroSkill62Release1" imagePath="texture.png">
+ <SubTexture name="dfghdfghdfghdfgh43563456" x="451" y="193" width="52" height="51"/>
+ <SubTexture name="guangxiaoguosda" x="160" y="275" width="96" height="56"/>
+ <SubTexture name="t6u7565" x="215" y="0" width="152" height="227"/>
+ <SubTexture name="ryrtyrty566 副本ssdddf" x="369" y="193" width="81" height="95"/>
+ <SubTexture name="3456fghgff" x="369" y="0" width="96" height="96"/>
+ <SubTexture name="补间 7" x="257" y="275" width="109" height="37"/>
+ <SubTexture name="补间 8" x="160" y="229" width="124" height="44"/>
+ <SubTexture name="补间 9" x="369" y="147" width="134" height="44"/>
+ <SubTexture name="补间 10" x="369" y="97" width="138" height="48"/>
+ <SubTexture name="补间 11" x="368" y="289" width="109" height="35"/>
+ <SubTexture name="补间 12" x="257" y="314" width="107" height="34"/>
+ <SubTexture name="补间 13" x="366" y="326" width="107" height="34"/>
+ <SubTexture name="e4654" x="0" y="0" width="214" height="214"/>
+ <SubTexture name="asdfadfassfd" x="0" y="215" width="159" height="160"/>
+</TextureAtlas>

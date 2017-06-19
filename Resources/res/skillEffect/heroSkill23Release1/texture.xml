@@ -1,0 +1,12 @@
+<TextureAtlas name="九阴白骨爪" imagePath="texture.png">
+ <SubTexture name="九阴白骨爪/补间 1" x="836" y="186" width="129" height="89"/>
+ <SubTexture name="九阴白骨爪/补间 2" x="495" y="278" width="209" height="89"/>
+ <SubTexture name="九阴白骨爪/补间 3" x="219" y="244" width="274" height="89"/>
+ <SubTexture name="九阴白骨爪/补间 25" x="505" y="186" width="329" height="90"/>
+ <SubTexture name="九阴白骨爪/补间 26" x="567" y="0" width="406" height="91"/>
+ <SubTexture name="九阴白骨爪/补间 27" x="505" y="93" width="466" height="91"/>
+ <SubTexture name="九阴白骨爪/补间 28" x="0" y="0" width="565" height="91"/>
+ <SubTexture name="九阴白骨爪/wet4" x="836" y="277" width="107" height="103"/>
+ <SubTexture name="九阴白骨爪/r54y765 副本" x="0" y="244" width="218" height="150"/>
+ <SubTexture name="九阴白骨爪/r54y765" x="0" y="93" width="504" height="150"/>
+</TextureAtlas>

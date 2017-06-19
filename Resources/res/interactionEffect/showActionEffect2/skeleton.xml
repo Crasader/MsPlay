@@ -1,0 +1,74 @@
+<dragonBones name="showActionEffect2" frameRate="24" version="2.3">
+ <armature name="showActionEffect2">
+  <bone name="wset443">
+   <transform x="-7.25" y="42" skX="-5.78" skY="-5.78" scX="0.8" scY="0.8"/>
+  </bone>
+  <bone name="e4y544">
+   <transform x="26.4" y="38.35" skX="40.25" skY="40.25" scX="0.8" scY="0.8"/>
+  </bone>
+  <bone name="swetg453">
+   <transform x="-37.35" y="40.2" skX="-35.03" skY="-35.03" scX="0.8" scY="0.8"/>
+  </bone>
+  <skin name="default">
+   <slot name="wset443" parent="wset443" z="0" blendMode="add">
+    <display name="未命名文件夹 1/wset443" type="image">
+     <transform x="4" y="-214.1" skX="0" skY="0" scX="1" scY="1" pX="35.5" pY="138.55"/>
+    </display>
+   </slot>
+   <slot name="e4y544" parent="e4y544" z="1" blendMode="add">
+    <display name="未命名文件夹 1/e4y544" type="image">
+     <transform x="3.15" y="-209" skX="0" skY="0" scX="1" scY="1" pX="35.5" pY="147.95"/>
+    </display>
+   </slot>
+   <slot name="swetg453" parent="swetg453" z="2" blendMode="add">
+    <display name="未命名文件夹 1/swetg453" type="image">
+     <transform x="3" y="-211.05" skX="0" skY="0" scX="1" scY="1" pX="35.5" pY="157.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="50" scale="1" loop="0" autoTween="0" tweenEasing="NaN">
+   <timeline name="wset443" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="13">
+     <transform x="-7.25" y="42" skX="-5.78" skY="-5.78" scX="0.8" scY="0.8" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="23">
+     <transform x="-7.25" y="42.05" skX="33.4" skY="33.4" scX="0.8" scY="0.8" pX="0" pY="0.1"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="13">
+     <transform x="-7.2" y="41.95" skX="-28.25" skY="-28.25" scX="0.8" scY="0.8" pX="0" pY="0.1"/>
+    </frame>
+    <frame z="0" tweenEasing="0" duration="1">
+     <transform x="-7.25" y="42" skX="-5.78" skY="-5.78" scX="0.8" scY="0.8" pX="0" pY="0"/>
+    </frame>
+   </timeline>
+   <timeline name="e4y544" scale="1" offset="0">
+    <frame z="1" tweenEasing="0" duration="23">
+     <transform x="26.4" y="38.35" skX="40.25" skY="40.25" scX="0.8" scY="0.8" pX="0" pY="0"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="26">
+     <transform x="26.35" y="38.35" skX="-36.78" skY="-36.78" scX="0.8" scY="0.8" pX="-0.1" pY="-0.05"/>
+    </frame>
+    <frame z="1" tweenEasing="0" duration="1">
+     <transform x="26.4" y="38.5" skX="40.25" skY="40.25" scX="0.8" scY="0.8" pX="-0.15" pY="-0.1"/>
+    </frame>
+   </timeline>
+   <timeline name="swetg453" scale="1" offset="0">
+    <frame z="2" tweenEasing="0" duration="13">
+     <transform x="-37.35" y="40.2" skX="-35.03" skY="-35.03" scX="0.8" scY="0.8" pX="0" pY="0"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="13">
+     <transform x="-37.5" y="40.2" skX="-1.2" skY="-1.2" scX="0.8" scY="0.8" pX="0.15" pY="-0.05"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="12">
+     <transform x="-37.3" y="40.3" skX="41.92" skY="41.92" scX="0.8" scY="0.8" pX="0.05" pY="-0.05"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="11">
+     <transform x="-37.35" y="40.3" skX="-1.45" skY="-1.45" scX="0.8" scY="0.8" pX="0.05" pY="0.05"/>
+    </frame>
+    <frame z="2" tweenEasing="0" duration="1">
+     <transform x="-37.4" y="40.2" skX="-35.02" skY="-35.02" scX="0.8" scY="0.8" pX="0" pY="-0.05"/>
+    </frame>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

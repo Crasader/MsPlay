@@ -1,0 +1,12 @@
+<TextureAtlas name="武器发光" imagePath="texture.png">
+ <SubTexture name="石中剑武器发光/er5y454" x="1018" y="506" width="255" height="247"/>
+ <SubTexture name="石中剑武器发光/er5y454 副本" x="1274" y="506" width="255" height="247"/>
+ <SubTexture name="石中剑武器发光/er5y454 副本 2" x="1530" y="506" width="255" height="247"/>
+ <SubTexture name="石中剑武器发光/er5y454 副本 3" x="762" y="506" width="255" height="247"/>
+ <SubTexture name="石中剑武器发光/er5y454 副本 4" x="506" y="506" width="255" height="247"/>
+ <SubTexture name="石中剑武器发光/ew43ty43" x="506" y="0" width="504" height="504"/>
+ <SubTexture name="石中剑武器发光/ew43ty43 副本" x="1012" y="0" width="504" height="504"/>
+ <SubTexture name="石中剑武器发光/ew43ty43 副本 2" x="0" y="506" width="504" height="504"/>
+ <SubTexture name="石中剑武器发光/ew43ty43 副本 3" x="0" y="0" width="504" height="504"/>
+ <SubTexture name="石中剑武器发光/ew43ty43 副本 4" x="1518" y="0" width="504" height="504"/>
+</TextureAtlas>

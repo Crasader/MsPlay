@@ -1,0 +1,32 @@
+<TextureAtlas name="幻影分身被击2" imagePath="texture.png">
+ <SubTexture name="幻影分身被击/111111/补间 46" x="1879" y="499" width="140" height="161"/>
+ <SubTexture name="幻影分身被击/111111/补间 47" x="0" y="527" width="226" height="237"/>
+ <SubTexture name="幻影分身被击/111111/补间 48" x="1117" y="502" width="281" height="255"/>
+ <SubTexture name="幻影分身被击/111111/补间 49" x="1569" y="499" width="308" height="257"/>
+ <SubTexture name="幻影分身被击/111111/补间 50" x="0" y="269" width="329" height="256"/>
+ <SubTexture name="幻影分身被击/111111/补间 51" x="414" y="257" width="349" height="251"/>
+ <SubTexture name="幻影分身被击/111111/补间 52" x="765" y="261" width="350" height="247"/>
+ <SubTexture name="幻影分身被击/111111/补间 53" x="1592" y="251" width="358" height="246"/>
+ <SubTexture name="幻影分身被击/111111/补间 54" x="1592" y="0" width="368" height="249"/>
+ <SubTexture name="幻影分身被击/111111/补间 55" x="1211" y="0" width="379" height="250"/>
+ <SubTexture name="幻影分身被击/111111/补间 56" x="818" y="0" width="391" height="259"/>
+ <SubTexture name="幻影分身被击/111111/补间 57" x="414" y="0" width="402" height="255"/>
+ <SubTexture name="幻影分身被击/111111/补间 58" x="0" y="0" width="412" height="267"/>
+ <SubTexture name="幻影分身被击/111111/补间 59" x="1211" y="252" width="356" height="248"/>
+ <SubTexture name="幻影分身被击/111111/补间 60" x="331" y="510" width="329" height="204"/>
+ <SubTexture name="幻影分身被击/111111/补间 5" x="1005" y="759" width="207" height="122"/>
+ <SubTexture name="幻影分身被击/111111/补间 6" x="1690" y="758" width="248" height="134"/>
+ <SubTexture name="幻影分身被击/111111/补间 7" x="1400" y="758" width="288" height="143"/>
+ <SubTexture name="幻影分身被击/111111/补间 8" x="662" y="510" width="369" height="140"/>
+ <SubTexture name="幻影分身被击/111111/补间 9" x="662" y="652" width="341" height="117"/>
+ <SubTexture name="幻影分身被击/111111/补间 10" x="228" y="716" width="328" height="119"/>
+ <SubTexture name="幻影分身被击/补间 61" x="1214" y="837" width="170" height="63"/>
+ <SubTexture name="幻影分身被击/补间 62" x="558" y="771" width="172" height="76"/>
+ <SubTexture name="幻影分身被击/补间 63" x="185" y="837" width="170" height="75"/>
+ <SubTexture name="幻影分身被击/补间 64" x="0" y="766" width="183" height="77"/>
+ <SubTexture name="幻影分身被击/补间 65" x="1214" y="759" width="184" height="76"/>
+ <SubTexture name="幻影分身被击/补间 66" x="732" y="771" width="184" height="62"/>
+ <SubTexture name="幻影分身被击/补间 67" x="357" y="837" width="180" height="59"/>
+ <SubTexture name="幻影分身被击/补间 68" x="732" y="835" width="201" height="44"/>
+ <SubTexture name="幻影分身被击/补间 69" x="539" y="881" width="201" height="33"/>
+</TextureAtlas>

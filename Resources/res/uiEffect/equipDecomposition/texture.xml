@@ -1,0 +1,36 @@
+<TextureAtlas name="equipDecomposition" imagePath="texture.png">
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 8" x="536" y="426" width="102" height="118"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 9" x="109" y="426" width="107" height="120"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 10" x="237" y="422" width="110" height="120"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 11" x="880" y="292" width="110" height="123"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 12" x="237" y="292" width="112" height="128"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 13" x="553" y="146" width="121" height="133"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 14" x="427" y="146" width="124" height="135"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 15" x="0" y="146" width="126" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 16" x="750" y="141" width="129" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 17" x="299" y="146" width="126" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 18" x="890" y="0" width="129" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 19" x="610" y="0" width="138" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 20" x="468" y="0" width="140" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 21" x="0" y="0" width="159" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 22" x="161" y="0" width="159" height="137"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 23" x="161" y="139" width="136" height="140"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 24" x="750" y="0" width="138" height="139"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 25" x="880" y="417" width="91" height="142"/>
+ <SubTexture name="自研通用无敌/元件 21" x="322" y="0" width="145" height="145"/>
+ <SubTexture name="自研通用无敌/元件 22" x="640" y="540" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 24" x="218" y="544" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 25" x="349" y="428" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 27" x="640" y="432" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 28" x="748" y="432" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 29" x="748" y="540" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 30" x="0" y="437" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/元件 31" x="349" y="536" width="107" height="107"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 1" x="553" y="281" width="107" height="143"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 2" x="662" y="287" width="107" height="143"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 3" x="0" y="292" width="107" height="143"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 4" x="881" y="146" width="107" height="144"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 5" x="771" y="287" width="107" height="143"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 6" x="427" y="283" width="107" height="143"/>
+ <SubTexture name="自研通用无敌/sdadsafrrg/元件 7" x="128" y="281" width="107" height="143"/>
+</TextureAtlas>

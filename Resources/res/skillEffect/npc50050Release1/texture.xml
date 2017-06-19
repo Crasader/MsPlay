@@ -1,0 +1,11 @@
+<TextureAtlas name="npc50050Release1" imagePath="texture.png">
+ <SubTexture name="补间 1" x="881" y="157" width="138" height="162"/>
+ <SubTexture name="补间 2" x="492" y="0" width="194" height="235"/>
+ <SubTexture name="补间 3" x="257" y="0" width="233" height="283"/>
+ <SubTexture name="补间 4" x="0" y="0" width="255" height="310"/>
+ <SubTexture name="元件 55" x="0" y="312" width="220" height="90"/>
+ <SubTexture name="元件 52 副本" x="688" y="157" width="191" height="161"/>
+ <SubTexture name="元件 53" x="688" y="0" width="203" height="155"/>
+ <SubTexture name="元件 54" x="257" y="285" width="215" height="134"/>
+ <SubTexture name="元件 56" x="474" y="285" width="212" height="44"/>
+</TextureAtlas>

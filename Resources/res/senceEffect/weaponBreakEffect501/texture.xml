@@ -1,0 +1,3 @@
+<TextureAtlas name="weaponBreakEffect501" imagePath="texture.png">
+ <SubTexture name="u908/高光" x="0" y="0" width="56" height="40"/>
+</TextureAtlas>

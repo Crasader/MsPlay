@@ -1,0 +1,7 @@
+<TextureAtlas name="minigameAgilebuddyRipple" imagePath="texture.png">
+ <SubTexture name="补间 1" x="0" y="70" width="100" height="33"/>
+ <SubTexture name="56u" x="0" y="35" width="100" height="33"/>
+ <SubTexture name="补间 3" x="0" y="105" width="100" height="33"/>
+ <SubTexture name="补间 4" x="0" y="0" width="100" height="33"/>
+ <SubTexture name="补间 5" x="0" y="140" width="100" height="33"/>
+</TextureAtlas>

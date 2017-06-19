@@ -1,0 +1,3 @@
+<TextureAtlas name="bathhouseWaterGrain" imagePath="texture.png">
+ <SubTexture name="r5y6754" x="0" y="0" width="53" height="30"/>
+</TextureAtlas>

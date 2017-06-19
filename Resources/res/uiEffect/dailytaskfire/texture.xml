@@ -1,0 +1,15 @@
+<TextureAtlas name="烧绳子" imagePath="texture.png">
+ <SubTexture name="烧绳子/sprite 116" x="218" y="412" width="80" height="80"/>
+ <SubTexture name="烧绳子/sewr4uy54" x="300" y="412" width="67" height="61"/>
+ <SubTexture name="烧绳子/aw3t254" x="313" y="284" width="129" height="126"/>
+ <SubTexture name="烧绳子/wsaer4y65" x="0" y="292" width="117" height="115"/>
+ <SubTexture name="烧绳子/wayt54" x="0" y="157" width="132" height="133"/>
+ <SubTexture name="烧绳子/szewhy54" x="134" y="290" width="119" height="120"/>
+ <SubTexture name="烧绳子/w4y43" x="313" y="149" width="138" height="133"/>
+ <SubTexture name="烧绳子/wsey54" x="161" y="147" width="150" height="141"/>
+ <SubTexture name="烧绳子/awseyh65" x="327" y="0" width="152" height="147"/>
+ <SubTexture name="烧绳子/w3esy4544" x="0" y="0" width="159" height="155"/>
+ <SubTexture name="烧绳子/aegt43" x="161" y="0" width="164" height="145"/>
+ <SubTexture name="烧绳子/wsetg43" x="0" y="409" width="112" height="107"/>
+ <SubTexture name="烧绳子/e45t3" x="114" y="412" width="102" height="105"/>
+</TextureAtlas>

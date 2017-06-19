@@ -1,0 +1,24 @@
+<TextureAtlas name="爆气" imagePath="texture.png">
+ <SubTexture name="爆气/补间 11" x="265" y="0" width="265" height="294"/>
+ <SubTexture name="爆气/补间 12" x="0" y="0" width="263" height="306"/>
+ <SubTexture name="爆气/补间 13" x="265" y="296" width="252" height="298"/>
+ <SubTexture name="爆气/补间 14" x="532" y="0" width="253" height="306"/>
+ <SubTexture name="爆气/闪电1" x="370" y="835" width="86" height="114"/>
+ <SubTexture name="爆气/闪电2" x="122" y="626" width="107" height="178"/>
+ <SubTexture name="爆气/闪电3" x="370" y="596" width="143" height="237"/>
+ <SubTexture name="爆气/闪电4" x="519" y="578" width="145" height="265"/>
+ <SubTexture name="爆气/闪电5" x="519" y="308" width="163" height="269"/>
+ <SubTexture name="爆气/闪电6" x="240" y="596" width="128" height="275"/>
+ <SubTexture name="爆气/闪电7" x="768" y="326" width="120" height="289"/>
+ <SubTexture name="爆气/闪电8" x="890" y="576" width="127" height="281"/>
+ <SubTexture name="爆气/闪电9" x="750" y="617" width="126" height="252"/>
+ <SubTexture name="爆气/闪电1a" x="78" y="805" width="74" height="133"/>
+ <SubTexture name="爆气/闪电2a" x="0" y="638" width="76" height="185"/>
+ <SubTexture name="爆气/闪电3a" x="665" y="582" width="83" height="243"/>
+ <SubTexture name="爆气/闪电4a" x="913" y="307" width="93" height="267"/>
+ <SubTexture name="爆气/闪电5a" x="684" y="308" width="82" height="273"/>
+ <SubTexture name="爆气/闪电6a" x="913" y="0" width="104" height="306"/>
+ <SubTexture name="爆气/闪电7a" x="122" y="308" width="116" height="317"/>
+ <SubTexture name="爆气/闪电8a" x="0" y="308" width="120" height="329"/>
+ <SubTexture name="爆气/闪电9a" x="787" y="0" width="124" height="325"/>
+</TextureAtlas>

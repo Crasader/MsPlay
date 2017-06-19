@@ -1,0 +1,8 @@
+<TextureAtlas name="闪电光速拳" imagePath="texture.png">
+ <SubTexture name="j76654" x="0" y="0" width="67" height="886"/>
+ <SubTexture name="闪电光速拳/元件 1" x="68" y="0" width="256" height="256"/>
+ <SubTexture name="闪电光速拳/元件 1 副本" x="68" y="258" width="188" height="189"/>
+ <SubTexture name="闪电光速拳/wesr4yt5" x="326" y="94" width="92" height="92"/>
+ <SubTexture name="闪电光速拳/wsy54" x="326" y="0" width="92" height="92"/>
+ <SubTexture name="闪电光速拳/元件 2" x="420" y="0" width="19" height="69"/>
+</TextureAtlas>

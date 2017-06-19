@@ -1,0 +1,359 @@
+<dragonBones name="独孤九剑" frameRate="30" version="2.3">
+ <armature name="heroSkill29Release1">
+  <bone name="图层 3">
+   <transform x="-63.8" y="122.65" skX="0" skY="0" scX="10" scY="10"/>
+  </bone>
+  <bone name="Layer 10">
+   <transform x="329.05" y="-352.4" skX="15.24" skY="15.24" scX="1.86" scY="1.84"/>
+  </bone>
+  <bone name="Layer 12">
+   <transform x="20.65" y="-290.1" skX="-17.04" skY="-17.04" scX="1.76" scY="1.5"/>
+  </bone>
+  <bone name="Layer 16">
+   <transform x="177.35" y="141.15" skX="15.28" skY="15.32" scX="4.41" scY="0.87"/>
+  </bone>
+  <bone name="Layer 19">
+   <transform x="33.5" y="-428.6" skX="-17.33" skY="-17.33" scX="1.84" scY="1.5"/>
+  </bone>
+  <bone name="Layer 21">
+   <transform x="413.45" y="-234.2" skX="24.44" skY="24.44" scX="1.95" scY="1.47"/>
+  </bone>
+  <bone name="Layer 22">
+   <transform x="53.45" y="-504.2" skX="-9" skY="-9" scX="1.95" scY="1.47"/>
+  </bone>
+  <bone name="Layer 24">
+   <transform x="243.25" y="-348.3" skX="-11" skY="-11" scX="1.95" scY="1.47"/>
+  </bone>
+  <bone name="Layer 26">
+   <transform x="413.45" y="-288.2" skX="9.44" skY="9.44" scX="1.95" scY="1.47"/>
+  </bone>
+  <bone name="Layer 28">
+   <transform x="413.45" y="-234.2" skX="39.44" skY="39.44" scX="1.95" scY="1.47"/>
+  </bone>
+  <bone name="Layer 30">
+   <transform x="-254.45" y="-184.7" skX="-46" skY="-46" scX="1.95" scY="1.47"/>
+  </bone>
+  <bone name="图层 5">
+   <transform x="578.1" y="101.55" skX="0" skY="0" scX="-1.5" scY="1.5"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 3" parent="图层 3" z="0">
+    <display name="独孤九剑/ru54" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="130.5" pY="83.5"/>
+    </display>
+   </slot>
+   <slot name="Layer 10" parent="Layer 10" z="1">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 12" parent="Layer 12" z="2">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 16" parent="Layer 16" z="3">
+    <display name="独孤九剑/shape 76" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="2.6" pY="53.05"/>
+    </display>
+   </slot>
+   <slot name="Layer 19" parent="Layer 19" z="4">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 21" parent="Layer 21" z="5">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 22" parent="Layer 22" z="6">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 24" parent="Layer 24" z="7">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 26" parent="Layer 26" z="8">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 28" parent="Layer 28" z="9">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="Layer 30" parent="Layer 30" z="10">
+    <display name="独孤九剑/sprite 83" type="armature">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+   <slot name="图层 5" parent="图层 5" z="11">
+    <display name="独孤九剑/sprite 18" type="armature">
+     <transform x="120.45" y="33.55" skX="0" skY="0" scX="1" scY="1"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="skill" fadeInTime="0" duration="81" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 3" scale="1" offset="0">
+    <frame duration="24" displayIndex="-1"/>
+    <frame z="0" tweenEasing="0" duration="3">
+     <transform x="-63.8" y="122.65" skX="0" skY="0" scX="10" scY="10" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="0" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" duration="37">
+     <transform x="-63.8" y="122.65" skX="0" skY="0" scX="10" scY="10" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="70" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="17" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 10" scale="1" offset="0">
+    <frame duration="26" displayIndex="-1"/>
+    <frame z="1" duration="13">
+     <transform x="329.05" y="-352.4" skX="15.24" skY="15.24" scX="1.86" scY="1.84" pX="0" pY="0"/>
+    </frame>
+    <frame duration="42" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 12" scale="1" offset="0">
+    <frame duration="32" displayIndex="-1"/>
+    <frame z="2" duration="14">
+     <transform x="20.65" y="-290.1" skX="-17.04" skY="-17.04" scX="1.76" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="21" displayIndex="-1"/>
+    <frame z="2" duration="10">
+     <transform x="182.65" y="-411.1" skX="0.46" skY="0.46" scX="1.77" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="4" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 16" scale="1" offset="0">
+    <frame duration="25" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="177.35" y="141.15" skX="15.28" skY="15.32" scX="4.41" scY="0.87" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-1206.05" y="-230.9" skX="15.28" skY="15.32" scX="4.41" scY="0.87" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="-878.05" y="68.55" skX="-159.1" skY="-158.08" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-193.1" y="409.3" skX="-167.47" skY="-166.46" scX="3.33" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="192.55" y="246.1" skX="162.79" skY="162.83" scX="4.4" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="1243.55" y="-119.25" skX="164.93" skY="164.97" scX="4.41" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="456.85" y="-54.9" skX="-21.46" skY="-20.45" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-1319.65" y="378.15" skX="-11.05" skY="-10.04" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="-444.5" y="-89.6" skX="-161.43" skY="-161.39" scX="4.38" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="928.7" y="581.95" skX="-156.9" skY="-156.86" scX="4.39" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="599.35" y="201.1" skX="8.1" skY="9.12" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-810.95" y="-89.15" skX="8.1" skY="9.12" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="-619" y="-184.4" skX="-141.9" skY="-141.86" scX="4.39" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="644.3" y="637.8" skX="-141.9" skY="-141.86" scX="4.39" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="318.95" y="-365.15" skX="-44.6" skY="-43.58" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-698.6" y="517" skX="-44.6" skY="-43.58" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="-561.05" y="203.35" skX="171.66" skY="171.7" scX="4.38" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="951.25" y="52.5" skX="171.66" skY="171.7" scX="4.38" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="923.6" y="198.85" skX="1.3" skY="2.31" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="51.25" y="197.85" skX="1.29" skY="1.33" scX="4.39" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-1693.3" y="197.7" skX="1.3" skY="1.33" scX="4.4" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-1692.8" y="197.85" skX="1.3" skY="2.31" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-1693.3" y="197.7" skX="1.3" skY="1.33" scX="4.4" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" tweenEasing="0" duration="1">
+     <transform x="-1692.8" y="197.85" skX="1.3" skY="2.31" scX="3.32" scY="0.82" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+    <frame z="3" tweenEasing="0" duration="2">
+     <transform x="476.75" y="126.8" skX="180" skY="-180" scX="-4.4" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame z="3" duration="1">
+     <transform x="-863.25" y="126.8" skX="180" skY="-180" scX="-4.4" scY="0.86" pX="0" pY="0"/>
+    </frame>
+    <frame duration="12" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 19" scale="1" offset="0">
+    <frame duration="35" displayIndex="-1"/>
+    <frame z="4" duration="13">
+     <transform x="33.5" y="-428.6" skX="-17.33" skY="-17.33" scX="1.84" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="33" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 21" scale="1" offset="0">
+    <frame duration="39" displayIndex="-1"/>
+    <frame z="5" duration="10">
+     <transform x="413.45" y="-234.2" skX="24.44" skY="24.44" scX="1.95" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="32" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 22" scale="1" offset="0">
+    <frame duration="49" displayIndex="-1"/>
+    <frame z="6" duration="7">
+     <transform x="53.45" y="-504.2" skX="-9" skY="-9" scX="1.95" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="25" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 24" scale="1" offset="0">
+    <frame duration="51" displayIndex="-1"/>
+    <frame z="7" duration="7">
+     <transform x="243.25" y="-348.3" skX="-11" skY="-11" scX="1.95" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="23" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 26" scale="1" offset="0">
+    <frame duration="42" displayIndex="-1"/>
+    <frame z="8" duration="12">
+     <transform x="413.45" y="-288.2" skX="9.44" skY="9.44" scX="1.95" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+    <frame z="8" duration="10">
+     <transform x="182.65" y="-211.1" skX="0.46" skY="0.46" scX="1.77" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="16" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 28" scale="1" offset="0">
+    <frame duration="45" displayIndex="-1"/>
+    <frame z="9" duration="11">
+     <transform x="413.45" y="-234.2" skX="39.44" skY="39.44" scX="1.95" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="25" displayIndex="-1"/>
+   </timeline>
+   <timeline name="Layer 30" scale="1" offset="0">
+    <frame duration="48" displayIndex="-1"/>
+    <frame z="10" duration="11">
+     <transform x="-254.45" y="-184.7" skX="-46" skY="-46" scX="1.95" scY="1.47" pX="0" pY="0"/>
+    </frame>
+    <frame duration="22" displayIndex="-1"/>
+   </timeline>
+   <timeline name="图层 5" scale="1" offset="0">
+    <frame duration="67" displayIndex="-1"/>
+    <frame z="11" duration="7">
+     <transform x="578.1" y="101.55" skX="0" skY="0" scX="-1.5" scY="1.5" pX="0" pY="0"/>
+    </frame>
+    <frame duration="7" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="独孤九剑/sprite 18">
+  <bone name="图层 2">
+   <transform x="-118.75" y="-32.45" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0">
+    <display name="独孤九剑/56u5u" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="96" pY="51.5"/>
+    </display>
+    <display name="独孤九剑/rt5y543" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="143" pY="82"/>
+    </display>
+    <display name="独孤九剑/56u6e" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="200.5" pY="99.5"/>
+    </display>
+    <display name="独孤九剑/r5y544" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="242" pY="117.5"/>
+    </display>
+    <display name="独孤九剑/u8554" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="234.5" pY="135"/>
+    </display>
+    <display name="独孤九剑/tru64" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="193.5" pY="128"/>
+    </display>
+    <display name="独孤九剑/s54y75" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="110.5" pY="129.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="rftu6" fadeInTime="0" duration="8" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" duration="1">
+     <transform x="-118.75" y="-32.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="1">
+     <transform x="-59.65" y="-61.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="1">
+     <transform x="12.85" y="-79.3" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="1">
+     <transform x="64.6" y="-96.55" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="1">
+     <transform x="64.45" y="-114.35" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="1">
+     <transform x="105.25" y="-108.85" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="1">
+     <transform x="127.15" y="-109.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+ <armature name="独孤九剑/sprite 83">
+  <bone name="图层 2">
+   <transform x="-89.05" y="325.65" skX="0" skY="0" scX="1.5" scY="0.16"/>
+  </bone>
+  <skin name="default">
+   <slot name="图层 2" parent="图层 2" z="0">
+    <display name="独孤九剑/sweyt35" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="492" pY="22.5"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="67" fadeInTime="0" duration="72" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="图层 2" scale="1" offset="0">
+    <frame z="0" tweenEasing="0" duration="2">
+     <transform x="-89.05" y="325.65" skX="0" skY="0" scX="1.5" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="2">
+     <transform x="-88.85" y="326.75" skX="0" skY="0" scX="1.5" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" duration="2">
+     <transform x="-89.05" y="325.65" skX="0" skY="0" scX="1.5" scY="0.16" pX="0" pY="0"/>
+    </frame>
+    <frame duration="66" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

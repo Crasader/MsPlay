@@ -1,0 +1,18 @@
+<TextureAtlas name="npc50044Release2" imagePath="texture.png">
+ <SubTexture name="补间 4" x="911" y="0" width="89" height="61"/>
+ <SubTexture name="补间 10" x="889" y="175" width="115" height="87"/>
+ <SubTexture name="补间 11" x="677" y="0" width="232" height="173"/>
+ <SubTexture name="补间 12" x="0" y="427" width="152" height="128"/>
+ <SubTexture name="补间 13" x="233" y="233" width="210" height="174"/>
+ <SubTexture name="补间 14" x="0" y="246" width="196" height="179"/>
+ <SubTexture name="补间 15" x="463" y="213" width="210" height="180"/>
+ <SubTexture name="补间 16" x="677" y="175" width="210" height="184"/>
+ <SubTexture name="补间 17" x="198" y="409" width="210" height="153"/>
+ <SubTexture name="补间 18" x="445" y="395" width="217" height="154"/>
+ <SubTexture name="补间 19" x="675" y="361" width="218" height="155"/>
+ <SubTexture name="补间 20" x="911" y="63" width="71" height="58"/>
+ <SubTexture name="补间 21" x="664" y="518" width="143" height="131"/>
+ <SubTexture name="补间 22" x="463" y="0" width="212" height="211"/>
+ <SubTexture name="补间 23" x="233" y="0" width="228" height="231"/>
+ <SubTexture name="补间 24" x="0" y="0" width="231" height="244"/>
+</TextureAtlas>

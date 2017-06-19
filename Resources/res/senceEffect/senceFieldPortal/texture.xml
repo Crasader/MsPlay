@@ -1,0 +1,6 @@
+<TextureAtlas name="异次元之门" imagePath="texture.png">
+ <SubTexture name="补间 1" x="449" y="0" width="217" height="254"/>
+ <SubTexture name="异次元之门/rt54uy756" x="668" y="0" width="144" height="130"/>
+ <SubTexture name="异次元之门/sprite 38" x="0" y="0" width="448" height="431"/>
+ <SubTexture name="异次元之门/sprite 42" x="813" y="0" width="64" height="64"/>
+</TextureAtlas>

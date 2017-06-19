@@ -1,0 +1,12 @@
+<TextureAtlas name="faceShopBubble2" imagePath="texture.png">
+ <SubTexture name="补间 1" x="94" y="175" width="146" height="23"/>
+ <SubTexture name="补间 2" x="94" y="199" width="123" height="32"/>
+ <SubTexture name="补间 3" x="75" y="232" width="77" height="27"/>
+ <SubTexture name="补间 4" x="0" y="214" width="74" height="40"/>
+ <SubTexture name="补间 5" x="145" y="62" width="105" height="58"/>
+ <SubTexture name="补间 6" x="145" y="0" width="105" height="61"/>
+ <SubTexture name="补间 7" x="0" y="153" width="93" height="60"/>
+ <SubTexture name="补间 8" x="0" y="88" width="114" height="64"/>
+ <SubTexture name="补间 9" x="0" y="0" width="144" height="87"/>
+ <SubTexture name="补间 10" x="115" y="121" width="118" height="53"/>
+</TextureAtlas>

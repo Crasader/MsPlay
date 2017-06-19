@@ -1,0 +1,6 @@
+<TextureAtlas name="挂机界面挂机中特效" imagePath="texture.png">
+ <SubTexture name="ryyh54" x="0" y="432" width="239" height="239"/>
+ <SubTexture name="sprite 38" x="0" y="0" width="448" height="431"/>
+ <SubTexture name="r5675" x="449" y="0" width="59" height="33"/>
+ <SubTexture name="sprite 42" x="240" y="432" width="64" height="64"/>
+</TextureAtlas>

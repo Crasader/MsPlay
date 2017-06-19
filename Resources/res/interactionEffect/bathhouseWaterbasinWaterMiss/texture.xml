@@ -1,0 +1,25 @@
+<TextureAtlas name="bathhouseWaterbasinWaterMiss" imagePath="texture.png">
+ <SubTexture name="补间 79" x="391" y="298" width="116" height="66"/>
+ <SubTexture name="补间 80" x="103" y="357" width="116" height="66"/>
+ <SubTexture name="r54y54" x="221" y="422" width="91" height="59"/>
+ <SubTexture name="wetg4" x="0" y="306" width="102" height="70"/>
+ <SubTexture name="wet43" x="0" y="377" width="91" height="77"/>
+ <SubTexture name="e454" x="304" y="85" width="120" height="111"/>
+ <SubTexture name="e4y54" x="0" y="96" width="115" height="115"/>
+ <SubTexture name="deruy65" x="410" y="197" width="100" height="100"/>
+ <SubTexture name="we4t43" x="0" y="212" width="102" height="93"/>
+ <SubTexture name="补间 15" x="425" y="85" width="63" height="40"/>
+ <SubTexture name="补间 16" x="361" y="414" width="109" height="58"/>
+ <SubTexture name="补间 17" x="103" y="294" width="130" height="61"/>
+ <SubTexture name="补间 18" x="270" y="197" width="139" height="69"/>
+ <SubTexture name="补间 19" x="116" y="99" width="146" height="79"/>
+ <SubTexture name="补间 20" x="304" y="0" width="150" height="84"/>
+ <SubTexture name="补间 21" x="0" y="0" width="154" height="95"/>
+ <SubTexture name="补间 22" x="155" y="0" width="148" height="98"/>
+ <SubTexture name="补间 23" x="374" y="366" width="136" height="47"/>
+ <SubTexture name="补间 24" x="221" y="372" width="139" height="49"/>
+ <SubTexture name="补间 25" x="234" y="322" width="139" height="49"/>
+ <SubTexture name="补间 26" x="248" y="267" width="142" height="54"/>
+ <SubTexture name="补间 27" x="116" y="179" width="153" height="56"/>
+ <SubTexture name="补间 28" x="103" y="236" width="143" height="57"/>
+</TextureAtlas>

@@ -1,0 +1,17 @@
+<TextureAtlas name="飞龙探云手" imagePath="texture.png">
+ <SubTexture name="飞龙探云手/sprite 39" x="231" y="234" width="142" height="120"/>
+ <SubTexture name="飞龙探云手/e4r5y54" x="231" y="452" width="135" height="75"/>
+ <SubTexture name="飞龙探云手/补间 3" x="231" y="356" width="124" height="91"/>
+ <SubTexture name="飞龙探云手/补间 19" x="793" y="373" width="229" height="244"/>
+ <SubTexture name="飞龙探云手/补间 20" x="0" y="234" width="229" height="244"/>
+ <SubTexture name="飞龙探云手/e4t4334" x="813" y="0" width="205" height="220"/>
+ <SubTexture name="飞龙探云手/补间 10" x="747" y="307" width="44" height="74"/>
+ <SubTexture name="飞龙探云手/补间 14" x="375" y="234" width="60" height="90"/>
+ <SubTexture name="飞龙探云手/补间 13" x="747" y="213" width="64" height="92"/>
+ <SubTexture name="飞龙探云手/补间 12" x="357" y="356" width="72" height="94"/>
+ <SubTexture name="飞龙探云手/补间 1" x="813" y="222" width="178" height="149"/>
+ <SubTexture name="飞龙探云手/补间 2" x="431" y="404" width="240" height="168"/>
+ <SubTexture name="飞龙探云手/补间 9" x="440" y="213" width="305" height="189"/>
+ <SubTexture name="飞龙探云手/补间 101" x="440" y="0" width="371" height="211"/>
+ <SubTexture name="飞龙探云手/补间 111" x="0" y="0" width="438" height="232"/>
+</TextureAtlas>

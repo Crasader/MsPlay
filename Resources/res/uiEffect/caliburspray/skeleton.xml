@@ -1,0 +1,104 @@
+<dragonBones name="石中剑水花" frameRate="30" version="2.3">
+ <armature name="caliburspray">
+  <bone name="层 3">
+   <transform x="-3.3" y="-4.5" skX="0" skY="0" scX="1" scY="1"/>
+  </bone>
+  <skin name="default">
+   <slot name="层 3" parent="层 3" z="0">
+    <display name="石中剑水花/补间 15" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="31.3" pY="20.15"/>
+    </display>
+    <display name="石中剑水花/补间 16" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="54.1" pY="28.95"/>
+    </display>
+    <display name="石中剑水花/补间 17" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="64.55" pY="30.5"/>
+    </display>
+    <display name="石中剑水花/补间 18" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.25" pY="34.5"/>
+    </display>
+    <display name="石中剑水花/补间 19" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="72.55" pY="39.2"/>
+    </display>
+    <display name="石中剑水花/补间 20" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="74.9" pY="41.85"/>
+    </display>
+    <display name="石中剑水花/补间 21" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76.9" pY="47.05"/>
+    </display>
+    <display name="石中剑水花/补间 22" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="73.65" pY="48.6"/>
+    </display>
+    <display name="石中剑水花/补间 23" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="67.85" pY="23.25"/>
+    </display>
+    <display name="石中剑水花/补间 24" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.2" pY="24.35"/>
+    </display>
+    <display name="石中剑水花/补间 25" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="69.35" pY="24.3"/>
+    </display>
+    <display name="石中剑水花/补间 26" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="70.65" pY="26.65"/>
+    </display>
+    <display name="石中剑水花/补间 27" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="76.15" pY="27.95"/>
+    </display>
+    <display name="石中剑水花/补间 28" type="image">
+     <transform x="0" y="0" skX="0" skY="0" scX="1" scY="1" pX="71.5" pY="28.35"/>
+    </display>
+   </slot>
+  </skin>
+  <animation name="ani" fadeInTime="0" duration="29" scale="1" loop="1" autoTween="0" tweenEasing="NaN">
+   <timeline name="层 3" scale="1" offset="0">
+    <frame z="0" duration="2">
+     <transform x="-3.3" y="-4.5" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="1" duration="2">
+     <transform x="-17.4" y="-7.45" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="2" duration="2">
+     <transform x="-11.95" y="-8.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="3" duration="2">
+     <transform x="-14.35" y="-9.15" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="4" duration="2">
+     <transform x="-15.15" y="-7.65" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="5" duration="2">
+     <transform x="-15.7" y="-10" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="6" duration="2">
+     <transform x="-15.15" y="-8.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="7" duration="2">
+     <transform x="-11.4" y="-8.1" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="8" duration="2">
+     <transform x="-9.45" y="1.4" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="9" duration="2">
+     <transform x="-9.25" y="0.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+    </frame>
+    <frame z="0" displayIndex="10" duration="2">
+     <transform x="-6.35" y="1.8" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="80" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="11" duration="2">
+     <transform x="-3.85" y="0.95" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="60" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="12" duration="2">
+     <transform x="-1.3" y="2.05" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="40" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame z="0" displayIndex="13" duration="2">
+     <transform x="-8.4" y="3.2" skX="0" skY="0" scX="1" scY="1" pX="0" pY="0"/>
+     <colorTransform aO="0" rO="0" gO="0" bO="0" aM="20" rM="100" gM="100" bM="100"/>
+    </frame>
+    <frame duration="1" displayIndex="-1"/>
+   </timeline>
+  </animation>
+ </armature>
+</dragonBones>

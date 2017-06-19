@@ -1,0 +1,12 @@
+<TextureAtlas name="天马流星拳" imagePath="texture.png">
+ <SubTexture name="补间 1" x="453" y="280" width="188" height="86"/>
+ <SubTexture name="补间 2" x="0" y="280" width="149" height="278"/>
+ <SubTexture name="补间 3" x="604" y="0" width="149" height="278"/>
+ <SubTexture name="补间 4" x="151" y="0" width="149" height="278"/>
+ <SubTexture name="补间 5" x="151" y="280" width="149" height="278"/>
+ <SubTexture name="补间 6" x="302" y="280" width="149" height="278"/>
+ <SubTexture name="补间 7" x="302" y="0" width="149" height="278"/>
+ <SubTexture name="补间 8" x="755" y="0" width="149" height="278"/>
+ <SubTexture name="补间 9" x="453" y="0" width="149" height="278"/>
+ <SubTexture name="补间 10" x="0" y="0" width="149" height="278"/>
+</TextureAtlas>
