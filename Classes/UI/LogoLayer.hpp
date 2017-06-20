@@ -17,9 +17,9 @@ public:
     static void show();
     LogoLayer();
     ~LogoLayer();
-    virtual bool init();
+    virtual bool init() override;
     CREATE_FUNC(LogoLayer);
-    
+    void test();
 private:
     void initUI();
     void runDefaultLogoAction();

@@ -58,6 +58,8 @@
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		CCDCE95B1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */; };
+		CCDCE95C1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */; };
 		CCE01AFF1EF7D99100C415AA /* AppSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01AFD1EF7D99100C415AA /* AppSystem.cpp */; };
 		CCE01B001EF7D99100C415AA /* AppSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01AFD1EF7D99100C415AA /* AppSystem.cpp */; };
 		CCE01B031EF7D9C300C415AA /* AppScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01B011EF7D9C300C415AA /* AppScene.cpp */; };
@@ -165,6 +167,8 @@
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginLayer.cpp; sourceTree = "<group>"; };
+		CCDCE95A1EF8FB3600FBDB22 /* LoginLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LoginLayer.hpp; sourceTree = "<group>"; };
 		CCE01AFD1EF7D99100C415AA /* AppSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppSystem.cpp; sourceTree = "<group>"; };
 		CCE01AFE1EF7D99100C415AA /* AppSystem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AppSystem.hpp; sourceTree = "<group>"; };
 		CCE01B011EF7D9C300C415AA /* AppScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppScene.cpp; sourceTree = "<group>"; };
@@ -415,6 +419,8 @@
 				CCE01B0A1EF7F67E00C415AA /* LogoLayer.hpp */,
 				CCE01B0D1EF7F6D700C415AA /* UIBaseLayer.cpp */,
 				CCE01B0E1EF7F6D700C415AA /* UIBaseLayer.hpp */,
+				CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */,
+				CCDCE95A1EF8FB3600FBDB22 /* LoginLayer.hpp */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -568,6 +574,7 @@
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				CCE01B031EF7D9C300C415AA /* AppScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				CCDCE95B1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */,
 				CCE01B0F1EF7F6D700C415AA /* UIBaseLayer.cpp in Sources */,
 				CCE01B0B1EF7F67E00C415AA /* LogoLayer.cpp in Sources */,
 			);
@@ -582,6 +589,7 @@
 				CCE01B001EF7D99100C415AA /* AppSystem.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				CCE01B101EF7F6D700C415AA /* UIBaseLayer.cpp in Sources */,
+				CCDCE95C1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */,
 				A3C6A0CF1EF823F40020BE1D /* UIModuleManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 			);

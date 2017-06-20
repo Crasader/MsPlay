@@ -9,7 +9,35 @@
 #ifndef Singleton_hpp
 #define Singleton_hpp
 
-namespace ms {
+//namespace ms {
+
+template <typename T>
+class Singleton
+{
+public:
+    static T* Instance()
+    {
+        if (_spInstance == NULL)
+            _spInstance = new T;
+        return _spInstance;
+    }
+    
+    static void Destroy()
+    {
+        if (_spInstance != NULL)
+        {
+            delete _spInstance;
+            _spInstance = NULL;
+        }
+    }
+    
+private:
+    static T* _spInstance;
+};
+
+    
+#define SINGLETON_INITILIAZE(T);
+template<typename T> T* Singleton<T>::_spInstance = NULL;
     
 //template <typename T>
 //class Singleton
@@ -48,6 +76,6 @@ namespace ms {
 //
 //template <class T> T*  Singleton<T>::m_pInstance = nullptr;
     
-}
+//}
 
 #endif /* Singleton_hpp */

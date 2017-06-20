@@ -9,21 +9,16 @@
 #include "UIBaseLayer.hpp"
 #include "UIModuleManager.hpp"
 
-UIBaseLayer::~UIBaseLayer()
-{
-}
-
-
 void UIBaseLayer::onEnter()
 {
     CCLOG("-------[Layer onEnter: %s]-------", _uiLayerName.c_str());
     Layer::onEnter();
-//    UIModuleManagerInstance->pushModule(m_uiName, m_curUI);
+    UIModuleManager::getInstance()->pushModule(this, _uiLayerName);
 }
 
 void UIBaseLayer::onExit()
 {
     CCLOG("-------[Layer onExit: %s]--------", _uiLayerName.c_str());
     Layer::onExit();
-//    UIModuleManagerInstance->popModule(m_uiName);
+    UIModuleManager::getInstance()->popModule(_uiLayerName);
 }

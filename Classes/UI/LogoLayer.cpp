@@ -7,10 +7,12 @@
 //
 
 #include "LogoLayer.hpp"
+#include "LoginLayer.hpp"
 //#include "CommonFunction.hpp"
 
+
 LogoLayer::LogoLayer()
-: UIBaseLayer(this, "LogoLayer")
+: UIBaseLayer("LogoLayer")
 , m_gameLogo(nullptr)
 , m_campLogo(nullptr)
 , m_defaultLogo(nullptr)
@@ -43,29 +45,38 @@ void LogoLayer::initUI()
     
     m_gameLogo = ImageView::create("res/icon/logo.png");
     m_gameLogo->setPosition(VCENTER);
-    m_gameLogo->setOpacity(0);
+//    m_gameLogo->setOpacity(0);
     addChild(m_gameLogo);
     
-    m_campLogo = ImageView::create("res/back/logo_camp.png");
-    m_campLogo->setPosition(VCENTER);
-    m_campLogo->setOpacity(255);
-    addChild(m_campLogo);
-    
-    auto _camp_size = m_campLogo->getContentSize();
-    auto _scale = MAX(VSIZE.width/_camp_size.width, VSIZE.height/_camp_size.height);
-    _scale = MAX(_scale, 1.0);
-    m_campLogo->setScale(_scale);
+    auto btn = Button::create("res/button/1.png");
+    btn->setPosition(Vec2(VCENTER));
+    addChild(btn);
+    btn->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
+        if (eventType != Widget::TouchEventType::ENDED) return;
+        LoginLayer::show();
+    });
     
     
-    m_defaultLogo = ImageView::create("res/back/logo_camp.png");
-    m_defaultLogo->setPosition(VCENTER);
-    m_defaultLogo->setOpacity(0);
-    addChild(m_defaultLogo);
-    
-    _camp_size = m_defaultLogo->getContentSize();
-    _scale = MAX(VSIZE.width/_camp_size.width, VSIZE.height/_camp_size.height);
-    _scale = MAX(_scale, 1.0);
-    m_defaultLogo->cocos2d::Node::setScale(_scale);
+//    m_campLogo = ImageView::create("res/back/logo_camp.png");
+//    m_campLogo->setPosition(VCENTER);
+//    m_campLogo->setOpacity(255);
+//    addChild(m_campLogo);
+//    
+//    auto _camp_size = m_campLogo->getContentSize();
+//    auto _scale = MAX(VSIZE.width/_camp_size.width, VSIZE.height/_camp_size.height);
+//    _scale = MAX(_scale, 1.0);
+//    m_campLogo->setScale(_scale);
+//    
+//    
+//    m_defaultLogo = ImageView::create("res/back/logo_camp.png");
+//    m_defaultLogo->setPosition(VCENTER);
+//    m_defaultLogo->setOpacity(0);
+//    addChild(m_defaultLogo);
+//    
+//    _camp_size = m_defaultLogo->getContentSize();
+//    _scale = MAX(VSIZE.width/_camp_size.width, VSIZE.height/_camp_size.height);
+//    _scale = MAX(_scale, 1.0);
+//    m_defaultLogo->cocos2d::Node::setScale(_scale);
     
     //runDefaultLogoAction();
 }
@@ -112,4 +123,9 @@ void LogoLayer::runGameLogoAction()
                                    NULL
                                    );
     m_gameLogo->runAction(action);
+}
+
+void LogoLayer::test()
+{
+    //CCLOG("fuck succeed");
 }
