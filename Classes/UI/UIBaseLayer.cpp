@@ -22,3 +22,16 @@ void UIBaseLayer::onExit()
     Layer::onExit();
     UIModuleManager::getInstance()->popModule(_uiLayerName);
 }
+
+void UIBaseLayer::handleTouch(const endCallback callback)
+{
+    auto touchListen = EventListenerTouchOneByOne::create();
+    touchListen->setSwallowTouches(true);
+    touchListen->onTouchBegan = [](Touch *touch, Event *event)->bool {return true;};
+    touchListen->onTouchEnded = [=](Touch *touch, Event *event) -> void
+    {
+        if (callback)
+            callback();
+    };
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListen, this);
+}

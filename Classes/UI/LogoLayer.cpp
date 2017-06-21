@@ -53,6 +53,15 @@ void LogoLayer::initUI()
     addChild(btn);
     btn->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
         if (eventType != Widget::TouchEventType::ENDED) return;
+        CCLOG("------fuck off--------");
+    });
+    
+    
+    auto btn2 = Button::create("res/button/1.png");
+    btn2->setPosition(Vec2(VSIZE.width/2, 100));
+    addChild(btn2);
+    btn2->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
+        if (eventType != Widget::TouchEventType::ENDED) return;
         LoginLayer::show();
     });
     

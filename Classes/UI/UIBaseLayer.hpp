@@ -42,6 +42,9 @@ public:
     virtual ~UIBaseLayer() = default;
     virtual void onEnter();
     virtual void onExit();
+public:
+    typedef std::function<void()> endCallback;
+    void handleTouch(const endCallback callback = nullptr);
 private:
     const std::string _uiLayerName;
 };
