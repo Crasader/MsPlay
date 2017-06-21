@@ -19,10 +19,9 @@ public:
     ~LoginLayer();
     virtual bool init() override;
     CREATE_FUNC(LoginLayer);
+    void dispose();
 private:
     void initUI();
-public:
-    
 };
 
 #endif /* LoginLayer_hpp */

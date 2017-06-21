@@ -29,6 +29,7 @@ using namespace ui;
 
 #define BIND_TOUCH_EVENT_LISTENER(function)   std::bind(&function, this, std::placeholders::_1, std::placeholders::_2)
 #define VSIZE Director::getInstance()->getVisibleSize()
+#define FSize Director::getInstance()->getOpenGLView()->getFrameSize()
 #define ORIGIN Director::getInstance()->getVisibleOrigin()
 #define VCENTER Vec2(ORIGIN.x + VSIZE.width/2, ORIGIN.y + VSIZE.height/2)
 #define MainLayer AppSystem::getInstance()->getScene()->getMainLayer()
@@ -37,13 +38,13 @@ using namespace ui;
 class UIBaseLayer:public Layer
 {
 public:
-    UIBaseLayer(const std::string& name):_uiLayerName(name){}
-    
+    explicit UIBaseLayer(const std::string& name);
     virtual ~UIBaseLayer() = default;
+    
     virtual void onEnter();
     virtual void onExit();
 public:
-    typedef std::function<void()> endCallback;
+    using endCallback = std::function<void()>;
     void handleTouch(const endCallback callback = nullptr);
 private:
     const std::string _uiLayerName;

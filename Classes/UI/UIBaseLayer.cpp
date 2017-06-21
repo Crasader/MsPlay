@@ -9,6 +9,11 @@
 #include "UIBaseLayer.hpp"
 #include "UIModuleManager.hpp"
 
+UIBaseLayer::UIBaseLayer(const std::string& name)
+: _uiLayerName(name)
+{
+}
+
 void UIBaseLayer::onEnter()
 {
     CCLOG("-------[Layer onEnter: %s]-------", _uiLayerName.c_str());

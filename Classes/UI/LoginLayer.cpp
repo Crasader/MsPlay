@@ -40,7 +40,7 @@ void LoginLayer::initUI()
 {
     handleTouch([=](){
         CCLOG("what is the fuck");
-        this->removeFromParent();
+        dispose();
     });
     
     auto campImg = ImageView::create("res/back/logo_camp.png");
@@ -60,4 +60,9 @@ void LoginLayer::initUI()
 //            logo->test();
 //        }
 //    });
+}
+
+void LoginLayer::dispose()
+{
+    removeFromParent();
 }

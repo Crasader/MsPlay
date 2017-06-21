@@ -42,7 +42,7 @@ bool LogoLayer::init()
 
 void LogoLayer::initUI()
 {
-    
+    handleTouch();
     m_gameLogo = ImageView::create("res/icon/logo.png");
     m_gameLogo->setPosition(VCENTER);
 //    m_gameLogo->setOpacity(0);
