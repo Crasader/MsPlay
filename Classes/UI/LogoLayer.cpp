@@ -51,32 +51,23 @@ void LogoLayer::initUI()
     
     CommonFunction::autoFullScreen(m_gameLogo);
     
-//    CCLOG("-----VCENTER:%f, %f-----", VCENTER.x, VCENTER.y);
-//    auto origin = Director::getInstance()->getVisibleOrigin();
-//    
-//    auto size1 = Director::getInstance()->getWinSize();
-//    auto size2 = Director::getInstance()->getVisibleSize();
-//    auto size3 = Director::getInstance()->getWinSizeInPixels();
-//    
-//    CCLOG("----fuuck---");
     
-    
-//    auto btn = Button::create("res/button/1.png");
-//    btn->setPosition(Vec2(VCENTER));
-//    addChild(btn);
-//    btn->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
-//        if (eventType != Widget::TouchEventType::ENDED) return;
-////        BrickMainLayer::show();
-//    });
-    
-    
-    auto btn2 = Button::create("res/button/1.png");
-    btn2->setPosition(Vec2(display.size.width/2, 100));
-    addChild(btn2);
-    btn2->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
+    auto btn = Button::create("res/button/1.png");
+    btn->setPosition(display.center);
+    addChild(btn);
+    btn->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
         if (eventType != Widget::TouchEventType::ENDED) return;
-        LoginLayer::show();
+        BrickMainLayer::show();
     });
+    
+    
+//    auto btn2 = Button::create("res/button/1.png");
+//    btn2->setPosition(Vec2(display.size.width/2, 100));
+//    addChild(btn2);
+//    btn2->addTouchEventListener([](Ref* ref,Widget::TouchEventType eventType){
+//        if (eventType != Widget::TouchEventType::ENDED) return;
+//        LoginLayer::show();
+//    });
     
     
 //    m_campLogo = ImageView::create("res/back/logo_camp.png");

@@ -21,7 +21,7 @@ LoginLayer::~LoginLayer()
 
 void LoginLayer::show()
 {
-    MainLayer->addChild(create());
+    MAINLAYER->addChild(create());
 }
 
 bool LoginLayer::init()

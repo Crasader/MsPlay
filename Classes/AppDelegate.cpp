@@ -64,7 +64,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     director->setDisplayStats(false);
     director->setAnimationInterval(1.0f / 60);
     
-    //glview->setFrameSize(1800, 1100);
+    glview->setFrameSize(1300, 800);
     
     Display::getInstance();
     AppSystem::getInstance();

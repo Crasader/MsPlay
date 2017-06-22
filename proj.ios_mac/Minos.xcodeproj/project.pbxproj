@@ -168,6 +168,7 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A31C62C51EFC115400EC89EB /* Msdef.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Msdef.hpp; sourceTree = "<group>"; };
 		A3C6A0CC1EF823F40020BE1D /* UIModuleManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIModuleManager.cpp; sourceTree = "<group>"; };
 		A3C6A0CD1EF823F40020BE1D /* UIModuleManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIModuleManager.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -409,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				CCE01B061EF7E7B800C415AA /* Singleton.hpp */,
+				A31C62C51EFC115400EC89EB /* Msdef.hpp */,
 				A3C6A0CC1EF823F40020BE1D /* UIModuleManager.cpp */,
 				A3C6A0CD1EF823F40020BE1D /* UIModuleManager.hpp */,
 				CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */,

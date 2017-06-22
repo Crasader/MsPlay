@@ -15,8 +15,9 @@
 #include "ui/CocosGUI.h"
 
 #include <string>
-#include "AppSystem.hpp"
-#include "../Display.hpp"
+#include "../Common/Msdef.hpp"
+//#include "AppSystem.hpp"
+//#include "../Display.hpp"
 //#include "Net/MsgCommon.hpp"
 //#include "Net/NetManagerEx.hpp"
 
@@ -28,9 +29,9 @@ USING_NS_CC;
 USING_NS_CC_EXT;
 using namespace ui;
 
-#define BIND_TOUCH_EVENT_LISTENER(function)   std::bind(&function, this, std::placeholders::_1, std::placeholders::_2)
-#define MainLayer AppSystem::getInstance()->getScene()->getMainLayer()
-#define display (*Display::getInstance())
+//#define BIND_TOUCH_EVENT_LISTENER(function)   std::bind(&function, this, std::placeholders::_1, std::placeholders::_2)
+//#define MainLayer AppSystem::getInstance()->getScene()->getMainLayer()
+//#define display (*Display::getInstance())
 
 class UIBaseLayer:public Layer
 {

@@ -16,6 +16,7 @@ class AppScene : public Scene
 {
 public:
     AppScene() = default;
+    ~AppScene() = default;
     CREATE_FUNC(AppScene);
     virtual bool init();
     inline Layer * getMainLayer() {return _mainLayer;}

@@ -19,11 +19,13 @@ public:
     CREATE_FUNC(BrickMainLayer);
     
     BrickMainLayer();
-    ~BrickMainLayer();
+    ~BrickMainLayer() = default;
     
 private:
     void initUI();
 private:
+    float _scaleX = 1.0;
+    float _scaleY = 1.0;
     
 };
 
