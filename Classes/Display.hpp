@@ -17,18 +17,19 @@ class Display : public Ref
 public:
     static Display* getInstance();
     void destroyInstance();
-    void setAutoScale(Size &designSize);
+    void setAutoScale();
 private:
     void setConstants();
     Display() = default;
     ~Display() = default;
     static Display* _instance;
 public:
-    Size sizeInPixels;
-    Size size;
-    Vec2 center;
-    float width;
-    float height;
+    Size sizeInPixels = Size(0.0, 0.0);
+    Size size = Size(0.0, 0.0);
+    Vec2 center = Vec2(0.0, 0.0);
+    float width = 0.0;
+    float height = 0.0;
+    static const Size designSize;
 };
 
 #endif /* Display_hpp */
