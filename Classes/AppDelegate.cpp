@@ -1,5 +1,6 @@
 #include "AppDelegate.h"
 #include "AppSystem.hpp"
+#include "Display.hpp"
 
 
 // #define USE_AUDIO_ENGINE 1
@@ -59,6 +60,50 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
     if(!glview) {
+        glview = GLViewImpl::create("Minos");
+        director->setOpenGLView(glview);
+    }
+    
+    director->setDisplayStats(false);
+    director->setAnimationInterval(1.0f / 60);
+    
+    glview->setFrameSize(1800, 1100);
+    
+    Display::getInstance()->setAutoScale(designResolutionSize);
+    AppSystem::getInstance();
+    
+    
+    /*
+     local scaleX, scaleY = framesize.width / r.width, framesize.height / r.height
+     local width, height = framesize.width, framesize.height
+     if r.autoscale == "FIXED_WIDTH" then
+     width = framesize.width / scaleX
+     height = framesize.height / scaleX
+     view:setDesignResolutionSize(width, height, cc.ResolutionPolicy.NO_BORDER)
+     elseif r.autoscale == "FIXED_HEIGHT" then
+     width = framesize.width / scaleY
+     height = framesize.height / scaleY
+     view:setDesignResolutionSize(width, height, cc.ResolutionPolicy.NO_BORDER)
+     elseif r.autoscale == "EXACT_FIT" then
+     view:setDesignResolutionSize(r.width, r.height, cc.ResolutionPolicy.EXACT_FIT)
+     elseif r.autoscale == "NO_BORDER" then
+     view:setDesignResolutionSize(r.width, r.height, cc.ResolutionPolicy.NO_BORDER)
+     elseif r.autoscale == "SHOW_ALL" then
+     view:setDesignResolutionSize(r.width, r.height, cc.ResolutionPolicy.SHOW_ALL)
+     else
+     printError(string.format("display - invalid r.autoscale \"%s\"", r.autoscale))
+     end
+     */
+    
+    return true;
+}
+
+/*
+bool AppDelegate::applicationDidFinishLaunching() {
+    // initialize director
+    auto director = Director::getInstance();
+    auto glview = director->getOpenGLView();
+    if(!glview) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WIN32) || (CC_TARGET_PLATFORM == CC_PLATFORM_MAC) || (CC_TARGET_PLATFORM == CC_PLATFORM_LINUX)
         glview = GLViewImpl::createWithRect("Minos", cocos2d::Rect(0, 0, designResolutionSize.width, designResolutionSize.height));
 #else
@@ -72,8 +117,6 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     // set FPS. the default value is 1.0/60 if you don't call this
     director->setAnimationInterval(1.0f / 60);
-    
-    glview->setFrameSize(1800, 1100);
 
     // Set the design resolution
     glview->setDesignResolutionSize(designResolutionSize.width, designResolutionSize.height, ResolutionPolicy::FIXED_HEIGHT);
@@ -96,10 +139,10 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     register_all_packages();
 
-    AppSystem::getInstance();
 
     return true;
 }
+ */
 
 // This function will be called when the app is inactive. Note, when receiving a phone call it is invoked.
 void AppDelegate::applicationDidEnterBackground() {
@@ -123,4 +166,32 @@ void AppDelegate::applicationWillEnterForeground() {
     SimpleAudioEngine::getInstance()->resumeBackgroundMusic();
     SimpleAudioEngine::getInstance()->resumeAllEffects();
 #endif
+}
+
+void AppDelegate::setDesignResolution()
+{
+//    auto framesize = Director::getInstance()->getOpenGLView();
+//    if r.autoscale == "FILL_ALL" then
+//        view:setDesignResolutionSize(framesize.width, framesize.height, cc.ResolutionPolicy.FILL_ALL)
+//        else
+//            local scaleX, scaleY = framesize.width / r.width, framesize.height / r.height
+//            local width, height = framesize.width, framesize.height
+//            if r.autoscale == "FIXED_WIDTH" then
+//                width = framesize.width / scaleX
+//                height = framesize.height / scaleX
+//                view:setDesignResolutionSize(width, height, cc.ResolutionPolicy.NO_BORDER)
+//                elseif r.autoscale == "FIXED_HEIGHT" then
+//                width = framesize.width / scaleY
+//                height = framesize.height / scaleY
+//                view:setDesignResolutionSize(width, height, cc.ResolutionPolicy.NO_BORDER)
+//                elseif r.autoscale == "EXACT_FIT" then
+//                view:setDesignResolutionSize(r.width, r.height, cc.ResolutionPolicy.EXACT_FIT)
+//                elseif r.autoscale == "NO_BORDER" then
+//                view:setDesignResolutionSize(r.width, r.height, cc.ResolutionPolicy.NO_BORDER)
+//                elseif r.autoscale == "SHOW_ALL" then
+//                view:setDesignResolutionSize(r.width, r.height, cc.ResolutionPolicy.SHOW_ALL)
+//                else
+//                    printError(string.format("display - invalid r.autoscale \"%s\"", r.autoscale))
+//                    end
+//                    end
 }

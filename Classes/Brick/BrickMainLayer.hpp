@@ -20,6 +20,7 @@ public:
     
     BrickMainLayer();
     ~BrickMainLayer();
+    
 private:
     void initUI();
 private:

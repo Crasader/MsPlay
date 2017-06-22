@@ -33,10 +33,17 @@ void UIBaseLayer::handleTouch(const endCallback callback)
     auto touchListen = EventListenerTouchOneByOne::create();
     touchListen->setSwallowTouches(true);
     touchListen->onTouchBegan = [](Touch *touch, Event *event)->bool {return true;};
-    touchListen->onTouchEnded = [=](Touch *touch, Event *event) -> void
+    touchListen->onTouchMoved = [](Touch *touch, Event *event)->void {};
+    touchListen->onTouchEnded = [=](Touch *touch, Event *event)->void
     {
         if (callback)
             callback();
     };
+    touchListen->onTouchCancelled = [](Touch *touch, Event *event)->void {};
     _eventDispatcher->addEventListenerWithSceneGraphPriority(touchListen, this);
+}
+
+void UIBaseLayer::dispose()
+{
+    removeFromParent();
 }

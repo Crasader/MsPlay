@@ -18,7 +18,7 @@ private:
     AppSystem() = default;
     ~AppSystem();
 public:
-    static AppSystem* getInstance();
+    static AppSystem *getInstance();
     void restart();
     void resetGame();
     inline AppScene *getScene() {return _appScene;}
@@ -31,8 +31,8 @@ private:
     void reloadConfig();
     
 private:
-    static AppSystem* _instance;
-    AppScene* _appScene = nullptr;
+    static AppSystem *_instance;
+    AppScene *_appScene = nullptr;
     //重新连接服务器次数
     int _reconnectCount = 0;
 };

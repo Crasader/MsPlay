@@ -16,6 +16,7 @@
 
 #include <string>
 #include "AppSystem.hpp"
+#include "../Display.hpp"
 //#include "Net/MsgCommon.hpp"
 //#include "Net/NetManagerEx.hpp"
 
@@ -28,12 +29,8 @@ USING_NS_CC_EXT;
 using namespace ui;
 
 #define BIND_TOUCH_EVENT_LISTENER(function)   std::bind(&function, this, std::placeholders::_1, std::placeholders::_2)
-#define VSIZE Director::getInstance()->getVisibleSize()
-#define FSize Director::getInstance()->getOpenGLView()->getFrameSize()
-#define ORIGIN Director::getInstance()->getVisibleOrigin()
-#define VCENTER Vec2(ORIGIN.x + VSIZE.width/2, ORIGIN.y + VSIZE.height/2)
 #define MainLayer AppSystem::getInstance()->getScene()->getMainLayer()
-
+#define display (*Display::getInstance())
 
 class UIBaseLayer:public Layer
 {
@@ -43,6 +40,7 @@ public:
     
     virtual void onEnter();
     virtual void onExit();
+    void dispose();
 public:
     using endCallback = std::function<void()>;
     void handleTouch(const endCallback callback = nullptr);

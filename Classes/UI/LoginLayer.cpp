@@ -43,10 +43,19 @@ void LoginLayer::initUI()
         dispose();
     });
     
+//    auto fSize = Director::getInstance()->getOpenGLView()->getFrameSize();
+//    auto dSize = Director::getInstance()->getOpenGLView()->getDesignResolutionSize();
+//    auto vSize = Director::getInstance()->getVisibleSize();
+//    auto wSize = Director::getInstance()->getWinSize();
+//    auto wPixe = Director::getInstance()->getWinSizeInPixels();
+    
     auto campImg = ImageView::create("res/back/logo_camp.png");
-    campImg->setPosition(VCENTER);
     campImg->setOpacity(255);
     addChild(campImg);
+    
+    
+//    local scale = math.max(display.width / nodeSize.width, display.height / nodeSize.height)
+//    node:setScale(scale)
     
 //    auto btn = Button::create("res/button/1.png");
 //    btn->setPosition(Vec2(VCENTER));
