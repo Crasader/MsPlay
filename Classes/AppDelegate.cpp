@@ -61,10 +61,13 @@ bool AppDelegate::applicationDidFinishLaunching() {
         director->setOpenGLView(glview);
     }
     
+    glview->setFrameSize(1280, 720);
     director->setDisplayStats(false);
     director->setAnimationInterval(1.0f / 60);
     
-    glview->setFrameSize(1300, 800);
+    FileUtils *fileUtils = FileUtils::getInstance();
+    fileUtils->setPopupNotify(false);
+    fileUtils->addSearchPath("res/", true);//bundle path
     
     Display::getInstance();
     AppSystem::getInstance();

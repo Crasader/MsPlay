@@ -23,9 +23,16 @@ public:
     
 private:
     void initUI();
+    void loadMoveGround();
 private:
     float _scaleX = 1.0;
     float _scaleY = 1.0;
+    
+    bool _lightOn = true;
+    
+    Text *_score = nullptr;
+    std::vector<ImageView*> _bloodVec;
+    std::vector<ImageView*> _movebgVec;
     
 };
 

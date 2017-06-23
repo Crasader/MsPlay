@@ -60,8 +60,6 @@
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
 		CCDCE95B1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */; };
 		CCDCE95C1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */; };
-		CCDCE96F1EFAA35E00FBDB22 /* BrickMainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE96D1EFAA35E00FBDB22 /* BrickMainLayer.cpp */; };
-		CCDCE9701EFAA35E00FBDB22 /* BrickMainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE96D1EFAA35E00FBDB22 /* BrickMainLayer.cpp */; };
 		CCDCE9731EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */; };
 		CCDCE9741EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */; };
 		CCDCE9781EFBBFE000FBDB22 /* Display.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9761EFBBFE000FBDB22 /* Display.cpp */; };
@@ -74,6 +72,8 @@
 		CCE01B0C1EF7F67E00C415AA /* LogoLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01B091EF7F67E00C415AA /* LogoLayer.cpp */; };
 		CCE01B0F1EF7F6D700C415AA /* UIBaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01B0D1EF7F6D700C415AA /* UIBaseLayer.cpp */; };
 		CCE01B101EF7F6D700C415AA /* UIBaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01B0D1EF7F6D700C415AA /* UIBaseLayer.cpp */; };
+		CCF06BC91EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */; };
+		CCF06BCA1EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -176,8 +176,6 @@
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginLayer.cpp; sourceTree = "<group>"; };
 		CCDCE95A1EF8FB3600FBDB22 /* LoginLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LoginLayer.hpp; sourceTree = "<group>"; };
-		CCDCE96D1EFAA35E00FBDB22 /* BrickMainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickMainLayer.cpp; sourceTree = "<group>"; };
-		CCDCE96E1EFAA35E00FBDB22 /* BrickMainLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickMainLayer.hpp; sourceTree = "<group>"; };
 		CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonFuntion.cpp; sourceTree = "<group>"; };
 		CCDCE9721EFBAB0D00FBDB22 /* CommonFuntion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CommonFuntion.hpp; sourceTree = "<group>"; };
 		CCDCE9761EFBBFE000FBDB22 /* Display.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Display.cpp; sourceTree = "<group>"; };
@@ -191,6 +189,8 @@
 		CCE01B0A1EF7F67E00C415AA /* LogoLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LogoLayer.hpp; sourceTree = "<group>"; };
 		CCE01B0D1EF7F6D700C415AA /* UIBaseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIBaseLayer.cpp; sourceTree = "<group>"; };
 		CCE01B0E1EF7F6D700C415AA /* UIBaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIBaseLayer.hpp; sourceTree = "<group>"; };
+		CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickMainLayer.cpp; sourceTree = "<group>"; };
+		CCF06BC81EFCF96800A2D9FC /* BrickMainLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickMainLayer.hpp; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -396,16 +396,6 @@
 			path = ios;
 			sourceTree = SOURCE_ROOT;
 		};
-		CCDCE96B1EFAA34800FBDB22 /* Brick */ = {
-			isa = PBXGroup;
-			children = (
-				CCDCE96D1EFAA35E00FBDB22 /* BrickMainLayer.cpp */,
-				CCDCE96E1EFAA35E00FBDB22 /* BrickMainLayer.hpp */,
-			);
-			name = Brick;
-			path = ../Brick;
-			sourceTree = "<group>";
-		};
 		CCE01AF51EF7D93F00C415AA /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,7 +433,8 @@
 		CCE01AF91EF7D93F00C415AA /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				CCDCE96B1EFAA34800FBDB22 /* Brick */,
+				CCF06BCB1EFCF97400A2D9FC /* Hero */,
+				CCF06BC61EFCF96800A2D9FC /* Brick */,
 				CCE01B091EF7F67E00C415AA /* LogoLayer.cpp */,
 				CCE01B0A1EF7F67E00C415AA /* LogoLayer.hpp */,
 				CCE01B0D1EF7F6D700C415AA /* UIBaseLayer.cpp */,
@@ -452,6 +443,22 @@
 				CCDCE95A1EF8FB3600FBDB22 /* LoginLayer.hpp */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		CCF06BC61EFCF96800A2D9FC /* Brick */ = {
+			isa = PBXGroup;
+			children = (
+				CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */,
+				CCF06BC81EFCF96800A2D9FC /* BrickMainLayer.hpp */,
+			);
+			path = Brick;
+			sourceTree = "<group>";
+		};
+		CCF06BCB1EFCF97400A2D9FC /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hero;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -600,10 +607,10 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				CCDCE9781EFBBFE000FBDB22 /* Display.cpp in Sources */,
 				CCDCE9731EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
-				CCDCE96F1EFAA35E00FBDB22 /* BrickMainLayer.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				A3C6A0CE1EF823F40020BE1D /* UIModuleManager.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				CCF06BC91EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */,
 				CCE01B031EF7D9C300C415AA /* AppScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				CCDCE95B1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */,
@@ -618,6 +625,7 @@
 			files = (
 				CCDCE9741EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
 				CCE01B041EF7D9C300C415AA /* AppScene.cpp in Sources */,
+				CCF06BCA1EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */,
 				CCE01B0C1EF7F67E00C415AA /* LogoLayer.cpp in Sources */,
 				CCE01B001EF7D99100C415AA /* AppSystem.cpp in Sources */,
 				CCDCE9791EFBBFE000FBDB22 /* Display.cpp in Sources */,
@@ -626,7 +634,6 @@
 				CCDCE95C1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */,
 				A3C6A0CF1EF823F40020BE1D /* UIModuleManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				CCDCE9701EFAA35E00FBDB22 /* BrickMainLayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
