@@ -129,31 +129,25 @@ void BrickMainLayer::loadMoveGround()
     auto scheduler = Director::getInstance()->getScheduler();
     auto moveFun = [=](float delta){
         auto pos = bgLayer->getPosition();
-        pos.y += 3.0;
+        pos.y += 1.0;
         bgLayer->setPosition(pos);
         
         static int bgIndex = 0;
         static float moveY = 0.0;
         
-        moveY += 3.0;
+        moveY += 1.0;
         if (moveY >= display.height)
         {
-            moveY = 0.0;
-            
-            //reset bg position
             auto frontBg = _movebgVec[bgIndex];
             frontBg->setPositionY(frontBg->getPositionY() - 3*(display.height - spaceY));
             
+            moveY -= display.height;
             bgIndex += 1;
-            if (bgIndex > 2)
-            {
-                bgIndex = 1;
-            }
+            if (bgIndex > 2) bgIndex = 0;
         }
     };
     
-    scheduler->schedule(moveFun, this, 0.05, CC_REPEAT_FOREVER, 0, false, "bgmove");
-    //scheduler->resumeTarget(this);
+    scheduler->schedule(moveFun, this, 0, CC_REPEAT_FOREVER, 0, false, "bgmove");
 }
 
 void BrickMainLayer::startHero()
