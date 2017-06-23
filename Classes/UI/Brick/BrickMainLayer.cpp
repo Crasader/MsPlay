@@ -7,6 +7,7 @@
 //
 
 #include "BrickMainLayer.hpp"
+#include "../Hero/BrickHero.hpp"
 
 void BrickMainLayer::show()
 {
@@ -104,6 +105,7 @@ void BrickMainLayer::initUI()
     }
     
     loadMoveGround();
+    startHero();
 }
 
 void BrickMainLayer::loadMoveGround()
@@ -143,7 +145,7 @@ void BrickMainLayer::loadMoveGround()
             frontBg->setPositionY(frontBg->getPositionY() - 3*(display.height - spaceY));
             
             bgIndex += 1;
-            if (bgIndex > 3)
+            if (bgIndex > 2)
             {
                 bgIndex = 1;
             }
@@ -152,5 +154,13 @@ void BrickMainLayer::loadMoveGround()
     
     scheduler->schedule(moveFun, this, 0.05, CC_REPEAT_FOREVER, 0, false, "bgmove");
     //scheduler->resumeTarget(this);
+}
+
+void BrickMainLayer::startHero()
+{
+    auto hero = BrickHero::create(12);
+    hero->idle();
+    hero->setPosition(Vec2(display.width/2, display.height/2));
+    addChild(hero);
 }
 

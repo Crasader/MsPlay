@@ -74,6 +74,10 @@
 		CCE01B101EF7F6D700C415AA /* UIBaseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE01B0D1EF7F6D700C415AA /* UIBaseLayer.cpp */; };
 		CCF06BC91EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */; };
 		CCF06BCA1EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */; };
+		CCF06BCE1EFCFDCD00A2D9FC /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BCC1EFCFDCD00A2D9FC /* Hero.cpp */; };
+		CCF06BCF1EFCFDCD00A2D9FC /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BCC1EFCFDCD00A2D9FC /* Hero.cpp */; };
+		CCF06BD21EFD111500A2D9FC /* BrickHero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */; };
+		CCF06BD31EFD111500A2D9FC /* BrickHero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -191,6 +195,10 @@
 		CCE01B0E1EF7F6D700C415AA /* UIBaseLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIBaseLayer.hpp; sourceTree = "<group>"; };
 		CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickMainLayer.cpp; sourceTree = "<group>"; };
 		CCF06BC81EFCF96800A2D9FC /* BrickMainLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickMainLayer.hpp; sourceTree = "<group>"; };
+		CCF06BCC1EFCFDCD00A2D9FC /* Hero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Hero.cpp; sourceTree = "<group>"; };
+		CCF06BCD1EFCFDCD00A2D9FC /* Hero.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hero.hpp; sourceTree = "<group>"; };
+		CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickHero.cpp; sourceTree = "<group>"; };
+		CCF06BD11EFD111500A2D9FC /* BrickHero.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickHero.hpp; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -457,6 +465,10 @@
 		CCF06BCB1EFCF97400A2D9FC /* Hero */ = {
 			isa = PBXGroup;
 			children = (
+				CCF06BCC1EFCFDCD00A2D9FC /* Hero.cpp */,
+				CCF06BCD1EFCFDCD00A2D9FC /* Hero.hpp */,
+				CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */,
+				CCF06BD11EFD111500A2D9FC /* BrickHero.hpp */,
 			);
 			path = Hero;
 			sourceTree = "<group>";
@@ -606,6 +618,7 @@
 				CCE01AFF1EF7D99100C415AA /* AppSystem.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				CCDCE9781EFBBFE000FBDB22 /* Display.cpp in Sources */,
+				CCF06BCE1EFCFDCD00A2D9FC /* Hero.cpp in Sources */,
 				CCDCE9731EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				A3C6A0CE1EF823F40020BE1D /* UIModuleManager.cpp in Sources */,
@@ -613,6 +626,7 @@
 				CCF06BC91EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */,
 				CCE01B031EF7D9C300C415AA /* AppScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				CCF06BD21EFD111500A2D9FC /* BrickHero.cpp in Sources */,
 				CCDCE95B1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */,
 				CCE01B0F1EF7F6D700C415AA /* UIBaseLayer.cpp in Sources */,
 				CCE01B0B1EF7F67E00C415AA /* LogoLayer.cpp in Sources */,
@@ -626,6 +640,7 @@
 				CCDCE9741EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
 				CCE01B041EF7D9C300C415AA /* AppScene.cpp in Sources */,
 				CCF06BCA1EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */,
+				CCF06BCF1EFCFDCD00A2D9FC /* Hero.cpp in Sources */,
 				CCE01B0C1EF7F67E00C415AA /* LogoLayer.cpp in Sources */,
 				CCE01B001EF7D99100C415AA /* AppSystem.cpp in Sources */,
 				CCDCE9791EFBBFE000FBDB22 /* Display.cpp in Sources */,
@@ -634,6 +649,7 @@
 				CCDCE95C1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */,
 				A3C6A0CF1EF823F40020BE1D /* UIModuleManager.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				CCF06BD31EFD111500A2D9FC /* BrickHero.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

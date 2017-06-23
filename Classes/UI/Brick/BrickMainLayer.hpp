@@ -24,6 +24,7 @@ public:
 private:
     void initUI();
     void loadMoveGround();
+    void startHero();
 private:
     float _scaleX = 1.0;
     float _scaleY = 1.0;

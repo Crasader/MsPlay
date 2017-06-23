@@ -8,8 +8,10 @@
 
 #ifndef CommonFuntion_hpp
 #define CommonFuntion_hpp
+#include <string>
+#include "editor-support/cocostudio/CocoStudio.h"
 #include "cocos2d.h"
-using cocos2d::Node;
+USING_NS_CC;
 
 class CommonFunction
 {
