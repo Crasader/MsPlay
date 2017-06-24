@@ -19,7 +19,7 @@ public:
     CREATE_FUNC(BrickMainLayer);
     
     BrickMainLayer();
-    ~BrickMainLayer() = default;
+    ~BrickMainLayer();
     
 private:
     void initUI();

@@ -19,6 +19,12 @@ BrickMainLayer::BrickMainLayer()
 {
 }
 
+BrickMainLayer::~BrickMainLayer()
+{
+    auto scheduler = Director::getInstance()->getScheduler();
+    scheduler->unscheduleAllForTarget(this);
+}
+
 bool BrickMainLayer::init()
 {
     if (!Layer::init())

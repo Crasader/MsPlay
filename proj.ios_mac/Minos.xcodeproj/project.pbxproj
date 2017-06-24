@@ -78,6 +78,8 @@
 		CCF06BCF1EFCFDCD00A2D9FC /* Hero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BCC1EFCFDCD00A2D9FC /* Hero.cpp */; };
 		CCF06BD21EFD111500A2D9FC /* BrickHero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */; };
 		CCF06BD31EFD111500A2D9FC /* BrickHero.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */; };
+		CCF06BD61EFE4F5A00A2D9FC /* BrickBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BD41EFE4F5A00A2D9FC /* BrickBase.cpp */; };
+		CCF06BD71EFE4F5A00A2D9FC /* BrickBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCF06BD41EFE4F5A00A2D9FC /* BrickBase.cpp */; };
 		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
 		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
@@ -199,6 +201,8 @@
 		CCF06BCD1EFCFDCD00A2D9FC /* Hero.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Hero.hpp; sourceTree = "<group>"; };
 		CCF06BD01EFD111500A2D9FC /* BrickHero.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickHero.cpp; sourceTree = "<group>"; };
 		CCF06BD11EFD111500A2D9FC /* BrickHero.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickHero.hpp; sourceTree = "<group>"; };
+		CCF06BD41EFE4F5A00A2D9FC /* BrickBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickBase.cpp; sourceTree = "<group>"; };
+		CCF06BD51EFE4F5A00A2D9FC /* BrickBase.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickBase.hpp; sourceTree = "<group>"; };
 		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
@@ -458,6 +462,8 @@
 			children = (
 				CCF06BC71EFCF96800A2D9FC /* BrickMainLayer.cpp */,
 				CCF06BC81EFCF96800A2D9FC /* BrickMainLayer.hpp */,
+				CCF06BD41EFE4F5A00A2D9FC /* BrickBase.cpp */,
+				CCF06BD51EFE4F5A00A2D9FC /* BrickBase.hpp */,
 			);
 			path = Brick;
 			sourceTree = "<group>";
@@ -619,6 +625,7 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				CCDCE9781EFBBFE000FBDB22 /* Display.cpp in Sources */,
 				CCF06BCE1EFCFDCD00A2D9FC /* Hero.cpp in Sources */,
+				CCF06BD61EFE4F5A00A2D9FC /* BrickBase.cpp in Sources */,
 				CCDCE9731EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				A3C6A0CE1EF823F40020BE1D /* UIModuleManager.cpp in Sources */,
@@ -641,6 +648,7 @@
 				CCE01B041EF7D9C300C415AA /* AppScene.cpp in Sources */,
 				CCF06BCA1EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */,
 				CCF06BCF1EFCFDCD00A2D9FC /* Hero.cpp in Sources */,
+				CCF06BD71EFE4F5A00A2D9FC /* BrickBase.cpp in Sources */,
 				CCE01B0C1EF7F67E00C415AA /* LogoLayer.cpp in Sources */,
 				CCE01B001EF7D99100C415AA /* AppSystem.cpp in Sources */,
 				CCDCE9791EFBBFE000FBDB22 /* Display.cpp in Sources */,

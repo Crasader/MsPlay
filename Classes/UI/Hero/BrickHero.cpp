@@ -34,3 +34,10 @@ BrickHero* BrickHero::create(const int &blood)
         return nullptr;
     }
 }
+
+Vec2 BrickHero::getNextPos()
+{
+    auto x = getPositionX() + xSpeed;
+    auto y = getPositionY() - ySpeed - gacceleration;
+    return Vec2(x, y);
+}

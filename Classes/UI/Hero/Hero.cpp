@@ -27,6 +27,7 @@ void Hero::initHero()
     
     _armatureNode = Node::create();
     addChild(_armatureNode);
+    _armature->runAction(_anim);
     
     _armatureNode->addChild(_armature);
     _armatureNode->setCascadeColorEnabled(true);
