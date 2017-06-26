@@ -44,6 +44,7 @@ void Hero::run()
 
 void Hero::idle()
 {
+    if (_state == HeroState::state_idle) return;
     _anim->play("idle", true);
     _state = HeroState::state_idle;
 }

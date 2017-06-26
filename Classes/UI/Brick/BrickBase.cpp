@@ -37,7 +37,7 @@ BrickBase::~BrickBase()
 
 bool BrickBase::init()
 {
-    if (!Sprite::init())
+    if (!Node::init())
     {
         return false;
     }
@@ -51,7 +51,8 @@ void BrickBase::initBrick()
     addChild(_content);
     
     _size = _content->getContentSize();
-    setAnchorPoint(Vec2(0.5, 0.5));
+    setContentSize(_size);
+    setAnchorPoint(Vec2(0.5, 1.0));
     
     scheduleUpdate();
 }

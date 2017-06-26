@@ -66,6 +66,7 @@ void BrickHero::update(float dt)
     x = std::max(x, display.width/2-_maxMoveX);
     setPosition(Vec2(x, y));
     
+    
     if (xInput != 0)
     {
         if (xInput > 0)
