@@ -37,7 +37,7 @@ BrickBase::~BrickBase()
 
 bool BrickBase::init()
 {
-    if (!Node::init())
+    if (!Sprite::init())
     {
         return false;
     }
@@ -49,8 +49,9 @@ void BrickBase::initBrick()
 {
     _content = Sprite::create(_filename);
     addChild(_content);
+    
     _size = _content->getContentSize();
-    setAnchorPoint(Vec2(0.5, 1));
+    setAnchorPoint(Vec2(0.5, 0.5));
     
     scheduleUpdate();
 }

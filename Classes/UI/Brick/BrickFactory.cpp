@@ -35,6 +35,7 @@ void BrickFactory::createBrick(BrickHero *hero)
     auto brick = BrickNormal::create(hero, "minigame/brick/normalBrick.png");
     auto pos = Vec2(display.width/2, display.height/2);
     _brickCount = 1;
+    brick->setAnchorPoint(Vec2(0.5, 0.5));
     addBrick(brick, pos);
 }
 

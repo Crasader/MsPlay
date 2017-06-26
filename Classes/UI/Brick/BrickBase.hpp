@@ -15,7 +15,7 @@ USING_NS_CC;
 
 class BrickHero;
 
-class BrickBase : public Node
+class BrickBase : public Sprite
 {
 public:
     BrickBase(BrickHero *hero, const std::string &filename);
