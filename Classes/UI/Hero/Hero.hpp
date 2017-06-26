@@ -30,9 +30,10 @@ public:
     void initHero();
     void run();
     void idle();
+    void turnLeft(bool turn = false);
 protected:
     bool init() override;
-private:
+protected:
     int64_t _id;
     HeroState _state;
     Node *_armature = nullptr;

@@ -18,8 +18,8 @@ class BrickHero;
 class BrickBase : public Node
 {
 public:
-    BrickBase(BrickHero *hero, std::string &filename);
-    ~BrickBase();
+    BrickBase(BrickHero *hero, const std::string &filename);
+    virtual ~BrickBase();
 //    static BrickBase *create(BrickHero *hero, std::string &filename);
     
     virtual bool init() override;
@@ -27,11 +27,11 @@ public:
     virtual void moveOut();
 private:
     void initBrick();
-    void update();
+    void update(float dt) override;
     void checkPlayerOn();
     void checkPlayerMove();
     bool checkInXsection();
-public:
+protected:
     float _moveX = 3;
     float _moveY = 2;
     
@@ -39,7 +39,6 @@ public:
     bool _checkOn = true;
     
     Size _size;
-    
     BrickHero *_hero;
     std::string _filename;
     Sprite *_content;

@@ -10,6 +10,8 @@
 #define BrickMainLayer_hpp
 
 #include "UIBaseLayer.hpp"
+#include "../Hero/BrickHero.hpp"
+#include "BrickFactory.hpp"
 
 class BrickMainLayer : public UIBaseLayer
 {
@@ -20,21 +22,23 @@ public:
     
     BrickMainLayer();
     ~BrickMainLayer();
-    
 private:
     void initUI();
     void loadMoveGround();
     void startHero();
+    void startBrick();
 private:
     float _scaleX = 1.0;
     float _scaleY = 1.0;
+    float _inputX = 6.0;
     
     bool _lightOn = true;
+    BrickHero* _hero;
+    BrickFactory* _brickFactory;
     
     Text *_score = nullptr;
     std::vector<ImageView*> _bloodVec;
     std::vector<ImageView*> _movebgVec;
-    
 };
 
 #endif /* BrickMainLayer_hpp */

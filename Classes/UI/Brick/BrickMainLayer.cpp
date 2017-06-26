@@ -7,7 +7,6 @@
 //
 
 #include "BrickMainLayer.hpp"
-#include "../Hero/BrickHero.hpp"
 
 void BrickMainLayer::show()
 {
@@ -65,6 +64,14 @@ void BrickMainLayer::initUI()
     btnL->setPosition(Vec2(btnLSzie.width/2, btnLSzie.height/2));
     addChild(btnL);
     btnL->addTouchEventListener([=](Ref* ref,Widget::TouchEventType eventType){
+        if (eventType == Widget::TouchEventType::BEGAN)
+        {
+            _hero->setXinput(-_inputX);
+        }
+        else if (eventType == Widget::TouchEventType::ENDED)
+        {
+            _hero->setXinput(0.0);
+        }
     });
     
     auto btnR = Button::create("minigame/brick/button.png");
@@ -72,6 +79,14 @@ void BrickMainLayer::initUI()
     btnR->setPosition(Vec2(display.width - btnLSzie.width/2, btnLSzie.height/2));
     addChild(btnR);
     btnR->addTouchEventListener([=](Ref* ref,Widget::TouchEventType eventType){
+        if (eventType == Widget::TouchEventType::BEGAN)
+        {
+            _hero->setXinput(_inputX);
+        }
+        else if (eventType == Widget::TouchEventType::ENDED)
+        {
+            _hero->setXinput(0.0);
+        }
     });
     
     auto btnLight = Button::create("minigame/brick/light1.png");
@@ -112,6 +127,7 @@ void BrickMainLayer::initUI()
     
     loadMoveGround();
     startHero();
+    startBrick();
 }
 
 void BrickMainLayer::loadMoveGround()
@@ -158,9 +174,18 @@ void BrickMainLayer::loadMoveGround()
 
 void BrickMainLayer::startHero()
 {
-    auto hero = BrickHero::create(12);
-    hero->idle();
-    hero->setPosition(Vec2(display.width/2, display.height/2));
-    addChild(hero);
+    _hero = BrickHero::create(12);
+    _hero->idle();
+    _hero->setMaxMove(_scaleX, _scaleY);
+    _hero->setPosition(Vec2(display.width/2, display.height/2));
+    addChild(_hero);
+}
+
+void BrickMainLayer::startBrick()
+{
+    _brickFactory = BrickFactory::create();
+    addChild(_brickFactory, -1);
+    
+    _brickFactory->createBrick(_hero);
 }
 

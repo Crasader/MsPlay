@@ -47,3 +47,11 @@ void Hero::idle()
     _anim->play("idle", true);
     _state = HeroState::state_idle;
 }
+
+void Hero::turnLeft(bool turn)
+{
+    if (turn)
+        _armatureNode->setScaleX(-1);
+    else
+        _armatureNode->setScaleX(1);
+}

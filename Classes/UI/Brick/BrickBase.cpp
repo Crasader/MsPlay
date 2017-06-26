@@ -9,7 +9,7 @@
 #include "BrickBase.hpp"
 #include "../Hero/BrickHero.hpp"
 
-BrickBase::BrickBase(BrickHero *hero, std::string &filename)
+BrickBase::BrickBase(BrickHero *hero, const std::string &filename)
 : _hero(hero)
 , _filename(filename)
 {
@@ -55,18 +55,19 @@ void BrickBase::initBrick()
     scheduleUpdate();
 }
 
-void BrickBase::update()
+void BrickBase::update(float dt)
 {
-    auto pos = getPosition();
-    pos.y += _moveY;
-    setPosition(pos);
-    
-    if (!_hero->alive()) return;
-    
-    if (_checkOn)
-        checkPlayerOn();
-    if (_checkMove)
-        checkPlayerMove();
+    CCLOG("----23---");
+//    auto pos = getPosition();
+//    pos.y += _moveY;
+//    setPosition(pos);
+//    
+//    if (!_hero->alive()) return;
+//    
+//    if (_checkOn)
+//        checkPlayerOn();
+//    if (_checkMove)
+//        checkPlayerMove();
 }
 
 void BrickBase::checkPlayerOn()
