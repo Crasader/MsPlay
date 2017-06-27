@@ -176,6 +176,7 @@ void BrickMainLayer::loadMoveGround()
 void BrickMainLayer::startHero()
 {
     _hero = BrickHero::create(12);
+    _hero->setScale(0.5);
     _hero->idle();
     _hero->setMaxMove(_scaleX, _scaleY);
     _hero->setPosition(Vec2(display.width/2, display.height/2));
@@ -205,3 +206,15 @@ void BrickMainLayer::brickMove()
     }
 }
 
+void BrickMainLayer::updateCurBlood(const int& blood)
+{
+    auto index = std::max(0, blood);
+    index = std::min(12, blood);
+    for (int i = 0; i < 12; ++i) {
+        auto blood = _bloodVec[i];
+        if (i > index)
+            blood->setVisible(false);
+        else
+            blood->setVisible(true);
+    }
+}

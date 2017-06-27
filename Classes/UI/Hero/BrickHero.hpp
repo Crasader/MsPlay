@@ -34,6 +34,8 @@ public:
     void setMaxMove(const float &scaleX, const float &scaleY);
     void moveUp(const float& x, const float& y);
     void moveDown();
+    void hurt(const int& amount);
+    void die();
 private:
     void initBrickHero();
     void update(float dt) override;

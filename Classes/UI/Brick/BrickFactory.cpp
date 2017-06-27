@@ -38,7 +38,6 @@ void BrickFactory::createBrick(BrickHero *hero)
         
         auto brick = BrickNormal::create(hero, "minigame/brick/normalBrick.png");
         auto pos = Vec2(display.width/2, display.height/2);
-        brick->setAnchorPoint(Vec2(0.5, 0.5));
         addBrick(brick, pos);
         
         _brickCount = 1;
@@ -49,7 +48,6 @@ void BrickFactory::createBrick(BrickHero *hero)
     auto factor = random(1, 100) > 50 ? 1 : -1;
     auto randomX = display.width/2 - factor * random(1.0, 240.0);
     auto pos = Vec2(randomX, _offsetY);
-    brick->setAnchorPoint(Vec2(0.5, 0.5));
     addBrick(brick, pos);
     _brickCount += 1;
 }

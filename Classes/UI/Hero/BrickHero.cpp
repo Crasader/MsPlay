@@ -8,6 +8,8 @@
 
 #include "BrickHero.hpp"
 #include "Msdef.hpp"
+#include "../../Common/UIModuleManager.hpp"
+#include "BrickMainLayer.hpp"
 
 BrickHero::BrickHero(const int &blood)
 : Hero()
@@ -126,4 +128,30 @@ void BrickHero::moveDown()
 {
     moveState = MoveState::MOVE_DOWN;
     ySpeed = 0;
+}
+
+void BrickHero::hurt(const int &amount)
+{
+    _blood -= amount;
+    if (_blood < 0) {
+        _blood = 0;
+    }
+    else if (_blood > 12)
+    {
+        _blood = 12;
+    }
+    
+    auto main = (BrickMainLayer*)UIModuleManager::getInstance()->getModule("BrickMainLayer");
+    if (main)
+    {
+        main->updateCurBlood(_blood);
+    }
+    
+    if (_blood ==0) {
+        die();
+    }
+}
+
+void BrickHero::die()
+{
 }

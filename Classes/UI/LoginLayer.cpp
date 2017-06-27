@@ -43,12 +43,6 @@ void LoginLayer::initUI()
         dispose();
     });
     
-//    auto fSize = Director::getInstance()->getOpenGLView()->getFrameSize();
-//    auto dSize = Director::getInstance()->getOpenGLView()->getDesignResolutionSize();
-//    auto vSize = Director::getInstance()->getVisibleSize();
-//    auto wSize = Director::getInstance()->getWinSize();
-//    auto wPixe = Director::getInstance()->getWinSizeInPixels();
-    
     auto campImg = ImageView::create("res/back/logo_camp.png");
     campImg->setOpacity(255);
     addChild(campImg);

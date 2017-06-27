@@ -22,6 +22,7 @@ public:
     
     BrickMainLayer();
     ~BrickMainLayer();
+    void updateCurBlood(const int& blood);
 private:
     void initUI();
     void loadMoveGround();

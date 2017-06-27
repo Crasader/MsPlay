@@ -18,22 +18,6 @@ BrickBase::~BrickBase()
 {
 }
 
-//BrickBase* BrickBase::create(BrickHero *hero, std::string &filename)
-//{
-//    BrickBase *pRet = new(std::nothrow) BrickBase(hero, filename);
-//    if (pRet && pRet->init())
-//    {
-//        pRet->autorelease();
-//        return pRet;
-//    }
-//    else
-//    {
-//        delete pRet;
-//        pRet = nullptr;
-//        return nullptr;
-//    }
-//}
-
 bool BrickBase::init()
 {
     if (!Node::init())

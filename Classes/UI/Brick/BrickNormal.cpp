@@ -50,4 +50,5 @@ void BrickNormal::playerOn()
 {
     _hero->moveUp(0, _moveY);
     _checkMove = true;
+    _hero->hurt(1);
 }
