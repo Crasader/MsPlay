@@ -32,6 +32,8 @@ public:
     void setXinput(float x);
     void setXspeed(float x);
     void setMaxMove(const float &scaleX, const float &scaleY);
+    void moveUp(const float& x, const float& y);
+    void moveDown();
 private:
     void initBrickHero();
     void update(float dt) override;

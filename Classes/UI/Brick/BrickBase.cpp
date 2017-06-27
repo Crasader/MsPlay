@@ -7,7 +7,6 @@
 //
 
 #include "BrickBase.hpp"
-#include "../Hero/BrickHero.hpp"
 
 BrickBase::BrickBase(BrickHero *hero, const std::string &filename)
 : _hero(hero)
@@ -59,24 +58,22 @@ void BrickBase::initBrick()
 
 void BrickBase::update(float dt)
 {
-    CCLOG("----23---");
-//    auto pos = getPosition();
-//    pos.y += _moveY;
-//    setPosition(pos);
-//    
-//    if (!_hero->alive()) return;
-//    
-//    if (_checkOn)
-//        checkPlayerOn();
-//    if (_checkMove)
-//        checkPlayerMove();
+    auto pos = getPosition();
+    pos.y += _moveY;
+    setPosition(pos);
+    
+    if (!_hero->alive()) return;
+    
+    if (_checkOn)
+        checkPlayerOn();
+    if (_checkMove)
+        checkPlayerMove();
 }
 
 void BrickBase::checkPlayerOn()
 {
     if (checkInXsection())
     {
-        //check y
         auto uPlatY = getPositionY();
         auto dPlatY = uPlatY - _size.height;
         auto nextPlatY = uPlatY + _moveY;
@@ -103,6 +100,7 @@ void BrickBase::checkPlayerMove()
 
 void BrickBase::moveOut()
 {
+    _hero->moveDown();
     _checkMove = false;
     _checkOn = false;
 }

@@ -27,6 +27,8 @@ private:
     void loadMoveGround();
     void startHero();
     void startBrick();
+    void update(float dt) override;
+    void brickMove();
 private:
     float _scaleX = 1.0;
     float _scaleY = 1.0;

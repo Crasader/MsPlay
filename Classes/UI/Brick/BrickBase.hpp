@@ -13,14 +13,13 @@
 #include "cocos2d.h"
 USING_NS_CC;
 
-class BrickHero;
+#include "../Hero/BrickHero.hpp"
 
 class BrickBase : public Node
 {
 public:
     BrickBase(BrickHero *hero, const std::string &filename);
     virtual ~BrickBase();
-//    static BrickBase *create(BrickHero *hero, std::string &filename);
     
     virtual bool init() override;
     virtual void playerOn() = 0;

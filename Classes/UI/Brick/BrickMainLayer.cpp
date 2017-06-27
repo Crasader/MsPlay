@@ -125,6 +125,7 @@ void BrickMainLayer::initUI()
         _bloodVec.push_back(bloodImg);
     }
     
+    scheduleUpdate();
     loadMoveGround();
     startHero();
     startBrick();
@@ -187,5 +188,20 @@ void BrickMainLayer::startBrick()
     addChild(_brickFactory, -1);
     
     _brickFactory->createBrick(_hero);
+}
+
+void BrickMainLayer::update(float dt)
+{
+    brickMove();
+}
+
+void BrickMainLayer::brickMove()
+{
+    if (!_hero->alive()) return;
+    
+    if (_brickFactory->canCreateNexBrick()) {
+        _brickFactory->createBrick(_hero);
+        _brickFactory->removeUnUsedBrick();
+    }
 }
 

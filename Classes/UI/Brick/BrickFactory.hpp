@@ -9,7 +9,7 @@
 #ifndef BrickFactory_hpp
 #define BrickFactory_hpp
 
-#include <vector>
+#include <list>
 #include "BrickBase.hpp"
 #include "../UIBaseLayer.hpp"
 
@@ -23,6 +23,8 @@ public:
     CREATE_FUNC(BrickFactory);
     void resetData();
     void createBrick(BrickHero* hero);
+    bool canCreateNexBrick();
+    void removeUnUsedBrick();
 private:
     void addBrick(BrickBase* brick, const Vec2& pos);
 private:
@@ -30,7 +32,8 @@ private:
     int _brickCount = 0;
     float _offsetY= 250;
     float _upSpeed = 0;
-    std::vector<BrickBase*> brickVec;
+    float _brickSpace = 150.0;
+    std::list<BrickBase*> brickVec;
 };
 
 #endif /* BrickFactory_hpp */

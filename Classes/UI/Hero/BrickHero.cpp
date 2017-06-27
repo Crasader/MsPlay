@@ -114,3 +114,16 @@ void BrickHero::setMaxMove(const float &scaleX, const float &scaleY)
     _maxMoveX = 370 * scaleX - size.width/2;
 //    _maxMoveY = 660 * scaleY - HERO_SIZE.height;
 }
+
+void BrickHero::moveUp(const float &x, const float &y)
+{
+    moveState = MoveState::MOVE_UP;
+    ySpeed = -y;
+    xSpeed = x;
+}
+
+void BrickHero::moveDown()
+{
+    moveState = MoveState::MOVE_DOWN;
+    ySpeed = 0;
+}
