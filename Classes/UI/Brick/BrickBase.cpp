@@ -58,7 +58,7 @@ void BrickBase::checkPlayerOn()
 {
     if (checkInXsection())
     {
-        auto uPlatY = getPositionY();
+        auto uPlatY = getPlatformTop();
         auto dPlatY = uPlatY - _size.height;
         auto nextPlatY = uPlatY + _moveY;
         
@@ -101,6 +101,16 @@ bool BrickBase::checkInXsection()
     if (rHeroX > lPlatX && lHeroX < rPlatX)
         return true;
     return false;
+}
+
+float BrickBase::getPlatformTop()
+{
+    return getPositionY();
+}
+
+void BrickBase::stopMove()
+{
+    unscheduleUpdate();
 }
 
 

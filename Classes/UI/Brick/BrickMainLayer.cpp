@@ -218,3 +218,13 @@ void BrickMainLayer::updateCurBlood(const int& blood)
             blood->setVisible(true);
     }
 }
+
+void BrickMainLayer::gameOver()
+{
+    unscheduleUpdate();
+    unschedule("bgmove");
+    updateCurBlood(0);
+    
+    _brickFactory->stopBrickList();
+    _brickFactory->setUpSpeed(0);
+}

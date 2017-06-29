@@ -9,6 +9,19 @@
 #ifndef BrickThorn_hpp
 #define BrickThorn_hpp
 
-#include <stdio.h>
+#include <string>
+#include "BrickBase.hpp"
+
+class BrickThorn : public BrickBase
+{
+public:
+    BrickThorn(BrickHero *hero, const std::string &filename);
+    ~BrickThorn();
+    virtual bool init() override;
+    virtual void playerOn() override;
+    float getPlatformTop() override;
+    static BrickThorn *create(BrickHero *hero, const std::string &filename);
+public:
+};
 
 #endif /* BrickThorn_hpp */

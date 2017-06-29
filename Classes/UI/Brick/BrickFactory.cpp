@@ -84,3 +84,11 @@ void BrickFactory::removeUnUsedBrick()
         frontBrick->removeFromParent();
     }
 }
+
+void BrickFactory::stopBrickList()
+{
+    for (auto it : brickVec)
+    {
+        it->stopMove();
+    }
+}

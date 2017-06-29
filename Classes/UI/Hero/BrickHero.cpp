@@ -11,6 +11,7 @@
 #include "../../Common/UIModuleManager.hpp"
 #include "BrickMainLayer.hpp"
 
+
 BrickHero::BrickHero(const int &blood)
 : Hero()
 , _blood(blood)
@@ -66,8 +67,17 @@ void BrickHero::update(float dt)
     auto y = getPositionY() - ySpeed;
     x = std::min(x, display.width/2+_maxMoveX);
     x = std::max(x, display.width/2-_maxMoveX);
-    setPosition(Vec2(x, y));
     
+    if (y >= _maxHeight)
+    {
+        hurt(4);
+        moveDown();
+        return;
+    }
+    else if (y <= -size.height)
+    {
+        die();
+    }
     
     if (xInput != 0)
     {
@@ -80,6 +90,8 @@ void BrickHero::update(float dt)
     {
         idle();
     }
+    
+    setPosition(Vec2(x, y));
 }
 
 Vec2 BrickHero::getNextPos()
@@ -114,7 +126,7 @@ void BrickHero::walkRight()
 void BrickHero::setMaxMove(const float &scaleX, const float &scaleY)
 {
     _maxMoveX = 370 * scaleX - size.width/2;
-//    _maxMoveY = 660 * scaleY - HERO_SIZE.height;
+    _maxHeight = 660 * scaleY - size.height;
 }
 
 void BrickHero::moveUp(const float &x, const float &y)
@@ -154,4 +166,16 @@ void BrickHero::hurt(const int &amount)
 
 void BrickHero::die()
 {
+    if (moveState != MoveState::MOVE_DIED) {
+        moveState = MoveState::MOVE_DIED;
+        idle();
+        _alive = false;
+        unscheduleUpdate();
+        
+        auto main = (BrickMainLayer*)UIModuleManager::getInstance()->getModule("BrickMainLayer");
+        if (main)
+        {
+            main->gameOver();
+        }
+    }
 }

@@ -23,7 +23,9 @@ public:
     
     virtual bool init() override;
     virtual void playerOn() = 0;
+    virtual float getPlatformTop();
     virtual void moveOut();
+    void stopMove();
 private:
     void initBrick();
     void update(float dt) override;

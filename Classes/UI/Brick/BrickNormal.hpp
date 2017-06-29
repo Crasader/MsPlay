@@ -21,7 +21,6 @@ public:
     virtual void playerOn() override;
     static BrickNormal *create(BrickHero *hero, const std::string &filename);
 public:
-    
 };
 
 #endif /* BrickNormal_hpp */

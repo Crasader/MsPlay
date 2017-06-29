@@ -25,6 +25,8 @@ public:
     void createBrick(BrickHero* hero);
     bool canCreateNexBrick();
     void removeUnUsedBrick();
+    void stopBrickList();
+    inline void setUpSpeed(const int &speed){_upSpeed = speed;}
 private:
     void addBrick(BrickBase* brick, const Vec2& pos);
 private:

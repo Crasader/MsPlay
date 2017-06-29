@@ -43,6 +43,7 @@ private:
     void walkRight();
 public:
     float width = 10;
+    float offsetX = 10;
     float offsetY = 8;
     float xSpeed = 0;
     float ySpeed = 0;
@@ -50,11 +51,15 @@ public:
     float gacceleration = 0.8;
     Size size = Size(50, 68);
     MoveState moveState;
+    
+    bool _onIce = false;
+    bool _onMucus = false;
 private:
     int _blood = 0;
     bool _alive = true;
     float _maxMoveX;
     float _maxMoveY;
+    float _maxHeight = 0;
 };
 
 #endif /* BrickHero_hpp */
