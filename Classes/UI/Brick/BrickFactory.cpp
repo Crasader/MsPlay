@@ -8,6 +8,7 @@
 
 #include "BrickFactory.hpp"
 #include "BrickNormal.hpp"
+#include "BrickThorn.hpp"
 
 BrickFactory::BrickFactory()
 :UIBaseLayer("BrickFactory")
@@ -44,7 +45,18 @@ void BrickFactory::createBrick(BrickHero *hero)
         return;
     }
     
-    auto brick = BrickNormal::create(hero, "minigame/brick/normalBrick.png");
+    auto value = random(1, 100);
+    BrickBase* brick = nullptr;
+    switch (value%10)
+    {
+        case 2:
+            brick = BrickThorn::create(hero, "minigame/brick/thornBrick.png");
+            break;
+        default:
+            brick = BrickNormal::create(hero, "minigame/brick/normalBrick.png");
+            break;
+    }
+    
     auto factor = random(1, 100) > 50 ? 1 : -1;
     auto randomX = display.width/2 - factor * random(1.0, 240.0);
     auto pos = Vec2(randomX, _offsetY);

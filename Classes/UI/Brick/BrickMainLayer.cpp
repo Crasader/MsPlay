@@ -7,6 +7,7 @@
 //
 
 #include "BrickMainLayer.hpp"
+#include "../../Common/AudioManager.hpp"
 
 void BrickMainLayer::show()
 {
@@ -124,53 +125,34 @@ void BrickMainLayer::initUI()
         bloodBg->addChild(bloodImg);
         _bloodVec.push_back(bloodImg);
     }
+    AudioManager::getInstance()->playMusic("music/Small_game_2.mp3", true);
     
-    scheduleUpdate();
+    
     loadMoveGround();
     startHero();
     startBrick();
+    
+    scheduleUpdate();
 }
 
 void BrickMainLayer::loadMoveGround()
 {
     
-    auto bgLayer = Layer::create();
-    addChild(bgLayer, -1);
+    _bgLayer = Layer::create();
+    addChild(_bgLayer, -1);
     
-    float spaceY = 2.0;
+    auto moveBg = ImageView::create("minigame/brick/wall.png");
+    _moveBgSize = moveBg->getContentSize();
     for (int i = 0; i < 3; ++i)
     {
-        auto moveBg = ImageView::create("minigame/brick/wall.png");
-        moveBg->setScaleX(_scaleX);
-        moveBg->setScaleY(_scaleY);
+        auto bg = static_cast<ImageView*>(moveBg->clone());
+        bg->setScaleX(_scaleX);
+        bg->setScaleY(_scaleY);
         
-        moveBg->setPosition(Vec2(display.width/2, display.height/2 - i*(display.height - spaceY)));
-        bgLayer->addChild(moveBg);
-        _movebgVec.push_back(moveBg);
+        bg->setPosition(Vec2(display.width/2, display.height/2 - i*(_moveBgSize.height*_scaleY)));
+        _bgLayer->addChild(bg);
+        _movebgVec.push_back(bg);
     }
-    
-    auto scheduler = Director::getInstance()->getScheduler();
-    auto moveFun = [=](float delta){
-        auto pos = bgLayer->getPosition();
-        pos.y += 1.0;
-        bgLayer->setPosition(pos);
-        
-        static int bgIndex = 0;
-        static float moveY = 0.0;
-        
-        moveY += 1.0;
-        if (moveY >= display.height)
-        {
-            auto frontBg = _movebgVec[bgIndex];
-            frontBg->setPositionY(frontBg->getPositionY() - 3*(display.height - spaceY));
-            
-            moveY -= display.height;
-            bgIndex += 1;
-            if (bgIndex > 2) bgIndex = 0;
-        }
-    };
-    
-    scheduler->schedule(moveFun, this, 0, CC_REPEAT_FOREVER, 0, false, "bgmove");
 }
 
 void BrickMainLayer::startHero()
@@ -194,6 +176,7 @@ void BrickMainLayer::startBrick()
 void BrickMainLayer::update(float dt)
 {
     brickMove();
+    backgroundMove();
 }
 
 void BrickMainLayer::brickMove()
@@ -206,24 +189,44 @@ void BrickMainLayer::brickMove()
     }
 }
 
+void BrickMainLayer::backgroundMove()
+{
+    auto pos = _bgLayer->getPosition();
+    pos.y += 1.0;
+    _bgLayer->setPosition(pos);
+    
+    static int bgIndex = 0;
+    static float moveY = 0.0;
+    
+    moveY += 1.0;
+    if (moveY >= _moveBgSize.height*_scaleY)
+    {
+        auto frontBg = _movebgVec[bgIndex];
+        frontBg->setPositionY(frontBg->getPositionY() - 3*(_moveBgSize.height*_scaleY));
+        
+        moveY = 0.0;
+        bgIndex += 1;
+        if (bgIndex > 2) bgIndex = 0;
+    }
+}
+
 void BrickMainLayer::updateCurBlood(const int& blood)
 {
     auto index = std::max(0, blood);
     index = std::min(12, blood);
-    for (int i = 0; i < 12; ++i) {
+    for (int i = 0; i != 12; ++i) {
         auto blood = _bloodVec[i];
-        if (i > index)
-            blood->setVisible(false);
-        else
+        if (i < index)
             blood->setVisible(true);
+        else
+            blood->setVisible(false);
     }
 }
 
 void BrickMainLayer::gameOver()
 {
     unscheduleUpdate();
-    unschedule("bgmove");
-    updateCurBlood(0);
+    updateCurBlood(12);
     
     _brickFactory->stopBrickList();
     _brickFactory->setUpSpeed(0);

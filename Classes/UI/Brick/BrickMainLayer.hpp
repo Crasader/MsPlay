@@ -31,6 +31,7 @@ private:
     void startBrick();
     void update(float dt) override;
     void brickMove();
+    void backgroundMove();
 private:
     float _scaleX = 1.0;
     float _scaleY = 1.0;
@@ -39,6 +40,8 @@ private:
     bool _lightOn = true;
     BrickHero* _hero;
     BrickFactory* _brickFactory;
+    Layer* _bgLayer;
+    Size _moveBgSize;
     
     Text *_score = nullptr;
     std::vector<ImageView*> _bloodVec;

@@ -55,5 +55,5 @@ void BrickThorn::playerOn()
 
 float BrickThorn::getPlatformTop()
 {
-    return getPlatformTop()- 15;
+    return BrickBase::getPlatformTop() - 15;
 }

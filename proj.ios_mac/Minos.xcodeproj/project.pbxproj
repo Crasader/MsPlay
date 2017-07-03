@@ -64,6 +64,8 @@
 		CC4762491F00F4E300A05BA7 /* BrickFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4762461F00F4E300A05BA7 /* BrickFactory.cpp */; };
 		CC47624F1F04E5C700A05BA7 /* BrickThorn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC47624D1F04E5C700A05BA7 /* BrickThorn.cpp */; };
 		CC4762501F04E5C700A05BA7 /* BrickThorn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC47624D1F04E5C700A05BA7 /* BrickThorn.cpp */; };
+		CC4762531F04FD4100A05BA7 /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4762511F04FD4100A05BA7 /* AudioManager.cpp */; };
+		CC4762541F04FD4100A05BA7 /* AudioManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC4762511F04FD4100A05BA7 /* AudioManager.cpp */; };
 		CCDCE95B1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */; };
 		CCDCE95C1EF8FB3600FBDB22 /* LoginLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */; };
 		CCDCE9731EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */; };
@@ -192,6 +194,8 @@
 		CC4762471F00F4E300A05BA7 /* BrickFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickFactory.hpp; sourceTree = "<group>"; };
 		CC47624D1F04E5C700A05BA7 /* BrickThorn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickThorn.cpp; sourceTree = "<group>"; };
 		CC47624E1F04E5C700A05BA7 /* BrickThorn.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickThorn.hpp; sourceTree = "<group>"; };
+		CC4762511F04FD4100A05BA7 /* AudioManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioManager.cpp; sourceTree = "<group>"; };
+		CC4762521F04FD4100A05BA7 /* AudioManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AudioManager.hpp; sourceTree = "<group>"; };
 		CCDCE9591EF8FB3600FBDB22 /* LoginLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoginLayer.cpp; sourceTree = "<group>"; };
 		CCDCE95A1EF8FB3600FBDB22 /* LoginLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LoginLayer.hpp; sourceTree = "<group>"; };
 		CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonFuntion.cpp; sourceTree = "<group>"; };
@@ -429,6 +433,8 @@
 				A3C6A0CD1EF823F40020BE1D /* UIModuleManager.hpp */,
 				CCDCE9711EFBAB0D00FBDB22 /* CommonFuntion.cpp */,
 				CCDCE9721EFBAB0D00FBDB22 /* CommonFuntion.hpp */,
+				CC4762511F04FD4100A05BA7 /* AudioManager.cpp */,
+				CC4762521F04FD4100A05BA7 /* AudioManager.hpp */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -645,6 +651,7 @@
 				CCDCE9781EFBBFE000FBDB22 /* Display.cpp in Sources */,
 				CCF06BCE1EFCFDCD00A2D9FC /* Hero.cpp in Sources */,
 				CC47624F1F04E5C700A05BA7 /* BrickThorn.cpp in Sources */,
+				CC4762531F04FD4100A05BA7 /* AudioManager.cpp in Sources */,
 				CCF06BD61EFE4F5A00A2D9FC /* BrickBase.cpp in Sources */,
 				CCDCE9731EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
@@ -665,6 +672,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4762541F04FD4100A05BA7 /* AudioManager.cpp in Sources */,
 				CCDCE9741EFBAB0D00FBDB22 /* CommonFuntion.cpp in Sources */,
 				CCE01B041EF7D9C300C415AA /* AppScene.cpp in Sources */,
 				CCF06BCA1EFCF96800A2D9FC /* BrickMainLayer.cpp in Sources */,
