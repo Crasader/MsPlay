@@ -15,11 +15,11 @@
 class BrickNormal : public BrickBase
 {
 public:
-    BrickNormal(BrickHero *hero, const std::string &filename);
+    BrickNormal(BrickHero *hero);
     ~BrickNormal();
     virtual bool init() override;
     virtual void playerOn() override;
-    static BrickNormal *create(BrickHero *hero, const std::string &filename);
+    static BrickNormal *create(BrickHero *hero);
 public:
 };
 

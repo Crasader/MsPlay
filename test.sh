@@ -197,7 +197,7 @@
 #    echo "File size is zero"
 # else
 #    echo "File size is not zero"
-# fi
+u fi
 
 # if [ -e $file ];then
 #    echo "File exists"
@@ -226,4 +226,25 @@ funWithReturn
 val=$?
 echo $val
 
-# http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+            abckefg########                          XXXXX test ------------------123jj
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html
+#html http://c.biancheng.net/cpp/view/2740.html

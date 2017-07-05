@@ -8,8 +8,8 @@
 
 #include "BrickNormal.hpp"
 
-BrickNormal::BrickNormal(BrickHero *hero, const std::string &filename)
-: BrickBase(hero, filename)
+BrickNormal::BrickNormal(BrickHero *hero)
+: BrickBase(hero)
 {
 }
 
@@ -18,9 +18,9 @@ BrickNormal::~BrickNormal()
     
 }
 
-BrickNormal* BrickNormal::create(BrickHero *hero, const std::string &filename)
+BrickNormal* BrickNormal::create(BrickHero *hero)
 {
-    BrickNormal *pRet = new(std::nothrow) BrickNormal(hero, filename);
+    BrickNormal *pRet = new(std::nothrow) BrickNormal(hero);
     if (pRet && pRet->init())
     {
         pRet->autorelease();
@@ -36,7 +36,7 @@ BrickNormal* BrickNormal::create(BrickHero *hero, const std::string &filename)
 
 bool BrickNormal::init()
 {
-    if (!BrickBase::init())
+    if (!BrickBase::initBrick("minigame/brick/normalBrick.png"))
     {
         return false;
     }

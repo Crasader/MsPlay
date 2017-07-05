@@ -14,23 +14,19 @@ BrickBase::BrickBase(BrickHero *hero, const std::string &filename)
 {
 }
 
+BrickBase::BrickBase(BrickHero *hero)
+: _hero(hero)
+{
+}
+
 BrickBase::~BrickBase()
 {
 }
 
-bool BrickBase::init()
-{
-    if (!Node::init())
-    {
-        return false;
-    }
-    initBrick();
-    return true;
-}
 
-void BrickBase::initBrick()
+void BrickBase::initBrick(const std::string &filename)
 {
-    _content = Sprite::create(_filename);
+    _content = Sprite::create(filename);
     addChild(_content);
     
     _size = _content->getContentSize();

@@ -19,6 +19,8 @@ class BrickBase : public Node
 {
 public:
     BrickBase(BrickHero *hero, const std::string &filename);
+	BrickBase(BrickHero *hero);
+	BrickBase()=default;
     virtual ~BrickBase();
     
     virtual bool init() override;
@@ -27,7 +29,7 @@ public:
     virtual void moveOut();
     void stopMove();
 private:
-    void initBrick();
+    void initBrick(const std::string &filename);
     void update(float dt) override;
     void checkPlayerOn();
     void checkPlayerMove();
