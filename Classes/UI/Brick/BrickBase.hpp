@@ -18,18 +18,17 @@ USING_NS_CC;
 class BrickBase : public Node
 {
 public:
-    BrickBase(BrickHero *hero, const std::string &filename);
 	BrickBase(BrickHero *hero);
-	BrickBase()=default;
     virtual ~BrickBase();
     
-    virtual bool init() override;
+	BrickBase()=default;
     virtual void playerOn() = 0;
     virtual float getPlatformTop();
     virtual void moveOut();
     void stopMove();
+protected:
+    bool initBrick(const std::string &filename);
 private:
-    void initBrick(const std::string &filename);
     void update(float dt) override;
     void checkPlayerOn();
     void checkPlayerMove();

@@ -8,11 +8,6 @@
 
 #include "BrickBase.hpp"
 
-BrickBase::BrickBase(BrickHero *hero, const std::string &filename)
-: _hero(hero)
-, _filename(filename)
-{
-}
 
 BrickBase::BrickBase(BrickHero *hero)
 : _hero(hero)
@@ -24,7 +19,7 @@ BrickBase::~BrickBase()
 }
 
 
-void BrickBase::initBrick(const std::string &filename)
+bool BrickBase::initBrick(const std::string &filename)
 {
     _content = Sprite::create(filename);
     addChild(_content);
@@ -34,6 +29,7 @@ void BrickBase::initBrick(const std::string &filename)
     setAnchorPoint(Vec2(0.5, 1.0));
     
     scheduleUpdate();
+	return true;
 }
 
 void BrickBase::update(float dt)

@@ -37,7 +37,7 @@ void BrickFactory::createBrick(BrickHero *hero)
     {
         _first = false;
         
-        auto brick = BrickNormal::create(hero, "minigame/brick/normalBrick.png");
+        auto brick = BrickNormal::create(hero);
         auto pos = Vec2(display.width/2, display.height/2);
         addBrick(brick, pos);
         
@@ -50,10 +50,10 @@ void BrickFactory::createBrick(BrickHero *hero)
     switch (value%10)
     {
         case 2:
-            brick = BrickThorn::create(hero, "minigame/brick/thornBrick.png");
+            brick = BrickThorn::create(hero);
             break;
         default:
-            brick = BrickNormal::create(hero, "minigame/brick/normalBrick.png");
+            brick = BrickNormal::create(hero);
             break;
     }
     

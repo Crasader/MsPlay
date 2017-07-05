@@ -129,8 +129,8 @@ void BrickMainLayer::initUI()
     
     
     loadMoveGround();
-    startHero();
-    startBrick();
+    //startHero();
+    //startBrick();
     
     scheduleUpdate();
 }
@@ -175,7 +175,7 @@ void BrickMainLayer::startBrick()
 
 void BrickMainLayer::update(float dt)
 {
-    brickMove();
+    //brickMove();
     backgroundMove();
 }
 
@@ -195,18 +195,16 @@ void BrickMainLayer::backgroundMove()
     pos.y += 1.0;
     _bgLayer->setPosition(pos);
     
-    static int bgIndex = 0;
-    static float moveY = 0.0;
     
-    moveY += 1.0;
-    if (moveY >= _moveBgSize.height*_scaleY)
+    _moveY += 1.0;
+    if (_moveY >= _moveBgSize.height*_scaleY)
     {
-        auto frontBg = _movebgVec[bgIndex];
+        auto frontBg = _movebgVec[_bgIndex];
         frontBg->setPositionY(frontBg->getPositionY() - 3*(_moveBgSize.height*_scaleY));
         
-        moveY = 0.0;
-        bgIndex += 1;
-        if (bgIndex > 2) bgIndex = 0;
+        _moveY = 0.0;
+        _bgIndex += 1;
+        if (_bgIndex > 2) _bgIndex = 0;
     }
 }
 

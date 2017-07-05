@@ -46,6 +46,8 @@ private:
     Text *_score = nullptr;
     std::vector<ImageView*> _bloodVec;
     std::vector<ImageView*> _movebgVec;
+	int _bgIndex = 0;
+	float _moveY = 0.0;
 };
 
 #endif /* BrickMainLayer_hpp */

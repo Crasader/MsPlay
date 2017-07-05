@@ -8,8 +8,8 @@
 
 #include "BrickThorn.hpp"
 
-BrickThorn::BrickThorn(BrickHero *hero, const std::string &filename)
-: BrickBase(hero, filename)
+BrickThorn::BrickThorn(BrickHero *hero)
+: BrickBase(hero)
 {
 }
 
@@ -18,9 +18,9 @@ BrickThorn::~BrickThorn()
     
 }
 
-BrickThorn* BrickThorn::create(BrickHero *hero, const std::string &filename)
+BrickThorn* BrickThorn::create(BrickHero *hero)
 {
-    BrickThorn *pRet = new(std::nothrow) BrickThorn(hero, filename);
+    BrickThorn *pRet = new(std::nothrow) BrickThorn(hero);
     if (pRet && pRet->init())
     {
         pRet->autorelease();
@@ -36,7 +36,7 @@ BrickThorn* BrickThorn::create(BrickHero *hero, const std::string &filename)
 
 bool BrickThorn::init()
 {
-    if (!BrickBase::init())
+    if (!BrickBase::initBrick("minigame/brick/thornBrick.png"))
     {
         return false;
     }

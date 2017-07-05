@@ -15,12 +15,12 @@
 class BrickThorn : public BrickBase
 {
 public:
-    BrickThorn(BrickHero *hero, const std::string &filename);
+    BrickThorn(BrickHero *hero);
     ~BrickThorn();
     virtual bool init() override;
     virtual void playerOn() override;
     float getPlatformTop() override;
-    static BrickThorn *create(BrickHero *hero, const std::string &filename);
+    static BrickThorn *create(BrickHero *hero);
 public:
 };
 
