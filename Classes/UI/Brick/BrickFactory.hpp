@@ -35,7 +35,7 @@ private:
     float _offsetY= 250;
     float _upSpeed = 0;
     float _brickSpace = 150.0;
-    std::list<BrickBase*> brickVec;
+    std::list<BrickBase*> _brickList;
 };
 
 #endif /* BrickFactory_hpp */

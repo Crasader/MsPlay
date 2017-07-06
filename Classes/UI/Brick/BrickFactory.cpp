@@ -73,12 +73,12 @@ void BrickFactory::addBrick(BrickBase *brick, const cocos2d::Vec2 &pos)
 {
     brick->setPosition(pos);
     addChild(brick);
-    brickVec.push_back(brick);
+    _brickList.push_back(brick);
 }
 
 bool BrickFactory::canCreateNexBrick()
 {
-    auto lastBrick = brickVec.back();
+    auto lastBrick = _brickList.back();
     if(lastBrick->getPositionY() > -100)
     {
         _offsetY = lastBrick->getPositionY() - _brickSpace;
@@ -89,17 +89,17 @@ bool BrickFactory::canCreateNexBrick()
 
 void BrickFactory::removeUnUsedBrick()
 {
-    auto frontBrick = brickVec.front();
+    auto frontBrick = _brickList.front();
     if (frontBrick->getPositionY() > display.height+10)
     {
-        brickVec.pop_front();
+        _brickList.pop_front();
         frontBrick->removeFromParent();
     }
 }
 
 void BrickFactory::stopBrickList()
 {
-    for (auto it : brickVec)
+    for (auto it : _brickList)
     {
         it->stopMove();
     }
